@@ -1,0 +1,241 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+XmlWeb
+</name>
+</assembly>
+<members>
+<member name="T:XmlWeb.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:XmlWeb.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:XmlWeb.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:XmlWeb.My.Resources.Resources.xmlLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:XmlWeb.Form1.EnviarAsftp">
+ <summary>
+  Enviar a SFT
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:XmlWeb.Form1.EnviarArchivo">
+ <summary>
+ Enviar a FTP : Todos los archivos de una carpeta 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:XmlWeb.BvrdType">
+<remarks/>
+</member>
+<member name="P:XmlWeb.BvrdType.transaccion">
+<remarks/>
+</member>
+<member name="P:XmlWeb.BvrdType.rnc">
+<remarks/>
+</member>
+<member name="P:XmlWeb.BvrdType.fecha">
+<remarks/>
+</member>
+<member name="P:XmlWeb.BvrdType.version">
+<remarks/>
+</member>
+<member name="T:XmlWeb.transaccion">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.rnc_puesto">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.rnc_emisor">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.cod_siv_emision">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.cod_isin">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.serie">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.cod_moneda">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.num_operacion">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tasas">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.fechas">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.unidad_valor_nominal">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.valor_nominal">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.cant_valor_nominal">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.precio_mercado">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.valor_mercado">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_transaccion">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_transaccionSpecified">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_contrato">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_contratoSpecified">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_mercado">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_mercadoSpecified">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_operacion">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.tipo_operacionSpecified">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.clasif_operacion">
+<remarks/>
+</member>
+<member name="P:XmlWeb.transaccion.clasif_operacionSpecified">
+<remarks/>
+</member>
+<member name="T:XmlWeb.tipotasa">
+<remarks/>
+</member>
+<member name="P:XmlWeb.tipotasa.tasa_int_facial">
+<remarks/>
+</member>
+<member name="P:XmlWeb.tipotasa.tasa_int_rendimiento">
+<remarks/>
+</member>
+<member name="T:XmlWeb.tipofecha">
+<remarks/>
+</member>
+<member name="P:XmlWeb.tipofecha.fecha_valor">
+<remarks/>
+</member>
+<member name="P:XmlWeb.tipofecha.fecha_venc_mutuo">
+<remarks/>
+</member>
+<member name="T:XmlWeb.tipotransaccion">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipotransaccion.CPR">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipotransaccion.VNT">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipotransaccion.MNT">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipotransaccion.MTR">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipotransaccion.OTR">
+<remarks/>
+</member>
+<member name="T:XmlWeb.tipocontrato">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.SPT">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.FRW">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.MTO">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.HEREN">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.DIVHE">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.SPSCC">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.DONAC">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.DIVPP">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.FUSES">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.FUNFM">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.EFCDP">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.MNDLJ">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipocontrato.TRCOP">
+<remarks/>
+</member>
+<member name="T:XmlWeb.tipomercado">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipomercado.PRI">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipomercado.SEC">
+<remarks/>
+</member>
+<member name="T:XmlWeb.tipooperacion">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipooperacion.CPROP">
+<remarks/>
+</member>
+<member name="F:XmlWeb.tipooperacion.CTER">
+<remarks/>
+</member>
+<member name="T:XmlWeb.clasifoperacion">
+<remarks/>
+</member>
+<member name="F:XmlWeb.clasifoperacion.PRP">
+<remarks/>
+</member>
+<member name="F:XmlWeb.clasifoperacion.REQ">
+<remarks/>
+</member>
+<member name="F:XmlWeb.clasifoperacion.ND">
+<remarks/>
+</member>
+</members>
+</doc>

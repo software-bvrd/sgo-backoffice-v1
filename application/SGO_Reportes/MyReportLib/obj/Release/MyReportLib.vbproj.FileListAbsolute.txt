@@ -1,0 +1,496 @@
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_APP\bin\MyReportLib.dll.config
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_APP\bin\MyReportLib.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_APP\bin\MyReportLib.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_APP\bin\MyReportLib.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_APP\bin\es-DO\MyReportLib.resources.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.AcumuladoColocacionesInstrumentoEmisor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.AP_ComparativoPorCodigoIsinPreciosBonos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinGlosario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinIndice.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinPortada.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFEmisionesCorpV.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMPOperDia.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSOperPlazos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVTransPuestoBolsaMP.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVEmisionesCorpV.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMPOperDia.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMSOperDia.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSOperDia.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVPreCierrediaIns.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMSTopTitTransMes.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSTopTitTransMes.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEntidad.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransInstEEmisoras.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTransInsEEmisoras.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransMSXIns.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransMPXIns.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVTransMS.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransPBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransPuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_Comp_VMYTDRF.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_ResOpesRepRegistro.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BoletinPortada.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.CalificacionesDeRiesgo.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisiones.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMercadoSecundarioPuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionRegistroIncripcionFondosInversion.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroNuevoEmisor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroDeCorredor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoPreciosBonos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoVolumenesBonos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoVolumenesNegociadosMPMS.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LOPI_MontoDemandadoValidoNoValido.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_ResumenGeneralMercado.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFPrecCierrediaRueda.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMNegociadosIns.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMTransParticIns.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVCanOperParticipante.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVValorTransOperPart.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVPrUltMejorPeor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMTransParMoEmision.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteLOSuscripcionAcumulada.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperaciones.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperacionesDetalle.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesTest.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Detalle_Acumulado_por_Entidad_Instrumento.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesRegistradas.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesRegistradasPorDia.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesVigentesMercadoValores.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.InstrumentoNegociados.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_LibroOrdenesDetallePuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_ProrrateoDetallePuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_BoletinPortada.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_CantidadOperacionesParticipante.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosNegociadosInstrumentos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosNegociadosInstrumentosSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosTransadosParticipanteInstrumentosMonedaEmision.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosTransadosParticipantesInstrumentos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_OperacionesDiarias.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosCierreBonosTransados.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosUltimoMejorPeor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosUltimoMejorPeorSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_TitulosMasTransados.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_ValorTransadoOperacionesParticipante.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Resources.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.NivelOperadoVendedorMP.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OF_OrdenesEnFirmePorParticipanteInstrumento.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OF_PosturasPorParticipanteInstrumento.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesImportesMayoresValorTransadoMercadoMoneda.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoPrimario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioPuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPorMes.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPorMesPesos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPuestoBolsaEmisor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPuestoBolsaMercadoPrimarioSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaMercadoPrimario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaMercadoSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesTransadasMercadoBursatilPrimarioSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PortadaReportePrecios.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PrecioCierre30BonosMasTransados.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_ResumenDiario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PreciosVolumenesBonosMasTransados.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_ProrrateoResumenPuestoDeBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteCorredores.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ResultadoProrrogateoOrdenes.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ResultadoProrrogateoOrdenesLOPI.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.SecundarioBoletinBursatildeOperacionesdeRentaFija.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.VolumenesTransadosAnyoPesos.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vReporteVentas.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vReporteVentas1.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundario.es-DO.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.GenerateResource.Cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.dll.licenses
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\es-DO\MyReportLib.resources.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTranPBolsaReg.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFRegistro.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSVTPBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FormatoBoleta.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMSMES.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMSTrimestre.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Resumen.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Resumen_Mes.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PlanillaPuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FormatoCertificacionCorredor.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_Aviso.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_PuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesActividadEconomica.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorInstrumento.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorPuestoBolsa.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorEntidadesEmisoras.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_EntidadesEmisoras.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_InstrumentosNegociados.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_ResumenMensualporTipodeMonedas.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_Portada.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_MMTrimestre.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMPTrimestre.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMSTrimestre.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMPTrimestre.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMPMES.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMPMES.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMSMES.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_MMMES.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Parametros.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteCorredoresAplicanProgramaARM.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesRentaFija.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.dll.config
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_APP\bin\es-DO\MyReportLib.resources.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.AcumuladoColocacionesInstrumentoEmisor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.AP_ComparativoPorCodigoIsinPreciosBonos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinGlosario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinIndice.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinPortada.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFEmisionesCorpV.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMPOperDiaFirme.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMPOperDia.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSOperPlazos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEntidadMP.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVTransPuestoBolsaMP.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEmisoresDOP.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMPOperDiaFirme.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTransEmisoresDOP.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoPrimarioFechas.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioFechas.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_BoletinPortada.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_CantidadOperacionesParticipante.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosNegociadosInstrumentos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosTransadosParticipanteInstrumentosMonedaEmision.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosTransadosParticipantesInstrumentos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_OperacionesDiarias.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosCierreBonosTransados.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosUltimoMejorPeor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_ResumenDiario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_TitulosMasTransados.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_ValorTransadoOperacionesParticipante.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OF_PosturasPorParticipanteInstrumento.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisiones_Hist.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMercadoSecundarioPuestoBolsa_Hist.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroNuevoEmisor_Hist.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsa_Hist.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisionesTitularizado.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.DisponibilidaddeLaEmision.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_02.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_03.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_04.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_05.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_06.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_07.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_08.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_09.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_10.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_11.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Portada.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosNegociadosInstrumentosSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosUltimoMejorPeorSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteCorredoresAplicanProgramaARM.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PlanillaPuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FormatoCertificacionCorredor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteUltimas10TasasCambio.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_MMTrimestre.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMPTrimestre.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMSTrimestre.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMPTrimestre.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMSTrimestre.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMSMES.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMPMES.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMPMES.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMSMES.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_MMMES.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Parametros.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Resumen_Mes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Resumen.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTranPBolsaReg.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFRegistro.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVEmisionesCorpV.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMPOperDia.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMSOperDia.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSOperDia.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVPreCierrediaIns.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMSTopTitTransMes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSTopTitTransMes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEntidad.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSVTPBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransInstEEmisoras.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTransInsEEmisoras.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransMSXIns.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransMPXIns.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVTransMS.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransPBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransPuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_Comp_VMYTDRF.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_ResOpesRepRegistro.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BoletinPortada.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.CalificacionesDeRiesgo.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisiones.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMercadoSecundarioPuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionRegistroIncripcionFondosInversion.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroNuevoEmisor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroDeCorredor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoPreciosBonos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoVolumenesBonos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoVolumenesNegociadosMPMS.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FormatoBoleta.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LOPI_MontoDemandadoValidoNoValido.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_ResumenGeneralMercado.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFPrecCierrediaRueda.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMNegociadosIns.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMTransParticIns.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVCanOperParticipante.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVValorTransOperPart.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVPrUltMejorPeor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMTransParMoEmision.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteLOSuscripcionAcumulada.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperaciones.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperacionesDetalle.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesTest.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Detalle_Acumulado_por_Entidad_Instrumento.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesRegistradas.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesRegistradasPorDia.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesVigentesMercadoValores.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.InstrumentoNegociados.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_LibroOrdenesDetallePuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_ProrrateoDetallePuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Resources.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.NivelOperadoVendedorMP.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OF_OrdenesEnFirmePorParticipanteInstrumento.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesImportesMayoresValorTransadoMercadoMoneda.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoPrimario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioPuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPorMes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPorMesPesos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPuestoBolsaEmisor.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPuestoBolsaMercadoPrimarioSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaMercadoPrimario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaMercadoSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesTransadasMercadoBursatilPrimarioSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PortadaReportePrecios.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PrecioCierre30BonosMasTransados.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PreciosVolumenesBonosMasTransados.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_ProrrateoResumenPuestoDeBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteCorredores.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_Aviso.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_ListadodePuestosdeBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_PuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesActividadEconomica.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorInstrumento.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorPuestoBolsa.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorEntidadesEmisoras.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_EntidadesEmisoras.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_InstrumentosNegociados.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_ResumenMensualporTipodeMonedas.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesRentaFija.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_Portada.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ResultadoProrrogateoOrdenes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ResultadoProrrogateoOrdenesLOPI.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.SecundarioBoletinBursatildeOperacionesdeRentaFija.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.VolumenesTransadosAnyoPesos.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Lista_Instrumento_de_Interes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vReporteVentas.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vReporteVentas1.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioFechas.es-DO.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundario.es-DO.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.GenerateResource.Cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.dll.licenses
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\es-DO\MyReportLib.resources.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.CoreCompileInputs.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.CopyComplete
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsaSIMV.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperacionesPorRuedas.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.dll.config
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_APP\bin\MyReportLib.xml
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_APP\bin\es-DO\MyReportLib.resources.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.AcumuladoColocacionesInstrumentoEmisor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.AP_ComparativoPorCodigoIsinPreciosBonos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinGlosario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinIndice.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_BoletinPortada.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFEmisionesCorpV.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMPOperDiaFirme.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMPOperDia.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSOperPlazos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEntidadMP.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVTransPuestoBolsaMP.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEmisoresDOP.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMPOperDiaFirme.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTransEmisoresDOP.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoPrimarioFechas.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioFechas.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_BoletinPortada.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_CantidadOperacionesParticipante.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosNegociadosInstrumentos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosTransadosParticipanteInstrumentosMonedaEmision.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosTransadosParticipantesInstrumentos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_OperacionesDiarias.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosCierreBonosTransados.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosUltimoMejorPeor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_ResumenDiario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_TitulosMasTransados.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_ValorTransadoOperacionesParticipante.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OF_PosturasPorParticipanteInstrumento.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisiones_Hist.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMercadoSecundarioPuestoBolsa_Hist.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroNuevoEmisor_Hist.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsa_Hist.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisionesTitularizado.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.DisponibilidaddeLaEmision.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_02.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_03.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_04.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_05.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_06.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_07.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_08.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_09.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_10.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Pagina_11.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FIAB_Mensual_Portada.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_MontosNegociadosInstrumentosSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.MK_PreciosUltimoMejorPeorSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteCorredoresAplicanProgramaARM.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PlanillaPuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FormatoCertificacionCorredor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperacionesPorRuedas.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsaSIMV.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteUltimas10TasasCambio.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_MMTrimestre.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMPTrimestre.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMSTrimestre.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMPTrimestre.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMSTrimestre.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMSMES.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RVMPMES.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMPMES.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_RFMSMES.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle_MMMES.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Detalle.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Parametros.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Resumen_Mes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteSIV_Resumen.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTranPBolsaReg.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFRegistro.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVEmisionesCorpV.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMPOperDia.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMSOperDia.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSOperDia.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVPreCierrediaIns.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMSTopTitTransMes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSTopTitTransMes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVolTransEntidad.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFMSVTPBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransInstEEmisoras.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVolTransInsEEmisoras.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransMSXIns.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransMPXIns.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFVTransMS.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransPBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVVTransPuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_Comp_VMYTDRF.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_ResOpesRepRegistro.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BoletinPortada.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.CalificacionesDeRiesgo.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMantenimientoEmisiones.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesMercadoSecundarioPuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionRegistroIncripcionFondosInversion.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroNuevoEmisor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComisionesRegistroDeCorredor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoPreciosBonos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoVolumenesBonos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ComparativoVolumenesNegociadosMPMS.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.FormatoBoleta.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LOPI_MontoDemandadoValidoNoValido.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_ResumenGeneralMercado.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RFPrecCierrediaRueda.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMNegociadosIns.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMTransParticIns.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVCanOperParticipante.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVValorTransOperPart.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVPrUltMejorPeor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.BB_RVMTransParMoEmision.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteLOSuscripcionAcumulada.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperaciones.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteAcumuladosOperacionesDetalle.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesTest.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Detalle_Acumulado_por_Entidad_Instrumento.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesRegistradas.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesRegistradasPorDia.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.EmisionesVigentesMercadoValores.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.InstrumentoNegociados.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_LibroOrdenesDetallePuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_ProrrateoDetallePuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Resources.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.NivelOperadoVendedorMP.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OF_OrdenesEnFirmePorParticipanteInstrumento.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesImportesMayoresValorTransadoMercadoMoneda.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoPrimario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioPuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPorMes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPorMesPesos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPuestoBolsaEmisor.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesPuestoBolsaMercadoPrimarioSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaMercadoPrimario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesRentaFijaMercadoSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesTransadasMercadoBursatilPrimarioSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PortadaReportePrecios.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PrecioCierre30BonosMasTransados.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.PreciosVolumenesBonosMasTransados.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.LO_ProrrateoResumenPuestoDeBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteCorredores.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ReporteOperacionesPuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_Aviso.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_ListadodePuestosdeBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_PuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesActividadEconomica.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorInstrumento.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorPuestoBolsa.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesPorEntidadesEmisoras.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_EntidadesEmisoras.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_InstrumentosNegociados.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_ResumenMensualporTipodeMonedas.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_OperacionesRentaFija.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.RO_Portada.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ResultadoProrrogateoOrdenes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.ResultadoProrrogateoOrdenesLOPI.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.SecundarioBoletinBursatildeOperacionesdeRentaFija.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.VolumenesTransadosAnyoPesos.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.Lista_Instrumento_de_Interes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vReporteVentas.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vReporteVentas1.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundarioFechas.es-DO.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.OperacionesMercadoSecundario.es-DO.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.GenerateResource.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.dll.licenses
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\es-DO\MyReportLib.resources.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.xml
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Release\MyReportLib.vbprojAssemblyReference.cache

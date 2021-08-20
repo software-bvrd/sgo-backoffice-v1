@@ -1,0 +1,822 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" Inherits="Sgo.WebApp.Site" CodeBehind="Site.Master.vb" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head runat="server">
+    <title>Bolsa de valores || SGO</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link id="Link1" runat="server" rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="favicon.ico" type="image/ico" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <style type="text/css">
+        .CustomItem {
+            position: relative;
+            text-decoration: none !important;
+            top: 0px;
+            left: 0px;
+            z-index: 90000 !important;
+        }
+    </style>
+
+
+</head>
+
+<body style="background-color: #006DA8;">
+
+    <form runat="server" style="background-color: #006DA8;">
+
+        <div class="page">
+
+            <div class="header">
+
+                <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+                </telerik:RadScriptManager>
+
+                <div class="title">
+                </div>
+
+
+                 <div class="loginDisplay">
+                    <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false" >
+                        <AnonymousTemplate>
+                            [ <a href="Account/Login.aspx" id="HeadLoginStatus" runat="server">Ingresar</a> ]
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            Bienvenido <span class="bold">
+                                <asp:LoginName ID="HeadLoginName" runat="server" />                                                          
+                            </span>!
+                        [<a href="Account/Login.aspx"> Salir</a>]
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div> 
+                
+                <%--  --%>
+
+                <div class="clear hideSkiplink">
+
+
+ <%-- 
+                      <telerik:RadMenu ID="RadMenu1" runat="server" 
+              OnClientItemClicking="openNewWindow"  
+              Width="100%" 
+                DataFieldID="IdOpcion" AppendDataBoundItems=true 
+               DataFieldParentID="IdPadre" DataNavigateUrlField="Url" 
+              EnableRoundedCorners="true" EnableShadows="true" EnableTextHTMLEncoding="true"
+                DataSourceID="SqlDataSource1" DataTextField="Nombre">--%>
+
+
+
+                    <telerik:RadMenu ID="RadMenu1" runat="server"
+                        OnClientItemClicking="openNewWindow"
+                        Width="100%"
+                        EnableShadows="True" EnableTextHTMLEncoding="True" CssClass="CustomItem" Style="z-index: 50000;">
+
+                        <Items>
+
+                            <%-- Menu Archivos --%>
+
+                            <telerik:RadMenuItem runat="server" Text="Archivos">
+                                <Items>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="País"
+                                        Value="formularios/ListaPais.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Ciudad"
+                                        Value="formularios/ListaCiudad.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Moneda"
+                                        Value="formularios/ListaMoneda.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo de Tasa Interes"
+                                        Value="formularios/ListaTipoTasa.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Interés"
+                                        Value="formularios/ListaTipoInteres.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Liquidación"
+                                        Value="formularios/ListaTipoLiquidacion.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Periodo (Periodicidad)"
+                                        Value="formularios/ListaTipoPeriodo.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Base Liquidación"
+                                        Value="formularios/ListaBaseLiquidacion.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Instrumento"
+                                        Value="formularios/ListaTipoInstrumento.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Instrumento"
+                                        Value="formularios/ListaInstrumento.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Mercado"
+                                        Value="formularios/ListaTipoMercado.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Mercado"
+                                        Value="formularios/ListaMercado.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Forma de Colocación"
+                                        Value="formularios/ListaFormaColocacion.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Empresa Calificadora"
+                                        Value="formularios/ListaEmpresaCalificadora.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Calificación Riesgo">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Rango Calificación" Value="formularios/ListaRangoCalificaciones.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Tipo Calificación" Value="formularios/ListaTipoCalificacionRiesgo.aspx">
+                                            </telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Sector"
+                                        Value="formularios/ListaActividadEconomica.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Actividad Económica"
+                                        Value="formularios/ListaSector.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Emisor"
+                                        Value="formularios/ListaTipoEmisor.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Emisión"
+                                        Value="formularios/ListaTipoEmision.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Entidad"
+                                        Value="formularios/ListaTipoEntidad.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Estatus Operación"
+                                        Value="formularios/ListaStatusOperacion.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tipo Documento"
+                                        Value="formularios/ListaTipoDocumento.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Comisiones y Tarifas"
+                                        Value="Edicion/ListaComisionesTarifas.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Días Festivos"
+                                        Value="Formularios/ListaDiaFestivo.aspx">
+                                    </telerik:RadMenuItem>
+
+
+                                </Items>
+                            </telerik:RadMenuItem>
+                            <telerik:RadMenuItem runat="server" Text="Edición">
+                                <Items>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Participantes del Mercado"
+                                        Value="Edicion/ListaPuestoBolsa.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Emisor"
+                                        Value="Edicion/ListaEmisor.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Programas de Emisiones"
+                                        Value="Edicion/ListaEmision.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tasas de Cambio"
+                                        Value="Transacciones/ListaCambiosTasas.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Tasas de emisiones"
+                                        Value="Transacciones/ListaCambiosTasasSeries.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Registro de NAV"
+                                        Value="Transacciones/ListaRegistroNAV.aspx">
+                                    </telerik:RadMenuItem>
+                                </Items>
+                            </telerik:RadMenuItem>
+                            <%-- Menu Reportes --%>
+
+                            <telerik:RadMenuItem runat="server" Text="Reportes">
+                                <Items>
+                                    <telerik:RadMenuItem runat="server" Text=" Boletín diario" Value="reportes/BoletinDiario.aspx">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Generación Número Boletín"
+                                                Value="Transacciones/listaboletin.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem IsSeparator="true" />
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Boletín portada"
+                                                Value="reportes/ReporteBoletinPortada.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Boletín Bursátil de Operaciones de Renta Fija"
+                                                Value="reportes/ReporteBoletinBursatilOperacionesRentaFija.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones de Renta Fija Mercado Primario"
+                                                Value="reportes/ReporteOperacionesRentaFijaMercadoPrimario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones de Renta Fija Mercado Secundario"
+                                                Value="reportes/ReporteOperacionesRentaFijaMercadoSecundario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones Mercado Primario"
+                                                Value="reportes/ReporteOperacionesMercadoPrimario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones Mercado Secundario"
+                                                Value="reportes/ReporteOperacionesMercadoSecundario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones de Renta fija Por Emisor/Instrumento Mercado Primario"
+                                                Value="reportes/ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Acumulado Colocaciones por Instrumento/Emisor"
+                                                Value="reportes/ReporteAcumuladoColocacionesInstrumentoEmisor.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones de Renta fija Por Emisor/Instrumento Mercado Secundario"
+                                                Value="reportes/ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Detalle Acumulado por Entidad/Instrumento"
+                                                Value="reportes/ReporteDetalleAcumuladoporEntidadInstrumento.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Operaciones Transadas en el Mercado Bursátil Primario y Secundario"
+                                                Value="reportes/ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server"
+                                                Text="Emisiones Vigentes en el Mercado de Valores"
+                                                Value="reportes/ReporteEmisionesVigentesMercadoValores.aspx">
+                                            </telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server" Text="Boletín General" Value="reportes/MK_BoletinDiario.aspx">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Para Publicar" Value="reportes/MK_GrupoPublicacion.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Volúmenes Negociados en DOP y en USD" Value="reportes/MK_ResumenDiario.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Montos Negociados por Instrumentos en Pesos" Value="reportes/MK_MontosNegociadosInstrumentos.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Montos Transados por Participantes/Instrumentos" Value="reportes/MK_MontosTransadosParticipantesInstrumentos.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Cantidad de Operaciones por Participante" Value="reportes/MK_CantidadOperacionesParticipante.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Valor Transado de Operaciones por Participante" Value="reportes/MK_ValorTransadoOperacionesParticipante.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Precios Ultimo, Más Alto, Más Bajo y Ponderado" Value="reportes/MK_PreciosUltimoMejorPeor.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Montos Transados por Participantes/Instrumentos Por Moneda Emisión" Value="reportes/MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Operaciones Diarias" Value="reportes/MK_OperacionesDiarias.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Títulos Mas Transados" Value="reportes/MK_TitulosMasTransados.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Precios de Cierre de los Bonos Transados" Value="reportes/MK_PreciosCierreBonosTransados.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Ordenes en Firme Participante/Instrumento" Value="reportes/OF_PosturasPorParticipanteInstrumento.aspx"></telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server" Text="Libro de Órdenes">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Libro de Ordenes Detalle Puesto de Bolsa" Value="reportes/LO_LibroOrdenesDetalladePuestoBolsa.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Prorrateo Resumen Puesto de Bolsa" Value="reportes/LO_ProrrateoResumenPuestoDeBolsa.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Prorrateo Detalle Puesto de Bolsa" Value="reportes/LO_ProrrateoDetallePuestoDeBolsa.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Suscripción Acumulada a la Fecha" Value="reportes/ReporteLOSuscipcionAcumulados.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Libro de Ordenes Aceptado (LOPI,LOIG)" Value="reportes/LOPI_MontoDemandadoValidoNoValido.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Resultado Prorrateo de Ordenes LOPI" Value="reportes/ResultadoProrrateoOrdenesLOPI.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Resultado Prorrateo de Ordenes LOIG" Value="reportes/ResultadoProrrateoOrdenes.aspx"></telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Precios de Cierre"
+                                        Value="reportes/ReportePrecios.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Precios de Cierre Top(N) Bonos + Transados"
+                                        Value="reportes/ReportePrecioCierre30BonosMasTransados.aspx" ToolTip="Reporte">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server" Text="Análisis de Precios">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Comparativo Precios Top(n) Bonos Más Transados" Value="reportes/ComparativoPreciosBonos.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Comparativo Precios Por Código ISIN" Value="reportes/AP_ComparativoPorCodigoIsinPreciosBonos.aspx"></telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server" Text="Análisis de Volúmenes">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Comparativo Volúmenes Top(n) Bonos Más Transados" Value="reportes/ComparativoVolumenesBonos.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Comparativo Volúmenes Por Código ISIN" Value="reportes/ComparativoPorCodigoIsinVolumenesBonos.aspx"></telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Resumen Comisiones MS por Participante"
+                                        Value="reportes/RptResumenComisionesMSporParticipante.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Comisiones Registro Nuevo Emisor"
+                                        Value="reportes/ReporteComisionNuevoEmisor.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Detalles Comisión Operaciones por Punta MS Participante"
+                                        Value="reportes/RptOperacionesPorPuntaMSParticipante.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Comisión Mantenimiento Emisiones"
+                                        Value="reportes/ReporteComisionesMantenimientoEmisiones.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Operaciones por Puesto de Bolsa y Emisor"
+                                        Value="reportes/ReporteOperacionesPuestoBolsaEmisor.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Operaciones Puesto de Bolsa MP y MS"
+                                        Value="reportes/ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Operaciones de Importes Mayores a (N) Valor Nominal Total"
+                                        Value="reportes/ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Operaciones por Mercado"
+                                        Value="reportes/ReporteOperacionesPorMes.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Operaciones Diarias Resumen FA"
+                                        Value="reportes/ReporteOperacionesResumen.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Operaciones por Mercado Equivalente en Pesos"
+                                        Value="reportes/ReporteOperacionesPorMesPesos.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Corredores Puestos de Bolsa"
+                                        Value="reportes/ReporteCorredoresPuestoBolsa.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Emisiones Registradas"
+                                        Value="reportes/ReporteEmisionesRegistradas.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Emisiones Registradas Por Serie"
+                                        Value="reportes/ReporteEmisionesRegistradasPorDia.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Instrumentos Negociados"
+                                        Value="reportes/ReporteInstrumentosNegociados.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Volúmenes Transados por Año y Moneda"
+                                        Value="reportes/ReporteVolumenesTransadosAnyoPesos.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Volúmenes Negociados por Actividad Económica"
+                                        Value="reportes/ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Comparativo Volúmenes Negociados Por Mercado (MP-MS)"
+                                        Value="reportes/ReporteComparativoVolumenesNegociadosMPMS.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Nivel Operado Como Vendedor o Comprador"
+                                        Value="reportes/ReporteNivelOperadoVendedorMP.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cronograma de cambio de tasas de las Emisiones"
+                                        Value="">
+                                    </telerik:RadMenuItem>
+                                </Items>
+                            </telerik:RadMenuItem>
+
+
+                            <%-- Menu Consultas --%>
+
+
+                            <telerik:RadMenuItem runat="server" Text="Consultas">
+                                <Items>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta de Emisiones"
+                                        Value="Consultas/ConsultaEmisiones.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta de Emisores"
+                                        Value="Consultas/ConsultaEmisores.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta Participantes Mercado"
+                                        Value="Consultas/ConsultaParticipantesMercado.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta Corredores"
+                                        Value="Consultas/ListaCorredores.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta de Operaciones"
+                                        Value="Consultas/ConsultaOperaciones.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta de Órdenes en Firme"
+                                        Value="Consultas/ConsultaOrdenesFirme.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta Cevaldom"
+                                        Value="Consultas/ConsultaCevaldom.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta SIV"
+                                        Value="Consultas/ConsultaSIV.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Consulta Operaciones OTC"
+                                        Value="Consultas/ConsultaOTC.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server" Text="Consulta de Capitales" Value="Consultas/ConsultaCapitales.aspx" />
+                                    <telerik:RadMenuItem runat="server" Text="Consulta Libro de Órdenes" Value="Consultas/ConsultaLibroDeOrdenes.aspx" />
+
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cubo de Instrumentos"
+                                        Value="Consultas/CuboInstrumentos.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cubo de Operaciones Bursátiles"
+                                        Value="Consultas/CuboOperaciones.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cubo de Cevaldom"
+                                        Value="Consultas/CuboCevaldom.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cubo SIV"
+                                        Value="Consultas/CuboSIV.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cubo Operaciones OTC"
+                                        Value="Consultas/CuboOperacionesOTC.aspx">
+                                    </telerik:RadMenuItem>
+
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Cubo Operaciones Bursátiles y Extrabursátiles"
+                                        Value="Consultas/CuboConsolidado.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem IsSeparator="true" />
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Análisis grafico de Operaciones"
+                                        Value="Consultas/AnalisisGraficoOperaciones.aspx">
+                                    </telerik:RadMenuItem>
+
+                                </Items>
+                            </telerik:RadMenuItem>
+
+                            <telerik:RadMenuItem runat="server" Text="Herramientas">
+                                <Items>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Configuración"
+                                        Value="">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Configuración de archivo de carga / Calendarios"
+                                        Value="">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Carga Manual de Archivos">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Carga Manual de Libro de Ordenes" Value="herramientas/CargaLibroDeOrdenes.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Carga Manual de Operaciones" Value="herramientas/CargaOperaciones.aspx">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Carga Manual de Ordenes en Firme" Value="herramientas/CargaOrdenesEnFirme.aspx">
+                                            </telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Registrar Ordenes rechazadas"
+                                        Value="herramientas/SubastaOrdenesRechazadas.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Generar Archivo SIV"
+                                        Value="herramientas/GenerarArchivoSIV.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem IsSeparator="true" />
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Prorrateo Libro de Ordenes"
+                                        Value="herramientas/ProrrateoLibrodeOrdenes.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Eliminar proceso Libro de Ordenes"
+                                        Value="herramientas/EliminarProcesosLibroOrdenes.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem IsSeparator="true" />		
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Perfiles"
+                                        Value="herramientas/ListaPerfil.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Opciones de Perfil"
+                                        Value="herramientas/PermisosPorPerfil.aspx">
+                                    </telerik:RadMenuItem>
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Usuarios"
+                                        Value="herramientas/Usuarios.aspx">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server"
+                                        Text="Opciones de Menu"
+                                        Value="herramientas/OpcionesMenu.aspx">
+                                    </telerik:RadMenuItem>
+
+
+
+                                </Items>
+                            </telerik:RadMenuItem>
+
+                            <telerik:RadMenuItem runat="server" Text="Ayuda">
+                                <Items>
+                                    <telerik:RadMenuItem runat="server" ImageUrl="images/help.png"
+                                        Text="Manual"
+                                        Value="">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem runat="server" ImageUrl="images/help.png"
+                                        Text="Documentos técnicos y Ejemplos"
+                                        Value="">
+                                    </telerik:RadMenuItem>
+
+                                    <telerik:RadMenuItem IsSeparator="true" />
+
+                                    <telerik:RadMenuItem runat="server" ImageUrl="images/helpdesk.png"
+                                        Text="Acerca de..."
+                                        Value="">
+                                    </telerik:RadMenuItem>
+
+
+                                </Items>
+                            </telerik:RadMenuItem>
+
+                        </Items>
+                        <CollapseAnimation Duration="10" Type="None" />
+                    </telerik:RadMenu>
+                    <telerik:RadTabStrip OnClientTabSelected="OnClientTabSelected" ID="RadTabStrip1"
+                        ScrollChildren="True" ScrollButtonsPosition="Middle" Width="100%" CssClass="taskbar"
+                        Orientation="HorizontalBottom" runat="server"
+                        SelectedIndex="0" Height="28px" EnableDragToReorder="True">
+
+                        <TabTemplate>
+                            <%# DataBinder.Eval(Container, "Text") %>
+                            <img style="margin-left: 20px" src="images/clear.gif" alt="delete" onclick="deleteTab('<%# DataBinder.Eval(Container, "Text") %>')" />
+                        </TabTemplate>
+
+
+                        <Tabs>
+                            <telerik:RadTab Style="display: none;" Selected="True" />
+                        </Tabs>
+
+
+
+                    </telerik:RadTabStrip>
+
+                    <br />
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server"
+                        ConnectionString="<%$ ConnectionStrings:CN %>"
+                        SelectCommand="SELECT * FROM [vMenuPorPerfil] WHERE ([IdPerfil] = @IdPerfil)">
+                        <SelectParameters>
+                            <asp:SessionParameter Name="IdPerfil" SessionField="IdPerfil" Type="Int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    <br />
+
+                    <br />
+                </div>
+            </div>
+
+
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+
+            <div class="clear">
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p style="background-color: #006DA8; color: #FFFFFF;">Derechos Reservados || Bolsa de valores de la República Dominicana <%= DateTime.Now.Year.ToString() %></p>
+        </div>
+
+        <telerik:RadWindowManager ShowOnTopWhenMaximized="false" Width="590"
+            Height="360" OnClientActivate="OnClientActivate" OnClientClose="OnClientClose"
+            Behaviors="Close" OnClientCommand="OnClientCommand"
+            ID="RadWindowManager1" RestrictionZoneID="RestrictionZone" runat="server"
+            EnableShadow="true" VisibleStatusbar="False">
+        </telerik:RadWindowManager>
+
+        <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+            <script type="text/javascript">
+                // <![CDATA[
+
+                var manager = null;
+                var tabStrip = null;
+
+                function pageLoad() {
+                    //get a reference to the needed controls -
+                    manager = $find("<%= RadWindowManager1.ClientID %>");
+                    tabStrip = $find("<%= RadTabStrip1.ClientID %>");
+                }
+
+                //opening the window
+                function openNewWindow(sender, args) {
+                    var item = args.get_item();
+                    var itemUrl = item.get_value();
+                    var itemText = item.get_text();
+                    var itemconsulta = itemUrl.indexOf("Consultas");
+                    var itemcubo = itemText.indexOf("Cubo");
+                    var itemreporte = itemUrl.indexOf("reportes");
+
+
+                    if (itemUrl && itemconsulta == -1 && itemcubo == -1 && itemreporte == -1) {
+
+                        var windowURL = itemUrl;
+                        var oWnd = radopen(itemUrl, null);
+                        oWnd.set_title(itemText);
+                        oWnd.center();
+                        oWnd.maximize();
+                        tabStrip.trackChanges();
+
+                        //create a new tab
+                        var tab = new Telerik.Web.UI.RadTab();
+
+                        //set the text of the tab
+                        tab.set_text(itemText);
+                        oWnd.correspondingTab = tab;
+
+                        //add the tab to the tabstrip
+                        tabStrip.get_tabs().add(tab);
+                        tabStrip.repaint();
+                        tab.correspondingWnd = oWnd;
+                        tab.set_imageUrl(item.get_imageUrl());
+                        tabStrip.commitChanges();
+
+                        sender.close();
+
+                        //Select this tab
+                        tab.select();
+
+                    }
+
+                    else {
+
+                        if (itemUrl) {
+                            f_open_window_max(itemUrl, itemText)
+                            sender.close();
+                        }
+                    }
+
+                }
+                function f_open_window_max(aURL, aWinName) {
+                    var wOpen;
+                    var sOptions;
+
+                    sOptions = 'status=no,menubar=no,scrollbars=yes,resizable=yes,toolbar=no,location=no';
+                    sOptions = sOptions + ',width=' + (screen.availWidth - 10).toString();
+                    sOptions = sOptions + ',height=' + (screen.availHeight - 122).toString();
+                    sOptions = sOptions + ',screenX=0,screenY=0,left=0,top=0';
+
+                    wOpen = window.open('', aWinName, sOptions);
+                    wOpen.location = aURL;
+                    wOpen.focus();
+
+
+                    wOpen.resizeTo(screen.availWidth, screen.availHeight);
+                    return wOpen;
+                }
+
+                function onMouseOut(sender, eventArgs) {
+                    sender.close();
+                }
+
+
+                function OnClientCommand(sender, args) {
+                    //because we don't want to show the minimized RadWindow, we hide it after minimizing
+                    //and raise the _Maximized flag (used in OnClientTabSelected)
+                    if (args.get_commandName() == "Minimize") {
+                        if (sender.isMaximized()) {
+                            sender._Maximized = true;
+                        }
+
+                        sender.hide();
+                        //raise the _toMinimize flag (used in OnClientActivate)
+                        sender._toMinimize = true;
+                        var tab = sender.correspondingTab;
+                        if (tab) {
+                            tab.set_selected(false);
+                        }
+                    }
+                }
+
+                function OnClientTabSelected(sender, args) {
+                    //get a reference to the corresponding window
+                    var win = args.get_tab().correspondingWnd;
+
+                    if (!win) return;
+
+                    if (!win.isVisible()) {
+                        win.show();
+                        win.restore();
+                        //if the window was maximized before client minimizes it, we need to restore
+                        //its maximized state
+                        if (win._Maximized) {
+                            win.maximize();
+                            win._Maximized = null;
+                        }
+
+                    }
+
+                    //ensure that the currently active RadWindow will have the highest z-Index.
+                    var popupElem = win.get_popupElement();
+                    var oldZindex = parseInt(popupElem.style.zIndex);
+                    var styleZIndex = win.get_stylezindex();
+                    var newZIndex = (styleZIndex) ? styleZIndex : Telerik.Web.UI.RadWindowUtils.get_newZindex(oldZindex);
+                    popupElem.style.zIndex = "" + newZIndex;
+                    win.setActive(true);
+
+
+
+                }
+
+                function OnClientActivate(sender, args) {
+                    var tab = sender.correspondingTab;
+                    if (tab && !sender._toMinimize) {
+                        tab.set_selected(true);
+                    }
+                    sender._toMinimize = false;
+                }
+
+                function OnClientClose(oWnd) {
+
+                    //remove the corresponding tab from the tabstrip
+                    var tab = oWnd.correspondingTab;
+                    if (tab) {
+                        tabStrip.trackChanges();
+                        tabStrip.get_tabs().remove(tab);
+                        tabStrip.commitChanges();
+                    }
+                }
+
+
+            </script>
+        </telerik:RadCodeBlock>
+    </form>
+</body>
+</html>

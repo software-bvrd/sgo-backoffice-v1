@@ -1,0 +1,41 @@
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.Model\obj\Release\Sgo.Model.csprojResolveAssemblyReference.cache
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.Model\obj\Release\Sgo.Model.csprojResolveAssemblyReference.cache
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Model\obj\Release\Sgo.Model.csprojResolveAssemblyReference.cache
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojResolveAssemblyReference.cache
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Model\bin\Release\Sgo.Model.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Model\obj\Release\Sgo.Model.csprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Model\obj\Release\Sgo.Model.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojAssemblyReference.cache

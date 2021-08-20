@@ -1,0 +1,17 @@
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Service\obj\Debug\Sgo.Service.csprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csprojAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb

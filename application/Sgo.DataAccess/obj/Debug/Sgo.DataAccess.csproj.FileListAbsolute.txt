@@ -1,0 +1,45 @@
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\FluentNHibernate.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\Iesi.Collections.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\NHibernate.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\Sgo.Model.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Debug\Sgo.Model.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\FluentNHibernate.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\NHibernate.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.pdb

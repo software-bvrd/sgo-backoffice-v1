@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyReportLib
+</name>
+</assembly>
+<members>
+<member name="T:MyReportLib.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MyReportLib.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MyReportLib.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MyReportLib.MyUserFunctions">
+ <summary>
+ 2017-02-28
+ ------------------------------------------------------------------------------------
+ Funciones Para los reportes
+ ------------------------------------------------------------------------------------
+ Están clasificadas en :
+ --- ConvertirFecha = Son funciones que tienen que ver con formatos de fecha y demás
+ --- OperacionesNumericas = Calculo de %, Formatos a Números.
+ --- OperacionesTextos = Funciones con para formatear textos
+ ---
+ </summary>
+</member>
+</members>
+</doc>

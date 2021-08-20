@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6475641-5EDF-4B1E-96A9-BA4A79836206}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sgo.Model</RootNamespace>
+    <AssemblyName>Sgo.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\ActividadEconomica.cs" />
+    <Compile Include="Entities\AppointmentStatus.cs" />
+    <Compile Include="Entities\Archivoimportarexportarcalendario.cs" />
+    <Compile Include="Entities\Archivoimportarexportardetalle.cs" />
+    <Compile Include="Entities\Archivoimportarexportarencabezado.cs" />
+    <Compile Include="Entities\Archivoimportarexportarlogs.cs" />
+    <Compile Include="Entities\BaseLiquidacion.cs" />
+    <Compile Include="Entities\Boletin.cs" />
+    <Compile Include="Entities\Ciudad.cs" />
+    <Compile Include="Entities\ClasificacionParticipante.cs" />
+    <Compile Include="Entities\CodigosParticipante.cs" />
+    <Compile Include="Entities\ComisionesTarifas.cs" />
+    <Compile Include="Entities\Comisionestarifasdetalle.cs" />
+    <Compile Include="Entities\Diafestivo.cs" />
+    <Compile Include="Entities\Emision.cs" />
+    <Compile Include="Entities\EmisionCalificacionRiesgo.cs" />
+    <Compile Include="Entities\EmisionDocumento.cs" />
+    <Compile Include="Entities\EmisionPuestoBolsa.cs" />
+    <Compile Include="Entities\EmisionSerie.cs" />
+    <Compile Include="Entities\EmisionSerieCalendarioCambioTasas.cs" />
+    <Compile Include="Entities\EmisionSerieHistoricoCambioTasas.cs" />
+    <Compile Include="Entities\EmisionTramo.cs" />
+    <Compile Include="Entities\Emisor.cs" />
+    <Compile Include="Entities\EmisorCalificacionRiesgo.cs" />
+    <Compile Include="Entities\EmisorDocumento.cs" />
+    <Compile Include="Entities\EmpresaCalificadora.cs" />
+    <Compile Include="Entities\FiltrosConsultas.cs" />
+    <Compile Include="Entities\Formacolocacion.cs" />
+    <Compile Include="Entities\Grupoinstrumentos.cs" />
+    <Compile Include="Entities\Instrumento.cs" />
+    <Compile Include="Entities\Instrumentosecuencia.cs" />
+    <Compile Include="Entities\Listaarchivosoperaciones.cs" />
+    <Compile Include="Entities\Mercado.cs" />
+    <Compile Include="Entities\Monedashistoricotasas.cs" />
+    <Compile Include="Entities\Opcionesmenu.cs" />
+    <Compile Include="Entities\Operaciones.cs" />
+    <Compile Include="Entities\Operacionescsv.cs" />
+    <Compile Include="Entities\Ordenesenfirme.cs" />
+    <Compile Include="Entities\Pais.cs" />
+    <Compile Include="Entities\Perfiles.cs" />
+    <Compile Include="Entities\Permisosporperfil.cs" />
+    <Compile Include="Entities\Provincia.cs" />
+    <Compile Include="Entities\Puestobolsa.cs" />
+    <Compile Include="Entities\Puestobolsacorredor.cs" />
+    <Compile Include="Entities\Puestobolsacorredordocumento.cs" />
+    <Compile Include="Entities\Puestobolsacorredorlicencia.cs" />
+    <Compile Include="Entities\Puestobolsadirectivo.cs" />
+    <Compile Include="Entities\Puestobolsadocumento.cs" />
+    <Compile Include="Entities\Rangocalificacion.cs" />
+    <Compile Include="Entities\Sector.cs" />
+    <Compile Include="Entities\Statusoperacion.cs" />
+    <Compile Include="Entities\Subasta.cs" />
+    <Compile Include="Entities\Subastaemisionserie.cs" />
+    <Compile Include="Entities\Tipoamortizacioncapital.cs" />
+    <Compile Include="Entities\Tipocalificacionriesgo.cs" />
+    <Compile Include="Entities\Tipodocumento.cs" />
+    <Compile Include="Entities\Tipoemision.cs" />
+    <Compile Include="Entities\Tipoemisor.cs" />
+    <Compile Include="Entities\Tipoentidad.cs" />
+    <Compile Include="Entities\Tipoinstrumento.cs" />
+    <Compile Include="Entities\Tipointeres.cs" />
+    <Compile Include="Entities\Tipoliquidacion.cs" />
+    <Compile Include="Entities\Tipomercado.cs" />
+    <Compile Include="Entities\Tipomoneda.cs" />
+    <Compile Include="Entities\Tiponegociacion.cs" />
+    <Compile Include="Entities\TipoOperacion.cs" />
+    <Compile Include="Entities\TipoParticipante.cs" />
+    <Compile Include="Entities\TipoPeriodo.cs" />
+    <Compile Include="Entities\TipoTasa.cs" />
+    <Compile Include="Entities\Usuarios.cs" />
+    <Compile Include="Entities\UsuariosSeguimientoActividad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrams\ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

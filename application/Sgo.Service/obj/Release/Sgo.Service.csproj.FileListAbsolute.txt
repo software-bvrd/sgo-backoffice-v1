@@ -1,0 +1,25 @@
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Service\bin\Release\Sgo.Service.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Service\bin\Release\Sgo.Service.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Service\obj\Release\Sgo.Service.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Service\obj\Release\Sgo.Service.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.Service\obj\Release\Sgo.Service.csprojResolveAssemblyReference.cache
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.pdb
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.csprojAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Release\Sgo.Service.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Release\Sgo.Service.csprojAssemblyReference.cache

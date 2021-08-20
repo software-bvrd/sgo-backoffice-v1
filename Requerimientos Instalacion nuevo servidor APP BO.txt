@@ -1,0 +1,8 @@
+B. SERVIDOR WEB:
+1. Windows Server 2008 R2 Standard SP1 o Superior
+2. Microsoft .NET Framework 3.5.1.
+3. Internet Information Services 7 o Superior
+4. Dar acceso a APL a nivel de AD a los usuarios de BO, conversar con edward.
+5. Acceso a la carpeta  tmp ? a operaciones y Tecnologia.
+6. Revisar configuracion IIS.
+7. Revisiar usuario AD en ISS

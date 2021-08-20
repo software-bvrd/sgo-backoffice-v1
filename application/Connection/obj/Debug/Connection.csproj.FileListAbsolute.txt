@@ -1,0 +1,27 @@
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Connection\bin\Debug\Connection.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Connection\bin\Debug\Connection.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Connection\obj\Debug\Connection.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Connection\obj\Debug\Connection.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csprojAssemblyReference.cache

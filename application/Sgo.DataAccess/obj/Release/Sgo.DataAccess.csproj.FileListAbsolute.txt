@@ -1,0 +1,97 @@
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\FluentNHibernate.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\Iesi.Collections.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\NHibernate.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\FluentNHibernate.xml
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\Iesi.Collections.xml
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\bin\Release\NHibernate.xml
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\source\Sgo\Sistema Gestion Operaciones\Main\SGO\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\FluentNHibernate.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\Iesi.Collections.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\NHibernate.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\FluentNHibernate.xml
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\Iesi.Collections.xml
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\bin\Release\NHibernate.xml
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\FluentNHibernate.dll
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Iesi.Collections.dll
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\NHibernate.dll
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\FluentNHibernate.xml
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Iesi.Collections.xml
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\NHibernate.xml
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\source\SGO\SGO_TFS_ch101\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\FluentNHibernate.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Iesi.Collections.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\NHibernate.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\FluentNHibernate.xml
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\Iesi.Collections.xml
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\bin\Release\NHibernate.xml
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\BVRD\SGO-BackOffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\FluentNHibernate.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Iesi.Collections.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\NHibernate.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\FluentNHibernate.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\Iesi.Collections.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.DataAccess\bin\Release\NHibernate.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb

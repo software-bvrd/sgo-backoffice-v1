@@ -1,0 +1,1971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\sep\e$\WWW\SGO_REPORTING</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>09/10/2019 13:41:18</publishTime>
+    </File>
+    <File Include="Account/Logout.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/0.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/1.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/2.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/3.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/4.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/5.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/6.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/7.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/8.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/9.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/A.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/B.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/C.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/D.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/E.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/F.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/G.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/H.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/I.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/J.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/K.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/L.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/M.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/N.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/O.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/P.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Q.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/R.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/S.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/T.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/U.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/V.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/W.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/X.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Y.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadCaptcha/Z.wav">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/de-DE.tdf">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/en-US.tdf">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadSpell/fr-FR.tdf">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_Data/RadUploadTemp/RadUploadTestFile">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_GlobalResources/RadGrid.Main.es.resx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="App_GlobalResources/RadGrid.Main.resx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="bin/BVRD.Security.Utils.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Connection.dll">
+      <publishTime>03/05/2020 14:34:12</publishTime>
+    </File>
+    <File Include="bin/Connection.pdb">
+      <publishTime>03/05/2020 14:34:12</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/es-DO/MyReportLib.resources.dll">
+      <publishTime>03/05/2020 14:34:17</publishTime>
+    </File>
+    <File Include="bin/expertxls.dll">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="bin/FluentNHibernate.dll">
+      <publishTime>12/08/2015 11:15:29</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.dll">
+      <publishTime>08/31/2016 16:50:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/MyReportLib.dll">
+      <publishTime>03/05/2020 14:34:17</publishTime>
+    </File>
+    <File Include="bin/MyReportLib.dll.config">
+      <publishTime>05/31/2019 15:31:53</publishTime>
+    </File>
+    <File Include="bin/MyReportLib.pdb">
+      <publishTime>03/05/2020 14:34:17</publishTime>
+    </File>
+    <File Include="bin/NHibernate.dll">
+      <publishTime>12/08/2015 11:15:29</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Common.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/RadarSoft.RadarCube.Web.Direct.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/RadarSoft.RadarCube.Web.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/RadarSoft.RadarCube.Web.TOLAPCube.lic">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Sgo.DataAccess.dll">
+      <publishTime>03/05/2020 14:34:13</publishTime>
+    </File>
+    <File Include="bin/Sgo.DataAccess.pdb">
+      <publishTime>03/05/2020 14:34:13</publishTime>
+    </File>
+    <File Include="bin/Sgo.Model.dll">
+      <publishTime>03/05/2020 14:34:12</publishTime>
+    </File>
+    <File Include="bin/Sgo.Model.pdb">
+      <publishTime>03/05/2020 14:34:12</publishTime>
+    </File>
+    <File Include="bin/Sgo.WebApp.dll">
+      <publishTime>03/10/2020 13:58:20</publishTime>
+    </File>
+    <File Include="bin/Sgo.WebApp.pdb">
+      <publishTime>03/10/2020 13:58:20</publishTime>
+    </File>
+    <File Include="bin/Sgo.WebApp.xml">
+      <publishTime>03/10/2020 13:58:20</publishTime>
+    </File>
+    <File Include="bin/Sgo.WebClient.xml">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.dll">
+      <publishTime>06/15/2016 18:13:32</publishTime>
+    </File>
+    <File Include="bin/Telerik.Reporting.pdb">
+      <publishTime>06/15/2016 18:13:32</publishTime>
+    </File>
+    <File Include="bin/Telerik.ReportViewer.WebForms.dll">
+      <publishTime>06/15/2016 18:13:48</publishTime>
+    </File>
+    <File Include="bin/Telerik.ReportViewer.WebForms.pdb">
+      <publishTime>06/15/2016 18:13:48</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Design.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>05/17/2017 12:01:07</publishTime>
+    </File>
+    <File Include="bin/Telerik.Windows.Maths.dll">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="bin/vs6964.tmp">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="bin/WebActivator.dll">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ActivarCorredor.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/AnalisisGraficoOperaciones.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaCapitales.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaCevaldom.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaEmisiones.aspx">
+      <publishTime>02/07/2018 12:11:14</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaEmisores.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaLibroDeOrdenes.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaNAV.aspx">
+      <publishTime>06/07/2018 13:48:37</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaOperaciones.aspx">
+      <publishTime>01/05/2019 14:18:03</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaOperacionesCanceladasyNoLiquidadas.aspx">
+      <publishTime>12/27/2019 13:33:26</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaOperacionesNotificacionesCevaldom.aspx">
+      <publishTime>03/10/2020 13:57:29</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaOperacionesOTCCevaldom.aspx">
+      <publishTime>08/03/2018 09:21:49</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaOrdenesFirme.aspx">
+      <publishTime>10/16/2019 09:43:39</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaOTC.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaParticipantesMercado.aspx">
+      <publishTime>08/21/2018 18:47:53</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaSIV.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/ConsultaUsuariosSiopel.aspx">
+      <publishTime>03/05/2018 15:57:22</publishTime>
+    </File>
+    <File Include="Consultas/CuboCevaldom.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CuboConsolidado.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CuboInstrumentos.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CuboOperaciones.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CuboOperacionesMultiple.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CuboOperacionesOTC.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CuboSIV.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/CupoContraParte.aspx">
+      <publishTime>06/06/2018 13:32:40</publishTime>
+    </File>
+    <File Include="Consultas/ListaCorredores.aspx">
+      <publishTime>12/25/2017 21:35:15</publishTime>
+    </File>
+    <File Include="Consultas/NombreConsultaUsuario.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Consultas/VectorPrecios.aspx">
+      <publishTime>02/16/2018 09:56:49</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>05/17/2017 12:01:05</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="dirlist.txt">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="Edicion/ActivarEmision.aspx">
+      <publishTime>01/23/2018 16:42:15</publishTime>
+    </File>
+    <File Include="Edicion/EditarComisionesTarifas.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Edicion/EditarCorredor.aspx">
+      <publishTime>09/26/2017 15:55:37</publishTime>
+    </File>
+    <File Include="Edicion/EditarEmision.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Edicion/EditarEmisionSerieCalendarioCambioTasas.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Edicion/EditarEmisor.aspx">
+      <publishTime>10/19/2017 22:54:38</publishTime>
+    </File>
+    <File Include="Edicion/EditarPuestoBolsa.aspx">
+      <publishTime>09/13/2018 11:15:15</publishTime>
+    </File>
+    <File Include="Edicion/EditarPuestoBolsaCorredor.aspx">
+      <publishTime>08/29/2017 18:02:15</publishTime>
+    </File>
+    <File Include="Edicion/EditarSeriePOPUP.aspx">
+      <publishTime>06/24/2019 10:46:57</publishTime>
+    </File>
+    <File Include="Edicion/EditarSeriePOPUPMontos.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Edicion/ListaComisionesTarifas.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Edicion/ListaEmision.aspx">
+      <publishTime>01/23/2018 16:42:55</publishTime>
+    </File>
+    <File Include="Edicion/ListaEmisor.aspx">
+      <publishTime>10/31/2017 12:00:01</publishTime>
+    </File>
+    <File Include="Edicion/ListaPuestoBolsa.aspx">
+      <publishTime>06/06/2017 12:00:58</publishTime>
+    </File>
+    <File Include="Edicion/ListCorredores.aspx">
+      <publishTime>09/26/2017 11:41:29</publishTime>
+    </File>
+    <File Include="Edicion/MoverCorredorPuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="endsession.aspx">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/17/2017 12:01:08</publishTime>
+    </File>
+    <File Include="Formularios/EditarActividadEconomica.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarBaseLiquidacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarCiudad.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarClasificacionParticipante.aspx">
+      <publishTime>06/19/2018 19:28:55</publishTime>
+    </File>
+    <File Include="Formularios/EditarDiaFestivo.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarEmpresaCalificadora.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarEstatusEmision.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Formularios/EditarFormaColocacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarMecanismosNegociacion.aspx">
+      <publishTime>06/19/2018 19:28:54</publishTime>
+    </File>
+    <File Include="Formularios/EditarMercado.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarMoneda.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarPais.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarRangoCalificaciones.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarRueda.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarSector.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarStatusOperacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoCalificacionRiesgo.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoDocumento.aspx">
+      <publishTime>06/06/2017 09:53:01</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoEmision.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoEmisor.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoEntidad.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoInteres.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoLiquidacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoMercado.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoParticipante.aspx">
+      <publishTime>06/06/2017 10:35:27</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoPeriodo.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/EditarTipoTasa.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaActividadEconomica.aspx">
+      <publishTime>07/13/2017 16:07:22</publishTime>
+    </File>
+    <File Include="Formularios/ListaBaseLiquidacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaCiudad.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaClasificacionParticipante.aspx">
+      <publishTime>06/19/2018 19:28:54</publishTime>
+    </File>
+    <File Include="Formularios/ListaDiaFestivo.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaEmpresaCalificadora.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaEstatusEmision.aspx">
+      <publishTime>01/30/2018 18:44:02</publishTime>
+    </File>
+    <File Include="Formularios/ListaFormaColocacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaMecanismosNegociacion.aspx">
+      <publishTime>06/19/2018 19:28:55</publishTime>
+    </File>
+    <File Include="Formularios/ListaMercado.aspx">
+      <publishTime>06/05/2017 00:20:26</publishTime>
+    </File>
+    <File Include="Formularios/ListaMoneda.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaPais.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaRangoCalificaciones.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaRueda.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaSector.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaStatusOperacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoCalificacionRiesgo.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoDocumento.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoEmision.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoEmisor.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoEntidad.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoInteres.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoLiquidacion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoMercado.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoParticipante.aspx">
+      <publishTime>06/05/2017 22:35:11</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoPeriodo.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Formularios/ListaTipoTasa.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Handler.ashx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/CargaLibroDeOrdenes.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/CargaOperaciones.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/CargaOrdenesEnFirme.aspx">
+      <publishTime>07/16/2017 22:20:21</publishTime>
+    </File>
+    <File Include="Herramientas/ConfirmarComisiones.aspx">
+      <publishTime>12/26/2018 09:28:34</publishTime>
+    </File>
+    <File Include="Herramientas/ConsultaUsuariosSiopel.aspx">
+      <publishTime>03/05/2018 16:45:55</publishTime>
+    </File>
+    <File Include="Herramientas/EditarCancelarOperacion.aspx">
+      <publishTime>03/01/2018 14:52:41</publishTime>
+    </File>
+    <File Include="Herramientas/EditarConfiguracion.aspx">
+      <publishTime>02/07/2018 08:44:20</publishTime>
+    </File>
+    <File Include="Herramientas/EditarOperacionesValoresEnFirme.aspx">
+      <publishTime>02/27/2018 19:05:05</publishTime>
+    </File>
+    <File Include="Herramientas/EditarPerfil.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/EditarTipoUsuarioSiopel.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/EditarUsuariosSiopel.aspx">
+      <publishTime>03/08/2019 10:19:01</publishTime>
+    </File>
+    <File Include="Herramientas/EditOpcionesEditables.aspx">
+      <publishTime>07/11/2017 16:21:23</publishTime>
+    </File>
+    <File Include="Herramientas/EditOpcionMenu.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/EditPermisoPerfil.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/EditUsuario.aspx">
+      <publishTime>11/07/2017 16:22:12</publishTime>
+    </File>
+    <File Include="Herramientas/EliminarProcesosLibroOrdenes.aspx">
+      <publishTime>02/27/2018 19:04:44</publishTime>
+    </File>
+    <File Include="Herramientas/GenerarArchivoGP.aspx">
+      <publishTime>11/13/2018 09:29:53</publishTime>
+    </File>
+    <File Include="Herramientas/GenerarArchivoSIV.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/ListaComisiones.aspx">
+      <publishTime>12/05/2018 10:37:55</publishTime>
+    </File>
+    <File Include="Herramientas/ListaOpcionesEditables.aspx">
+      <publishTime>11/07/2017 12:44:35</publishTime>
+    </File>
+    <File Include="Herramientas/ListaOperacionesCancelarBO.aspx">
+      <publishTime>12/27/2019 13:33:30</publishTime>
+    </File>
+    <File Include="Herramientas/ListaOperacionesValoresEnFirme.aspx">
+      <publishTime>11/23/2017 16:35:45</publishTime>
+    </File>
+    <File Include="Herramientas/ListaPerfil.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/ListaTipoUsuarioSiopel.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/ListaUsuariosSiopel.aspx">
+      <publishTime>05/24/2018 19:22:19</publishTime>
+    </File>
+    <File Include="Herramientas/OpcionesMenu.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/PermisosPorPerfil.aspx">
+      <publishTime>05/19/2017 15:23:23</publishTime>
+    </File>
+    <File Include="Herramientas/ProrrateoLibrodeOrdenes.aspx">
+      <publishTime>02/27/2018 19:28:33</publishTime>
+    </File>
+    <File Include="Herramientas/SubastaOrdenesRechazadas.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Herramientas/Usuarios.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/ActivarEmision.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/add.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/boletin.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/BVRD LOGO Reportes.jpg">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/BVRD LOGO.JPG">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/BVRD.jpg">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/calendar.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/calendar_big.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/cancelaroperaciones.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/chart.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/clear.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/contacts.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/contacts_big.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/copy.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/csv.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/cut.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/delete.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Delete2.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/deletetabstrip.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/delete_inbox.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/edit.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/excel.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/ExportWord.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/fondobvrd.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/help.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/helpdesk.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/icon-download.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/inbox.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/inbox_big.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/keys.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/logo.jpg">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/mailbox.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/mark.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/money.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/move.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/notes.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/notes_big.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/notes_icon.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/office_clip.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/paste.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/pdf.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/print.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/printpreview.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/radcontrols.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/refresh.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/remove.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/reply.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/00000002">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/00000003">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/00000004">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/Aviso.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/BVRD LOGO Reportes.jpg">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/LogoBVRD.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/LogobvrdMH.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/LogoReportes.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/LogoReportes1.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/SimboloLogoReporte.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Reportes/SimboloLogoReporte1.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/report_icon.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/saveas.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/search.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/Simbolo BVRD.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/unread.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/upload.gif">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Images/WindowMove.png">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Js/EditarCambiosTasas.js">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Js/ModalPopupWindow.js">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/07/2017 12:11:51</publishTime>
+    </File>
+    <File Include="reportes/AP_ComparativoPorCodigoIsinPreciosBonos.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_BoletinGlosario.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_BoletinPortada.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_ComparativoVolumenMercadoYTDRF.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaEmisionesCorporativasVigentes.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaMercadoPrimarioOperacionesDia.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaMercadoSecundarioOperacionesDia.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx">
+      <publishTime>05/24/2018 18:42:07</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx">
+      <publishTime>05/24/2018 18:42:07</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadoMercadoSecundario.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadoPuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx">
+      <publishTime>05/24/2018 18:42:07</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableEmisionesCorporativasVigentes.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableMercadoSecundarioOperacionesDia.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadoPuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx">
+      <publishTime>05/24/2018 18:42:07</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_ResumendeOperacionesReportadasRegistro.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BB_ResumenGeneralMercado.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinBursatil/BoletinBursatil.aspx">
+      <publishTime>05/24/2018 18:42:07</publishTime>
+    </File>
+    <File Include="reportes/BoletinDiario.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/BoletinDiario/ReportedeOperacionesMPyMSFechas.aspx">
+      <publishTime>09/13/2018 15:26:38</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/ComisionesHistorico/ConsultaHistoricoComisiones.aspx">
+      <publishTime>07/17/2017 10:12:57</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/ComisionRegistroIncripcionFondosInversion.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/ReporteComisionesMantenimientoEmisiones.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/ReporteComisionesMantenimientoEmisionesTitularizado.aspx">
+      <publishTime>05/22/2018 14:09:26</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/ReporteComisionesRegistroDeCorredor.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/ReporteComisionNuevoEmisor.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/RptOperacionesPorPuntaMSParticipante.aspx">
+      <publishTime>05/17/2017 12:01:11</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/RptOperacionesPorPuntaMSParticipanteSIMV.aspx">
+      <publishTime>07/05/2019 15:49:11</publishTime>
+    </File>
+    <File Include="reportes/Comisiones/RptResumenComisionesMSporParticipante.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ComparativoPreciosBonos.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ComparativoVolumenesBonos.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/DisponibilidaddeLaEmision.aspx">
+      <publishTime>09/12/2017 10:31:14</publishTime>
+    </File>
+    <File Include="reportes/DisponibilidaddeLaEmision_DisenoUno.aspx">
+      <publishTime>09/12/2017 10:30:56</publishTime>
+    </File>
+    <File Include="reportes/FIAB/BoletinMensual/InformacionMensual.aspx">
+      <publishTime>05/12/2017 13:22:54</publishTime>
+    </File>
+    <File Include="reportes/LOPI_MontoDemandadoValidoNoValido.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/LO_LibroOrdenesDetalladePuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/LO_ProrrateoDetallePuestoDeBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/LO_ProrrateoResumenPuestoDeBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_BoletinDiario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_BoletinPortada.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_CantidadOperacionesParticipante.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_GrupoPublicacion.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_MontosNegociadosInstrumentos.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_MontosTransadosParticipantesInstrumentos.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_OperacionesDiarias.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_PreciosCierreBonosTransados.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_PreciosUltimoMejorPeor.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_ResumenDiario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_TitulosMasTransados.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/MK_ValorTransadoOperacionesParticipante.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/OF_PosturasPorParticipanteInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/PuestoBolsa/ComprobantedeNegociacion_Boleta.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/PuestoBolsa/FormatoCertificacionCorredor.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/PuestoBolsa/PlanillaPuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/PuestoBolsa/ReporteCorredoresAplicanProgramaARM.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteAcumuladoColocacionesInstrumentoEmisor.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteBoletinBursatilOperacionesRentaFija.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteBoletinPortada.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteCalificacionesRiesgo.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteComparativoVolumenesNegociadosMPMS.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteCorredoresPuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteDetalleAcumuladoporEntidadInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteEmisionesRegistradas.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteEmisionesRegistradasPorDia.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteEmisionesVigentesMercadoValores.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteInstrumentosNegociados.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteLOSuscipcionAcumulados.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteNivelOperadoVendedorMP.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesMercadoPrimario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesMercadoSecundario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesPorMes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesPorMesPesos.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesPuestoBolsaEmisor.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesRentaFijaMercadoPrimario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesRentaFijaMercadoSecundario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesResumen.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportePrecioCierre30BonosMasTransados.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportePrecios.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportePreciosProyectos.aspx">
+      <publishTime>03/20/2018 18:11:37</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesMMMes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesMMTrimestre.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRFMPMes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRFMPTrimestre.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRFMSMes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRFMSTrimestre.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRVMPMes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRVMPTrimestre.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRVMSMes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReportedeOperacionesRVMSTrimestre.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReporteSIV.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReporteSIVMensual.aspx">
+      <publishTime>02/07/2018 11:00:42</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReporteSIVTrimestre.aspx">
+      <publishTime>01/02/2018 10:31:33</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReporteSIV_Resumen_Mes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportesSIV/ReporteSIV_Resumen_Trimestre.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteUltimas10TasasCambio.aspx">
+      <publishTime>04/18/2018 11:11:54</publishTime>
+    </File>
+    <File Include="reportes/ReporteVolumenesTransadosAnyoPesos.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/ReportONE.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/ReportONETotal.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_Aviso.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_EntidadesEmisoras.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_InstrumentosNegociados.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_OperacionesActividadEconomica.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_OperacionesPorEntidadesEmisoras.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_OperacionesPorInstrumento.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_OperacionesPorPuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_OperacionesRentaFija.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_Portada.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_PuestoBolsa.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ReportONE/RO_ResumenMensualporTipodeMonedas.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="reportes/ResultadoProrrateoOrdenes.aspx">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="Scripts/autocomplete.js">
+      <publishTime>07/12/2017 16:25:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Scripts/OpenWindows.js">
+      <publishTime>02/04/2019 13:13:14</publishTime>
+    </File>
+    <File Include="Scripts/TamanoObjetos.js">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Scripts/Ventanas.js">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Site.master">
+      <publishTime>03/05/2020 11:36:32</publishTime>
+    </File>
+    <File Include="Styles/Botones.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Styles/Calendar.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Styles/Custom.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/AjaxLoader.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/AllAreasPressed.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/Calculated_add.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/clearlayout.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/DataArea.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/del.png">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/delover.png">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/EditComment.gif">
+      <publishTime>11/04/2016 09:35:12</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/e_bmp.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/e_csv.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/e_html.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/e_pdf.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/e_xls.gif">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/filter.png">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/FilterGrid.png">
+      <publishTime>11/04/2016 09:35:12</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/filterover.png">
+      <publishTime>02/11/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/FiltrClear.png">
+      <publishTime>11/04/2016 09:35:12</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/FolderDimen.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/hoAttribute.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/hoParentChild.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/hoUserDefined.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ajax-loader.gif">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/menubg.gif">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/table_top.gif">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/treeview-default-line.gif">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/treeview-default.gif">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_diagonals-medium_20_d34d17_40x40.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_30_cccccc_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_50_5c5c5c_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_55_999999_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_55_fbec88_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_75_aaaaaa_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_20_555555_1x400.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_40_0078a3_1x400.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_40_ffc73d_1x400.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_45_0078ae_1x400.png">
+      <publishTime>11/04/2016 09:36:51</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_55_f8da4e_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_75_79c9ec_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_25_333333_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_45_817865_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_45_e14f1c_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_50_6eac2c_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_60_fece2f_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_70_ffdd57_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_75_2191c0_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_gloss-wave_90_fff9e5_500x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_highlight-soft_100_feeebd_1x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>11/04/2016 09:36:52</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_highlight-soft_80_eeeeee_1x100.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_inset-soft_25_000000_1x100.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_inset-soft_30_f58400_1x100.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-bg_inset-soft_30_ffffff_1x100.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_0078ae_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_056b93_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_217bc0_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_222222_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_228ef1_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_3d3d3d_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_454545_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_469bdd_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_4b8e0b_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_6da8d5_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_888888_256x240.png">
+      <publishTime>11/04/2016 09:36:53</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_a83300_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_bd7b00_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_cccccc_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_d19405_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_d8e7f3_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_e0fdff_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_eb990f_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_ed9f26_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_f5e175_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_f7a50d_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_f9bd01_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_fadc7a_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_fcd113_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_ffe180_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/images/ui-icons_ffffff_256x240.png">
+      <publishTime>11/04/2016 09:36:54</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/RadarSoft.RadarCube.jquery.treeview.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Redmond.RadarSoft.RadarCube.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Redmond.RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Smoothness.RadarSoft.RadarCube.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Smoothness.RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Start.RadarSoft.RadarCube.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Start.RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Sunny.RadarSoft.RadarCube.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/Sunny.RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/UIdarkness.RadarSoft.RadarCube.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/UIdarkness.RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/UIlightness.RadarSoft.RadarCube.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/css/UIlightness.RadarSoft.RadarCube.jquery-ui.css">
+      <publishTime>11/04/2016 09:36:55</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/RadarSoft.RadarCube.jquery-ui.min.js">
+      <publishTime>11/04/2016 09:36:56</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/RadarSoft.RadarCube.jquery.min.js">
+      <publishTime>11/04/2016 09:36:56</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/jQuery/RadarSoft.RadarCube.jquery.treeview.js">
+      <publishTime>11/04/2016 09:36:56</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/legend.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/Load.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/loader_bg.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/MeasureCalculated.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/MeasuresRoot.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/minus.png">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/NamedSets.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/PivotArea.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/plus.png">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/razvernut_blue.png">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/razvernut_grey.png">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/Save.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/Separator.gif">
+      <publishTime>11/04/2016 09:35:12</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/Spacer.gif">
+      <publishTime>11/04/2016 09:35:12</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/svernut_blue.png">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/svernut_grey.png">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/Toolbg.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/ToolLeft.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/ToolRight.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/ToolSeparator.gif">
+      <publishTime>11/02/2016 14:40:26</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/TreeView_Default_Collapse.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/TreeView_Default_Expand.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/TreeView_Default_NoExpand.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="temp/rs_img_1/3_21_0_0/TreeView_XP_Explorer_ParentNode.gif">
+      <publishTime>11/02/2016 14:40:25</publishTime>
+    </File>
+    <File Include="Transacciones/BB_EditarConfiguracion.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Transacciones/BB_ListaConfiguracion.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Transacciones/ConsultaFlutuacionTasa.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Transacciones/EditarBoletin.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Transacciones/EditarCambiosTasas.aspx">
+      <publishTime>05/22/2018 14:09:42</publishTime>
+    </File>
+    <File Include="Transacciones/EditarCambiosTasasSeries.aspx">
+      <publishTime>03/01/2018 14:59:13</publishTime>
+    </File>
+    <File Include="Transacciones/EditaRegistroNAV.aspx">
+      <publishTime>03/01/2018 14:58:12</publishTime>
+    </File>
+    <File Include="Transacciones/Listaboletin.aspx">
+      <publishTime>05/17/2017 12:01:06</publishTime>
+    </File>
+    <File Include="Transacciones/ListaCambiosTasas.aspx">
+      <publishTime>05/22/2018 14:09:43</publishTime>
+    </File>
+    <File Include="Transacciones/ListaCambiosTasasSeries.aspx">
+      <publishTime>03/01/2018 16:39:10</publishTime>
+    </File>
+    <File Include="Transacciones/ListaEmisionSerieCalendarioCambioTasas.aspx">
+      <publishTime>02/27/2018 19:28:20</publishTime>
+    </File>
+    <File Include="Transacciones/ListaRegistroNAV.aspx">
+      <publishTime>09/13/2018 11:15:38</publishTime>
+    </File>
+    <File Include="tree.txt">
+      <publishTime>05/17/2017 12:01:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/06/2020 09:43:07</publishTime>
+    </File>
+    <File Include="WebConfig/web.config">
+      <publishTime>05/30/2019 09:32:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

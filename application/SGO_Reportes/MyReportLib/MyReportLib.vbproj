@@ -1,0 +1,1588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{575A8D0B-1D51-41AC-9823-4360DDE56C58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MyReportLib</RootNamespace>
+    <AssemblyName>MyReportLib</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MyReportLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\SGO_APP\bin\</OutputPath>
+    <DocumentationFile>MyReportLib.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Reporting, Version=10.1.16.615, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <Private>True</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Reporting.OpenXmlRendering, Version=10.1.16.615, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcumuladoColocacionesInstrumentoEmisor.Designer.vb">
+      <DependentUpon>AcumuladoColocacionesInstrumentoEmisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcumuladoColocacionesInstrumentoEmisor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AP_ComparativoPorCodigoIsinPreciosBonos.Designer.vb">
+      <DependentUpon>AP_ComparativoPorCodigoIsinPreciosBonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AP_ComparativoPorCodigoIsinPreciosBonos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_BoletinGlosario.Designer.vb">
+      <DependentUpon>BB_BoletinGlosario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_BoletinGlosario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_BoletinIndice.Designer.vb">
+      <DependentUpon>BB_BoletinIndice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_BoletinIndice.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_BoletinPortada.Designer.vb">
+      <DependentUpon>BB_BoletinPortada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_BoletinPortada.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaEmisionesCorporativasVigentes.Designer.vb">
+      <DependentUpon>BB_RentaFijaEmisionesCorporativasVigentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaEmisionesCorporativasVigentes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.Designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDia.Designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDia.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.Designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaMP.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaMP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.Designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinDiario\OperacionesMercadoPrimarioFechas.Designer.vb">
+      <DependentUpon>OperacionesMercadoPrimarioFechas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinDiario\OperacionesMercadoPrimarioFechas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinDiario\OperacionesMercadoSecundarioFechas.Designer.vb">
+      <DependentUpon>OperacionesMercadoSecundarioFechas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinDiario\OperacionesMercadoSecundarioFechas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_BoletinPortada.Designer.vb">
+      <DependentUpon>MK_BoletinPortada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_BoletinPortada.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_CantidadOperacionesParticipante.Designer.vb">
+      <DependentUpon>MK_CantidadOperacionesParticipante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_CantidadOperacionesParticipante.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_MontosNegociadosInstrumentos.Designer.vb">
+      <DependentUpon>MK_MontosNegociadosInstrumentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_MontosNegociadosInstrumentos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_MontosTransadosParticipanteInstrumentosMonedaEmision.Designer.vb">
+      <DependentUpon>MK_MontosTransadosParticipanteInstrumentosMonedaEmision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_MontosTransadosParticipanteInstrumentosMonedaEmision.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_MontosTransadosParticipantesInstrumentos.Designer.vb">
+      <DependentUpon>MK_MontosTransadosParticipantesInstrumentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_MontosTransadosParticipantesInstrumentos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_OperacionesDiarias.Designer.vb">
+      <DependentUpon>MK_OperacionesDiarias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_OperacionesDiarias.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_PreciosCierreBonosTransados.Designer.vb">
+      <DependentUpon>MK_PreciosCierreBonosTransados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_PreciosCierreBonosTransados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_PreciosUltimoMejorPeor.Designer.vb">
+      <DependentUpon>MK_PreciosUltimoMejorPeor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_PreciosUltimoMejorPeor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_ResumenDiario.Designer.vb">
+      <DependentUpon>MK_ResumenDiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_ResumenDiario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_TitulosMasTransados.Designer.vb">
+      <DependentUpon>MK_TitulosMasTransados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_TitulosMasTransados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_ValorTransadoOperacionesParticipante.Designer.vb">
+      <DependentUpon>MK_ValorTransadoOperacionesParticipante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\MK_ValorTransadoOperacionesParticipante.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinGeneral\OF_PosturasPorParticipanteInstrumento.Designer.vb">
+      <DependentUpon>OF_PosturasPorParticipanteInstrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinGeneral\OF_PosturasPorParticipanteInstrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ComisionesMantenimientoEmisiones_Hist.Designer.vb">
+      <DependentUpon>ComisionesMantenimientoEmisiones_Hist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ComisionesMantenimientoEmisiones_Hist.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ComisionesMercadoSecundarioPuestoBolsa_Hist.Designer.vb">
+      <DependentUpon>ComisionesMercadoSecundarioPuestoBolsa_Hist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ComisionesMercadoSecundarioPuestoBolsa_Hist.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ComisionesRegistroNuevoEmisor_Hist.Designer.vb">
+      <DependentUpon>ComisionesRegistroNuevoEmisor_Hist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ComisionesRegistroNuevoEmisor_Hist.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ReporteOperacionesPuestoBolsa_Hist.Designer.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsa_Hist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesHistorico\ReporteOperacionesPuestoBolsa_Hist.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesMantenimientoEmisionesTitularizado.designer.vb">
+      <DependentUpon>ComisionesMantenimientoEmisionesTitularizado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesMantenimientoEmisionesTitularizado.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DisponibilidaddeLaEmision.Designer.vb">
+      <DependentUpon>DisponibilidaddeLaEmision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DisponibilidaddeLaEmision.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_02.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_02.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_03.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_03.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_04.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_04.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_05.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_05.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_05.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_06.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_06.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_06.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_07.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_07.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_07.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_08.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_08.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_08.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_09.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_09.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_09.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_10.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_10.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_11.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Pagina_11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_11.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Portada.Designer.vb">
+      <DependentUpon>FIAB_Mensual_Portada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAB\BoletinMensual\FIAB_Mensual_Portada.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MK_MontosNegociadosInstrumentosSecundario.Designer.vb">
+      <DependentUpon>MK_MontosNegociadosInstrumentosSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MK_MontosNegociadosInstrumentosSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MK_PreciosUltimoMejorPeorSecundario.Designer.vb">
+      <DependentUpon>MK_PreciosUltimoMejorPeorSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MK_PreciosUltimoMejorPeorSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PuestoBolsa\ReporteCorredoresAplicanProgramaARM.Designer.vb">
+      <DependentUpon>ReporteCorredoresAplicanProgramaARM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PuestoBolsa\ReporteCorredoresAplicanProgramaARM.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PuestoBolsa\PlanillaPuestoBolsa.Designer.vb">
+      <DependentUpon>PlanillaPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PuestoBolsa\PlanillaPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PuestoBolsa\FormatoCertificacionCorredor.Designer.vb">
+      <DependentUpon>FormatoCertificacionCorredor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PuestoBolsa\FormatoCertificacionCorredor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteAcumuladosOperacionesPorRuedas.Designer.vb">
+      <DependentUpon>ReporteAcumuladosOperacionesPorRuedas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAcumuladosOperacionesPorRuedas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteOperacionesPuestoBolsaSIMV.Designer.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsaSIMV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteOperacionesPuestoBolsaSIMV.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteUltimas10TasasCambio.Designer.vb">
+      <DependentUpon>ReporteUltimas10TasasCambio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteUltimas10TasasCambio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_MMTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_MMTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_MMTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMPTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMPTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMPTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMPTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMPTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMPTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMSTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMPMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMPMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMPMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMPMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMPMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMPMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_MMMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_MMMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_MMMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Parametros.Designer.vb">
+      <DependentUpon>ReporteSIV_Parametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Parametros.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Resumen_Mes.Designer.vb">
+      <DependentUpon>ReporteSIV_Resumen_Mes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Resumen_Mes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Resumen.Designer.vb">
+      <DependentUpon>ReporteSIV_Resumen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Resumen.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.Designer.vb">
+      <DependentUpon>BB_RentaVariableEmisionesCorporativasVigentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDia.Designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDia.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.Designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioOperacionesDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesDia.Designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesDia.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.Designer.vb">
+      <DependentUpon>BB_RentaVariablePreciosdeCierredeldiaporInstrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.Designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.Designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsa.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoMercadoSecundario.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoMercadoSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoMercadoSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaMS.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaMS.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.Designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_ComparativoVolumenMercadoYTDRF.Designer.vb">
+      <DependentUpon>BB_ComparativoVolumenMercadoYTDRF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_ComparativoVolumenMercadoYTDRF.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_ResumendeOperacionesReportadasRegistro.Designer.vb">
+      <DependentUpon>BB_ResumendeOperacionesReportadasRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_ResumendeOperacionesReportadasRegistro.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinPortada.Designer.vb">
+      <DependentUpon>BoletinPortada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinPortada.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CalificacionesDeRiesgo.Designer.vb">
+      <DependentUpon>CalificacionesDeRiesgo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalificacionesDeRiesgo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesMantenimientoEmisiones.Designer.vb">
+      <DependentUpon>ComisionesMantenimientoEmisiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesMantenimientoEmisiones.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesMercadoSecundarioPuestoBolsa.Designer.vb">
+      <DependentUpon>ComisionesMercadoSecundarioPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesMercadoSecundarioPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionRegistroIncripcionFondosInversion.Designer.vb">
+      <DependentUpon>ComisionRegistroIncripcionFondosInversion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionRegistroIncripcionFondosInversion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesRegistroNuevoEmisor.Designer.vb">
+      <DependentUpon>ComisionesRegistroNuevoEmisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesRegistroNuevoEmisor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesRegistroDeCorredor.Designer.vb">
+      <DependentUpon>ComisionesRegistroDeCorredor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comisiones\ComisionesRegistroDeCorredor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComparativoPreciosBonos.Designer.vb">
+      <DependentUpon>ComparativoPreciosBonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComparativoPreciosBonos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComparativoVolumenesBonos.Designer.vb">
+      <DependentUpon>ComparativoVolumenesBonos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComparativoVolumenesBonos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComparativoVolumenesNegociadosMPMS.Designer.vb">
+      <DependentUpon>ComparativoVolumenesNegociadosMPMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComparativoVolumenesNegociadosMPMS.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PuestoBolsa\FormatoBoleta.Designer.vb">
+      <DependentUpon>FormatoBoleta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PuestoBolsa\FormatoBoleta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LOPI_MontoDemandadoValidoNoValido.Designer.vb">
+      <DependentUpon>LOPI_MontoDemandadoValidoNoValido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOPI_MontoDemandadoValidoNoValido.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_ResumenGeneralMercado.Designer.vb">
+      <DependentUpon>BB_ResumenGeneralMercado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_ResumenGeneralMercado.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.Designer.vb">
+      <DependentUpon>BB_RentaFijaPreciosdeCierredeldiaporRueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMontosNegociadosInstrumentos.Designer.vb">
+      <DependentUpon>BB_RentaVariableMontosNegociadosInstrumentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMontosNegociadosInstrumentos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMontosTransadosParticipantesInstrumentos.Designer.vb">
+      <DependentUpon>BB_RentaVariableMontosTransadosParticipantesInstrumentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMontosTransadosParticipantesInstrumentos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableCantidadOperacionesParticipante.Designer.vb">
+      <DependentUpon>BB_RentaVariableCantidadOperacionesParticipante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableCantidadOperacionesParticipante.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableValorTransadoOperacionesParticipante.Designer.vb">
+      <DependentUpon>BB_RentaVariableValorTransadoOperacionesParticipante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableValorTransadoOperacionesParticipante.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariablePreciosUltimoMejorPeor.Designer.vb">
+      <DependentUpon>BB_RentaVariablePreciosUltimoMejorPeor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariablePreciosUltimoMejorPeor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMontosTransadosParticipanteInstrumentosMonedaEmision.Designer.vb">
+      <DependentUpon>BB_RentaVariableMontosTransadosParticipanteInstrumentosMonedaEmision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableMontosTransadosParticipanteInstrumentosMonedaEmision.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteLOSuscripcionAcumulada.Designer.vb">
+      <DependentUpon>ReporteLOSuscripcionAcumulada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteLOSuscripcionAcumulada.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteAcumuladosOperaciones.Designer.vb">
+      <DependentUpon>ReporteAcumuladosOperaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAcumuladosOperaciones.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteAcumuladosOperacionesDetalle.Designer.vb">
+      <DependentUpon>ReporteAcumuladosOperacionesDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAcumuladosOperacionesDetalle.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesTest.Designer.vb">
+      <DependentUpon>OperacionesTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesTest.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Detalle Acumulado por Entidad_Instrumento.Designer.vb">
+      <DependentUpon>Detalle Acumulado por Entidad_Instrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detalle Acumulado por Entidad_Instrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EmisionesRegistradas.Designer.vb">
+      <DependentUpon>EmisionesRegistradas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmisionesRegistradas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EmisionesRegistradasPorDia.Designer.vb">
+      <DependentUpon>EmisionesRegistradasPorDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmisionesRegistradasPorDia.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstrumentoNegociados.Designer.vb">
+      <DependentUpon>InstrumentoNegociados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InstrumentoNegociados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LO_LibroOrdenesDetallePuestoBolsa.Designer.vb">
+      <DependentUpon>LO_LibroOrdenesDetallePuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LO_LibroOrdenesDetallePuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LO_ProrrateoDetallePuestoBolsa.Designer.vb">
+      <DependentUpon>LO_ProrrateoDetallePuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LO_ProrrateoDetallePuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyUserFunctions.vb" />
+    <Compile Include="NivelOperadoVendedorMP.Designer.vb">
+      <DependentUpon>NivelOperadoVendedorMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NivelOperadoVendedorMP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OF_OrdenesEnFirmePorParticipanteInstrumento.Designer.vb">
+      <DependentUpon>OF_OrdenesEnFirmePorParticipanteInstrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OF_OrdenesEnFirmePorParticipanteInstrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesImportesMayoresValorTransadoMercadoMoneda.Designer.vb">
+      <DependentUpon>OperacionesImportesMayoresValorTransadoMercadoMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesImportesMayoresValorTransadoMercadoMoneda.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesMercadoPrimario.Designer.vb">
+      <DependentUpon>OperacionesMercadoPrimario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesMercadoPrimario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesMercadoSecundario.Designer.vb">
+      <DependentUpon>OperacionesMercadoSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesMercadoSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesMercadoSecundarioPuestoBolsa.Designer.vb">
+      <DependentUpon>OperacionesMercadoSecundarioPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesMercadoSecundarioPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesPorMes.Designer.vb">
+      <DependentUpon>OperacionesPorMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesPorMes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesPorMesPesos.Designer.vb">
+      <DependentUpon>OperacionesPorMesPesos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesPorMesPesos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesPuestoBolsaEmisor.Designer.vb">
+      <DependentUpon>OperacionesPuestoBolsaEmisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesPuestoBolsaEmisor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesPuestoBolsaMercadoPrimarioSecundario.Designer.vb">
+      <DependentUpon>OperacionesPuestoBolsaMercadoPrimarioSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesPuestoBolsaMercadoPrimarioSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.Designer.vb">
+      <DependentUpon>OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.Designer.vb">
+      <DependentUpon>OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaMercadoPrimario.Designer.vb">
+      <DependentUpon>OperacionesRentaFijaMercadoPrimario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaMercadoPrimario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaMercadoSecundario.Designer.vb">
+      <DependentUpon>OperacionesRentaFijaMercadoSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesRentaFijaMercadoSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OperacionesTransadasMercadoBursatilPrimarioSecundario.Designer.vb">
+      <DependentUpon>OperacionesTransadasMercadoBursatilPrimarioSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperacionesTransadasMercadoBursatilPrimarioSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EmisionesVigentesMercadoValores.Designer.vb">
+      <DependentUpon>EmisionesVigentesMercadoValores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmisionesVigentesMercadoValores.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PortadaReportePrecios.Designer.vb">
+      <DependentUpon>PortadaReportePrecios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PortadaReportePrecios.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrecioCierre30BonosMasTransados.Designer.vb">
+      <DependentUpon>PrecioCierre30BonosMasTransados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrecioCierre30BonosMasTransados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PreciosVolumenesBonosMasTransados.Designer.vb">
+      <DependentUpon>PreciosVolumenesBonosMasTransados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreciosVolumenesBonosMasTransados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LO_ProrrateoResumenPuestoDeBolsa.Designer.vb">
+      <DependentUpon>LO_ProrrateoResumenPuestoDeBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LO_ProrrateoResumenPuestoDeBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteCorredores.Designer.vb">
+      <DependentUpon>ReporteCorredores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCorredores.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteOperacionesDiarias.Designer.vb">
+      <DependentUpon>ReporteOperacionesDiarias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteOperacionesDiarias.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteOperacionesPuestoBolsa.Designer.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteOperacionesPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_Aviso.Designer.vb">
+      <DependentUpon>RO_Aviso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_Aviso.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_ListadodePuestosdeBolsa.Designer.vb">
+      <DependentUpon>RO_ListadodePuestosdeBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_ListadodePuestosdeBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_PuestoBolsa.Designer.vb">
+      <DependentUpon>RO_PuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_PuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesActividadEconomica.Designer.vb">
+      <DependentUpon>RO_OperacionesActividadEconomica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesActividadEconomica.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesPorInstrumento.Designer.vb">
+      <DependentUpon>RO_OperacionesPorInstrumento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesPorInstrumento.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesPorPuestoBolsa.Designer.vb">
+      <DependentUpon>RO_OperacionesPorPuestoBolsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesPorPuestoBolsa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesPorEntidadesEmisoras.Designer.vb">
+      <DependentUpon>RO_OperacionesPorEntidadesEmisoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesPorEntidadesEmisoras.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_EntidadesEmisoras.Designer.vb">
+      <DependentUpon>RO_EntidadesEmisoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_EntidadesEmisoras.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_InstrumentosNegociados.Designer.vb">
+      <DependentUpon>RO_InstrumentosNegociados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_InstrumentosNegociados.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_ResumenMensualporTipodeMonedas.Designer.vb">
+      <DependentUpon>RO_ResumenMensualporTipodeMonedas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_ResumenMensualporTipodeMonedas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesRentaFija.Designer.vb">
+      <DependentUpon>RO_OperacionesRentaFija.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_OperacionesRentaFija.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportONE\RO_Portada.Designer.vb">
+      <DependentUpon>RO_Portada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportONE\RO_Portada.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResultadoProrrogateoOrdenes.Designer.vb">
+      <DependentUpon>ResultadoProrrogateoOrdenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadoProrrogateoOrdenes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResultadoProrrogateoOrdenesLOPI.Designer.vb">
+      <DependentUpon>ResultadoProrrogateoOrdenesLOPI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadoProrrogateoOrdenesLOPI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SecundarioBoletinBursatildeOperacionesdeRentaFija.Designer.vb">
+      <DependentUpon>SecundarioBoletinBursatildeOperacionesdeRentaFija.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SecundarioBoletinBursatildeOperacionesdeRentaFija.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="VolumenesTransadosAnyoPesos.Designer.vb">
+      <DependentUpon>VolumenesTransadosAnyoPesos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VolumenesTransadosAnyoPesos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.Designer.vb">
+      <DependentUpon>VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="vReporteVentasProyectos.Designer.vb">
+      <DependentUpon>vReporteVentasProyectos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vReporteVentasProyectos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="vReporteVentas.Designer.vb">
+      <DependentUpon>vReporteVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vReporteVentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="vReporteVentas1.Designer.vb">
+      <DependentUpon>vReporteVentas1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vReporteVentas1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AcumuladoColocacionesInstrumentoEmisor.resx">
+      <DependentUpon>AcumuladoColocacionesInstrumentoEmisor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AP_ComparativoPorCodigoIsinPreciosBonos.resx">
+      <DependentUpon>AP_ComparativoPorCodigoIsinPreciosBonos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_BoletinGlosario.resx">
+      <DependentUpon>BB_BoletinGlosario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_BoletinIndice.resx">
+      <DependentUpon>BB_BoletinIndice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_BoletinPortada.resx">
+      <DependentUpon>BB_BoletinPortada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaEmisionesCorporativasVigentes.resx">
+      <DependentUpon>BB_RentaFijaEmisionesCorporativasVigentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.resx">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDia.resx">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.resx">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaMP.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.resx">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinDiario\OperacionesMercadoPrimarioFechas.resx">
+      <DependentUpon>OperacionesMercadoPrimarioFechas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinDiario\OperacionesMercadoSecundarioFechas.es-DO.resx">
+      <DependentUpon>OperacionesMercadoSecundarioFechas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinDiario\OperacionesMercadoSecundarioFechas.resx">
+      <DependentUpon>OperacionesMercadoSecundarioFechas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_BoletinPortada.resx">
+      <DependentUpon>MK_BoletinPortada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_CantidadOperacionesParticipante.resx">
+      <DependentUpon>MK_CantidadOperacionesParticipante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_MontosNegociadosInstrumentos.resx">
+      <DependentUpon>MK_MontosNegociadosInstrumentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_MontosTransadosParticipanteInstrumentosMonedaEmision.resx">
+      <DependentUpon>MK_MontosTransadosParticipanteInstrumentosMonedaEmision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_MontosTransadosParticipantesInstrumentos.resx">
+      <DependentUpon>MK_MontosTransadosParticipantesInstrumentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_OperacionesDiarias.resx">
+      <DependentUpon>MK_OperacionesDiarias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_PreciosCierreBonosTransados.resx">
+      <DependentUpon>MK_PreciosCierreBonosTransados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_PreciosUltimoMejorPeor.resx">
+      <DependentUpon>MK_PreciosUltimoMejorPeor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_ResumenDiario.resx">
+      <DependentUpon>MK_ResumenDiario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_TitulosMasTransados.resx">
+      <DependentUpon>MK_TitulosMasTransados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\MK_ValorTransadoOperacionesParticipante.resx">
+      <DependentUpon>MK_ValorTransadoOperacionesParticipante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinGeneral\OF_PosturasPorParticipanteInstrumento.resx">
+      <DependentUpon>OF_PosturasPorParticipanteInstrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesHistorico\ComisionesMantenimientoEmisiones_Hist.resx">
+      <DependentUpon>ComisionesMantenimientoEmisiones_Hist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesHistorico\ComisionesMercadoSecundarioPuestoBolsa_Hist.resx">
+      <DependentUpon>ComisionesMercadoSecundarioPuestoBolsa_Hist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesHistorico\ComisionesRegistroNuevoEmisor_Hist.resx">
+      <DependentUpon>ComisionesRegistroNuevoEmisor_Hist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesHistorico\ReporteOperacionesPuestoBolsa_Hist.resx">
+      <DependentUpon>ReporteOperacionesPuestoBolsa_Hist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesMantenimientoEmisionesTitularizado.resx">
+      <DependentUpon>ComisionesMantenimientoEmisionesTitularizado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisponibilidaddeLaEmision.resx">
+      <DependentUpon>DisponibilidaddeLaEmision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_02.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_03.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_04.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_05.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_06.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_06.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_07.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_07.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_08.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_08.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_09.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_09.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_10.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Pagina_11.resx">
+      <DependentUpon>FIAB_Mensual_Pagina_11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAB\BoletinMensual\FIAB_Mensual_Portada.resx">
+      <DependentUpon>FIAB_Mensual_Portada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MK_MontosNegociadosInstrumentosSecundario.resx">
+      <DependentUpon>MK_MontosNegociadosInstrumentosSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MK_PreciosUltimoMejorPeorSecundario.resx">
+      <DependentUpon>MK_PreciosUltimoMejorPeorSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuestoBolsa\ReporteCorredoresAplicanProgramaARM.resx">
+      <DependentUpon>ReporteCorredoresAplicanProgramaARM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuestoBolsa\PlanillaPuestoBolsa.resx">
+      <DependentUpon>PlanillaPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuestoBolsa\FormatoCertificacionCorredor.resx">
+      <DependentUpon>FormatoCertificacionCorredor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteAcumuladosOperacionesPorRuedas.resx">
+      <DependentUpon>ReporteAcumuladosOperacionesPorRuedas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteOperacionesPuestoBolsaSIMV.resx">
+      <DependentUpon>ReporteOperacionesPuestoBolsaSIMV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteUltimas10TasasCambio.resx">
+      <DependentUpon>ReporteUltimas10TasasCambio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_MMTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_MMTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RFMPTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMPTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RFMSTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RVMPTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMPTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RVMSTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMSTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RVMSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RVMPMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMPMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RFMPMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMPMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RFMSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_MMMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_MMMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle.resx">
+      <DependentUpon>ReporteSIV_Detalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Parametros.resx">
+      <DependentUpon>ReporteSIV_Parametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Resumen_Mes.resx">
+      <DependentUpon>ReporteSIV_Resumen_Mes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Resumen.resx">
+      <DependentUpon>ReporteSIV_Resumen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.resx">
+      <DependentUpon>BB_RentaVariableEmisionesCorporativasVigentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDia.resx">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.resx">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioOperacionesDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesDia.resx">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.resx">
+      <DependentUpon>BB_RentaVariablePreciosdeCierredeldiaporInstrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.resx">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.resx">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsa.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoMercadoSecundario.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoMercadoSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaMS.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.resx">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_ComparativoVolumenMercadoYTDRF.resx">
+      <DependentUpon>BB_ComparativoVolumenMercadoYTDRF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_ResumendeOperacionesReportadasRegistro.resx">
+      <DependentUpon>BB_ResumendeOperacionesReportadasRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinPortada.resx">
+      <DependentUpon>BoletinPortada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalificacionesDeRiesgo.resx">
+      <DependentUpon>CalificacionesDeRiesgo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesMantenimientoEmisiones.resx">
+      <DependentUpon>ComisionesMantenimientoEmisiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesMercadoSecundarioPuestoBolsa.resx">
+      <DependentUpon>ComisionesMercadoSecundarioPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionRegistroIncripcionFondosInversion.resx">
+      <DependentUpon>ComisionRegistroIncripcionFondosInversion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesRegistroNuevoEmisor.resx">
+      <DependentUpon>ComisionesRegistroNuevoEmisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones\ComisionesRegistroDeCorredor.resx">
+      <DependentUpon>ComisionesRegistroDeCorredor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComparativoPreciosBonos.resx">
+      <DependentUpon>ComparativoPreciosBonos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComparativoVolumenesBonos.resx">
+      <DependentUpon>ComparativoVolumenesBonos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComparativoVolumenesNegociadosMPMS.resx">
+      <DependentUpon>ComparativoVolumenesNegociadosMPMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuestoBolsa\FormatoBoleta.resx">
+      <DependentUpon>FormatoBoleta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOPI_MontoDemandadoValidoNoValido.resx">
+      <DependentUpon>LOPI_MontoDemandadoValidoNoValido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_ResumenGeneralMercado.resx">
+      <DependentUpon>BB_ResumenGeneralMercado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.resx">
+      <DependentUpon>BB_RentaFijaPreciosdeCierredeldiaporRueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMontosNegociadosInstrumentos.resx">
+      <DependentUpon>BB_RentaVariableMontosNegociadosInstrumentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMontosTransadosParticipantesInstrumentos.resx">
+      <DependentUpon>BB_RentaVariableMontosTransadosParticipantesInstrumentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableCantidadOperacionesParticipante.resx">
+      <DependentUpon>BB_RentaVariableCantidadOperacionesParticipante.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableValorTransadoOperacionesParticipante.resx">
+      <DependentUpon>BB_RentaVariableValorTransadoOperacionesParticipante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariablePreciosUltimoMejorPeor.resx">
+      <DependentUpon>BB_RentaVariablePreciosUltimoMejorPeor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMontosTransadosParticipanteInstrumentosMonedaEmision.resx">
+      <DependentUpon>BB_RentaVariableMontosTransadosParticipanteInstrumentosMonedaEmision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="ReporteLOSuscripcionAcumulada.resx">
+      <DependentUpon>ReporteLOSuscripcionAcumulada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteAcumuladosOperaciones.resx">
+      <DependentUpon>ReporteAcumuladosOperaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteAcumuladosOperacionesDetalle.resx">
+      <DependentUpon>ReporteAcumuladosOperacionesDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesTest.resx">
+      <DependentUpon>OperacionesTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalle Acumulado por Entidad_Instrumento.resx">
+      <DependentUpon>Detalle Acumulado por Entidad_Instrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmisionesRegistradas.resx">
+      <DependentUpon>EmisionesRegistradas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmisionesRegistradasPorDia.resx">
+      <DependentUpon>EmisionesRegistradasPorDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmisionesVigentesMercadoValores.resx">
+      <DependentUpon>EmisionesVigentesMercadoValores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentoNegociados.resx">
+      <DependentUpon>InstrumentoNegociados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LO_LibroOrdenesDetallePuestoBolsa.resx">
+      <DependentUpon>LO_LibroOrdenesDetallePuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LO_ProrrateoDetallePuestoBolsa.resx">
+      <DependentUpon>LO_ProrrateoDetallePuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NivelOperadoVendedorMP.resx">
+      <DependentUpon>NivelOperadoVendedorMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OF_OrdenesEnFirmePorParticipanteInstrumento.resx">
+      <DependentUpon>OF_OrdenesEnFirmePorParticipanteInstrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesImportesMayoresValorTransadoMercadoMoneda.resx">
+      <DependentUpon>OperacionesImportesMayoresValorTransadoMercadoMoneda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesMercadoPrimario.resx">
+      <DependentUpon>OperacionesMercadoPrimario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesMercadoSecundario.es-DO.resx">
+      <DependentUpon>OperacionesMercadoSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesMercadoSecundario.resx">
+      <DependentUpon>OperacionesMercadoSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesMercadoSecundarioPuestoBolsa.resx">
+      <DependentUpon>OperacionesMercadoSecundarioPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesPorMes.resx">
+      <DependentUpon>OperacionesPorMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesPorMesPesos.resx">
+      <DependentUpon>OperacionesPorMesPesos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesPuestoBolsaEmisor.resx">
+      <DependentUpon>OperacionesPuestoBolsaEmisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesPuestoBolsaMercadoPrimarioSecundario.resx">
+      <DependentUpon>OperacionesPuestoBolsaMercadoPrimarioSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.resx">
+      <DependentUpon>OperacionesRentaFijaEmisorInstrumentoMercadoPrimario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.resx">
+      <DependentUpon>OperacionesRentaFijaEmisorInstrumentoMercadoSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesRentaFijaMercadoPrimario.resx">
+      <DependentUpon>OperacionesRentaFijaMercadoPrimario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesRentaFijaMercadoSecundario.resx">
+      <DependentUpon>OperacionesRentaFijaMercadoSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperacionesTransadasMercadoBursatilPrimarioSecundario.resx">
+      <DependentUpon>OperacionesTransadasMercadoBursatilPrimarioSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortadaReportePrecios.resx">
+      <DependentUpon>PortadaReportePrecios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrecioCierre30BonosMasTransados.resx">
+      <DependentUpon>PrecioCierre30BonosMasTransados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreciosVolumenesBonosMasTransados.resx">
+      <DependentUpon>PreciosVolumenesBonosMasTransados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LO_ProrrateoResumenPuestoDeBolsa.resx">
+      <DependentUpon>LO_ProrrateoResumenPuestoDeBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteCorredores.resx">
+      <DependentUpon>ReporteCorredores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteOperacionesPuestoBolsa.resx">
+      <DependentUpon>ReporteOperacionesPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_Aviso.resx">
+      <DependentUpon>RO_Aviso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_ListadodePuestosdeBolsa.resx">
+      <DependentUpon>RO_ListadodePuestosdeBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_PuestoBolsa.resx">
+      <DependentUpon>RO_PuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_OperacionesActividadEconomica.resx">
+      <DependentUpon>RO_OperacionesActividadEconomica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_OperacionesPorInstrumento.resx">
+      <DependentUpon>RO_OperacionesPorInstrumento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_OperacionesPorPuestoBolsa.resx">
+      <DependentUpon>RO_OperacionesPorPuestoBolsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_OperacionesPorEntidadesEmisoras.resx">
+      <DependentUpon>RO_OperacionesPorEntidadesEmisoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_EntidadesEmisoras.resx">
+      <DependentUpon>RO_EntidadesEmisoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_InstrumentosNegociados.resx">
+      <DependentUpon>RO_InstrumentosNegociados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_ResumenMensualporTipodeMonedas.resx">
+      <DependentUpon>RO_ResumenMensualporTipodeMonedas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_OperacionesRentaFija.resx">
+      <DependentUpon>RO_OperacionesRentaFija.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportONE\RO_Portada.resx">
+      <DependentUpon>RO_Portada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultadoProrrogateoOrdenes.resx">
+      <DependentUpon>ResultadoProrrogateoOrdenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultadoProrrogateoOrdenesLOPI.resx">
+      <DependentUpon>ResultadoProrrogateoOrdenesLOPI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecundarioBoletinBursatildeOperacionesdeRentaFija.resx">
+      <DependentUpon>SecundarioBoletinBursatildeOperacionesdeRentaFija.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolumenesTransadosAnyoPesos.resx">
+      <DependentUpon>VolumenesTransadosAnyoPesos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.resx">
+      <DependentUpon>VolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vReporteVentasProyectos.resx">
+      <DependentUpon>vReporteVentasProyectos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vReporteVentas.resx">
+      <DependentUpon>vReporteVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vReporteVentas1.resx">
+      <DependentUpon>vReporteVentas1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="web.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FIAB\BoletinAnual\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

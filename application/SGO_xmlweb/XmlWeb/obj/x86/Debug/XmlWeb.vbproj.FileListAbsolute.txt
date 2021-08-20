@@ -1,0 +1,146 @@
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.manifest
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.application
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\Users\CMA\Dropbox\Proyectos\SGO_TFS\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojResolveAssemblyReference.cache
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.manifest
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.application
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\BVRD\Proyectos\BackOffice\BackOffice_App\SGO_TFS_ch101\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.manifest
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.application
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojResolveAssemblyReference.cache
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\BVRD\Bitbucket\Projects\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.manifest
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.application
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\TomasJimenez\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojResolveAssemblyReference.cache
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojResolveAssemblyReference.cache
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\BVRD\SGO-BackOffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe.config
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.exe
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\XmlWeb.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\ChilkatDotNet4.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\Telerik.Reporting.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\Telerik.ReportViewer.WinForms.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\Telerik.Reporting.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\Telerik.ReportViewer.WinForms.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\Telerik.Reporting.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\SGO_xmlweb\XmlWeb\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.Cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.TrustInfo.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.config
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.manifest
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.application
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CoreCompileInputs.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.TrustInfo.xml
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CopyComplete
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.config
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.manifest
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.application
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.xml

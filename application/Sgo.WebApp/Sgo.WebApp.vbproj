@@ -1,0 +1,2957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{532FD03E-35D0-4E8E-AB78-DA589454B7A1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sgo.WebApp</RootNamespace>
+    <AssemblyName>Sgo.WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Sgo.WebApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Sgo.WebApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\References\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BVRD.Security.Utils, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\BVRD.Security.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=3.1.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="expertxls, Version=2.1.0.0, Culture=neutral, PublicKeyToken=f8a027cf14ff59b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\expertxls.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.4.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\arp01\c$\apps\dll_Sgo\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>\\arp01\c$\apps\dll_Sgo\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate">
+      <HintPath>\\arp01\c$\apps\dll_Sgo\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web">
+      <HintPath>..\packages\Ninject.Web.3.0.0.5\lib\net45-full\Ninject.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common">
+      <HintPath>..\packages\Ninject.Web.Common.3.0.0.7\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="RadarSoft.RadarCube.Web, Version=3.21.0.0, Culture=neutral, PublicKeyToken=674cf0e5bf72fa08, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\RadarSoft.RadarCube.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="RadarSoft.RadarCube.Web.Direct, Version=3.21.0.0, Culture=neutral, PublicKeyToken=674cf0e5bf72fa08, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\RadarSoft.RadarCube.Web.Direct.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.UI, Version=2016.1.225.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\arp01\c$\apps\dll_Sgo\Telerik\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\References\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Reporting, Version=10.1.16.615, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Telerik\Reporting R2 2016\bin\Telerik.Reporting.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WebForms, Version=10.1.16.615, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Telerik\Reporting R2 2016\bin\Telerik.ReportViewer.WebForms.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\Logout.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\es-DO\MyReportLib.resources.dll" />
+    <Content Include="bin\expertxls.dll" />
+    <Content Include="bin\Microsoft.AspNet.FriendlyUrls.dll" />
+    <Content Include="bin\MyReportLib.dll" />
+    <Content Include="bin\MyReportLib.pdb" />
+    <Content Include="bin\MyReportLib.xml" />
+    <Content Include="bin\RadarSoft.RadarCube.Web.Direct.dll" />
+    <Content Include="bin\RadarSoft.RadarCube.Web.dll" />
+    <Content Include="bin\Sgo.WebClient.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\System.Web.Optimization.dll" />
+    <Content Include="bin\Telerik.Web.Design.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Windows.Maths.dll" />
+    <Content Include="bin\WebGrease.dll" />
+    <Content Include="Consultas\ActivarCorredor.aspx" />
+    <Content Include="Consultas\AnalisisGraficoOperaciones.aspx" />
+    <Content Include="Consultas\ConsultaCapitales.aspx" />
+    <Content Include="Consultas\ConsultaCevaldom.aspx" />
+    <Content Include="Consultas\ConsultaEmisiones.aspx" />
+    <Content Include="Consultas\ConsultaLibroDeOrdenes.aspx" />
+    <Content Include="Consultas\ConsultaNAV.aspx" />
+    <Content Include="Consultas\ConsultaOperaciones2.aspx" />
+    <Content Include="Consultas\ConsultaOperacionesNotificacionesCevaldom.aspx" />
+    <Content Include="Consultas\ConsultaOperacionesCanceladasyNoLiquidadas.aspx" />
+    <Content Include="Consultas\ConsultaOperaciones.aspx" />
+    <Content Include="Consultas\ConsultaOperacionesOTCCevaldom.aspx" />
+    <Content Include="Consultas\ConsultaOrdenesFirme.aspx" />
+    <Content Include="Consultas\ConsultaSIV.aspx" />
+    <Content Include="Consultas\ConsultaOTC.aspx" />
+    <Content Include="Consultas\ConsultaParticipantesMercado.aspx" />
+    <Content Include="Consultas\ConsultaEmisores.aspx" />
+    <Content Include="Consultas\ConsultaUsuariosSiopel2.aspx" />
+    <Content Include="Consultas\ConsultaUsuariosSiopel.aspx" />
+    <Content Include="Consultas\CuboOperacionesOTC.aspx" />
+    <Content Include="Consultas\CuboCevaldom.aspx" />
+    <Content Include="Consultas\CuboConsolidado.aspx" />
+    <Content Include="Consultas\CuboInstrumentos.aspx" />
+    <Content Include="Consultas\CuboOperaciones.aspx" />
+    <Content Include="Consultas\CuboOperacionesMultiple.aspx" />
+    <Content Include="Consultas\CuboSIV.aspx" />
+    <Content Include="Consultas\ListaCorredores.aspx" />
+    <Content Include="Consultas\NombreConsultaUsuario.aspx" />
+    <Content Include="Consultas\CupoContraParte.aspx" />
+    <Content Include="Consultas\VectorPrecios.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="dirlist.txt" />
+    <Content Include="Edicion\ActivarEmision.aspx" />
+    <Content Include="Edicion\EditarComisionesTarifas.aspx" />
+    <Content Include="Edicion\EditarCorredor.aspx" />
+    <Content Include="Edicion\EditarEmision.aspx" />
+    <Content Include="Edicion\EditarEmisionSerieCalendarioCambioTasas.aspx" />
+    <Content Include="Edicion\EditarEmisor.aspx" />
+    <Content Include="Edicion\EditarPuestoBolsa.aspx" />
+    <Content Include="Edicion\EditarPuestoBolsaCorredor.aspx" />
+    <Content Include="Edicion\EditarSeriePOPUP.aspx" />
+    <Content Include="Edicion\EditarSeriePOPUPMontos.aspx" />
+    <Content Include="Edicion\ListaComisionesTarifas.aspx" />
+    <Content Include="Edicion\ListaEmision.aspx" />
+    <Content Include="Edicion\ListaEmisor.aspx" />
+    <Content Include="Edicion\ListaPuestoBolsa.aspx" />
+    <Content Include="Edicion\ListCorredores.aspx" />
+    <Content Include="Edicion\MoverCorredorPuestoBolsa.aspx" />
+    <Content Include="endsession.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Formularios\EditarActividadEconomica.aspx" />
+    <Content Include="Formularios\EditarBaseLiquidacion.aspx" />
+    <Content Include="Formularios\EditarCiudad.aspx" />
+    <Content Include="Formularios\EditarClasificacionParticipante.aspx" />
+    <Content Include="Formularios\EditarDiaFestivo.aspx" />
+    <Content Include="Formularios\EditarEmpresaCalificadora.aspx" />
+    <Content Include="Formularios\EditarEstatusEmision.aspx" />
+    <Content Include="Formularios\EditarFormaColocacion.aspx" />
+    <Content Include="Formularios\EditarInstrumento.aspx" />
+    <Content Include="Formularios\EditarMecanismosNegociacion.aspx" />
+    <Content Include="Formularios\EditarMercado.aspx" />
+    <Content Include="Formularios\EditarMoneda.aspx" />
+    <Content Include="Formularios\EditarPais.aspx" />
+    <Content Include="Formularios\EditarRangoCalificaciones.aspx" />
+    <Content Include="Formularios\EditarSector.aspx" />
+    <Content Include="Formularios\EditarStatusOperacion.aspx" />
+    <Content Include="Formularios\EditarTipoCalificacionRiesgo.aspx" />
+    <Content Include="Formularios\EditarTipoDocumento.aspx" />
+    <Content Include="Formularios\EditarTipoEmision.aspx" />
+    <Content Include="Formularios\EditarTipoEmisor.aspx" />
+    <Content Include="Formularios\EditarTipoEntidad.aspx" />
+    <Content Include="Formularios\EditarTipoInstrumento.aspx" />
+    <Content Include="Formularios\EditarRueda.aspx" />
+    <Content Include="Formularios\EditarTipoInteres.aspx" />
+    <Content Include="Formularios\EditarTipoLiquidacion.aspx" />
+    <Content Include="Formularios\EditarTipoMercado.aspx" />
+    <Content Include="Formularios\EditarTipoParticipante.aspx" />
+    <Content Include="Formularios\EditarTipoPeriodo.aspx" />
+    <Content Include="Formularios\EditarTipoTasa.aspx" />
+    <Content Include="Formularios\ListaActividadEconomica.aspx" />
+    <Content Include="Formularios\ListaBaseLiquidacion.aspx" />
+    <Content Include="Formularios\ListaCiudad.aspx" />
+    <Content Include="Formularios\ListaClasificacionParticipante.aspx" />
+    <Content Include="Formularios\ListaDiaFestivo.aspx" />
+    <Content Include="Formularios\ListaEmpresaCalificadora.aspx" />
+    <Content Include="Formularios\ListaEstatusEmision.aspx" />
+    <Content Include="Formularios\ListaFormaColocacion.aspx" />
+    <Content Include="Formularios\ListaInstrumento.aspx" />
+    <Content Include="Formularios\ListaMecanismosNegociacion.aspx" />
+    <Content Include="Formularios\ListaMercado.aspx" />
+    <Content Include="Formularios\ListaMoneda.aspx" />
+    <Content Include="Formularios\ListaPais.aspx" />
+    <Content Include="Formularios\ListaRangoCalificaciones.aspx" />
+    <Content Include="Formularios\ListaSector.aspx" />
+    <Content Include="Formularios\ListaStatusOperacion.aspx" />
+    <Content Include="Formularios\ListaTipoCalificacionRiesgo.aspx" />
+    <Content Include="Formularios\ListaTipoDocumento.aspx" />
+    <Content Include="Formularios\ListaTipoEmision.aspx" />
+    <Content Include="Formularios\ListaTipoEmisor.aspx" />
+    <Content Include="Formularios\ListaTipoEntidad.aspx" />
+    <Content Include="Formularios\ListaTipoInstrumento.aspx" />
+    <Content Include="Formularios\ListaRueda.aspx" />
+    <Content Include="Formularios\ListaTipoInteres.aspx" />
+    <Content Include="Formularios\ListaTipoLiquidacion.aspx" />
+    <Content Include="Formularios\ListaTipoMercado.aspx" />
+    <Content Include="Formularios\ListaTipoParticipante.aspx" />
+    <Content Include="Formularios\ListaTipoPeriodo.aspx" />
+    <Content Include="Formularios\ListaTipoTasa.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Herramientas\CargaLibroDeOrdenes.aspx" />
+    <Content Include="Herramientas\CargaOperaciones.aspx" />
+    <Content Include="Herramientas\CargaOrdenesEnFirme.aspx" />
+    <Content Include="Herramientas\ConfirmarComisiones.aspx" />
+    <Content Include="Herramientas\ConsultaUsuariosSiopel.aspx" />
+    <Content Include="Herramientas\EditarCancelarOperacion.aspx" />
+    <Content Include="Herramientas\EditarConfiguracion.aspx" />
+    <Content Include="Herramientas\EditarOperacionesValoresEnFirme.aspx" />
+    <Content Include="Herramientas\EditarPerfil.aspx" />
+    <Content Include="Herramientas\EditarTipoUsuarioSiopel.aspx" />
+    <Content Include="Herramientas\EditarUsuariosSiopel.aspx" />
+    <Content Include="Herramientas\EditOpcionesEditables.aspx" />
+    <Content Include="Herramientas\EditOpcionMenu.aspx" />
+    <Content Include="Herramientas\EditPermisoPerfil.aspx" />
+    <Content Include="Herramientas\EditUsuario.aspx" />
+    <Content Include="Herramientas\EliminarProcesosLibroOrdenes.aspx" />
+    <Content Include="Herramientas\GenerarArchivoGP.aspx" />
+    <Content Include="Herramientas\GenerarArchivoSIV.aspx" />
+    <Content Include="Herramientas\ListaComisiones.aspx" />
+    <Content Include="Herramientas\ListaOpcionesEditables.aspx" />
+    <Content Include="Herramientas\ListaOperacionesCancelarBO.aspx" />
+    <Content Include="Herramientas\ListaPerfil.aspx" />
+    <Content Include="Herramientas\ListaTipoUsuarioSiopel.aspx" />
+    <Content Include="Herramientas\ListaUsuariosSiopel.aspx" />
+    <Content Include="Herramientas\OpcionesMenu.aspx" />
+    <Content Include="Herramientas\PermisosPorPerfil.aspx" />
+    <Content Include="Herramientas\ProrrateoLibrodeOrdenes.aspx" />
+    <Content Include="Herramientas\SubastaOrdenesRechazadas.aspx" />
+    <Content Include="Herramientas\Usuarios.aspx" />
+    <Content Include="Images\ActivarEmision.png" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\boletin.png" />
+    <Content Include="Images\BVRD LOGO Reportes.jpg" />
+    <Content Include="Images\BVRD LOGO.JPG" />
+    <Content Include="Images\BVRD.jpg" />
+    <Content Include="Images\calendar.gif" />
+    <Content Include="Images\calendar_big.gif" />
+    <Content Include="Images\cancelaroperaciones.png" />
+    <Content Include="Images\chart.gif" />
+    <Content Include="Images\clear.gif" />
+    <Content Include="Images\contacts.gif" />
+    <Content Include="Images\contacts_big.gif" />
+    <Content Include="Images\copy.gif" />
+    <Content Include="Images\csv.png" />
+    <Content Include="Images\cut.gif" />
+    <Content Include="Images\delete.gif" />
+    <Content Include="Images\Delete2.gif" />
+    <Content Include="Images\deletetabstrip.gif" />
+    <Content Include="Images\delete_inbox.gif" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\excel.png" />
+    <Content Include="Images\ExportWord.png" />
+    <Content Include="Images\fondobvrd.png" />
+    <Content Include="Images\help.png" />
+    <Content Include="Images\helpdesk.png" />
+    <Content Include="Images\icon-download.png" />
+    <Content Include="Images\inbox.gif" />
+    <Content Include="Images\inbox_big.gif" />
+    <Content Include="Images\keys.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\mailbox.gif" />
+    <Content Include="Images\mark.gif" />
+    <Content Include="Images\money.png" />
+    <Content Include="Images\move.gif" />
+    <Content Include="Images\notes.gif" />
+    <Content Include="Images\notes_big.gif" />
+    <Content Include="Images\notes_icon.gif" />
+    <Content Include="Images\office_clip.gif" />
+    <Content Include="Images\paste.gif" />
+    <Content Include="Images\pdf.png" />
+    <Content Include="Images\print.gif" />
+    <Content Include="Images\printpreview.gif" />
+    <Content Include="Images\radcontrols.png" />
+    <Content Include="Images\refresh.png" />
+    <Content Include="Images\remove.gif" />
+    <Content Include="Images\reply.gif" />
+    <Content Include="Images\Reportes\Aviso.png" />
+    <Content Include="Images\Reportes\BVRD LOGO Reportes.jpg" />
+    <Content Include="Images\Reportes\LogoBVRD.png" />
+    <Content Include="Images\Reportes\LogobvrdMH.png" />
+    <Content Include="Images\Reportes\LogoReportes.png" />
+    <Content Include="Images\Reportes\LogoReportes1.png" />
+    <Content Include="Images\Reportes\SimboloLogoReporte.png" />
+    <Content Include="Images\Reportes\SimboloLogoReporte1.png" />
+    <Content Include="Images\report_icon.gif" />
+    <Content Include="Images\saveas.gif" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\Simbolo BVRD.png" />
+    <Content Include="Images\unread.gif" />
+    <Content Include="Images\upload.gif" />
+    <Content Include="Images\WindowMove.png" />
+    <Content Include="Js\EditarCambiosTasas.js" />
+    <Content Include="Js\ModalPopupWindow.js" />
+    <Content Include="reportes\AP_ComparativoPorCodigoIsinPreciosBonos.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_BoletinGlosario.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_BoletinPortada.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_ComparativoVolumenMercadoYTDRF.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaEmisionesCorporativasVigentes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDia.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesDia.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoMercadoSecundario.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsa.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_ResumendeOperacionesReportadasRegistro.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_ResumenGeneralMercado.aspx" />
+    <Content Include="reportes\BoletinDiario\ReportedeOperacionesMPyMSFechas.aspx" />
+    <Content Include="reportes\Comisiones\ComisionesHistorico\ConsultaHistoricoComisiones.aspx" />
+    <Content Include="reportes\Comisiones\ComisionRegistroIncripcionFondosInversion.aspx" />
+    <Content Include="reportes\Comisiones\ReporteComisionesMantenimientoEmisionesTitularizado.aspx" />
+    <Content Include="reportes\Comisiones\RptOperacionesPorPuntaMSParticipanteSIMV.aspx" />
+    <Content Include="reportes\DisponibilidaddeLaEmision.aspx" />
+    <Content Include="reportes\DisponibilidaddeLaEmision_DisenoUno.aspx" />
+    <Content Include="reportes\FIAB\BoletinMensual\InformacionMensual.aspx" />
+    <Content Include="reportes\PuestoBolsa\ComprobantedeNegociacion_Boleta.aspx" />
+    <Content Include="reportes\PuestoBolsa\FormatoCertificacionCorredor.aspx" />
+    <Content Include="reportes\PuestoBolsa\PlanillaPuestoBolsa.aspx" />
+    <Content Include="reportes\PuestoBolsa\ReporteCorredoresAplicanProgramaARM.aspx" />
+    <Content Include="reportes\ReporteUltimas10TasasCambio.aspx" />
+    <Content Include="reportes\ReportePreciosProyectos.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesMMTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRFMPTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRFMSTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRVMPMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRVMPTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRVMSMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRVMSTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReporteSIVMensual.aspx" />
+    <Content Include="reportes\ReportesSIV\ReporteSIVTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReporteSIV_Resumen_Mes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReporteSIV_Resumen_Trimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesMMMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRFMPMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRFMSMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReporteSIV.aspx" />
+    <Content Include="reportes\ReportONE\ReportONE.aspx" />
+    <Content Include="reportes\ReportONE\ReportONETotal.aspx" />
+    <Content Include="reportes\ReportONE\RO_Aviso.aspx" />
+    <Content Include="reportes\ReportONE\RO_EntidadesEmisoras.aspx" />
+    <Content Include="reportes\ReportONE\RO_InstrumentosNegociados.aspx" />
+    <Content Include="reportes\ReportONE\RO_OperacionesActividadEconomica.aspx" />
+    <Content Include="reportes\ReportONE\RO_OperacionesPorEntidadesEmisoras.aspx" />
+    <Content Include="reportes\ReportONE\RO_OperacionesPorInstrumento.aspx" />
+    <Content Include="reportes\ReportONE\RO_OperacionesPorPuestoBolsa.aspx" />
+    <Content Include="reportes\ReportONE\RO_OperacionesRentaFija.aspx" />
+    <Content Include="reportes\ReportONE\RO_Portada.aspx" />
+    <Content Include="reportes\ReportONE\RO_PuestoBolsa.aspx" />
+    <Content Include="reportes\ReportONE\RO_ResumenMensualporTipodeMonedas.aspx" />
+    <Content Include="Scripts\autocomplete.js" />
+    <Content Include="temp\rs_img_1\3_21_0_0\AjaxLoader.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\AllAreasPressed.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\Calculated_add.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\clearlayout.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\DataArea.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\del.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\delover.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\EditComment.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\e_bmp.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\e_csv.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\e_html.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\e_pdf.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\e_xls.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\filter.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\FilterGrid.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\filterover.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\FiltrClear.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\FolderDimen.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\hoAttribute.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\hoParentChild.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\hoUserDefined.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ajax-loader.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\menubg.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\table_top.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\treeview-default-line.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\treeview-default.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_diagonals-medium_20_d34d17_40x40.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_55_999999_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_75_aaaaaa_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_20_555555_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_40_0078a3_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_45_0078ae_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_55_f8da4e_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_75_79c9ec_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_25_333333_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_45_817865_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_50_6eac2c_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_60_fece2f_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_70_ffdd57_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_75_2191c0_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_gloss-wave_90_fff9e5_500x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_highlight-soft_100_feeebd_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_inset-soft_25_000000_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_inset-soft_30_f58400_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-bg_inset-soft_30_ffffff_1x100.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_056b93_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_222222_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_3d3d3d_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_454545_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_888888_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_a83300_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_bd7b00_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_d19405_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_eb990f_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_ed9f26_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_f5e175_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_f7a50d_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_fadc7a_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_fcd113_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_ffe180_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\RadarSoft.RadarCube.jquery.treeview.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Redmond.RadarSoft.RadarCube.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Redmond.RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Smoothness.RadarSoft.RadarCube.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Smoothness.RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Start.RadarSoft.RadarCube.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Start.RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Sunny.RadarSoft.RadarCube.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\Sunny.RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\UIdarkness.RadarSoft.RadarCube.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\UIdarkness.RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\UIlightness.RadarSoft.RadarCube.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\css\UIlightness.RadarSoft.RadarCube.jquery-ui.css" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\RadarSoft.RadarCube.jquery-ui.min.js" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\RadarSoft.RadarCube.jquery.min.js" />
+    <Content Include="temp\rs_img_1\3_21_0_0\jQuery\RadarSoft.RadarCube.jquery.treeview.js" />
+    <Content Include="temp\rs_img_1\3_21_0_0\legend.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\Load.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\loader_bg.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\MeasureCalculated.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\MeasuresRoot.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\minus.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\NamedSets.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\PivotArea.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\plus.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\razvernut_blue.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\razvernut_grey.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\Save.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\Separator.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\Spacer.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\svernut_blue.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\svernut_grey.png" />
+    <Content Include="temp\rs_img_1\3_21_0_0\Toolbg.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\ToolLeft.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\ToolRight.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\ToolSeparator.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\TreeView_Default_Collapse.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\TreeView_Default_Expand.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\TreeView_Default_NoExpand.gif" />
+    <Content Include="temp\rs_img_1\3_21_0_0\TreeView_XP_Explorer_ParentNode.gif" />
+    <Content Include="Transacciones\BB_EditarConfiguracion.aspx" />
+    <Content Include="Transacciones\BB_ListaConfiguracion.aspx" />
+    <Content Include="reportes\BoletinBursatil\BoletinBursatil.aspx" />
+    <Content Include="reportes\BoletinDiario.aspx" />
+    <Content Include="reportes\ComparativoPreciosBonos.aspx" />
+    <Content Include="reportes\ComparativoVolumenesBonos.aspx" />
+    <Content Include="reportes\LOPI_MontoDemandadoValidoNoValido.aspx" />
+    <Content Include="reportes\Comisiones\ReporteComisionesRegistroDeCorredor.aspx" />
+    <Content Include="reportes\ReporteLOSuscipcionAcumulados.aspx" />
+    <Content Include="reportes\ReporteOperacionesResumen.aspx" />
+    <Content Include="reportes\ReporteCorredoresPuestoBolsa.aspx" />
+    <Content Include="reportes\Comisiones\ReporteComisionNuevoEmisor.aspx" />
+    <Content Include="reportes\LO_LibroOrdenesDetalladePuestoBolsa.aspx" />
+    <Content Include="reportes\LO_ProrrateoDetallePuestoDeBolsa.aspx" />
+    <Content Include="reportes\LO_ProrrateoResumenPuestoDeBolsa.aspx" />
+    <Content Include="reportes\MK_BoletinDiario.aspx" />
+    <Content Include="reportes\MK_BoletinPortada.aspx" />
+    <Content Include="reportes\MK_CantidadOperacionesParticipante.aspx" />
+    <Content Include="reportes\MK_GrupoPublicacion.aspx" />
+    <Content Include="reportes\MK_MontosNegociadosInstrumentos.aspx" />
+    <Content Include="reportes\MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx" />
+    <Content Include="reportes\MK_MontosTransadosParticipantesInstrumentos.aspx" />
+    <Content Include="reportes\MK_OperacionesDiarias.aspx" />
+    <Content Include="reportes\MK_PreciosCierreBonosTransados.aspx" />
+    <Content Include="reportes\MK_PreciosUltimoMejorPeor.aspx" />
+    <Content Include="reportes\MK_ResumenDiario.aspx" />
+    <Content Include="reportes\MK_TitulosMasTransados.aspx" />
+    <Content Include="reportes\MK_ValorTransadoOperacionesParticipante.aspx" />
+    <Content Include="reportes\OF_PosturasPorParticipanteInstrumento.aspx" />
+    <Content Include="reportes\ReporteAcumuladoColocacionesInstrumentoEmisor.aspx" />
+    <Content Include="reportes\ReporteBoletinBursatilOperacionesRentaFija.aspx" />
+    <Content Include="reportes\ReporteBoletinPortada.aspx" />
+    <Content Include="reportes\ReporteCalificacionesRiesgo.aspx" />
+    <Content Include="reportes\Comisiones\ReporteComisionesMantenimientoEmisiones.aspx" />
+    <Content Include="reportes\Comisiones\RptResumenComisionesMSporParticipante.aspx" />
+    <Content Include="reportes\ReporteComparativoVolumenesNegociadosMPMS.aspx" />
+    <Content Include="reportes\ReporteDetalleAcumuladoporEntidadInstrumento.aspx" />
+    <Content Include="reportes\ReporteEmisionesRegistradas.aspx" />
+    <Content Include="reportes\ReporteEmisionesRegistradasPorDia.aspx" />
+    <Content Include="reportes\ReporteEmisionesVigentesMercadoValores.aspx" />
+    <Content Include="reportes\ReporteInstrumentosNegociados.aspx" />
+    <Content Include="reportes\ReporteNivelOperadoVendedorMP.aspx" />
+    <Content Include="reportes\ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx" />
+    <Content Include="reportes\ReporteOperacionesMercadoPrimario.aspx" />
+    <Content Include="reportes\ReporteOperacionesMercadoSecundario.aspx" />
+    <Content Include="reportes\Comisiones\RptOperacionesPorPuntaMSParticipante.aspx" />
+    <Content Include="reportes\ReporteOperacionesPorMes.aspx" />
+    <Content Include="reportes\ReporteOperacionesPorMesPesos.aspx" />
+    <Content Include="reportes\ReporteOperacionesPuestoBolsaEmisor.aspx" />
+    <Content Include="reportes\ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx" />
+    <Content Include="reportes\ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx" />
+    <Content Include="reportes\ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx" />
+    <Content Include="reportes\ReporteOperacionesRentaFijaMercadoPrimario.aspx" />
+    <Content Include="reportes\ReporteOperacionesRentaFijaMercadoSecundario.aspx" />
+    <Content Include="reportes\ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx" />
+    <Content Include="reportes\ReportePrecioCierre30BonosMasTransados.aspx" />
+    <Content Include="reportes\ReportePrecios.aspx" />
+    <Content Include="reportes\ReporteVolumenesTransadosAnyoPesos.aspx" />
+    <Content Include="reportes\ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx" />
+    <None Include="My Project\PublishProfiles\Develop.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS.pubxml" />
+    <None Include="My Project\PublishProfiles\SGO.pubxml" />
+    <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="reportes\ResultadoProrrateoOrdenes.aspx" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\OpenWindows.js" />
+    <Content Include="Scripts\TamanoObjetos.js" />
+    <Content Include="Scripts\Ventanas.js" />
+    <Content Include="Styles\Botones.css" />
+    <Content Include="Styles\Calendar.css" />
+    <Content Include="Styles\Custom.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Transacciones\ConsultaFlutuacionTasa.aspx" />
+    <Content Include="Transacciones\EditarBoletin.aspx" />
+    <Content Include="Transacciones\EditarCambiosTasas.aspx" />
+    <Content Include="Transacciones\EditaRegistroNAV.aspx" />
+    <Content Include="Transacciones\EditarCambiosTasasSeries.aspx" />
+    <Content Include="Transacciones\Listaboletin.aspx" />
+    <Content Include="Transacciones\ListaCambiosTasas.aspx" />
+    <Content Include="Herramientas\ListaOperacionesValoresEnFirme.aspx" />
+    <Content Include="Transacciones\ListaRegistroNAV.aspx" />
+    <Content Include="Transacciones\ListaCambiosTasasSeries.aspx" />
+    <Content Include="Transacciones\ListaEmisionSerieCalendarioCambioTasas.aspx" />
+    <Content Include="tree.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadGrid.Main.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadGrid.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadGrid.Main.es.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadGrid.Main.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\AuthConfig.vb" />
+    <Compile Include="App_Start\BundleConfig.vb" />
+    <Compile Include="App_Start\NinjectWebCommon.vb" />
+    <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Common\GridSettingsPersister.vb" />
+    <Compile Include="Common\Operation.vb" />
+    <Compile Include="Common\PageBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ActivarCorredor.aspx.designer.vb">
+      <DependentUpon>ActivarCorredor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ActivarCorredor.aspx.vb">
+      <DependentUpon>ActivarCorredor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\AnalisisGraficoOperaciones.aspx.designer.vb">
+      <DependentUpon>AnalisisGraficoOperaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\AnalisisGraficoOperaciones.aspx.vb">
+      <DependentUpon>AnalisisGraficoOperaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaCapitales.aspx.designer.vb">
+      <DependentUpon>ConsultaCapitales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaCapitales.aspx.vb">
+      <DependentUpon>ConsultaCapitales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaCevaldom.aspx.designer.vb">
+      <DependentUpon>ConsultaCevaldom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaCevaldom.aspx.vb">
+      <DependentUpon>ConsultaCevaldom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEmisiones.aspx.designer.vb">
+      <DependentUpon>ConsultaEmisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEmisiones.aspx.vb">
+      <DependentUpon>ConsultaEmisiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaLibroDeOrdenes.aspx.designer.vb">
+      <DependentUpon>ConsultaLibroDeOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaLibroDeOrdenes.aspx.vb">
+      <DependentUpon>ConsultaLibroDeOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaNAV.aspx.designer.vb">
+      <DependentUpon>ConsultaNAV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaNAV.aspx.vb">
+      <DependentUpon>ConsultaNAV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperaciones2.aspx.designer.vb">
+      <DependentUpon>ConsultaOperaciones2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperaciones2.aspx.vb">
+      <DependentUpon>ConsultaOperaciones2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperacionesNotificacionesCevaldom.aspx.designer.vb">
+      <DependentUpon>ConsultaOperacionesNotificacionesCevaldom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperacionesNotificacionesCevaldom.aspx.vb">
+      <DependentUpon>ConsultaOperacionesNotificacionesCevaldom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperacionesCanceladasyNoLiquidadas.aspx.designer.vb">
+      <DependentUpon>ConsultaOperacionesCanceladasyNoLiquidadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperacionesCanceladasyNoLiquidadas.aspx.vb">
+      <DependentUpon>ConsultaOperacionesCanceladasyNoLiquidadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperaciones.aspx.designer.vb">
+      <DependentUpon>ConsultaOperaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperaciones.aspx.vb">
+      <DependentUpon>ConsultaOperaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperacionesOTCCevaldom.aspx.designer.vb">
+      <DependentUpon>ConsultaOperacionesOTCCevaldom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOperacionesOTCCevaldom.aspx.vb">
+      <DependentUpon>ConsultaOperacionesOTCCevaldom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOrdenesFirme.aspx.designer.vb">
+      <DependentUpon>ConsultaOrdenesFirme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOrdenesFirme.aspx.vb">
+      <DependentUpon>ConsultaOrdenesFirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaSIV.aspx.designer.vb">
+      <DependentUpon>ConsultaSIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaSIV.aspx.vb">
+      <DependentUpon>ConsultaSIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOTC.aspx.designer.vb">
+      <DependentUpon>ConsultaOTC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaOTC.aspx.vb">
+      <DependentUpon>ConsultaOTC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaParticipantesMercado.aspx.designer.vb">
+      <DependentUpon>ConsultaParticipantesMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaParticipantesMercado.aspx.vb">
+      <DependentUpon>ConsultaParticipantesMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEmisores.aspx.designer.vb">
+      <DependentUpon>ConsultaEmisores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaEmisores.aspx.vb">
+      <DependentUpon>ConsultaEmisores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaUsuariosSiopel2.aspx.designer.vb">
+      <DependentUpon>ConsultaUsuariosSiopel2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaUsuariosSiopel2.aspx.vb">
+      <DependentUpon>ConsultaUsuariosSiopel2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConsultaUsuariosSiopel.aspx.designer.vb">
+      <DependentUpon>ConsultaUsuariosSiopel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaUsuariosSiopel.aspx.vb">
+      <DependentUpon>ConsultaUsuariosSiopel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboOperacionesOTC.aspx.designer.vb">
+      <DependentUpon>CuboOperacionesOTC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboOperacionesOTC.aspx.vb">
+      <DependentUpon>CuboOperacionesOTC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboCevaldom.aspx.designer.vb">
+      <DependentUpon>CuboCevaldom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboCevaldom.aspx.vb">
+      <DependentUpon>CuboCevaldom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboConsolidado.aspx.designer.vb">
+      <DependentUpon>CuboConsolidado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboConsolidado.aspx.vb">
+      <DependentUpon>CuboConsolidado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboInstrumentos.aspx.designer.vb">
+      <DependentUpon>CuboInstrumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboInstrumentos.aspx.vb">
+      <DependentUpon>CuboInstrumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboOperaciones.aspx.designer.vb">
+      <DependentUpon>CuboOperaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboOperaciones.aspx.vb">
+      <DependentUpon>CuboOperaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboOperacionesMultiple.aspx.designer.vb">
+      <DependentUpon>CuboOperacionesMultiple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboOperacionesMultiple.aspx.vb">
+      <DependentUpon>CuboOperacionesMultiple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CuboSIV.aspx.designer.vb">
+      <DependentUpon>CuboSIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CuboSIV.aspx.vb">
+      <DependentUpon>CuboSIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ListaCorredores.aspx.designer.vb">
+      <DependentUpon>ListaCorredores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ListaCorredores.aspx.vb">
+      <DependentUpon>ListaCorredores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\NombreConsultaUsuario.aspx.designer.vb">
+      <DependentUpon>NombreConsultaUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\NombreConsultaUsuario.aspx.vb">
+      <DependentUpon>NombreConsultaUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CupoContraParte.aspx.designer.vb">
+      <DependentUpon>CupoContraParte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CupoContraParte.aspx.vb">
+      <DependentUpon>CupoContraParte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\VectorPrecios.aspx.designer.vb">
+      <DependentUpon>VectorPrecios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\VectorPrecios.aspx.vb">
+      <DependentUpon>VectorPrecios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\ActivarEmision.aspx.designer.vb">
+      <DependentUpon>ActivarEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\ActivarEmision.aspx.vb">
+      <DependentUpon>ActivarEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarComisionesTarifas.aspx.designer.vb">
+      <DependentUpon>EditarComisionesTarifas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarComisionesTarifas.aspx.vb">
+      <DependentUpon>EditarComisionesTarifas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarCorredor.aspx.designer.vb">
+      <DependentUpon>EditarCorredor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarCorredor.aspx.vb">
+      <DependentUpon>EditarCorredor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarEmision.aspx.designer.vb">
+      <DependentUpon>EditarEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarEmision.aspx.vb">
+      <DependentUpon>EditarEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarEmisionSerieCalendarioCambioTasas.aspx.designer.vb">
+      <DependentUpon>EditarEmisionSerieCalendarioCambioTasas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarEmisionSerieCalendarioCambioTasas.aspx.vb">
+      <DependentUpon>EditarEmisionSerieCalendarioCambioTasas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarEmisor.aspx.designer.vb">
+      <DependentUpon>EditarEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarEmisor.aspx.vb">
+      <DependentUpon>EditarEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>EditarPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarPuestoBolsa.aspx.vb">
+      <DependentUpon>EditarPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarPuestoBolsaCorredor.aspx.designer.vb">
+      <DependentUpon>EditarPuestoBolsaCorredor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarPuestoBolsaCorredor.aspx.vb">
+      <DependentUpon>EditarPuestoBolsaCorredor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarSeriePOPUP.aspx.designer.vb">
+      <DependentUpon>EditarSeriePOPUP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarSeriePOPUP.aspx.vb">
+      <DependentUpon>EditarSeriePOPUP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\EditarSeriePOPUPMontos.aspx.designer.vb">
+      <DependentUpon>EditarSeriePOPUPMontos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\EditarSeriePOPUPMontos.aspx.vb">
+      <DependentUpon>EditarSeriePOPUPMontos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\ListaComisionesTarifas.aspx.designer.vb">
+      <DependentUpon>ListaComisionesTarifas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\ListaComisionesTarifas.aspx.vb">
+      <DependentUpon>ListaComisionesTarifas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\ListaEmision.aspx.designer.vb">
+      <DependentUpon>ListaEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\ListaEmision.aspx.vb">
+      <DependentUpon>ListaEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\ListaEmisor.aspx.designer.vb">
+      <DependentUpon>ListaEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\ListaEmisor.aspx.vb">
+      <DependentUpon>ListaEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\ListaPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>ListaPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\ListaPuestoBolsa.aspx.vb">
+      <DependentUpon>ListaPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\ListCorredores.aspx.designer.vb">
+      <DependentUpon>ListCorredores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\ListCorredores.aspx.vb">
+      <DependentUpon>ListCorredores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\MoverCorredorPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>MoverCorredorPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion\MoverCorredorPuestoBolsa.aspx.vb">
+      <DependentUpon>MoverCorredorPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edicion\WebMethodAttribute.vb" />
+    <Compile Include="endsession.aspx.designer.vb">
+      <DependentUpon>endsession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="endsession.aspx.vb">
+      <DependentUpon>endsession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarActividadEconomica.aspx.designer.vb">
+      <DependentUpon>EditarActividadEconomica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarActividadEconomica.aspx.vb">
+      <DependentUpon>EditarActividadEconomica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarBaseLiquidacion.aspx.designer.vb">
+      <DependentUpon>EditarBaseLiquidacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarBaseLiquidacion.aspx.vb">
+      <DependentUpon>EditarBaseLiquidacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarCiudad.aspx.designer.vb">
+      <DependentUpon>EditarCiudad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarCiudad.aspx.vb">
+      <DependentUpon>EditarCiudad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarClasificacionParticipante.aspx.designer.vb">
+      <DependentUpon>EditarClasificacionParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarClasificacionParticipante.aspx.vb">
+      <DependentUpon>EditarClasificacionParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarDiaFestivo.aspx.designer.vb">
+      <DependentUpon>EditarDiaFestivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarDiaFestivo.aspx.vb">
+      <DependentUpon>EditarDiaFestivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarEmpresaCalificadora.aspx.designer.vb">
+      <DependentUpon>EditarEmpresaCalificadora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarEmpresaCalificadora.aspx.vb">
+      <DependentUpon>EditarEmpresaCalificadora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarEstatusEmision.aspx.designer.vb">
+      <DependentUpon>EditarEstatusEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarEstatusEmision.aspx.vb">
+      <DependentUpon>EditarEstatusEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarFormaColocacion.aspx.designer.vb">
+      <DependentUpon>EditarFormaColocacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarFormaColocacion.aspx.vb">
+      <DependentUpon>EditarFormaColocacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarInstrumento.aspx.designer.vb">
+      <DependentUpon>EditarInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarInstrumento.aspx.vb">
+      <DependentUpon>EditarInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarMecanismosNegociacion.aspx.designer.vb">
+      <DependentUpon>EditarMecanismosNegociacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarMecanismosNegociacion.aspx.vb">
+      <DependentUpon>EditarMecanismosNegociacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarMercado.aspx.designer.vb">
+      <DependentUpon>EditarMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarMercado.aspx.vb">
+      <DependentUpon>EditarMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarMoneda.aspx.designer.vb">
+      <DependentUpon>EditarMoneda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarMoneda.aspx.vb">
+      <DependentUpon>EditarMoneda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarPais.aspx.designer.vb">
+      <DependentUpon>EditarPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarPais.aspx.vb">
+      <DependentUpon>EditarPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarRangoCalificaciones.aspx.designer.vb">
+      <DependentUpon>EditarRangoCalificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarRangoCalificaciones.aspx.vb">
+      <DependentUpon>EditarRangoCalificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarSector.aspx.designer.vb">
+      <DependentUpon>EditarSector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarSector.aspx.vb">
+      <DependentUpon>EditarSector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarStatusOperacion.aspx.designer.vb">
+      <DependentUpon>EditarStatusOperacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarStatusOperacion.aspx.vb">
+      <DependentUpon>EditarStatusOperacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoCalificacionRiesgo.aspx.designer.vb">
+      <DependentUpon>EditarTipoCalificacionRiesgo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoCalificacionRiesgo.aspx.vb">
+      <DependentUpon>EditarTipoCalificacionRiesgo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoDocumento.aspx.designer.vb">
+      <DependentUpon>EditarTipoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoDocumento.aspx.vb">
+      <DependentUpon>EditarTipoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoEmision.aspx.designer.vb">
+      <DependentUpon>EditarTipoEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoEmision.aspx.vb">
+      <DependentUpon>EditarTipoEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoEmisor.aspx.designer.vb">
+      <DependentUpon>EditarTipoEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoEmisor.aspx.vb">
+      <DependentUpon>EditarTipoEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoEntidad.aspx.designer.vb">
+      <DependentUpon>EditarTipoEntidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoEntidad.aspx.vb">
+      <DependentUpon>EditarTipoEntidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoInstrumento.aspx.designer.vb">
+      <DependentUpon>EditarTipoInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoInstrumento.aspx.vb">
+      <DependentUpon>EditarTipoInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarRueda.aspx.designer.vb">
+      <DependentUpon>EditarRueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarRueda.aspx.vb">
+      <DependentUpon>EditarRueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoInteres.aspx.designer.vb">
+      <DependentUpon>EditarTipoInteres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoInteres.aspx.vb">
+      <DependentUpon>EditarTipoInteres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoLiquidacion.aspx.designer.vb">
+      <DependentUpon>EditarTipoLiquidacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoLiquidacion.aspx.vb">
+      <DependentUpon>EditarTipoLiquidacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoMercado.aspx.designer.vb">
+      <DependentUpon>EditarTipoMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoMercado.aspx.vb">
+      <DependentUpon>EditarTipoMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoParticipante.aspx.designer.vb">
+      <DependentUpon>EditarTipoParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoParticipante.aspx.vb">
+      <DependentUpon>EditarTipoParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoPeriodo.aspx.designer.vb">
+      <DependentUpon>EditarTipoPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoPeriodo.aspx.vb">
+      <DependentUpon>EditarTipoPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoTasa.aspx.designer.vb">
+      <DependentUpon>EditarTipoTasa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EditarTipoTasa.aspx.vb">
+      <DependentUpon>EditarTipoTasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaActividadEconomica.aspx.designer.vb">
+      <DependentUpon>ListaActividadEconomica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaActividadEconomica.aspx.vb">
+      <DependentUpon>ListaActividadEconomica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaBaseLiquidacion.aspx.designer.vb">
+      <DependentUpon>ListaBaseLiquidacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaBaseLiquidacion.aspx.vb">
+      <DependentUpon>ListaBaseLiquidacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaCiudad.aspx.designer.vb">
+      <DependentUpon>ListaCiudad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaCiudad.aspx.vb">
+      <DependentUpon>ListaCiudad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaClasificacionParticipante.aspx.designer.vb">
+      <DependentUpon>ListaClasificacionParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaClasificacionParticipante.aspx.vb">
+      <DependentUpon>ListaClasificacionParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaDiaFestivo.aspx.designer.vb">
+      <DependentUpon>ListaDiaFestivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaDiaFestivo.aspx.vb">
+      <DependentUpon>ListaDiaFestivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaEmpresaCalificadora.aspx.designer.vb">
+      <DependentUpon>ListaEmpresaCalificadora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaEmpresaCalificadora.aspx.vb">
+      <DependentUpon>ListaEmpresaCalificadora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaEstatusEmision.aspx.designer.vb">
+      <DependentUpon>ListaEstatusEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaEstatusEmision.aspx.vb">
+      <DependentUpon>ListaEstatusEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaFormaColocacion.aspx.designer.vb">
+      <DependentUpon>ListaFormaColocacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaFormaColocacion.aspx.vb">
+      <DependentUpon>ListaFormaColocacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaInstrumento.aspx.designer.vb">
+      <DependentUpon>ListaInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaInstrumento.aspx.vb">
+      <DependentUpon>ListaInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaMecanismosNegociacion.aspx.designer.vb">
+      <DependentUpon>ListaMecanismosNegociacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaMecanismosNegociacion.aspx.vb">
+      <DependentUpon>ListaMecanismosNegociacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaMercado.aspx.designer.vb">
+      <DependentUpon>ListaMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaMercado.aspx.vb">
+      <DependentUpon>ListaMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaMoneda.aspx.designer.vb">
+      <DependentUpon>ListaMoneda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaMoneda.aspx.vb">
+      <DependentUpon>ListaMoneda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaPais.aspx.designer.vb">
+      <DependentUpon>ListaPais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaPais.aspx.vb">
+      <DependentUpon>ListaPais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaRangoCalificaciones.aspx.designer.vb">
+      <DependentUpon>ListaRangoCalificaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaRangoCalificaciones.aspx.vb">
+      <DependentUpon>ListaRangoCalificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaSector.aspx.designer.vb">
+      <DependentUpon>ListaSector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaSector.aspx.vb">
+      <DependentUpon>ListaSector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaStatusOperacion.aspx.designer.vb">
+      <DependentUpon>ListaStatusOperacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaStatusOperacion.aspx.vb">
+      <DependentUpon>ListaStatusOperacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoCalificacionRiesgo.aspx.designer.vb">
+      <DependentUpon>ListaTipoCalificacionRiesgo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoCalificacionRiesgo.aspx.vb">
+      <DependentUpon>ListaTipoCalificacionRiesgo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoDocumento.aspx.designer.vb">
+      <DependentUpon>ListaTipoDocumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoDocumento.aspx.vb">
+      <DependentUpon>ListaTipoDocumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoEmision.aspx.designer.vb">
+      <DependentUpon>ListaTipoEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoEmision.aspx.vb">
+      <DependentUpon>ListaTipoEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoEmisor.aspx.designer.vb">
+      <DependentUpon>ListaTipoEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoEmisor.aspx.vb">
+      <DependentUpon>ListaTipoEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoEntidad.aspx.designer.vb">
+      <DependentUpon>ListaTipoEntidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoEntidad.aspx.vb">
+      <DependentUpon>ListaTipoEntidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoInstrumento.aspx.designer.vb">
+      <DependentUpon>ListaTipoInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoInstrumento.aspx.vb">
+      <DependentUpon>ListaTipoInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaRueda.aspx.designer.vb">
+      <DependentUpon>ListaRueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaRueda.aspx.vb">
+      <DependentUpon>ListaRueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoInteres.aspx.designer.vb">
+      <DependentUpon>ListaTipoInteres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoInteres.aspx.vb">
+      <DependentUpon>ListaTipoInteres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoLiquidacion.aspx.designer.vb">
+      <DependentUpon>ListaTipoLiquidacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoLiquidacion.aspx.vb">
+      <DependentUpon>ListaTipoLiquidacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoMercado.aspx.designer.vb">
+      <DependentUpon>ListaTipoMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoMercado.aspx.vb">
+      <DependentUpon>ListaTipoMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoParticipante.aspx.designer.vb">
+      <DependentUpon>ListaTipoParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoParticipante.aspx.vb">
+      <DependentUpon>ListaTipoParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoPeriodo.aspx.designer.vb">
+      <DependentUpon>ListaTipoPeriodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoPeriodo.aspx.vb">
+      <DependentUpon>ListaTipoPeriodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoTasa.aspx.designer.vb">
+      <DependentUpon>ListaTipoTasa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ListaTipoTasa.aspx.vb">
+      <DependentUpon>ListaTipoTasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\CargaLibroDeOrdenes.aspx.designer.vb">
+      <DependentUpon>CargaLibroDeOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\CargaLibroDeOrdenes.aspx.vb">
+      <DependentUpon>CargaLibroDeOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\CargaOperaciones.aspx.designer.vb">
+      <DependentUpon>CargaOperaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\CargaOperaciones.aspx.vb">
+      <DependentUpon>CargaOperaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\CargaOrdenesEnFirme.aspx.designer.vb">
+      <DependentUpon>CargaOrdenesEnFirme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\CargaOrdenesEnFirme.aspx.vb">
+      <DependentUpon>CargaOrdenesEnFirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ConfirmarComisiones.aspx.designer.vb">
+      <DependentUpon>ConfirmarComisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ConfirmarComisiones.aspx.vb">
+      <DependentUpon>ConfirmarComisiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ConsultaUsuariosSiopel.aspx.designer.vb">
+      <DependentUpon>ConsultaUsuariosSiopel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ConsultaUsuariosSiopel.aspx.vb">
+      <DependentUpon>ConsultaUsuariosSiopel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditarCancelarOperacion.aspx.designer.vb">
+      <DependentUpon>EditarCancelarOperacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditarCancelarOperacion.aspx.vb">
+      <DependentUpon>EditarCancelarOperacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditarConfiguracion.aspx.designer.vb">
+      <DependentUpon>EditarConfiguracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditarConfiguracion.aspx.vb">
+      <DependentUpon>EditarConfiguracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditarOperacionesValoresEnFirme.aspx.designer.vb">
+      <DependentUpon>EditarOperacionesValoresEnFirme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditarOperacionesValoresEnFirme.aspx.vb">
+      <DependentUpon>EditarOperacionesValoresEnFirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditarPerfil.aspx.designer.vb">
+      <DependentUpon>EditarPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditarPerfil.aspx.vb">
+      <DependentUpon>EditarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditarTipoUsuarioSiopel.aspx.designer.vb">
+      <DependentUpon>EditarTipoUsuarioSiopel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditarTipoUsuarioSiopel.aspx.vb">
+      <DependentUpon>EditarTipoUsuarioSiopel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditarUsuariosSiopel.aspx.designer.vb">
+      <DependentUpon>EditarUsuariosSiopel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditarUsuariosSiopel.aspx.vb">
+      <DependentUpon>EditarUsuariosSiopel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditOpcionesEditables.aspx.designer.vb">
+      <DependentUpon>EditOpcionesEditables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditOpcionesEditables.aspx.vb">
+      <DependentUpon>EditOpcionesEditables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditOpcionMenu.aspx.designer.vb">
+      <DependentUpon>EditOpcionMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditOpcionMenu.aspx.vb">
+      <DependentUpon>EditOpcionMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditPermisoPerfil.aspx.designer.vb">
+      <DependentUpon>EditPermisoPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditPermisoPerfil.aspx.vb">
+      <DependentUpon>EditPermisoPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EditUsuario.aspx.designer.vb">
+      <DependentUpon>EditUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EditUsuario.aspx.vb">
+      <DependentUpon>EditUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EliminarProcesosLibroOrdenes.aspx.designer.vb">
+      <DependentUpon>EliminarProcesosLibroOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EliminarProcesosLibroOrdenes.aspx.vb">
+      <DependentUpon>EliminarProcesosLibroOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\GenerarArchivoGP.aspx.designer.vb">
+      <DependentUpon>GenerarArchivoGP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\GenerarArchivoGP.aspx.vb">
+      <DependentUpon>GenerarArchivoGP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\GenerarArchivoSIV.aspx.designer.vb">
+      <DependentUpon>GenerarArchivoSIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\GenerarArchivoSIV.aspx.vb">
+      <DependentUpon>GenerarArchivoSIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaComisiones.aspx.designer.vb">
+      <DependentUpon>ListaComisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaComisiones.aspx.vb">
+      <DependentUpon>ListaComisiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaOpcionesEditables.aspx.designer.vb">
+      <DependentUpon>ListaOpcionesEditables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaOpcionesEditables.aspx.vb">
+      <DependentUpon>ListaOpcionesEditables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaOperacionesCancelarBO.aspx.designer.vb">
+      <DependentUpon>ListaOperacionesCancelarBO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaOperacionesCancelarBO.aspx.vb">
+      <DependentUpon>ListaOperacionesCancelarBO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaPerfil.aspx.designer.vb">
+      <DependentUpon>ListaPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaPerfil.aspx.vb">
+      <DependentUpon>ListaPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaTipoUsuarioSiopel.aspx.designer.vb">
+      <DependentUpon>ListaTipoUsuarioSiopel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaTipoUsuarioSiopel.aspx.vb">
+      <DependentUpon>ListaTipoUsuarioSiopel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaUsuariosSiopel.aspx.designer.vb">
+      <DependentUpon>ListaUsuariosSiopel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaUsuariosSiopel.aspx.vb">
+      <DependentUpon>ListaUsuariosSiopel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\OpcionesMenu.aspx.designer.vb">
+      <DependentUpon>OpcionesMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\OpcionesMenu.aspx.vb">
+      <DependentUpon>OpcionesMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\PermisosPorPerfil.aspx.designer.vb">
+      <DependentUpon>PermisosPorPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\PermisosPorPerfil.aspx.vb">
+      <DependentUpon>PermisosPorPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ProrrateoLibrodeOrdenes.aspx.designer.vb">
+      <DependentUpon>ProrrateoLibrodeOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ProrrateoLibrodeOrdenes.aspx.vb">
+      <DependentUpon>ProrrateoLibrodeOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\RadToolbarTemplateButton.vb" />
+    <Compile Include="reportes\BoletinBursatil\BB_BoletinGlosario.aspx.designer.vb">
+      <DependentUpon>BB_BoletinGlosario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_BoletinGlosario.aspx.vb">
+      <DependentUpon>BB_BoletinGlosario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_BoletinPortada.aspx.designer.vb">
+      <DependentUpon>BB_BoletinPortada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_BoletinPortada.aspx.vb">
+      <DependentUpon>BB_BoletinPortada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_ComparativoVolumenMercadoYTDRF.aspx.designer.vb">
+      <DependentUpon>BB_ComparativoVolumenMercadoYTDRF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_ComparativoVolumenMercadoYTDRF.aspx.vb">
+      <DependentUpon>BB_ComparativoVolumenMercadoYTDRF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaEmisionesCorporativasVigentes.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaEmisionesCorporativasVigentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaEmisionesCorporativasVigentes.aspx.vb">
+      <DependentUpon>BB_RentaFijaEmisionesCorporativasVigentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDia.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDia.aspx.vb">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesDia.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesDia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesDia.aspx.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesDia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx.vb">
+      <DependentUpon>BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx.vb">
+      <DependentUpon>BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx.vb">
+      <DependentUpon>BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoMercadoSecundario.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoMercadoSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoMercadoSecundario.aspx.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoMercadoSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsa.aspx.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableEmisionesCorporativasVigentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.aspx.vb">
+      <DependentUpon>BB_RentaVariableEmisionesCorporativasVigentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx.vb">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioOperacionesDia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.aspx.vb">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioOperacionesDia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx.vb">
+      <DependentUpon>BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx.vb">
+      <DependentUpon>BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_ResumendeOperacionesReportadasRegistro.aspx.designer.vb">
+      <DependentUpon>BB_ResumendeOperacionesReportadasRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_ResumendeOperacionesReportadasRegistro.aspx.vb">
+      <DependentUpon>BB_ResumendeOperacionesReportadasRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_ResumenGeneralMercado.aspx.designer.vb">
+      <DependentUpon>BB_ResumenGeneralMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_ResumenGeneralMercado.aspx.vb">
+      <DependentUpon>BB_ResumenGeneralMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinDiario\ReportedeOperacionesMPyMSFechas.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesMPyMSFechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinDiario\ReportedeOperacionesMPyMSFechas.aspx.vb">
+      <DependentUpon>ReportedeOperacionesMPyMSFechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ComisionesHistorico\ConsultaHistoricoComisiones.aspx.designer.vb">
+      <DependentUpon>ConsultaHistoricoComisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ComisionesHistorico\ConsultaHistoricoComisiones.aspx.vb">
+      <DependentUpon>ConsultaHistoricoComisiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ComisionRegistroIncripcionFondosInversion.aspx.designer.vb">
+      <DependentUpon>ComisionRegistroIncripcionFondosInversion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ComisionRegistroIncripcionFondosInversion.aspx.vb">
+      <DependentUpon>ComisionRegistroIncripcionFondosInversion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionesMantenimientoEmisionesTitularizado.aspx.designer.vb">
+      <DependentUpon>ReporteComisionesMantenimientoEmisionesTitularizado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionesMantenimientoEmisionesTitularizado.aspx.vb">
+      <DependentUpon>ReporteComisionesMantenimientoEmisionesTitularizado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\RptOperacionesPorPuntaMSParticipanteSIMV.aspx.designer.vb">
+      <DependentUpon>RptOperacionesPorPuntaMSParticipanteSIMV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\RptOperacionesPorPuntaMSParticipanteSIMV.aspx.vb">
+      <DependentUpon>RptOperacionesPorPuntaMSParticipanteSIMV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\DisponibilidaddeLaEmision.aspx.designer.vb">
+      <DependentUpon>DisponibilidaddeLaEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\DisponibilidaddeLaEmision.aspx.vb">
+      <DependentUpon>DisponibilidaddeLaEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\DisponibilidaddeLaEmision_DisenoUno.aspx.designer.vb">
+      <DependentUpon>DisponibilidaddeLaEmision_DisenoUno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\DisponibilidaddeLaEmision_DisenoUno.aspx.vb">
+      <DependentUpon>DisponibilidaddeLaEmision_DisenoUno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\FIAB\BoletinMensual\InformacionMensual.aspx.designer.vb">
+      <DependentUpon>InformacionMensual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\FIAB\BoletinMensual\InformacionMensual.aspx.vb">
+      <DependentUpon>InformacionMensual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\ComprobantedeNegociacion_Boleta.aspx.designer.vb">
+      <DependentUpon>ComprobantedeNegociacion_Boleta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\ComprobantedeNegociacion_Boleta.aspx.vb">
+      <DependentUpon>ComprobantedeNegociacion_Boleta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\FormatoCertificacionCorredor.aspx.designer.vb">
+      <DependentUpon>FormatoCertificacionCorredor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\FormatoCertificacionCorredor.aspx.vb">
+      <DependentUpon>FormatoCertificacionCorredor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\PlanillaPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>PlanillaPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\PlanillaPuestoBolsa.aspx.vb">
+      <DependentUpon>PlanillaPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\ReporteCorredoresAplicanProgramaARM.aspx.designer.vb">
+      <DependentUpon>ReporteCorredoresAplicanProgramaARM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\PuestoBolsa\ReporteCorredoresAplicanProgramaARM.aspx.vb">
+      <DependentUpon>ReporteCorredoresAplicanProgramaARM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteUltimas10TasasCambio.aspx.designer.vb">
+      <DependentUpon>ReporteUltimas10TasasCambio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteUltimas10TasasCambio.aspx.vb">
+      <DependentUpon>ReporteUltimas10TasasCambio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportePreciosProyectos.aspx.designer.vb">
+      <DependentUpon>ReportePreciosProyectos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportePreciosProyectos.aspx.vb">
+      <DependentUpon>ReportePreciosProyectos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesMMTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesMMTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesMMTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesMMTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMPTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRFMPTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMPTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRFMPTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRFMSTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRFMSTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMPMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRVMPMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMPMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRVMPMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMPTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRVMPTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMPTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRVMPTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRVMSMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRVMSMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRVMSTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRVMSTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIVMensual.aspx.designer.vb">
+      <DependentUpon>ReporteSIVMensual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIVMensual.aspx.vb">
+      <DependentUpon>ReporteSIVMensual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIVTrimestre.aspx.designer.vb">
+      <DependentUpon>ReporteSIVTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIVTrimestre.aspx.vb">
+      <DependentUpon>ReporteSIVTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Resumen_Mes.aspx.designer.vb">
+      <DependentUpon>ReporteSIV_Resumen_Mes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Resumen_Mes.aspx.vb">
+      <DependentUpon>ReporteSIV_Resumen_Mes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Resumen_Trimestre.aspx.designer.vb">
+      <DependentUpon>ReporteSIV_Resumen_Trimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Resumen_Trimestre.aspx.vb">
+      <DependentUpon>ReporteSIV_Resumen_Trimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesMMMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesMMMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesMMMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesMMMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMPMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRFMPMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMPMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRFMPMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRFMSMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRFMSMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV.aspx.designer.vb">
+      <DependentUpon>ReporteSIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV.aspx.vb">
+      <DependentUpon>ReporteSIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\ReportONE.aspx.designer.vb">
+      <DependentUpon>ReportONE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\ReportONE.aspx.vb">
+      <DependentUpon>ReportONE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\ReportONETotal.aspx.designer.vb">
+      <DependentUpon>ReportONETotal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\ReportONETotal.aspx.vb">
+      <DependentUpon>ReportONETotal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_Aviso.aspx.designer.vb">
+      <DependentUpon>RO_Aviso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_Aviso.aspx.vb">
+      <DependentUpon>RO_Aviso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_EntidadesEmisoras.aspx.designer.vb">
+      <DependentUpon>RO_EntidadesEmisoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_EntidadesEmisoras.aspx.vb">
+      <DependentUpon>RO_EntidadesEmisoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_InstrumentosNegociados.aspx.designer.vb">
+      <DependentUpon>RO_InstrumentosNegociados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_InstrumentosNegociados.aspx.vb">
+      <DependentUpon>RO_InstrumentosNegociados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesActividadEconomica.aspx.designer.vb">
+      <DependentUpon>RO_OperacionesActividadEconomica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesActividadEconomica.aspx.vb">
+      <DependentUpon>RO_OperacionesActividadEconomica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesPorEntidadesEmisoras.aspx.designer.vb">
+      <DependentUpon>RO_OperacionesPorEntidadesEmisoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesPorEntidadesEmisoras.aspx.vb">
+      <DependentUpon>RO_OperacionesPorEntidadesEmisoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesPorInstrumento.aspx.designer.vb">
+      <DependentUpon>RO_OperacionesPorInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesPorInstrumento.aspx.vb">
+      <DependentUpon>RO_OperacionesPorInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesPorPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>RO_OperacionesPorPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesPorPuestoBolsa.aspx.vb">
+      <DependentUpon>RO_OperacionesPorPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesRentaFija.aspx.designer.vb">
+      <DependentUpon>RO_OperacionesRentaFija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_OperacionesRentaFija.aspx.vb">
+      <DependentUpon>RO_OperacionesRentaFija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_Portada.aspx.designer.vb">
+      <DependentUpon>RO_Portada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_Portada.aspx.vb">
+      <DependentUpon>RO_Portada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_PuestoBolsa.aspx.designer.vb">
+      <DependentUpon>RO_PuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_PuestoBolsa.aspx.vb">
+      <DependentUpon>RO_PuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_ResumenMensualporTipodeMonedas.aspx.designer.vb">
+      <DependentUpon>RO_ResumenMensualporTipodeMonedas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportONE\RO_ResumenMensualporTipodeMonedas.aspx.vb">
+      <DependentUpon>RO_ResumenMensualporTipodeMonedas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\BB_EditarConfiguracion.aspx.designer.vb">
+      <DependentUpon>BB_EditarConfiguracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\BB_EditarConfiguracion.aspx.vb">
+      <DependentUpon>BB_EditarConfiguracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\BB_ListaConfiguracion.aspx.designer.vb">
+      <DependentUpon>BB_ListaConfiguracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\BB_ListaConfiguracion.aspx.vb">
+      <DependentUpon>BB_ListaConfiguracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BoletinBursatil.aspx.designer.vb">
+      <DependentUpon>BoletinBursatil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BoletinBursatil.aspx.vb">
+      <DependentUpon>BoletinBursatil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionesRegistroDeCorredor.aspx.designer.vb">
+      <DependentUpon>ReporteComisionesRegistroDeCorredor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionesRegistroDeCorredor.aspx.vb">
+      <DependentUpon>ReporteComisionesRegistroDeCorredor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STools.vb" />
+    <Compile Include="Herramientas\SubastaOrdenesRechazadas.aspx.designer.vb">
+      <DependentUpon>SubastaOrdenesRechazadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\SubastaOrdenesRechazadas.aspx.vb">
+      <DependentUpon>SubastaOrdenesRechazadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\Usuarios.aspx.designer.vb">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\Usuarios.aspx.vb">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reportes\AP_ComparativoPorCodigoIsinPreciosBonos.aspx.designer.vb">
+      <DependentUpon>AP_ComparativoPorCodigoIsinPreciosBonos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\AP_ComparativoPorCodigoIsinPreciosBonos.aspx.vb">
+      <DependentUpon>AP_ComparativoPorCodigoIsinPreciosBonos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinDiario.aspx.designer.vb">
+      <DependentUpon>BoletinDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinDiario.aspx.vb">
+      <DependentUpon>BoletinDiario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ComparativoPreciosBonos.aspx.designer.vb">
+      <DependentUpon>ComparativoPreciosBonos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ComparativoPreciosBonos.aspx.vb">
+      <DependentUpon>ComparativoPreciosBonos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ComparativoVolumenesBonos.aspx.designer.vb">
+      <DependentUpon>ComparativoVolumenesBonos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ComparativoVolumenesBonos.aspx.vb">
+      <DependentUpon>ComparativoVolumenesBonos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\LOPI_MontoDemandadoValidoNoValido.aspx.designer.vb">
+      <DependentUpon>LOPI_MontoDemandadoValidoNoValido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\LOPI_MontoDemandadoValidoNoValido.aspx.vb">
+      <DependentUpon>LOPI_MontoDemandadoValidoNoValido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteLOSuscipcionAcumulados.aspx.designer.vb">
+      <DependentUpon>ReporteLOSuscipcionAcumulados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteLOSuscipcionAcumulados.aspx.vb">
+      <DependentUpon>ReporteLOSuscipcionAcumulados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesResumen.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesResumen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesResumen.aspx.vb">
+      <DependentUpon>ReporteOperacionesResumen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteCorredoresPuestoBolsa.aspx.designer.vb">
+      <DependentUpon>ReporteCorredoresPuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteCorredoresPuestoBolsa.aspx.vb">
+      <DependentUpon>ReporteCorredoresPuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionNuevoEmisor.aspx.designer.vb">
+      <DependentUpon>ReporteComisionNuevoEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionNuevoEmisor.aspx.vb">
+      <DependentUpon>ReporteComisionNuevoEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\LO_LibroOrdenesDetalladePuestoBolsa.aspx.designer.vb">
+      <DependentUpon>LO_LibroOrdenesDetalladePuestoBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\LO_LibroOrdenesDetalladePuestoBolsa.aspx.vb">
+      <DependentUpon>LO_LibroOrdenesDetalladePuestoBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\LO_ProrrateoDetallePuestoDeBolsa.aspx.designer.vb">
+      <DependentUpon>LO_ProrrateoDetallePuestoDeBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\LO_ProrrateoDetallePuestoDeBolsa.aspx.vb">
+      <DependentUpon>LO_ProrrateoDetallePuestoDeBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\LO_ProrrateoResumenPuestoDeBolsa.aspx.designer.vb">
+      <DependentUpon>LO_ProrrateoResumenPuestoDeBolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\LO_ProrrateoResumenPuestoDeBolsa.aspx.vb">
+      <DependentUpon>LO_ProrrateoResumenPuestoDeBolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_BoletinDiario.aspx.designer.vb">
+      <DependentUpon>MK_BoletinDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_BoletinDiario.aspx.vb">
+      <DependentUpon>MK_BoletinDiario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_BoletinPortada.aspx.designer.vb">
+      <DependentUpon>MK_BoletinPortada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_BoletinPortada.aspx.vb">
+      <DependentUpon>MK_BoletinPortada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_CantidadOperacionesParticipante.aspx.designer.vb">
+      <DependentUpon>MK_CantidadOperacionesParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_CantidadOperacionesParticipante.aspx.vb">
+      <DependentUpon>MK_CantidadOperacionesParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_GrupoPublicacion.aspx.designer.vb">
+      <DependentUpon>MK_GrupoPublicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_GrupoPublicacion.aspx.vb">
+      <DependentUpon>MK_GrupoPublicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_MontosNegociadosInstrumentos.aspx.designer.vb">
+      <DependentUpon>MK_MontosNegociadosInstrumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_MontosNegociadosInstrumentos.aspx.vb">
+      <DependentUpon>MK_MontosNegociadosInstrumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx.designer.vb">
+      <DependentUpon>MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx.vb">
+      <DependentUpon>MK_MontosTransadosParticipanteInstrumentosMonedaEmision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_MontosTransadosParticipantesInstrumentos.aspx.designer.vb">
+      <DependentUpon>MK_MontosTransadosParticipantesInstrumentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_MontosTransadosParticipantesInstrumentos.aspx.vb">
+      <DependentUpon>MK_MontosTransadosParticipantesInstrumentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_OperacionesDiarias.aspx.designer.vb">
+      <DependentUpon>MK_OperacionesDiarias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_OperacionesDiarias.aspx.vb">
+      <DependentUpon>MK_OperacionesDiarias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_PreciosCierreBonosTransados.aspx.designer.vb">
+      <DependentUpon>MK_PreciosCierreBonosTransados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_PreciosCierreBonosTransados.aspx.vb">
+      <DependentUpon>MK_PreciosCierreBonosTransados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_PreciosUltimoMejorPeor.aspx.designer.vb">
+      <DependentUpon>MK_PreciosUltimoMejorPeor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_PreciosUltimoMejorPeor.aspx.vb">
+      <DependentUpon>MK_PreciosUltimoMejorPeor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_ResumenDiario.aspx.designer.vb">
+      <DependentUpon>MK_ResumenDiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_ResumenDiario.aspx.vb">
+      <DependentUpon>MK_ResumenDiario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_TitulosMasTransados.aspx.designer.vb">
+      <DependentUpon>MK_TitulosMasTransados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_TitulosMasTransados.aspx.vb">
+      <DependentUpon>MK_TitulosMasTransados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\MK_ValorTransadoOperacionesParticipante.aspx.designer.vb">
+      <DependentUpon>MK_ValorTransadoOperacionesParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\MK_ValorTransadoOperacionesParticipante.aspx.vb">
+      <DependentUpon>MK_ValorTransadoOperacionesParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\OF_PosturasPorParticipanteInstrumento.aspx.designer.vb">
+      <DependentUpon>OF_PosturasPorParticipanteInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\OF_PosturasPorParticipanteInstrumento.aspx.vb">
+      <DependentUpon>OF_PosturasPorParticipanteInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteAcumuladoColocacionesInstrumentoEmisor.aspx.designer.vb">
+      <DependentUpon>ReporteAcumuladoColocacionesInstrumentoEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteAcumuladoColocacionesInstrumentoEmisor.aspx.vb">
+      <DependentUpon>ReporteAcumuladoColocacionesInstrumentoEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteBoletinBursatilOperacionesRentaFija.aspx.designer.vb">
+      <DependentUpon>ReporteBoletinBursatilOperacionesRentaFija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteBoletinBursatilOperacionesRentaFija.aspx.vb">
+      <DependentUpon>ReporteBoletinBursatilOperacionesRentaFija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteBoletinPortada.aspx.designer.vb">
+      <DependentUpon>ReporteBoletinPortada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteBoletinPortada.aspx.vb">
+      <DependentUpon>ReporteBoletinPortada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteCalificacionesRiesgo.aspx.designer.vb">
+      <DependentUpon>ReporteCalificacionesRiesgo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteCalificacionesRiesgo.aspx.vb">
+      <DependentUpon>ReporteCalificacionesRiesgo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionesMantenimientoEmisiones.aspx.designer.vb">
+      <DependentUpon>ReporteComisionesMantenimientoEmisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\ReporteComisionesMantenimientoEmisiones.aspx.vb">
+      <DependentUpon>ReporteComisionesMantenimientoEmisiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\RptResumenComisionesMSporParticipante.aspx.designer.vb">
+      <DependentUpon>RptResumenComisionesMSporParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\RptResumenComisionesMSporParticipante.aspx.vb">
+      <DependentUpon>RptResumenComisionesMSporParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteComparativoVolumenesNegociadosMPMS.aspx.designer.vb">
+      <DependentUpon>ReporteComparativoVolumenesNegociadosMPMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteComparativoVolumenesNegociadosMPMS.aspx.vb">
+      <DependentUpon>ReporteComparativoVolumenesNegociadosMPMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteDetalleAcumuladoporEntidadInstrumento.aspx.designer.vb">
+      <DependentUpon>ReporteDetalleAcumuladoporEntidadInstrumento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteDetalleAcumuladoporEntidadInstrumento.aspx.vb">
+      <DependentUpon>ReporteDetalleAcumuladoporEntidadInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteEmisionesRegistradas.aspx.designer.vb">
+      <DependentUpon>ReporteEmisionesRegistradas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteEmisionesRegistradas.aspx.vb">
+      <DependentUpon>ReporteEmisionesRegistradas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteEmisionesRegistradasPorDia.aspx.designer.vb">
+      <DependentUpon>ReporteEmisionesRegistradasPorDia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteEmisionesRegistradasPorDia.aspx.vb">
+      <DependentUpon>ReporteEmisionesRegistradasPorDia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteEmisionesVigentesMercadoValores.aspx.designer.vb">
+      <DependentUpon>ReporteEmisionesVigentesMercadoValores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteEmisionesVigentesMercadoValores.aspx.vb">
+      <DependentUpon>ReporteEmisionesVigentesMercadoValores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteInstrumentosNegociados.aspx.designer.vb">
+      <DependentUpon>ReporteInstrumentosNegociados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteInstrumentosNegociados.aspx.vb">
+      <DependentUpon>ReporteInstrumentosNegociados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteNivelOperadoVendedorMP.aspx.designer.vb">
+      <DependentUpon>ReporteNivelOperadoVendedorMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteNivelOperadoVendedorMP.aspx.vb">
+      <DependentUpon>ReporteNivelOperadoVendedorMP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx.vb">
+      <DependentUpon>ReporteOperacionesImportesMayoresValorTransadoMercadoMoneda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesMercadoPrimario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesMercadoPrimario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesMercadoPrimario.aspx.vb">
+      <DependentUpon>ReporteOperacionesMercadoPrimario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesMercadoSecundario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesMercadoSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesMercadoSecundario.aspx.vb">
+      <DependentUpon>ReporteOperacionesMercadoSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\Comisiones\RptOperacionesPorPuntaMSParticipante.aspx.designer.vb">
+      <DependentUpon>RptOperacionesPorPuntaMSParticipante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\Comisiones\RptOperacionesPorPuntaMSParticipante.aspx.vb">
+      <DependentUpon>RptOperacionesPorPuntaMSParticipante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPorMes.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesPorMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPorMes.aspx.vb">
+      <DependentUpon>ReporteOperacionesPorMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPorMesPesos.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesPorMesPesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPorMesPesos.aspx.vb">
+      <DependentUpon>ReporteOperacionesPorMesPesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPuestoBolsaEmisor.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsaEmisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPuestoBolsaEmisor.aspx.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsaEmisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx.vb">
+      <DependentUpon>ReporteOperacionesPuestoBolsaMercadoPrimarioSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaEmisorInstrumentoMercadoPrimario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaEmisorInstrumentoMercadoSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaMercadoPrimario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaMercadoPrimario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaMercadoPrimario.aspx.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaMercadoPrimario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaMercadoSecundario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaMercadoSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesRentaFijaMercadoSecundario.aspx.vb">
+      <DependentUpon>ReporteOperacionesRentaFijaMercadoSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx.designer.vb">
+      <DependentUpon>ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx.vb">
+      <DependentUpon>ReporteOperacionesTransadasMercadoBursatilPrimarioSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportePrecioCierre30BonosMasTransados.aspx.designer.vb">
+      <DependentUpon>ReportePrecioCierre30BonosMasTransados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportePrecioCierre30BonosMasTransados.aspx.vb">
+      <DependentUpon>ReportePrecioCierre30BonosMasTransados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportePrecios.aspx.designer.vb">
+      <DependentUpon>ReportePrecios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportePrecios.aspx.vb">
+      <DependentUpon>ReportePrecios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteVolumenesTransadosAnyoPesos.aspx.designer.vb">
+      <DependentUpon>ReporteVolumenesTransadosAnyoPesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteVolumenesTransadosAnyoPesos.aspx.vb">
+      <DependentUpon>ReporteVolumenesTransadosAnyoPesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx.designer.vb">
+      <DependentUpon>ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx.vb">
+      <DependentUpon>ReporteVolumenNegociadoActividadEconomicaMercadoPrimarioSecundario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ResultadoProrrateoOrdenes.aspx.designer.vb">
+      <DependentUpon>ResultadoProrrateoOrdenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ResultadoProrrateoOrdenes.aspx.vb">
+      <DependentUpon>ResultadoProrrateoOrdenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.designer.vb">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.master.vb">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\ConsultaFlutuacionTasa.aspx.designer.vb">
+      <DependentUpon>ConsultaFlutuacionTasa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\ConsultaFlutuacionTasa.aspx.vb">
+      <DependentUpon>ConsultaFlutuacionTasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\EditarBoletin.aspx.designer.vb">
+      <DependentUpon>EditarBoletin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\EditarBoletin.aspx.vb">
+      <DependentUpon>EditarBoletin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\EditarCambiosTasas.aspx.designer.vb">
+      <DependentUpon>EditarCambiosTasas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\EditarCambiosTasas.aspx.vb">
+      <DependentUpon>EditarCambiosTasas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\EditarRegistroNAV.aspx.designer.vb">
+      <DependentUpon>EditaRegistroNAV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\EditarRegistroNAV.aspx.vb">
+      <DependentUpon>EditaRegistroNAV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\EditarCambiosTasasSeries.aspx.designer.vb">
+      <DependentUpon>EditarCambiosTasasSeries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\EditarCambiosTasasSeries.aspx.vb">
+      <DependentUpon>EditarCambiosTasasSeries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\Listaboletin.aspx.designer.vb">
+      <DependentUpon>Listaboletin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\Listaboletin.aspx.vb">
+      <DependentUpon>Listaboletin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\ListaCambiosTasas.aspx.designer.vb">
+      <DependentUpon>ListaCambiosTasas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\ListaCambiosTasas.aspx.vb">
+      <DependentUpon>ListaCambiosTasas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\ListaOperacionesValoresEnFirme.aspx.designer.vb">
+      <DependentUpon>ListaOperacionesValoresEnFirme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\ListaOperacionesValoresEnFirme.aspx.vb">
+      <DependentUpon>ListaOperacionesValoresEnFirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\ListaRegistroNAV.aspx.designer.vb">
+      <DependentUpon>ListaRegistroNAV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\ListaRegistroNAV.aspx.vb">
+      <DependentUpon>ListaRegistroNAV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\ListaCambiosTasasSeries.aspx.designer.vb">
+      <DependentUpon>ListaCambiosTasasSeries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\ListaCambiosTasasSeries.aspx.vb">
+      <DependentUpon>ListaCambiosTasasSeries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transacciones\ListaEmisionSerieCalendarioCambioTasas.aspx.designer.vb">
+      <DependentUpon>ListaEmisionSerieCalendarioCambioTasas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones\ListaEmisionSerieCalendarioCambioTasas.aspx.vb">
+      <DependentUpon>ListaEmisionSerieCalendarioCambioTasas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XSD_BVRD.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\RadGrid.Main.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadGrid.Main.es.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadGrid.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadGrid.Main.designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="bin\es.Resources.resx" />
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\RadSpell\de-DE.tdf" />
+    <Content Include="App_Data\RadSpell\en-US.tdf" />
+    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="App_Data\RadUploadTemp\RadUploadTestFile" />
+    <Content Include="bin\MyReportLib.dll.config" />
+    <Content Include="bin\RadarSoft.RadarCube.Web.TOLAPCube.lic" />
+    <Content Include="bin\vs6964.tmp" />
+    <Content Include="Bundle.config" />
+    <Content Include="Handler.ashx" />
+    <Content Include="Images\Reportes\00000002" />
+    <Content Include="Images\Reportes\00000003" />
+    <Content Include="Images\Reportes\00000004" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config" />
+    <Content Include="Site.master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WebConfig\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\es\" />
+    <Folder Include="obj\" />
+    <Folder Include="reportes\FIAB\BoletinAnual\" />
+    <Folder Include="temp\%24Session%24\" />
+    <Folder Include="tmp\TELERIKBK\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{a1a20244-d067-4f77-9632-81197139f9fc}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sgo.DataAccess\Sgo.DataAccess.csproj">
+      <Project>{962e1e48-7048-459f-bf12-328da700a10f}</Project>
+      <Name>Sgo.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sgo.Model\Sgo.Model.csproj">
+      <Project>{e6475641-5edf-4b1e-96a9-ba4a79836206}</Project>
+      <Name>Sgo.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGO_Reportes\MyReportLib\MyReportLib.vbproj">
+      <Project>{575a8d0b-1d51-41ac-9823-4360dde56c58}</Project>
+      <Name>MyReportLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2007</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2007/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

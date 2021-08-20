@@ -1,0 +1,119 @@
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.xml
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojResolveAssemblyReference.cache
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.Cache
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Connection.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\FluentNHibernate.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Iesi.Collections.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\MyReportLib.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\NHibernate.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.Model.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Telerik.Reporting.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Connection.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Sgo.Model.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\MyReportLib.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\MyReportLib.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Telerik.Reporting.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Telerik.Reporting.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojResolveAssemblyReference.cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.Cache
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+\\app\Tecnologia\Roman\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\FluentNHibernate.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Iesi.Collections.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\NHibernate.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojResolveAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.Cache
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\FluentNHibernate.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Iesi.Collections.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\NHibernate.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojResolveAssemblyReference.cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.Cache
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb

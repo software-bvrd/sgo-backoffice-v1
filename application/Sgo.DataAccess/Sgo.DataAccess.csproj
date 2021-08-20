@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{962E1E48-7048-459F-BF12-328DA700A10F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sgo.DataAccess</RootNamespace>
+    <AssemblyName>Sgo.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate">
+      <HintPath>\\arp01\c$\apps\dll_Sgo\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>\\arp01\c$\apps\dll_Sgo\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>\\arp01\c$\apps\dll_Sgo\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infrastructure\IGuidKeyedReadOnlyRepository.cs" />
+    <Compile Include="Infrastructure\IGuidKeyedRepository.cs" />
+    <Compile Include="Infrastructure\IIntKeyedReadOnlyRepository.cs" />
+    <Compile Include="Infrastructure\IIntKeyedRepository.cs" />
+    <Compile Include="Infrastructure\IReadOnlyRepository.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Map\ActividadeconomicaMap.cs" />
+    <Compile Include="Map\AppointmentstatusMap.cs" />
+    <Compile Include="Map\ArchivoimportarexportarcalendarioMap.cs" />
+    <Compile Include="Map\ArchivoimportarexportardetalleMap.cs" />
+    <Compile Include="Map\ArchivoimportarexportarencabezadoMap.cs" />
+    <Compile Include="Map\ArchivoimportarexportarlogsMap.cs" />
+    <Compile Include="Map\BaseliquidacionMap.cs" />
+    <Compile Include="Map\BoletinMap.cs" />
+    <Compile Include="Map\CiudadMap.cs" />
+    <Compile Include="Map\ClasificacionparticipanteMap.cs" />
+    <Compile Include="Map\CodigosparticipanteMap.cs" />
+    <Compile Include="Map\ComisionestarifasdetalleMap.cs" />
+    <Compile Include="Map\ComisionestarifasMap.cs" />
+    <Compile Include="Map\DiafestivoMap.cs" />
+    <Compile Include="Map\EmisioncalificacionriesgoMap.cs" />
+    <Compile Include="Map\EmisiondocumentoMap.cs" />
+    <Compile Include="Map\EmisionMap.cs" />
+    <Compile Include="Map\EmisionpuestobolsaMap.cs" />
+    <Compile Include="Map\EmisionseriecalendariocambiotasasMap.cs" />
+    <Compile Include="Map\EmisionseriehistoricocambiotasasMap.cs" />
+    <Compile Include="Map\EmisionserieMap.cs" />
+    <Compile Include="Map\EmisiontramoMap.cs" />
+    <Compile Include="Map\EmisorcalificacionriesgoMap.cs" />
+    <Compile Include="Map\EmisordocumentoMap.cs" />
+    <Compile Include="Map\EmisorMap.cs" />
+    <Compile Include="Map\EmpresacalificadoraMap.cs" />
+    <Compile Include="Map\FiltrosconsultasMap.cs" />
+    <Compile Include="Map\FormacolocacionMap.cs" />
+    <Compile Include="Map\GrupoinstrumentosMap.cs" />
+    <Compile Include="Map\InstrumentoMap.cs" />
+    <Compile Include="Map\InstrumentosecuenciaMap.cs" />
+    <Compile Include="Map\ListaarchivosoperacionesMap.cs" />
+    <Compile Include="Map\MercadoMap.cs" />
+    <Compile Include="Map\MonedashistoricotasasMap.cs" />
+    <Compile Include="Map\OpcionesmenuMap.cs" />
+    <Compile Include="Map\OperacionescsvMap.cs" />
+    <Compile Include="Map\OperacionesMap.cs" />
+    <Compile Include="Map\OrdenesenfirmeMap.cs" />
+    <Compile Include="Map\PaisMap.cs" />
+    <Compile Include="Map\PerfilesMap.cs" />
+    <Compile Include="Map\PermisosporperfilMap.cs" />
+    <Compile Include="Map\ProvinciaMap.cs" />
+    <Compile Include="Map\PuestobolsacorredordocumentoMap.cs" />
+    <Compile Include="Map\PuestobolsacorredorlicenciaMap.cs" />
+    <Compile Include="Map\PuestobolsacorredorMap.cs" />
+    <Compile Include="Map\PuestobolsadirectivoMap.cs" />
+    <Compile Include="Map\PuestobolsadocumentoMap.cs" />
+    <Compile Include="Map\PuestobolsaMap.cs" />
+    <Compile Include="Map\RangocalificacionMap.cs" />
+    <Compile Include="Map\SectorMap.cs" />
+    <Compile Include="Map\StatusoperacionMap.cs" />
+    <Compile Include="Map\SubastaemisionserieMap.cs" />
+    <Compile Include="Map\SubastaMap.cs" />
+    <Compile Include="Map\TipoamortizacioncapitalMap.cs" />
+    <Compile Include="Map\TipocalificacionriesgoMap.cs" />
+    <Compile Include="Map\TipodocumentoMap.cs" />
+    <Compile Include="Map\TipoemisionMap.cs" />
+    <Compile Include="Map\TipoemisorMap.cs" />
+    <Compile Include="Map\TipoentidadMap.cs" />
+    <Compile Include="Map\TipoinstrumentoMap.cs" />
+    <Compile Include="Map\TipointeresMap.cs" />
+    <Compile Include="Map\TipoliquidacionMap.cs" />
+    <Compile Include="Map\TipomercadoMap.cs" />
+    <Compile Include="Map\TipomonedaMap.cs" />
+    <Compile Include="Map\TiponegociacionMap.cs" />
+    <Compile Include="Map\TipooperacionMap.cs" />
+    <Compile Include="Map\TipoparticipanteMap.cs" />
+    <Compile Include="Map\TipoperiodoMap.cs" />
+    <Compile Include="Map\TipotasaMap.cs" />
+    <Compile Include="Map\UsuariosMap.cs" />
+    <Compile Include="Map\UsuariosseguimientoactividadMap.cs" />
+    <Compile Include="NHibernateHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryBase.cs" />
+    <Compile Include="UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sgo.Model\Sgo.Model.csproj">
+      <Project>{e6475641-5edf-4b1e-96a9-ba4a79836206}</Project>
+      <Name>Sgo.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

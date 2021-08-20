@@ -1,0 +1,210 @@
+/*Telerik RadCalendar Special skin*/
+/*Edit by: Jurnio A. Altagracia M.*/
+ 
+table.RadCalendar_Special
+{
+     border-collapse:separate;
+     border:0;
+     background:#272727;
+     color:#fff;
+     font:12px "segoe ui",arial,sans-serif;
+     width:757px;
+}
+ 
+/*titlebar*/
+ 
+.RadCalendar_Special .rcTitlebar
+{
+     width:100%;
+     border:0;
+     padding:0;
+     background:0 0 no-repeat url(../Images/Calendar/rcTitlebar.gif);
+}
+ 
+.RadCalendar_Special .rcTitlebar table
+{
+     width:100%;
+     border-collapse:separate;
+     border:0;
+     font:14px/36px "segoe ui",arial,sans-serif;
+}
+ 
+.RadCalendar_Special .rcTitlebar td
+{
+     border:0;
+     padding:0;
+     text-align:center;
+     vertical-align:middle;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcTitle
+{
+     width:100%;
+     cursor:default;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcPrev,
+.RadCalendar_Special .rcTitlebar .rcNext,
+.RadCalendar_Special .rcTitlebar .rcFastPrev,
+.RadCalendar_Special .rcTitlebar .rcFastNext
+{
+     display:block;
+     width:17px;
+     height:16px;
+     overflow:hidden;
+     margin:0 6px;
+     background:transparent url(../Images/Calendar/specialsprite.gif) no-repeat;
+     text-indent:-2222px;
+     text-decoration:none;
+     color:#ccc;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcFastPrev
+{
+     background-position:0 0;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcFastPrev:hover
+{
+     background-position:0 -50px;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcPrev
+{
+     background-position:0 -100px;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcPrev:hover
+{
+     background-position:0 -150px;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcNext
+{
+     background-position:0 -200px;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcNext:hover
+{
+     background-position:0 -250px;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcFastNext
+{
+     background-position:0 -300px;
+}
+ 
+.RadCalendar_Special .rcTitlebar .rcFastNext:hover
+{
+     background-position:0 -350px;
+}
+ 
+.RadCalendar_Special .rcMain
+{
+     width:100%;
+     border:0;
+     padding:0;
+}
+ 
+.RadCalendar_Special .rcMainTable
+{
+     border-collapse:separate;
+     border:0;
+     width:100%;
+     font:12px/17px "segoe ui",arial,sans-serif;
+}
+ 
+/*header, footer*/
+ 
+.RadCalendar_Special .rcHeader,
+.RadCalendar_Special .rcFooter
+{
+     border:0;
+     padding:0;
+}
+ 
+/*week numbers and days*/
+ 
+.RadCalendar_Special .rcWeek th,
+.RadCalendar_Special .rcRow th
+{
+     border:0;
+     font-weight:normal;
+     vertical-align:middle;
+     cursor:default;
+     color:#c8c8c8;
+}
+ 
+.RadCalendar_Special .rcWeek th
+{
+     line-height:28px;
+     padding-bottom:7px;
+     background:0 -600px repeat-x url(../Images/Calendar/specialsprite.gif);
+}
+ 
+/*date cells*/
+ 
+.RadCalendar_Special .rcRow td
+{
+     padding:0 3px 3px 0;
+     text-align:right;
+}
+ 
+.RadCalendar_Special .rcRow .rcOtherMonth
+{
+     background:none;
+     font:1px/1px sans-serif;
+}
+ 
+.RadCalendar_Special .rcRow a,
+.RadCalendar_Special .rcRow span,
+.RadCalendar_Special .rcTemplate
+{
+     display:block;
+     width:95px;
+     height:47px;
+     padding:8px 8px 0 0;
+     background:0 -400px no-repeat url(../Images/Calendar/specialsprite.gif);
+     text-decoration:none;
+}
+ 
+.RadCalendar_Special .rcTemplate
+{
+     background:none;
+     color:#f90;
+}
+ 
+.RadCalendar_Special .rcRow a
+{
+     color:#fff;
+}
+ 
+.RadCalendar_Special .rcRow .rcHover a,
+.RadCalendar_Special .rcRow .rcSelected a
+{
+     background-position:0 -500px;
+     color:#000;
+}
+ 
+/*special days*/
+ 
+.RadCalendar_Special .rcRow .rcHover .rcTemplate,
+.RadCalendar_Special .rcRow .rcSelected .rcTemplate
+{
+     color:#fc0;
+}
+ 
+.RadCalendar_Special .rcRow .rcDayDate
+{
+     background:0 0 no-repeat url(../Images/Calendar/t_date.gif);
+}
+ 
+.RadCalendar_Special .rcRow .rcDayMortgage
+{
+     background:0 0 no-repeat url(../Images/Calendar/t_mortgage.gif);
+}
+ 
+.RadCalendar_Special .rcRow .rcDayBirthday
+{
+     background:0 0 no-repeat url(../Images/Calendar/t_birthday.gif);
+}
