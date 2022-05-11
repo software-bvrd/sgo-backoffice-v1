@@ -10,7 +10,7 @@
   <trustInfo>
     <security>
       <applicationRequestMinimum>
-        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <PermissionSet ID="Custom" SameSite="site" Unrestricted="true" />
         <defaultAssemblyRequest permissionSetReference="Custom" />
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
@@ -43,50 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChilkatDotNet4.dll" size="8388608">
-      <assemblyIdentity name="ChilkatDotNet4" version="9.5.0.70" publicKeyToken="EB5FC1FC52EF09BD" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChilkatDotNet4.dll" size="6006784">
+      <assemblyIdentity name="ChilkatDotNet4" version="9.1.2.0" publicKeyToken="EB5FC1FC52EF09BD" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wPD0NRl9ce80atG6pwuaGgrD8gc1XqeYAoEAHlT+IZQ=</dsig:DigestValue>
+        <dsig:DigestValue>UfLwC22500Y0epLzJLMfbJ3lvS8FPln+bthQ0KY+nC8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.Reporting.dll" size="8542208">
-      <assemblyIdentity name="Telerik.Reporting" version="10.1.16.615" publicKeyToken="A9D7983DFCC261BE" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JaVZq0kvXQ4KTMfzO6Pl5MToy4XSYp7nuJgHa7sn2Ds=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Telerik.ReportViewer.WinForms.dll" size="319488">
-      <assemblyIdentity name="Telerik.ReportViewer.WinForms" version="10.1.16.615" publicKeyToken="A9D7983DFCC261BE" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>toabxYdtdRBxs4uQNyhn2e6QYygTo/OaG7/Of0jRtCs=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XmlWeb.exe" size="71128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XmlWeb.exe" size="71680">
       <assemblyIdentity name="XmlWeb" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Y+e3tHcNIIyDQVNi1w0J1C8bVBCk6smsbWvjFMkucdY=</dsig:DigestValue>
+        <dsig:DigestValue>xcw2fz6EbHuRE/2/gYxvDvZfzxrXH59cthOlY9KT5PQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -99,13 +75,13 @@
       <dsig:DigestValue>8wAZ4IqdA0At0Ny4Tdxp7J4z8hh12DIk/nDc+q3OGt8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="XmlWeb.exe.config" size="1213">
+  <file name="XmlWeb.exe.config" size="1401">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Of+fw3W76s6IEPFdehR3Amd3XOnNnsIskNiqhF/aPkc=</dsig:DigestValue>
+      <dsig:DigestValue>8Qz5jAOWFgZnxyviKrMuIlaFg2lb/nLIN5ZjYezT18c=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
