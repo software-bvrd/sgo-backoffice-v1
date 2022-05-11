@@ -108,7 +108,7 @@ Partial Class ListaComisiones
         ' Dim fileName As String = Server.MapPath("~/tmp/") + videntificador & "_" & DateAndTime.Now.ToString("yyyyMMddhhmmss") & ".csv"
         'Dim fileName As String = videntificador & "_" & DateAndTime.Now.ToString("yyyyMMddhhmmss") & ".csv"
         Dim fileNamedest As String = videntificador & "_" & DateAndTime.Now.ToString("yyyyMMdd") & ".csv"
-        Dim url As String = "\\10.1.0.108\FilesShared\Interface\"
+        Dim url As String = "\\10.1.0.51\FilesShared\Interface\"
         Dim vEstatus As String = ditem("Estatus").Text
 
         lblmsg.Text = String.Empty
