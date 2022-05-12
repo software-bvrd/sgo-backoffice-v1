@@ -308,6 +308,8 @@ Partial Class CargaOrdenesEnFirme
 
 
         Catch ex As Exception
+            ' Throw New System.Exception(ex.InnerException.ToString() & " en la linea " & line.ToString())
+
         End Try
     End Sub
 

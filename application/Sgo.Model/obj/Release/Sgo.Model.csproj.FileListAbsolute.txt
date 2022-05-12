@@ -35,7 +35,7 @@ C:\Proyecto\BolsaDeValores\BackofficeV1\sgo-backoffice-v1\application\Sgo.Model\
 \\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojAssemblyReference.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojAssemblyReference.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojAssemblyReference.cache

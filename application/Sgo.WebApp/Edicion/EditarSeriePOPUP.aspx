@@ -328,13 +328,11 @@
 
             <%-- TAB Manager --%>
             <telerik:RadTabStrip ID="RadTabStrip1" runat="server"
-                SelectedIndex="3" MultiPageID="RadMultiPage1" CausesValidation="False"
-                Width="100%">
-
-                <Tabs>
-
+                SelectedIndex="0" MultiPageID="RadMultiPage1" CausesValidation="False"
+                Width="100%"> 
+                <Tabs> 
                     <telerik:RadTab runat="server" Text="Datos Emisión" PageViewID="Pagina1"
-                        SelectedIndex="1">
+                        SelectedIndex="1" Selected="True">
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" Text="Incrementos" PageViewID="Pagina2"
@@ -346,7 +344,7 @@
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" Text="Amortizaciones" PageViewID="Pagina4"
-                        SelectedIndex="4" Selected="True">
+                        SelectedIndex="4">
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" Text="Titularizado" PageViewID="Pagina5"
@@ -397,7 +395,7 @@
             <%-- Botón nuevo, solo debe ser visible en el TAB de Incrementos --%>
 
             <telerik:RadMultiPage ID="RadMultiPage1" runat="server" Height="16px"
-                SelectedIndex="3" Width="165px">
+                SelectedIndex="0" Width="165px">
 
                 <%--Datos Generales --%>
                 <telerik:RadPageView ID="Pagina1" runat="server" Selected="True" TabIndex="1" Width="922px">

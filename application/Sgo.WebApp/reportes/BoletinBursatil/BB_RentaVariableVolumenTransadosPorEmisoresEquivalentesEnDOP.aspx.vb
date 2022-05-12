@@ -13,7 +13,7 @@ Public Class BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP
         If Not IsPostBack Then
             Dim InstaciaReportSource As New InstanceReportSource
             Dim ReportBookDiario As New ReportBook
-            ReportBookDiario.Reports.Add(New MyReportLib.BB_RFVolTransEmisoresDOP)
+            ReportBookDiario.Reports.Add(New MyReportLib.BB_RVVolTransEmisoresDOP)
 
             ReportBookDiario.DocumentName = "BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP" & Format(Now(), "dd-MM-yy")
             InstaciaReportSource.ReportDocument = ReportBookDiario

@@ -328,7 +328,7 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorNominalEquivalentePesos" DataType="System.Decimal" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorNominalEquivalentePesos column" HeaderText="Nom Equiv en DOP" SortExpression="ValorNominalEquivalentePesos" UniqueName="ValorNominalEquivalentePesos">
+                        <telerik:GridNumericColumn DataField="ValorNominalEquivalentePesos" DataType="System.Decimal" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorNominalEquivalentePesos column" HeaderText="Nom Equiv en DOP" SortExpression="ValorNominalEquivalentePesos" UniqueName="ValorNominalEquivalentePesos" >
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
@@ -360,12 +360,12 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorNominalDolares" DataType="System.Decimal" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorNominalDolares column" HeaderText="Nominal USD" SortExpression="ValorNominalDolares" UniqueName="ValorNominalDolares" Display="False">
+                       <telerik:GridNumericColumn DataField="ValorNominalDolares" DataType="System.Double" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorNominalDolares column" HeaderText="Nominal USD" SortExpression="ValorNominalDolares" UniqueName="ValorNominalDolares" Display="False">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorTransadoDolares" DataType="System.Decimal" Aggregate="Sum" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" FilterControlAltText="Filter ValorTransadoDolares column" HeaderText="Transado USD" SortExpression="ValorTransadoDolares" UniqueName="ValorTransadoDolares" Display="False">
+                        <telerik:GridNumericColumn DataField="ValorTransadoDolares" DataType="System.Double" Aggregate="Sum" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" FilterControlAltText="Filter ValorTransadoDolares column" HeaderText="Transado USD" SortExpression="ValorTransadoDolares" UniqueName="ValorTransadoDolares" Display="False">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
@@ -375,7 +375,7 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorTransadoEquivalenteDolares" DataType="System.Decimal" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" Display="False" FilterControlAltText="Filter ValorTransadoEquivalenteDolares column" HeaderText="Total Trans Equiv USD" SortExpression="ValorTransadoEquivalenteDolares" UniqueName="ValorTransadoEquivalenteDolares">
+                        <telerik:GridNumericColumn DataField="ValorTransadoEquivalenteDolares" DataType="System.Double" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" Display="False" FilterControlAltText="Filter ValorTransadoEquivalenteDolares column" HeaderText="Total Trans Equiv USD" SortExpression="ValorTransadoEquivalenteDolares" UniqueName="ValorTransadoEquivalenteDolares">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>

@@ -82,3 +82,15 @@ C:\DocumentPC\Work\Projects\Develop\vs2015\back_office\application\CargaDatosExt
 \\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.exe
 \\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.xml
 \\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.exe.config
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.exe
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.xml
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.CargadorBursatil.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.Resources.resources
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.GenerateResource.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.CoreCompileInputs.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.exe
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.xml
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.pdb

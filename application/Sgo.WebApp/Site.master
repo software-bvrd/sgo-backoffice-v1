@@ -30,14 +30,11 @@
     <form runat="server" style="background-color: #006DA8;">
         <div class="page">
 
-            <div class="header">
-
+            <div class="header"> 
                 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-                </telerik:RadScriptManager>
-
+                </telerik:RadScriptManager> 
                 <div class="title">
-                </div>
-
+                </div> 
                 <div class="loginDisplay">
                     <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                         <AnonymousTemplate>

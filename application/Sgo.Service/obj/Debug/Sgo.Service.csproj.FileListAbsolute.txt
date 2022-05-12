@@ -11,7 +11,7 @@
 \\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csprojAssemblyReference.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csprojAssemblyReference.cache

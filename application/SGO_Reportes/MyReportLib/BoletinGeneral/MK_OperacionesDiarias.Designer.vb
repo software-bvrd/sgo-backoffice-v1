@@ -88,7 +88,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox3
         '
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.76490014791488647R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
+        Me.TextBox3.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.994067370891571R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
         Me.TextBox3.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(228, Byte), Integer))
         Me.TextBox3.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox3.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
@@ -266,7 +266,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox16
         '
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.49280631542205811R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
+        Me.TextBox16.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.47891771793365479R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
         Me.TextBox16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(228, Byte), Integer))
         Me.TextBox16.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox16.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
@@ -282,7 +282,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox19
         '
         Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.45219597220420837R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
+        Me.TextBox19.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.42441841959953308R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
         Me.TextBox19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(228, Byte), Integer))
         Me.TextBox19.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox19.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
@@ -298,7 +298,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox20
         '
         Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.62248331308364868R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
+        Me.TextBox20.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.42803892493247986R), Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R))
         Me.TextBox20.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(228, Byte), Integer))
         Me.TextBox20.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox20.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
@@ -314,7 +314,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox9
         '
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(8.9957151412963867R), Telerik.Reporting.Drawing.Unit.Inch(0.19999998807907105R))
+        Me.TextBox9.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(8.9887752532958984R), Telerik.Reporting.Drawing.Unit.Inch(0.19999998807907105R))
         Me.TextBox9.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(22, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(92, Byte), Integer))
         Me.TextBox9.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox9.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
@@ -358,20 +358,20 @@ Partial Class MK_OperacionesDiarias
         '
         'Table1
         '
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.76490014791488647R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.37097448110580444R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.797981858253479R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.994067370891571R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.37097463011741638R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.79798233509063721R)))
         Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.69005995988845825R)))
         Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.69005995988845825R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.51311266422271729R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.0126265287399292R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.50905126333236694R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.98826086521148682R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.69586116075515747R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.39534106850624084R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.49280646443367004R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.45219603180885315R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.62248337268829346R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.51311296224594116R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.0126268863677979R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.50905120372772217R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.98826140165328979R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.69586104154586792R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.39534157514572144R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.47891804575920105R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.42441865801811218R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.4280390739440918R)))
         Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.19999995827674866R)))
         Me.Table1.Body.SetCellContent(0, 0, Me.TextBox22)
         Me.Table1.Body.SetCellContent(0, 1, Me.TextBox23)
@@ -439,14 +439,14 @@ Partial Class MK_OperacionesDiarias
         TableGroup16.Groupings.Add(New Telerik.Reporting.Grouping(Nothing))
         TableGroup16.Name = "Detail"
         Me.Table1.RowGroups.Add(TableGroup16)
-        Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(8.9957160949707031R), Telerik.Reporting.Drawing.Unit.Inch(0.699999988079071R))
+        Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(8.988774299621582R), Telerik.Reporting.Drawing.Unit.Inch(0.699999988079071R))
         Me.Table1.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
         Me.Table1.StyleName = "Normal.TableNormal"
         '
         'TextBox22
         '
         Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.76490014791488647R), Telerik.Reporting.Drawing.Unit.Inch(0.20000001788139343R))
+        Me.TextBox22.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.994067370891571R), Telerik.Reporting.Drawing.Unit.Inch(0.19999995827674866R))
         Me.TextBox22.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox22.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox22.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
@@ -630,7 +630,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox35
         '
         Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.49280631542205811R), Telerik.Reporting.Drawing.Unit.Inch(0.20000001788139343R))
+        Me.TextBox35.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.47891771793365479R), Telerik.Reporting.Drawing.Unit.Inch(0.19999995827674866R))
         Me.TextBox35.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox35.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox35.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
@@ -647,7 +647,7 @@ Partial Class MK_OperacionesDiarias
         '
         Me.TextBox38.Format = "{0:N2}"
         Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.45219597220420837R), Telerik.Reporting.Drawing.Unit.Inch(0.20000001788139343R))
+        Me.TextBox38.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.42441841959953308R), Telerik.Reporting.Drawing.Unit.Inch(0.19999995827674866R))
         Me.TextBox38.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox38.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox38.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
@@ -663,7 +663,7 @@ Partial Class MK_OperacionesDiarias
         'TextBox39
         '
         Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.62248331308364868R), Telerik.Reporting.Drawing.Unit.Inch(0.20000001788139343R))
+        Me.TextBox39.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.42803892493247986R), Telerik.Reporting.Drawing.Unit.Inch(0.19999995827674866R))
         Me.TextBox39.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox39.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox39.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.Solid
@@ -730,7 +730,7 @@ Partial Class MK_OperacionesDiarias
         '
         'ReportHeaderSection1
         '
-        Me.ReportHeaderSection1.Height = Telerik.Reporting.Drawing.Unit.Inch(0.74791663885116577R)
+        Me.ReportHeaderSection1.Height = Telerik.Reporting.Drawing.Unit.Inch(0.57783794403076172R)
         Me.ReportHeaderSection1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox1, Me.Table5, Me.Table8, Me.PictureBox2})
         Me.ReportHeaderSection1.Name = "ReportHeaderSection1"
         '

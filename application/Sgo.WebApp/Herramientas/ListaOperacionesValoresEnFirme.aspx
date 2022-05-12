@@ -200,10 +200,9 @@
 
             </telerik:RadFilter>
 
-            <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False" ShowGroupPanel="True"
-                CellSpacing="0" DataSourceID="SqlvOperacionesValoresEnFirme" GridLines="None"
+            <telerik:RadGrid ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False" ShowGroupPanel="True" DataSourceID="SqlvOperacionesValoresEnFirme"
                 Culture="es-DO" EnableHeaderContextMenu="True"
-                ShowFooter="True" AllowPaging="True">
+                ShowFooter="True" AllowPaging="True" GroupPanelPosition="Top">
                 <GroupingSettings CaseSensitive="False" />
 
                 <ExportSettings ExportOnlyData="True" FileName="Operaciones Valores En Firme" OpenInNewWindow="True" IgnorePaging="True">
@@ -224,18 +223,27 @@
                         ShowExportToCsvButton="false" ShowExportToExcelButton="false" ShowExportToPdfButton="false" ShowRefreshButton="false" />
 
                     <RowIndicatorColumn FilterControlAltText="Filter RowIndicator column">
-                        <HeaderStyle Width="20px" />
                     </RowIndicatorColumn>
-
-                    <ExpandCollapseColumn FilterControlAltText="Filter ExpandColumn column"
-                        Visible="True" Created="True">
-                        <HeaderStyle Width="20px" />
-                    </ExpandCollapseColumn>
 
                     <Columns>
 
 
                         <%-- ID Operación : Para Editar Operaciones  --%>
+
+                        <%-- Tipo de Operación 2015.12.28 --%>
+
+                        <%-- Plazo Liquidación 2016.06.21 --%>
+
+
+                        <%-- 2017-03-13 Nuevas columnas comisiones --%>
+
+
+
+                        <%-- Origen = Como vendió 2017.07.14  --%>
+
+
+                        <%-- Destino = Como Compro 2017.07.14  --%>
+
                         <telerik:GridNumericColumn DataField="IdOperacion" DataFormatString="{0:###,##0}" DataType="System.Decimal" FilterControlAltText="Filter IdOperacion column" HeaderText="Dias al vencimiento" SortExpression="dias_alvenci" UniqueName="IdOperacion" Display="false">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
@@ -307,7 +315,7 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="valor_nom_tot"
+                       <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="valor_nom_tot"
                             DataType="System.Decimal"
                             FilterControlAltText="Filtar la columna valor nominal"
                             HeaderText="Valor Nominal" SortExpression="valor_nom_tot"
@@ -325,14 +333,14 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="valor_tran"
+                       <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="valor_tran"
                             DataType="System.Decimal"
                             FilterControlAltText="Filtar la columna Valor Transado"
                             HeaderText="Valor Transado" SortExpression="valor_tran"
                             UniqueName="valor_tran" ItemStyle-HorizontalAlign="Right">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
-                        </telerik:GridNumericColumn>
+                        </telerik:GridNumericColumn> 
 
                         <telerik:GridBoundColumn DataField="fecha_liquid" DataType="System.DateTime"
                             FilterControlAltText="Filter fecha_liquid column" HeaderText="Fecha Liq."
@@ -384,12 +392,12 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorNominalEquivalentePesos" DataType="System.Decimal" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorNominalEquivalentePesos column" HeaderText="Nom Equiv en DOP" SortExpression="ValorNominalEquivalentePesos" UniqueName="ValorNominalEquivalentePesos">
+                       <telerik:GridNumericColumn DataField="ValorNominalEquivalentePesos" DataType="System.Decimal" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorNominalEquivalentePesos column" HeaderText="Nom Equiv en DOP" SortExpression="ValorNominalEquivalentePesos" UniqueName="ValorNominalEquivalentePesos">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorTransadoEquivalentePesos" DataType="System.Decimal" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorTransadoEquivalentePesos column" HeaderText="Trans Equiv en DOP" SortExpression="ValorTransadoEquivalentePesos" UniqueName="ValorTransadoEquivalentePesos">
+                       <telerik:GridNumericColumn DataField="ValorTransadoEquivalentePesos" DataType="System.Decimal" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" FilterControlAltText="Filter ValorTransadoEquivalentePesos column" HeaderText="Trans Equiv en DOP" SortExpression="ValorTransadoEquivalentePesos" UniqueName="ValorTransadoEquivalentePesos">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
@@ -411,7 +419,7 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorTransadoPesos" DataType="System.Decimal" Aggregate="Sum" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" FilterControlAltText="Filter ValorTransadoPesos column" HeaderText="Transado DOP" SortExpression="ValorTransadoPesos" UniqueName="ValorTransadoPesos" Display="False">
+                         <telerik:GridNumericColumn DataField="ValorTransadoPesos" DataType="System.Decimal" Aggregate="Sum" FooterAggregateFormatString="{0:RD$###,##0.00}" DataFormatString="{0:###,##0.00}" FilterControlAltText="Filter ValorTransadoPesos column" HeaderText="Transado DOP" SortExpression="ValorTransadoPesos" UniqueName="ValorTransadoPesos" Display="False">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
@@ -426,7 +434,7 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataField="ValorNominalEquivalenteDolares" DataType="System.Decimal" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" Display="False" FilterControlAltText="Filter ValorNominalEquivalenteDolares column" HeaderText="Total Nom Equiv USD" SortExpression="ValorNominalEquivalenteDolares" UniqueName="ValorNominalEquivalenteDolares">
+                       <telerik:GridNumericColumn DataField="ValorNominalEquivalenteDolares" DataType="System.Decimal" FooterAggregateFormatString="{0:US$###,##0.00}" DataFormatString="{0:###,##0.00}" Aggregate="Sum" Display="False" FilterControlAltText="Filter ValorNominalEquivalenteDolares column" HeaderText="Total Nom Equiv USD" SortExpression="ValorNominalEquivalenteDolares" UniqueName="ValorNominalEquivalenteDolares">
                             <FooterStyle HorizontalAlign="Right" Font-Bold="true" />
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
@@ -462,16 +470,12 @@
                         <telerik:GridBoundColumn DataField="cant_tit" FilterControlAltText="Filter cant_tit column" HeaderText="Cantidad de títulos" SortExpression="cant_tit" UniqueName="cant_tit">
                         </telerik:GridBoundColumn>
 
-                        <%-- Tipo de Operación 2015.12.28 --%>
                         <telerik:GridBoundColumn DataField="TipoOperacion" FilterControlAltText="Filter TipoOperacion column" HeaderText="Tipo Operación" SortExpression="TipoOperacion" UniqueName="TipoOperacion">
                         </telerik:GridBoundColumn>
 
-                        <%-- Plazo Liquidación 2016.06.21 --%>
                         <telerik:GridBoundColumn DataField="PlazoLiquidacion" FilterControlAltText="Filter PlazoLiquidacion column" HeaderText="Plazo Liquidación" SortExpression="PlazoLiquidacion" UniqueName="PlazoLiquidacion">
                         </telerik:GridBoundColumn>
 
-
-                        <%-- 2017-03-13 Nuevas columnas comisiones --%>
 
                         <telerik:GridBoundColumn DataField="CruzEntreP"
                             FilterControlAltText="Filter CruzEntreP column" HeaderText="Cruz/Entre P"
@@ -479,7 +483,7 @@
                         </telerik:GridBoundColumn>
 
 
-                        <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="VendedorPaga"
+                       <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="VendedorPaga"
                             DataType="System.Decimal"
                             FilterControlAltText="Filtar la columna Vendedor Paga"
                             HeaderText="Vendedor Paga" SortExpression="VendedorPaga"
@@ -488,7 +492,7 @@
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridNumericColumn>
 
-                        <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="CompradorPaga"
+                    <telerik:GridNumericColumn DataFormatString="{0:###,##0.00}" Aggregate="Sum" FooterAggregateFormatString="{0:###,##0.00}" DataField="CompradorPaga"
                             DataType="System.Decimal"
                             FilterControlAltText="Filtar la columna Comprador Paga"
                             HeaderText="Comprador Paga" SortExpression="CompradorPaga"
@@ -519,15 +523,11 @@
 
 
 
-                        <%-- Origen = Como vendió 2017.07.14  --%>
-
                         <telerik:GridBoundColumn DataField="Origen"
                             FilterControlAltText="Filter Origen column" HeaderText="Origen"
                             SortExpression="Origen" UniqueName="Origen">
                         </telerik:GridBoundColumn>
 
-
-                        <%-- Destino = Como Compro 2017.07.14  --%>
 
                         <telerik:GridBoundColumn DataField="Destino"
                             FilterControlAltText="Filter Destino column" HeaderText="Destino"

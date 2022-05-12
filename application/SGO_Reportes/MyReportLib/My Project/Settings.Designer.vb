@@ -57,8 +57,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=ARP01\SQL_REPORT_01;Initial Catalog=SGO;Persist Security Info=True;Us"& _ 
-            "er ID=sa;Password=admin@123")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=ADB00;Initial Catalog=SGO;Persist Security Info=True;User ID=develope"& _ 
+            "r;Password=admin@123")>  _
         Public ReadOnly Property CN() As String
             Get
                 Return CType(Me("CN"),String)
@@ -68,8 +68,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=ARP01\SQL_REPORT_01;Initial Catalog=SGO;Persist Security Info=True;Us"& _ 
-            "er ID=sa;Password=admin@123")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=ADB03;Initial Catalog=SGO;Persist Security Info=True;User ID=develope"& _ 
+            "r;Password=admin@123")>  _
         Public ReadOnly Property SGODEV2() As String
             Get
                 Return CType(Me("SGODEV2"),String)

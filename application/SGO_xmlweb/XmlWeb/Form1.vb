@@ -5,12 +5,15 @@ Imports System.Configuration
 Imports System.Net.Mail
 Imports System.Xml.Serialization
 Imports Chilkat
+Imports Chilkat_v9_5_0
+Imports WinSCP
+
 
 Public Class Form1
     Private oper As New Operation
     Private mydocpath As String = ""
     Private cnx As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("CN").ToString())
-    Private cnx2 As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("CN").ToString())  
+    Private cnx2 As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("CN").ToString())
     'Private cnx As SqlConnection = New SqlConnection("Data Source=ADB03;Initial Catalog=WEB;Persist Security Info=True;User ID=appuser;Password=admin@123")
     'Private cnx2 As SqlConnection = New SqlConnection("Data Source=ADB03;Initial Catalog=WEB;Persist Security Info=True;User ID=appuser;Password=admin@123")
     Private cNombreArchivoXml As String = ""
@@ -21,16 +24,17 @@ Public Class Form1
         ' This call is required by the designer.
         InitializeComponent()
         ' Asignar Parámetro a variable de la pantalla.
-        'cNombreArchivoXml = "PreciosPionners"
+        ' cNombreArchivoXml = "PreciosPionners"
         ' cNombreArchivoXml = "instrumentos"
     End Sub
 
     Public Sub New(ByVal cArchivoXml As String)
         ' This call is required by the designer.
         InitializeComponent()
-        ' Asignar Parámetro a variable de la pantalla. 
+        ' Asignar Parámetro a variable de la pantalla.
+        'MsgBox("primero " & cArchivoXml.Trim)
         cNombreArchivoXml = cArchivoXml.Trim
-        ' cNombreArchivoXml = "xmlemisiones"  
+        'cNombreArchivoXml = "xmlposturas"
 
         ' TRABAJANDO 
         'Dim oLine As Form1 = New Form1(cArchivoXml.Trim)
@@ -47,13 +51,13 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim currentTime As DateTime = DateTime.Now  
+        Dim currentTime As DateTime = DateTime.Now
         ' currentTime = currentTime.AddDays(-1) 
         cNombreCarpeta = currentTime.Date.ToString("yyyyMMdd") & DateAndTime.TimeOfDay.ToString("HHmmss")
         cnx.Open()
-        ' btnGenerar_Click(sender, e)
-        cnx.Close()  
-       ' Application.Exit()
+        btnGenerar_Click(sender, e)
+        cnx.Close()
+        Application.Exit()
     End Sub
 
 
@@ -189,9 +193,8 @@ Public Class Form1
         ' ftp.Port = 21
         ftp.Passive = True
         Dim success As Boolean
-        Dim command As SqlCommand = New SqlCommand(
-          "Select * from vArchivo where NombreArchivo = '" & cNombreArchivoXml.Trim & "';",
-          cnx)
+        Dim command As SqlCommand = New SqlCommand("Select * from vArchivo where NombreArchivo = '" & cNombreArchivoXml.Trim & "';", cnx)
+        'Dim command As SqlCommand = New SqlCommand("Select * from vArchivo where NombreArchivo = 'xmlemisiones';", cnx)
         Dim cmdArchivoLog As SqlCommand = New SqlCommand()
 
         Dim reader As SqlDataReader = command.ExecuteReader()
@@ -258,30 +261,79 @@ Public Class Form1
                     ftp.Username = Trim(reader.GetValue(3))   '"usuarioxml@bvrd.com.do"
                     ftp.Password = Trim(reader.GetValue(4))   '"Entrar_XML_034"
 
-                    'Conectar al Servidor Remoto
-                    success = ftp.Connect()
-                    If (success <> True) Then
-                        Exit Sub
-                    End If
+                    'Conectar al Servidor Remoto FTP
+                    If Trim(reader.GetValue(11)) = "FTP" Then
+                        success = ftp.Connect()
+                        If (success <> True) Then
+                            Exit Sub
+                        End If
 
-                    'Cambiar la ruta a la carpeta destino
-                    If Not IsDBNull(reader.GetValue(5)) Then
-                        If Trim(reader.GetValue(5)) <> "" Then
-                            success = ftp.ChangeRemoteDir(Trim(reader.GetValue(5)))
-                            If (success <> True) Then
-                                Exit Sub
+                        'Cambiar la ruta a la carpeta destino
+                        If Not IsDBNull(reader.GetValue(5)) Then
+                            If Trim(reader.GetValue(5)) <> "" Then
+                                success = ftp.ChangeRemoteDir(Trim(reader.GetValue(5)))
+                                If (success <> True) Then
+                                    Exit Sub
+                                End If
                             End If
                         End If
-                    End If
 
-                    Dim numFilesUploaded As Long
-                    ' MessageBox.Show(mydocpath + "\" + "*" + cExtencionArchivo)
-                    numFilesUploaded = ftp.MPutFiles(mydocpath + "\" + "*" + cExtencionArchivo)
-                    'MessageBox.Show(numFilesUploaded.ToString())
-                    If (numFilesUploaded < 0) Then
-                        MsgBox(ftp.LastErrorText)
-                        Exit Sub
-                    Else
+                        Dim numFilesUploaded As Long
+                        ' MessageBox.Show(mydocpath + "\" + "*" + cExtencionArchivo)
+                        numFilesUploaded = ftp.MPutFiles(mydocpath + "\" + "*" + cExtencionArchivo)
+                        'MessageBox.Show(numFilesUploaded.ToString())
+                        If (numFilesUploaded < 0) Then
+                            MsgBox(ftp.LastErrorText)
+                            Exit Sub
+                        Else
+                            If (reader.GetValue(0).ToString().Trim() <> "") Then
+                                cnx2.Open()
+                                cmdArchivoLog.CommandText = "SP_GenerarArchivosLOG '" + reader.GetValue(0) + "'"
+                                cmdArchivoLog.CommandType = CommandType.Text
+                                cmdArchivoLog.Connection = cnx2
+                                cmdArchivoLog.ExecuteNonQuery()
+                                cnx2.Close()
+                            End If
+                            ftp.Disconnect()
+                        End If
+                    End If ' If Trim(reader.GetValue(4)) = "FTP" Then
+
+                    'Conectar al Servidor Remoto SFTP
+                    If Trim(reader.GetValue(11)) = "SFTP" Then
+                        ' success = ftp.Connect()
+
+                        ' Set up session options
+                        Dim sessionOptions As New SessionOptions
+                        With sessionOptions
+                            .Protocol = Protocol.Sftp
+                            .SshHostKeyPolicy = True
+                            .HostName = Trim(reader.GetValue(2))
+                            .UserName = Trim(reader.GetValue(3))
+                            .Password = Trim(reader.GetValue(4))
+                            .SshHostKeyFingerprint = "ssh-rsa 1024 9roThNnt9C8vowuRctrUVR5krDi7JKa9NlNNuD4X448="
+                        End With
+
+                        Using session As New Session
+                            ' Connect 
+                            Dim transferOptions As New TransferOptions
+                            transferOptions.TransferMode = TransferMode.Binary
+                            transferOptions.ResumeSupport.State = TransferResumeSupportState.Off
+
+                            Dim transferResult As TransferOperationResult
+                            session.Open(sessionOptions)
+                            ' session.PutFiles(mydocpath + "\" + "*" + cExtencionArchivo, "/")
+                            transferResult = session.PutFiles(mydocpath + "\" + "*" + cExtencionArchivo, "/", False, transferOptions)
+
+                            'transferResult.Check()
+
+                            'For Each transfer As TransferEventArgs In transferResult.Transfers
+                            '    Dim finalName As String = transfer.Destination.Replace(".filepart", "")
+                            '    session.MoveFile(transfer.Destination, finalName)
+                            'Next
+
+
+                        End Using
+
                         If (reader.GetValue(0).ToString().Trim() <> "") Then
                             cnx2.Open()
                             cmdArchivoLog.CommandText = "SP_GenerarArchivosLOG '" + reader.GetValue(0) + "'"
@@ -290,15 +342,17 @@ Public Class Form1
                             cmdArchivoLog.ExecuteNonQuery()
                             cnx2.Close()
                         End If
-                        ftp.Disconnect()
-                    End If
-                End If
-                ' EMAIL
-                If cListadeEmail.Trim <> "" Then
-                    EnviarEmail("BVRD : Envío de Archivo", "Adjunto Archivo generado", cListadeEmail.Trim, Trim(reader.GetValue(1)) + "\" + cNombreArchivoDisco + cExtencionArchivo)
-                End If
+                        'ftp.Disconnect()
+                    End If  'If Trim(reader.GetValue(4)) = "FTP" Then
 
+
+                End If
+            ' EMAIL
+            If cListadeEmail.Trim <> "" Then
+                EnviarEmail("BVRD : Envío de Archivo", "Adjunto Archivo generado", cListadeEmail.Trim, Trim(reader.GetValue(1)) + "\" + cNombreArchivoDisco + cExtencionArchivo)
             End If
+
+        End If
         End If
 
         reader.Close()
@@ -306,11 +360,12 @@ Public Class Form1
 
     Private Sub EnviarArchivoSFTP()
         Dim ftp As New Chilkat.SFtp()
+        'Dim ftp As New Chilkat_v9_5_0.ChilkatSFtp.;
+
         ' ftp.Port = 21
         ' ftp.Passive = True
         Dim success As Boolean
-        Dim command As SqlCommand = New SqlCommand(
-          "Select * from vArchivo where NombreArchivo = '" & cNombreArchivoXml.Trim & "';",
+        Dim command As SqlCommand = New SqlCommand("Select * from vArchivo where NombreArchivo = 'xmlemisiones';",
           cnx)
         Dim cmdArchivoLog As SqlCommand = New SqlCommand()
 
@@ -363,8 +418,8 @@ Public Class Form1
 
             If Trim(reader.GetValue(2)) <> "" Then ' Enviar FTP
 
-                ' success = ftp.UnlockComponent("FTP212345678_6D53B640jA1J")
-                ' success = ftp.UnlockComponent("uKADIIFTP_4K8X10Sj7ynL")
+                'success = ftp.UnlockComponent("FTP212345678_6D53B640jA1J")
+                'success = ftp.UnlockComponent("uKADIIFTP_4K8X10Sj7ynL")
                 success = ftp.UnlockComponent("IE45JdSSH_ThDX1D6F0knX")
 
 
@@ -495,8 +550,11 @@ Public Class Form1
         smtpServer.Port = cPuerto
         smtpServer.Credentials = New System.Net.NetworkCredential(cUsuario, cPass)
         smtpServer.EnableSsl = cEmailConSSL
-
-        smtpServer.Send(mail)
+        Try
+            smtpServer.Send(mail)
+        Catch ex As Exception
+            Application.Exit()
+        End Try
 
     End Sub
 
@@ -684,6 +742,8 @@ Public Class Form1
         EnviarEmail("Prueba 1", "cuerpo de prueba 1", "mcastillo@bvrd.com.do", "C:\temp\prueba.xls")
         'pAsunto As String, pCuerpo As String, pEnviarA As String, pArchivo As String
     End Sub
+
+
 End Class
 
 

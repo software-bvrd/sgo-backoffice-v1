@@ -493,6 +493,7 @@
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRegistro.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableEmisionesCorporativasVigentes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDia.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx" />
@@ -501,6 +502,7 @@
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoPrimarioXInstrumento.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaMS.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaRegistro.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx" />
@@ -1898,6 +1900,13 @@
       <DependentUpon>BB_RentaVariableEmisionesCorporativasVigentes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDia.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDia.aspx.vb">
+      <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx.designer.vb">
       <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx</DependentUpon>
     </Compile>
@@ -1952,6 +1961,13 @@
     </Compile>
     <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx.vb">
       <DependentUpon>BB_RentaVariableVolumenTransadoMercadoSecundarioXInstrumento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaMS.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsaMS.aspx.vb">
+      <DependentUpon>BB_RentaVariableVolumenTransadoPuestoBolsaMS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoPuestoBolsa.aspx.designer.vb">

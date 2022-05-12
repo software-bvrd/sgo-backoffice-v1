@@ -58,6 +58,9 @@ Partial Class BoletinBursatil
             'Renta Fija | Volumen Transado por Participante | Operaciones Reportadas (Registro) y Creadores de Mercado MH
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RFRegistro)
 
+            'Ranking BVRD Volumen Transado por Participante | CM del MH
+            ReportBookDiario.Reports.Add(New MyReportLib.BB_RentaFijaVolumenTransadoPuestoBolsaRanking)
+
             'Renta Fija | Volumen Transado Instrumentos de Entidades Emisoras (MP)
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RFVolTransEntidadMP)
 
@@ -107,8 +110,6 @@ Partial Class BoletinBursatil
 
             'Renta Variable | Volumen Transado por Participante | Operaciones Reportadas (Registro) y Creadores de Mercado MH
             'ReportBookDiario.Reports.Add(New MyReportLib.BB_RVVolTranPBolsaReg)
-
-
 
             'Renta Variable | Volumen Transado por Puesto de Bolsa (PB RV)
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RVVTransPuestoBolsa)

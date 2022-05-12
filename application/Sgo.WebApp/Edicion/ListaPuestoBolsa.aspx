@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" Inherits="Sgo.WebApp.Formularios_ListaPuestoBolsa" CodeBehind="ListaPuestoBolsa.aspx.vb" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -90,7 +91,7 @@
                 <ExportSettings ExportOnlyData="True" FileName="Lista Puestos de Bolsa"
                     OpenInNewWindow="True" IgnorePaging="True" UseItemStyles="true">
                     <Pdf PageTitle="Lista Puestos de Bolsa" Title="Lista Puestos de Bolsa" DefaultFontFamily="Arial Narrow" PageLeftMargin="5" PageRightMargin="5" FontType="Embed" PageWidth="297mm" PageHeight="210mm" />
-                     <%--<Excel Format="Xlsx" />--%>
+                    <%--<Excel Format="Xlsx" />--%>
                     <Word Format="Docx" />
                 </ExportSettings>
                 <ClientSettings AllowColumnsReorder="True" ReorderColumnsOnClient="True">
@@ -135,7 +136,7 @@
                         <telerik:GridBoundColumn DataField="Direccion"
                             FilterControlAltText="Filter Direccion column" HeaderText="Dirección" SortExpression="Direccion"
                             UniqueName="Direccion" AndCurrentFilterFunction="Contains" AutoPostBackOnFilter="True" FilterControlWidth="200">
-                        </telerik:GridBoundColumn>
+                        </telerik:GridBoundColumn> 
                         <telerik:GridBoundColumn DataField="Telefono"
                             FilterControlAltText="Filter Telefono column" HeaderText="Teléfono" SortExpression="Telefono"
                             UniqueName="Telefono" AndCurrentFilterFunction="Contains" AutoPostBackOnFilter="True">

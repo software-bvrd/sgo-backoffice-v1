@@ -132,8 +132,9 @@ Partial Class ReporteAcumuladosOperacionesDetalle
         Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox25.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox25.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox25.Value = "= ( (sum(Fields.TotalActualYear) - sum(Fields.TotalYearBeforeMS)) /sum(Fields.Tot" &
-    "alYearBeforeMS))"
+        Me.TextBox25.Value = "= IIf(Fields.TotalYearBeforeMS = 0,(Fields.TotalActualYear-Fields.TotalYearBefore" &
+    "MS)," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "((sum(Fields.TotalActualYear) - sum(Fields.TotalYearBeforeMS))/sum(Fields." &
+    "TotalYearBeforeMS+0.000000000000001)))"
         '
         'TextBox4
         '
@@ -772,7 +773,7 @@ Partial Class ReporteAcumuladosOperacionesDetalle
         '
         'SqlDataSource1
         '
-        Me.SqlDataSource1.ConnectionString = "CN"
+        Me.SqlDataSource1.ConnectionString = "MyReportLib.My.MySettings.CN"
         Me.SqlDataSource1.Name = "SqlDataSource1"
         Me.SqlDataSource1.Parameters.AddRange(New Telerik.Reporting.SqlDataSourceParameter() {New Telerik.Reporting.SqlDataSourceParameter("@Fecha", System.Data.DbType.DateTime, "=Parameters.fecha.Value")})
         Me.SqlDataSource1.SelectCommand = "SPC_REPORTE_OPERACIONES_DIARIAS"

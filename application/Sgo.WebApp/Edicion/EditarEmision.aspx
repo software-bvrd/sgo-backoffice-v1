@@ -309,13 +309,13 @@
 
             <%-- TAB Manager --%>
             <telerik:RadTabStrip ID="RadTabStrip1" runat="server"
-                SelectedIndex="2" MultiPageID="RadMultiPage1" CausesValidation="False"
+                SelectedIndex="0" MultiPageID="RadMultiPage1" CausesValidation="False"
                 Width="100%">
 
 
                 <Tabs>
                     <telerik:RadTab runat="server" Text="Datos Programa" PageViewID="RadPageView1"
-                        SelectedIndex="1">
+                        SelectedIndex="1" Selected="True">
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" Text="Puestos Bolsa" PageViewID="RadPageView5"
@@ -323,7 +323,7 @@
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" Text="Emisiones" PageViewID="RadPageView2"
-                        SelectedIndex="3" Selected="True">
+                        SelectedIndex="3">
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" PageViewID="RadPageView4"
@@ -380,7 +380,7 @@
             <br />
             <%-- Paginas --%>
             <telerik:RadMultiPage ID="RadMultiPage1" runat="server" Height="16px"
-                SelectedIndex="1" Width="165px">
+                SelectedIndex="0" Width="165px">
 
                 <%--Emisión Datos Generales--%>
                 <telerik:RadPageView ID="RadPageView1" runat="server" Selected="True" TabIndex="1" Width="922px">

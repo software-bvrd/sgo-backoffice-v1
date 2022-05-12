@@ -20,7 +20,7 @@
             height: 23px;
         }
 
-        .auto-style4 {
+        .auto-style4 { 
             width: 279px;
             height: 23px;
         }

@@ -1,1 +1,1 @@
-Proyecto de BackOffice, diseñado para administrar el Historico de la Informacion de Bloomberg (Antigua plataforma transacional de la Bolsa), actualmente en su version 1.1 almacena algunas informacion de SIOPEL (Core Bursatil de la Bolsa de Valores)
+# sgo-backoffice-v1

@@ -26,7 +26,7 @@ Partial Class Edicion_EditarSeriePOPUP
 
         If IsPostBack = False Then
 
-            ViewState("EsNuevo") = Request.QueryString("EsNuevo")
+            ViewState("EsNuevo") = Request.QueryString("EsNuevo")   
 
             Dim pro As String = Session("Code")
             ViewState("CodeEmision") = Session("Code")
@@ -48,48 +48,62 @@ Partial Class Edicion_EditarSeriePOPUP
                 txtTasa.Text = "0"
                 txtSpread.Text = "0"
 
-                Call EditarSerie()
+                ' melvinhoy Call EditarSerie()
             End If
 
             If ViewState("EsNuevo") = False And ViewState("EstaBorrando") = False Then
 
                 ViewState("CodeEdit") = Request.QueryString("EmisionSerieID")
-                CodigoSerie.Enabled = False
-                Serie.Enabled = False
+
+                Dim cSQLOpciones As String = "Select count(*) from dbo.OpcionesEditables where IdUsuario = '" & Session("IdUsuario") & "' And IdOpcionesMenu = 30"
+                Dim Edita As Int32 = Convert.ToInt32(oper.ExecuteScalar(cSQLOpciones))
+
+                If Edita = 0 Then
+                    ' BolEditarSerie = False
+                    Session("EditarSerie") = 0
+                    CodigoSerie.Enabled = False
+                    Serie.Enabled = False
+                    Call EditarSerie()
+                Else
+                    Session("EditarSerie") = 1
+                    CodigoSerie.Enabled = True
+                    Serie.Enabled = True
+                    Call EditarSerie()
+                End If
 
 
                 '-------------------------------------------------------------------------
                 'Página de Incrementos Inhabilitada (Cuando la Emision No Cumple)
                 '-------------------------------------------------------------------------
                 Dim Cnx As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("CN").ToString())
-                Dim lCodigoSerie As String = String.Empty
-                Dim strSql As String = "SELECT count(Emision.EmisionID) as EmisionID " &
+                    Dim lCodigoSerie As String = String.Empty
+                    Dim strSql As String = "SELECT count(Emision.EmisionID) as EmisionID " &
                                        " FROM Emision INNER JOIN " &
                                        " EmisionTramo ON Emision.EmisionID = EmisionTramo.EmisionID INNER JOIN " &
                                        " EmisionSerie ON EmisionTramo.EmisionTramoID = EmisionSerie.EmisionTramoID " &
                                        " WHERE (Emision.TipoInstrumentoID IN (37, 41)) and EmisionSerieID = " & Request.QueryString("EmisionSerieID")
-                Cnx.Open()
+                    Cnx.Open()
 
-                lCodigoSerie = oper.ExecuteScalar(strSql)
-                If lCodigoSerie = "0" Then
-                    Pagina2.Enabled = False
-                    ViewState("PuedeEditarMonto") = False
-                Else
-                    Pagina2.Enabled = True
-                    ViewState("PuedeEditarMonto") = True
+                    lCodigoSerie = oper.ExecuteScalar(strSql)
+                    If lCodigoSerie = "0" Then
+                        Pagina2.Enabled = False
+                        ViewState("PuedeEditarMonto") = False
+                    Else
+                        Pagina2.Enabled = True
+                        ViewState("PuedeEditarMonto") = True
+                    End If
+
+                    Cnx.Close()
+
+
+                    Call EditarSerie()
+
                 End If
 
-                Cnx.Close()
-
-
-                Call EditarSerie()
-
-            End If
-
-            ' -------------------------------------------------
-            ' Para Habilitar o no el boton nuevo
-            ' -------------------------------------------------
-            If RadTabStrip1.Tabs.Item(0).Enabled = True Then
+                ' -------------------------------------------------
+                ' Para Habilitar o no el boton nuevo
+                ' -------------------------------------------------
+                If RadTabStrip1.Tabs.Item(0).Enabled = True Then
                 RadToolBar1.Items.Item(0).Enabled = False
                 RadToolBar1.Items.Item(0).Visible = False
 
@@ -186,93 +200,144 @@ Partial Class Edicion_EditarSeriePOPUP
         Dim MyRow As DataRow
 
 
+        If ds.Tables(0).Rows.Count > 0 Then
+            For Each MyRow In ds.Tables(0).Rows
 
-        For Each MyRow In ds.Tables(0).Rows
-
-            '--------------------------------------------Directivo -------------------------------------------------------------------------
-            If Not IsDBNull(MyRow.Item("Serie")) Then Me.Serie.Text = Trim(MyRow.Item("Serie")) Else Me.Serie.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("CodigoSerie")) Then Me.CodigoSerie.Text = Trim(MyRow.Item("CodigoSerie")) Else Me.CodigoSerie.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("idTipotasa")) Then Me.RadComboBoxIdTipotasa.SelectedValue = Trim(MyRow.Item("idTipotasa"))
-
-
-            If Not IsDBNull(MyRow.Item("CodigoISIN")) Then Me.CodigoISIN.Text = Trim(MyRow.Item("CodigoISIN")) Else Me.CodigoISIN.Text = String.Empty
-
-            If Not IsDBNull(MyRow.Item("FechaEmision")) Then Me.FechaEmision.DbSelectedDate = Trim(MyRow.Item("FechaEmision")) Else Me.FechaEmision.DbSelectedDate = String.Empty
-            If Not IsDBNull(MyRow.Item("FechaVencimiento")) Then Me.FechaVencimiento.DbSelectedDate = Trim(MyRow.Item("FechaVencimiento")) Else Me.FechaVencimiento.DbSelectedDate = String.Empty
-            If Not IsDBNull(MyRow.Item("FechaLiquidacion")) Then Me.FechaLiquidacion.DbSelectedDate = Trim(MyRow.Item("FechaLiquidacion")) Else Me.FechaLiquidacion.DbSelectedDate = String.Empty
+                '--------------------------------------------Directivo -------------------------------------------------------------------------
+                If Not IsDBNull(MyRow.Item("Serie")) Then Me.Serie.Text = Trim(MyRow.Item("Serie")) Else Me.Serie.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("CodigoSerie")) Then Me.CodigoSerie.Text = Trim(MyRow.Item("CodigoSerie")) Else Me.CodigoSerie.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("idTipotasa")) Then Me.RadComboBoxIdTipotasa.SelectedValue = Trim(MyRow.Item("idTipotasa"))
 
 
-            If Not IsDBNull(MyRow.Item("TipoLiquidacionID")) Then Me.RadComboBoxTipoLiquidacionID.SelectedValue = Trim(MyRow.Item("TipoLiquidacionID"))
-            If Not IsDBNull(MyRow.Item("TipoPeriodoID")) Then Me.RadComboBoxTipoPeriodoID.SelectedValue = Trim(MyRow.Item("TipoPeriodoID"))
+                If Not IsDBNull(MyRow.Item("CodigoISIN")) Then Me.CodigoISIN.Text = Trim(MyRow.Item("CodigoISIN")) Else Me.CodigoISIN.Text = String.Empty
+
+                If Not IsDBNull(MyRow.Item("FechaEmision")) Then Me.FechaEmision.DbSelectedDate = Trim(MyRow.Item("FechaEmision")) Else Me.FechaEmision.DbSelectedDate = String.Empty
+                If Not IsDBNull(MyRow.Item("FechaVencimiento")) Then Me.FechaVencimiento.DbSelectedDate = Trim(MyRow.Item("FechaVencimiento")) Else Me.FechaVencimiento.DbSelectedDate = String.Empty
+                If Not IsDBNull(MyRow.Item("FechaLiquidacion")) Then Me.FechaLiquidacion.DbSelectedDate = Trim(MyRow.Item("FechaLiquidacion")) Else Me.FechaLiquidacion.DbSelectedDate = String.Empty
 
 
-            If Not IsDBNull(MyRow.Item("ValorUnitarioNominal")) Then Me.ValorUnitarioNominal.Text = Trim(MyRow.Item("ValorUnitarioNominal")) Else Me.ValorUnitarioNominal.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("ValorNominalUnitarioSerie")) Then Me.txtValorNominalUnitarioSerie.Text = Trim(MyRow.Item("ValorNominalUnitarioSerie")) Else Me.txtValorNominalUnitarioSerie.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("CantidadTitulos")) Then Me.txtCantidadTitulos.Text = Trim(MyRow.Item("CantidadTitulos")) Else Me.txtCantidadTitulos.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("InversionMinima")) Then Me.InversionMinima.Text = Trim(MyRow.Item("InversionMinima")) Else Me.InversionMinima.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("InversionMaxima")) Then Me.InversionMaxima.Text = Trim(MyRow.Item("InversionMaxima")) Else Me.InversionMaxima.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("TipoLiquidacionID")) Then Me.RadComboBoxTipoLiquidacionID.SelectedValue = Trim(MyRow.Item("TipoLiquidacionID"))
+                If Not IsDBNull(MyRow.Item("TipoPeriodoID")) Then Me.RadComboBoxTipoPeriodoID.SelectedValue = Trim(MyRow.Item("TipoPeriodoID"))
 
 
+                If Not IsDBNull(MyRow.Item("ValorUnitarioNominal")) Then Me.ValorUnitarioNominal.Text = Trim(MyRow.Item("ValorUnitarioNominal")) Else Me.ValorUnitarioNominal.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("ValorNominalUnitarioSerie")) Then Me.txtValorNominalUnitarioSerie.Text = Trim(MyRow.Item("ValorNominalUnitarioSerie")) Else Me.txtValorNominalUnitarioSerie.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("CantidadTitulos")) Then Me.txtCantidadTitulos.Text = Trim(MyRow.Item("CantidadTitulos")) Else Me.txtCantidadTitulos.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("InversionMinima")) Then Me.InversionMinima.Text = Trim(MyRow.Item("InversionMinima")) Else Me.InversionMinima.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("InversionMaxima")) Then Me.InversionMaxima.Text = Trim(MyRow.Item("InversionMaxima")) Else Me.InversionMaxima.Text = String.Empty
+
+
+                ' Redencion (Pasa a una Tabla) Quitar 
+                If Not IsDBNull(MyRow.Item("FechaRedencion")) Then Me.FechaRedencion.DbSelectedDate = Trim(MyRow.Item("FechaRedencion")) Else Me.FechaRedencion.DbSelectedDate = String.Empty
+                If Not IsDBNull(MyRow.Item("ValorRedencion")) Then Me.ValorRedencion.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("NotaRedencion")) Then Me.txtNotaRedencion.Text = String.Empty
+
+
+                If Not IsDBNull(MyRow.Item("Tasa")) Then Me.txtTasa.Text = Trim(MyRow.Item("Tasa")) Else Me.txtTasa.Text = String.Empty
+
+                If txtTasa.Text = String.Empty Then
+                    txtTasa.Enabled = False
+                End If
+
+                If Not IsDBNull(MyRow.Item("BaseLiquidacionID")) Then Me.RadcomboBoxBaseLiquidacion.SelectedValue = Trim(MyRow.Item("BaseLiquidacionID"))
+
+                If Not IsDBNull(MyRow.Item("FechaInicioColocacion")) Then Me.FechaInicioColocacion.DbSelectedDate = Trim(MyRow.Item("FechaInicioColocacion")) Else Me.FechaInicioColocacion.DbSelectedDate = String.Empty
+                If Not IsDBNull(MyRow.Item("FechaFinalColocacion")) Then Me.FechaFinalColocacion.DbSelectedDate = Trim(MyRow.Item("FechaFinalColocacion")) Else Me.FechaFinalColocacion.DbSelectedDate = String.Empty
+
+                If Not IsDBNull(MyRow.Item("Spread")) Then Me.txtSpread.Text = Trim(MyRow.Item("Spread")) Else Me.txtSpread.Text = String.Empty
+
+                If txtSpread.Text = String.Empty Then
+                    txtSpread.Enabled = False
+                End If
+
+                '-- 2014.05.07
+
+                If Not IsDBNull(MyRow.Item("InversionMaximaIG")) Then Me.InversionMaximaIG.Text = Trim(MyRow.Item("InversionMaximaIG")) Else Me.InversionMaxima.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("DiasInversionMaximaIG")) Then Me.RadComboBoxDiasInversionMaximaIG.SelectedValue = Trim(MyRow.Item("DiasInversionMaximaIG"))
+
+                '-- 2015.12.29
+
+                If Not IsDBNull(MyRow.Item("FechaInicioColocacionIP")) Then Me.FechaInicioColocacionIP.DbSelectedDate = Trim(MyRow.Item("FechaInicioColocacionIP")) Else Me.FechaInicioColocacionIP.DbSelectedDate = String.Empty
+                If Not IsDBNull(MyRow.Item("FechaFinalColocacionIP")) Then Me.FechaFinalColocacionIP.DbSelectedDate = Trim(MyRow.Item("FechaFinalColocacionIP")) Else Me.FechaFinalColocacionIP.DbSelectedDate = String.Empty
+
+                If Not IsDBNull(MyRow.Item("FechaInicioColocacionIG")) Then Me.FechaInicioColocacionIG.DbSelectedDate = Trim(MyRow.Item("FechaInicioColocacionIG")) Else Me.FechaInicioColocacionIG.DbSelectedDate = String.Empty
+                If Not IsDBNull(MyRow.Item("FechaFinalColocacionIG")) Then Me.FechaFinalColocacionIG.DbSelectedDate = Trim(MyRow.Item("FechaFinalColocacionIG")) Else Me.FechaFinalColocacionIG.DbSelectedDate = String.Empty
+
+
+                '-- 2016.05.31
+
+                If Not IsDBNull(MyRow.Item("TipoAmortizacionCapitalID")) Then Me.RadComboBoxTipoAmortizacionCapitalID.SelectedValue = Trim(MyRow.Item("TipoAmortizacionCapitalID"))
+                If Not IsDBNull(MyRow.Item("NotaTipoAmortizacionCapital")) Then Me.txtNotaTipoAmortizacionCapital.Text = Trim(MyRow.Item("NotaTipoAmortizacionCapital")) Else Me.txtNotaTipoAmortizacionCapital.Text = String.Empty
+
+                '-- 2017.01.10
+
+                If Not IsDBNull(MyRow.Item("MontoBaseParaComision")) Then Me.MontoBaseParaComision.Text = Trim(MyRow.Item("MontoBaseParaComision")) Else Me.MontoBaseParaComision.Text = String.Empty
+                If Not IsDBNull(MyRow.Item("FechaMontoBase")) Then Me.FechaMontoBase.DbSelectedDate = Trim(MyRow.Item("FechaMontoBase")) Else Me.FechaMontoBase.DbSelectedDate = String.Empty
+
+                '-- 2018.01.21
+                If Not IsDBNull(MyRow.Item("Estatus")) Then Me.cbEstatus.SelectedValue = Trim(MyRow.Item("Estatus"))
+
+                '-- 2018.03.09
+                If Not IsDBNull(MyRow.Item("IndiceConversionLiquidacion")) Then Me.cbIndiceConversionLiquidacion.SelectedValue = Trim(MyRow.Item("IndiceConversionLiquidacion"))
+
+                '-- 2019.03.20 MELVIN CASTILLO
+                If Not IsDBNull(MyRow.Item("ContemplaRedencion")) Then Me.cbContemplaRedencion.Checked = Trim(MyRow.Item("ContemplaRedencion"))
+                If Not IsDBNull(MyRow.Item("ContemplaRedencionFecha")) Then Me.txtFechaContemplaRedencion.DbSelectedDate = Trim(MyRow.Item("ContemplaRedencionFecha"))
+
+
+
+            Next
+
+        Else
+            Me.Serie.Text = String.Empty
+            Me.CodigoSerie.Text = String.Empty
+            'Me.RadComboBoxIdTipotasa.SelectedValue = String.Empty
+            Me.CodigoISIN.Text = String.Empty
+            'Me.FechaEmision.DbSelectedDate = String.Empty
+            'Me.FechaVencimiento.DbSelectedDate = String.Empty
+            'Me.FechaLiquidacion.DbSelectedDate = String.Empty
+            'Me.RadComboBoxTipoLiquidacionID.SelectedValue = String.Empty
+            'Me.RadComboBoxTipoPeriodoID.SelectedValue = String.Empty
+            Me.ValorUnitarioNominal.Text = String.Empty
+            Me.txtValorNominalUnitarioSerie.Text = String.Empty
+            Me.txtCantidadTitulos.Text = String.Empty
+            Me.InversionMinima.Text = String.Empty
+            Me.InversionMaxima.Text = String.Empty
             ' Redencion (Pasa a una Tabla) Quitar 
-            If Not IsDBNull(MyRow.Item("FechaRedencion")) Then Me.FechaRedencion.DbSelectedDate = Trim(MyRow.Item("FechaRedencion")) Else Me.FechaRedencion.DbSelectedDate = String.Empty
-            If Not IsDBNull(MyRow.Item("ValorRedencion")) Then Me.ValorRedencion.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("NotaRedencion")) Then Me.txtNotaRedencion.Text = String.Empty
-
-
-            If Not IsDBNull(MyRow.Item("Tasa")) Then Me.txtTasa.Text = Trim(MyRow.Item("Tasa")) Else Me.txtTasa.Text = String.Empty
+            'Me.FechaRedencion.DbSelectedDate = String.Empty
+            Me.ValorRedencion.Text = String.Empty
+            Me.txtNotaRedencion.Text = String.Empty
+            Me.txtTasa.Text = String.Empty
 
             If txtTasa.Text = String.Empty Then
                 txtTasa.Enabled = False
             End If
-
-            If Not IsDBNull(MyRow.Item("BaseLiquidacionID")) Then Me.RadcomboBoxBaseLiquidacion.SelectedValue = Trim(MyRow.Item("BaseLiquidacionID"))
-
-            If Not IsDBNull(MyRow.Item("FechaInicioColocacion")) Then Me.FechaInicioColocacion.DbSelectedDate = Trim(MyRow.Item("FechaInicioColocacion")) Else Me.FechaInicioColocacion.DbSelectedDate = String.Empty
-            If Not IsDBNull(MyRow.Item("FechaFinalColocacion")) Then Me.FechaFinalColocacion.DbSelectedDate = Trim(MyRow.Item("FechaFinalColocacion")) Else Me.FechaFinalColocacion.DbSelectedDate = String.Empty
-
-            If Not IsDBNull(MyRow.Item("Spread")) Then Me.txtSpread.Text = Trim(MyRow.Item("Spread")) Else Me.txtSpread.Text = String.Empty
+            'Me.RadcomboBoxBaseLiquidacion.SelectedValue = String.Empty
+            'Me.FechaInicioColocacion.DbSelectedDate = String.Empty
+            'Me.FechaFinalColocacion.DbSelectedDate = String.Empty
+            Me.txtSpread.Text = String.Empty
 
             If txtSpread.Text = String.Empty Then
                 txtSpread.Enabled = False
             End If
 
-            '-- 2014.05.07
+            Me.InversionMaxima.Text = String.Empty
+            'Me.RadComboBoxDiasInversionMaximaIG.SelectedValue = String.Empty
+            'Me.FechaInicioColocacionIP.DbSelectedDate = String.Empty
+            'Me.FechaFinalColocacionIP.DbSelectedDate = String.Empty
+            'Me.FechaInicioColocacionIG.DbSelectedDate = String.Empty
+            'Me.FechaFinalColocacionIG.DbSelectedDate = String.Empty
+            'Me.RadComboBoxTipoAmortizacionCapitalID.SelectedValue = String.Empty
+            Me.txtNotaTipoAmortizacionCapital.Text = String.Empty
+            Me.MontoBaseParaComision.Text = String.Empty
+            'Me.FechaMontoBase.DbSelectedDate = String.Empty
+            'Me.cbEstatus.SelectedValue = 1
+            'Me.cbIndiceConversionLiquidacion.SelectedValue = String.Empty
+            'Me.cbContemplaRedencion.Checked = String.Empty
+            'Me.txtFechaContemplaRedencion.DbSelectedDate = String.Empty
 
-            If Not IsDBNull(MyRow.Item("InversionMaximaIG")) Then Me.InversionMaximaIG.Text = Trim(MyRow.Item("InversionMaximaIG")) Else Me.InversionMaxima.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("DiasInversionMaximaIG")) Then Me.RadComboBoxDiasInversionMaximaIG.SelectedValue = Trim(MyRow.Item("DiasInversionMaximaIG"))
+        End If
 
-            '-- 2015.12.29
-
-            If Not IsDBNull(MyRow.Item("FechaInicioColocacionIP")) Then Me.FechaInicioColocacionIP.DbSelectedDate = Trim(MyRow.Item("FechaInicioColocacionIP")) Else Me.FechaInicioColocacionIP.DbSelectedDate = String.Empty
-            If Not IsDBNull(MyRow.Item("FechaFinalColocacionIP")) Then Me.FechaFinalColocacionIP.DbSelectedDate = Trim(MyRow.Item("FechaFinalColocacionIP")) Else Me.FechaFinalColocacionIP.DbSelectedDate = String.Empty
-
-            If Not IsDBNull(MyRow.Item("FechaInicioColocacionIG")) Then Me.FechaInicioColocacionIG.DbSelectedDate = Trim(MyRow.Item("FechaInicioColocacionIG")) Else Me.FechaInicioColocacionIG.DbSelectedDate = String.Empty
-            If Not IsDBNull(MyRow.Item("FechaFinalColocacionIG")) Then Me.FechaFinalColocacionIG.DbSelectedDate = Trim(MyRow.Item("FechaFinalColocacionIG")) Else Me.FechaFinalColocacionIG.DbSelectedDate = String.Empty
-
-
-            '-- 2016.05.31
-
-            If Not IsDBNull(MyRow.Item("TipoAmortizacionCapitalID")) Then Me.RadComboBoxTipoAmortizacionCapitalID.SelectedValue = Trim(MyRow.Item("TipoAmortizacionCapitalID"))
-            If Not IsDBNull(MyRow.Item("NotaTipoAmortizacionCapital")) Then Me.txtNotaTipoAmortizacionCapital.Text = Trim(MyRow.Item("NotaTipoAmortizacionCapital")) Else Me.txtNotaTipoAmortizacionCapital.Text = String.Empty
-
-            '-- 2017.01.10
-
-            If Not IsDBNull(MyRow.Item("MontoBaseParaComision")) Then Me.MontoBaseParaComision.Text = Trim(MyRow.Item("MontoBaseParaComision")) Else Me.MontoBaseParaComision.Text = String.Empty
-            If Not IsDBNull(MyRow.Item("FechaMontoBase")) Then Me.FechaMontoBase.DbSelectedDate = Trim(MyRow.Item("FechaMontoBase")) Else Me.FechaMontoBase.DbSelectedDate = String.Empty
-
-            '-- 2018.01.21
-            If Not IsDBNull(MyRow.Item("Estatus")) Then Me.cbEstatus.SelectedValue = Trim(MyRow.Item("Estatus"))
-
-            '-- 2018.03.09
-            If Not IsDBNull(MyRow.Item("IndiceConversionLiquidacion")) Then Me.cbIndiceConversionLiquidacion.SelectedValue = Trim(MyRow.Item("IndiceConversionLiquidacion"))
-
-            '-- 2019.03.20 MELVIN CASTILLO
-            If Not IsDBNull(MyRow.Item("ContemplaRedencion")) Then Me.cbContemplaRedencion.Checked = Trim(MyRow.Item("ContemplaRedencion"))
-            If Not IsDBNull(MyRow.Item("ContemplaRedencionFecha")) Then Me.txtFechaContemplaRedencion.DbSelectedDate = Trim(MyRow.Item("ContemplaRedencionFecha"))
-
-
-
-        Next
     End Sub
     Sub InsertarSerie(ByVal CodigoEmisionTramo As String)
 
@@ -932,40 +997,66 @@ Partial Class Edicion_EditarSeriePOPUP
     Sub ActualizarMontoSerie()
         Dim Cnx As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("CN").ToString())
         Dim csql As String = String.Empty
+        If Session("EditarSerie") = 0 Then
+            Try
 
-        Try
-            Dim Sql As String = "Update EmisionSerieMonto set [Monto]=@Monto,[FechaInicioColocacion]=@FechaInicioColocacion,[FechaFinalColocacion]=@FechaFinalColocacion, [CantidadCuotas]=@CantidadCuotas, [Precio] = @Precio  where  [EmisionSerieMontoID]=@EmisionSerieMontoID"
+                Dim Sql As String = "Update EmisionSerieMonto set [Monto]=@Monto,[FechaInicioColocacion]=@FechaInicioColocacion,[FechaFinalColocacion]=@FechaFinalColocacion, [CantidadCuotas]=@CantidadCuotas, [Precio] = @Precio  where  [EmisionSerieMontoID]=@EmisionSerieMontoID"
+                Cnx.Open()
 
-            Cnx.Open()
-
-
-            Dim cmd As New SqlCommand(Sql, Cnx)
-
-            cmd.Parameters.Add(New SqlParameter("@EmisionSerieMontoID", SqlDbType.BigInt)).Value = ViewState("CodeDocumento")
-
-            cmd.Parameters.Add(New SqlParameter("@Monto", SqlDbType.Decimal)).Value = txtMonto.Text
-            cmd.Parameters.Add(New SqlParameter("@FechaInicioColocacion", SqlDbType.Date)).Value = IIf(Me.FechaInicioColocacionMonto.DbSelectedDate.ToString.Length > 0, Me.FechaInicioColocacionMonto.DbSelectedDate, DBNull.Value)
-            cmd.Parameters.Add(New SqlParameter("@FechaFinalColocacion", SqlDbType.Date)).Value = IIf(Me.FechaFinalColocacionMonto.DbSelectedDate.ToString.Length > 0, Me.FechaFinalColocacionMonto.DbSelectedDate, DBNull.Value)
-            cmd.Parameters.Add(New SqlParameter("@FechaVencimiento", SqlDbType.Date)).Value = IIf(Me.FechaVencimientoMonto.DbSelectedDate.ToString.Length > 0, Me.FechaVencimientoMonto.DbSelectedDate, DBNull.Value)
-
-            ' 
-            cmd.Parameters.Add(New SqlParameter("@CantidadCuotas", SqlDbType.Decimal)).Value = txtCantidadCuotas.Text
-            cmd.Parameters.Add(New SqlParameter("@Precio", SqlDbType.Decimal)).Value = txtPrecio.Text
+                Dim cmd As New SqlCommand(Sql, Cnx)
+                cmd.Parameters.Add(New SqlParameter("@EmisionSerieMontoID", SqlDbType.BigInt)).Value = ViewState("CodeDocumento")
+                cmd.Parameters.Add(New SqlParameter("@Monto", SqlDbType.Decimal)).Value = txtMonto.Text
+                cmd.Parameters.Add(New SqlParameter("@FechaInicioColocacion", SqlDbType.Date)).Value = IIf(Me.FechaInicioColocacionMonto.DbSelectedDate.ToString.Length > 0, Me.FechaInicioColocacionMonto.DbSelectedDate, DBNull.Value)
+                cmd.Parameters.Add(New SqlParameter("@FechaFinalColocacion", SqlDbType.Date)).Value = IIf(Me.FechaFinalColocacionMonto.DbSelectedDate.ToString.Length > 0, Me.FechaFinalColocacionMonto.DbSelectedDate, DBNull.Value)
+                cmd.Parameters.Add(New SqlParameter("@FechaVencimiento", SqlDbType.Date)).Value = IIf(Me.FechaVencimientoMonto.DbSelectedDate.ToString.Length > 0, Me.FechaVencimientoMonto.DbSelectedDate, DBNull.Value)
+                cmd.Parameters.Add(New SqlParameter("@CantidadCuotas", SqlDbType.Decimal)).Value = txtCantidadCuotas.Text
+                cmd.Parameters.Add(New SqlParameter("@Precio", SqlDbType.Decimal)).Value = txtPrecio.Text
 
 
-            cmd.ExecuteNonQuery()
+                cmd.ExecuteNonQuery()
 
-        Catch sql_ex As SqlClient.SqlException
+            Catch sql_ex As SqlClient.SqlException
 
-            If sql_ex.ErrorCode = -2146232060 Then
-                Exit Sub
-            End If
+                If sql_ex.ErrorCode = -2146232060 Then
+                    Exit Sub
+                End If
 
-        Catch ex As Exception
-        Finally
-            LimpiarMontoSerie()
-            Cnx.Close()
-        End Try
+            Catch ex As Exception
+            Finally
+                LimpiarMontoSerie()
+                Cnx.Close()
+            End Try
+        End If
+        If Session("EditarSerie") = "1" Then
+            Try
+
+                Dim Sql As String = "Update EmisionSerie set [Serie]=@Serie, [CodigoSerie]=@CodigoSerie where  [EmisionSerieID]=@EmisionSerieID"
+                Cnx.Open()
+
+                Dim cmd As New SqlCommand(Sql, Cnx)
+                ViewState("CodeEdit") = Request.QueryString("EmisionSerieID")
+                cmd.Parameters.Add(New SqlParameter("@EmisionSerieID", SqlDbType.NChar)).Value = IIf(ViewState("CodeEdit").Length > 0, ViewState("CodeEdit"), DBNull.Value)
+                cmd.Parameters.Add(New SqlParameter("@Serie", SqlDbType.NChar)).Value = IIf(Me.Serie.Text.Length > 0, Me.Serie.Text, DBNull.Value)
+                cmd.Parameters.Add(New SqlParameter("@CodigoSerie", SqlDbType.NChar)).Value = IIf(Me.CodigoSerie.Text.Length > 0, Me.CodigoSerie.Text, DBNull.Value)
+                cmd.ExecuteNonQuery()
+
+            Catch sql_ex As SqlClient.SqlException
+
+                If sql_ex.ErrorCode = -2146232060 Then
+                    Exit Sub
+                End If
+
+            Catch ex As Exception
+            Finally
+                ' LimpiarMontoSerie()
+                Cnx.Close()
+            End Try
+        End If
+
+
+
+
+
 
 
     End Sub

@@ -149,6 +149,12 @@
     <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaMP.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRanking.Designer.vb">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaRanking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRanking.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.Designer.vb">
       <DependentUpon>BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>
     </Compile>
@@ -1095,6 +1101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaMP.resx">
       <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoPuestoBolsaRanking.resx">
+      <DependentUpon>BB_RentaFijaVolumenTransadoPuestoBolsaRanking.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.resx">
       <DependentUpon>BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>

@@ -617,6 +617,24 @@ Partial Public Class Edicion_EditarEmisor
     Protected WithEvents RadComboBoxEstatus As Global.Telerik.Web.UI.RadComboBox
     
     '''<summary>
+    '''txtCodigoSIMVEntidad control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtCodigoSIMVEntidad As Global.Telerik.Web.UI.RadTextBox
+    
+    '''<summary>
+    '''txtCodigoSIMVFondo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtCodigoSIMVFondo As Global.Telerik.Web.UI.RadTextBox
+    
+    '''<summary>
     '''SQLPais control.
     '''</summary>
     '''<remarks>

@@ -587,8 +587,7 @@ Partial Class BB_RVVTransPBolsa
         Me.TextBox82.StyleName = "Normal.TableBody"
         Me.TextBox82.Value = "Total "
         '
-        'TextBox84
-        '
+        'TextBox84 
         Me.TextBox84.Format = "{0:N2}"
         Me.TextBox84.Name = "TextBox84"
         Me.TextBox84.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.0800000429153442R), Telerik.Reporting.Drawing.Unit.Cm(0.50800031423568726R))
@@ -826,7 +825,7 @@ Partial Class BB_RVVTransPBolsa
         '
         'SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS
         '
-        Me.SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS.ConnectionString = "CN"
+        Me.SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS.ConnectionString = "MyReportLib.My.MySettings.CN"
         Me.SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS.Name = "SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS"
         Me.SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS.Parameters.AddRange(New Telerik.Reporting.SqlDataSourceParameter() {New Telerik.Reporting.SqlDataSourceParameter("@pFecha", System.Data.DbType.[Date], "= Parameters.FechaOperacion.Value"), New Telerik.Reporting.SqlDataSourceParameter("@UltimoDiaMes", System.Data.DbType.[Boolean], "= Parameters.UltimoDiaMes.Value")})
         Me.SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS.SelectCommand = "dbo.SP_BB_RentaVariableVolumenTransadoPuestoBolsaMS"

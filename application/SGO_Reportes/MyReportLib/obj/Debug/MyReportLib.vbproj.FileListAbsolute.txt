@@ -1317,7 +1317,6 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Repo
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\bin\Debug\Telerik.Reporting.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\bin\Debug\Telerik.Reporting.OpenXmlRendering.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\bin\Debug\Telerik.Reporting.OpenXmlRendering.xml
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.vbprojAssemblyReference.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.AcumuladoColocacionesInstrumentoEmisor.resources
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.AP_ComparativoPorCodigoIsinPreciosBonos.resources
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.BB_BoletinGlosario.resources
@@ -1488,3 +1487,4 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Repo
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_Reportes\MyReportLib\obj\Debug\MyReportLib.BB_RentaFijaVolumenTransadoPuestoBolsaRanking.resources

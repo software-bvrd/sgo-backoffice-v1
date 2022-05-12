@@ -25,6 +25,8 @@
     </SccAuxPath>
     <SccProvider>
     </SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>\\app\Documento\melvin.castillo\Documents\Melvin Castillo\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\publish\</PublishUrl>
     <Install>false</Install>
     <InstallFrom>Unc</InstallFrom>
@@ -99,7 +101,7 @@
     <TargetZone>Custom</TargetZone>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ChilkatDotNet4, Version=9.5.0.70, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+    <Reference Include="ChilkatDotNet4, Version=9.1.2.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>.\ChilkatDotNet4.dll</HintPath>
     </Reference>
@@ -114,6 +116,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WinSCPnet, Version=1.8.3.11614, Culture=neutral, PublicKeyToken=2271ec4a3c56d0bf, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WinSCP.5.19.2\lib\net40\WinSCPnet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -192,6 +197,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="packages.config" />
     <None Include="XmlWeb_1_TemporaryKey.pfx" />
     <None Include="XmlWeb_TemporaryKey.pfx" />
   </ItemGroup>
@@ -224,6 +230,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\..\packages\WinSCP.5.19.2\build\WinSCP.targets" Condition="Exists('..\..\packages\WinSCP.5.19.2\build\WinSCP.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\WinSCP.5.19.2\build\WinSCP.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\WinSCP.5.19.2\build\WinSCP.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

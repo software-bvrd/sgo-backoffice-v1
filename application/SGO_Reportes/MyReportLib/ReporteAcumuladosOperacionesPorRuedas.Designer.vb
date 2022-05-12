@@ -165,6 +165,7 @@
         '
         'TextBox18
         '
+        Me.TextBox18.CanGrow = False
         Me.TextBox18.Format = "{0:P2}"
         Me.TextBox18.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(16.475738525390625R), Telerik.Reporting.Drawing.Unit.Cm(0R))
         Me.TextBox18.Name = "TextBox18"
@@ -177,11 +178,13 @@
         Me.TextBox18.Style.Padding.Right = Telerik.Reporting.Drawing.Unit.Cm(0.10000000149011612R)
         Me.TextBox18.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox18.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox18.Value = "= (Sum(Fields.Comision)- Sum(Fields.ComisionYearBefore))/" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Sum(Fields.ComisionYea" &
-    "rBefore)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.TextBox18.Value = "= IIf(sum(Fields.ValorTransadoYearBeforeMES) = 0,""0""," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Sum(Fields.Comision)- Sum" &
+    "(Fields.ComisionYearBeforeMES))/" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Sum(Fields.ComisionYearBeforeMES+0.00000000000" &
+    "0001))" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox16
         '
+        Me.TextBox16.CanGrow = False
         Me.TextBox16.Format = "{0:P2}"
         Me.TextBox16.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(13.724072456359863R), Telerik.Reporting.Drawing.Unit.Cm(0R))
         Me.TextBox16.Name = "TextBox16"
@@ -194,8 +197,9 @@
         Me.TextBox16.Style.Padding.Right = Telerik.Reporting.Drawing.Unit.Cm(0.10000000149011612R)
         Me.TextBox16.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox16.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox16.Value = "= (Sum(Fields.ValorTransado)- Sum(Fields.ValorTransadoYearBefore))/" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Sum(Fields.V" &
-    "alorTransadoYearBefore)"
+        Me.TextBox16.Value = "= IIf(sum(Fields.ValorTransadoYearBeforeMES) = 0,""0""," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Sum(Fields.ValorTransado)" &
+    "- Sum(Fields.ValorTransadoYearBeforeMES))/" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Sum(Fields.ValorTransadoYearBeforeME" &
+    "S+0.000000000000001))" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'groupHeaderSection
         '
@@ -650,7 +654,7 @@
         '
         'SqlDataSource1
         '
-        Me.SqlDataSource1.ConnectionString = "CN"
+        Me.SqlDataSource1.ConnectionString = "MyReportLib.My.MySettings.CN"
         Me.SqlDataSource1.Name = "SqlDataSource1"
         Me.SqlDataSource1.Parameters.AddRange(New Telerik.Reporting.SqlDataSourceParameter() {New Telerik.Reporting.SqlDataSourceParameter("@Fecha", System.Data.DbType.DateTime, "=Parameters.fecha.Value")})
         Me.SqlDataSource1.SelectCommand = "SPC_REPORTE_OPERACIONES_ACUMULADOSPorRuedas"

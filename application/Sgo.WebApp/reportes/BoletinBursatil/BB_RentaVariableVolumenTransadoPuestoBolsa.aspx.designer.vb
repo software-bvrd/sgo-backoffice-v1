@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
-    
+
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
+
     '''<summary>
     '''InjectScriptLabel control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents InjectScriptLabel As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''InjectScriptLabelImprimir control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents InjectScriptLabelImprimir As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''RadScriptManager1 control.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RadScriptManager1 As Global.Telerik.Web.UI.RadScriptManager
-    
+
     '''<summary>
     '''RadToolBar1 control.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RadToolBar1 As Global.Telerik.Web.UI.RadToolBar
-    
+
     '''<summary>
     '''ReportViewer1 control.
     '''</summary>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="TextBox36.Value" xml:space="preserve">
-    <value>= IIf(Fields.MontoTotalTransadoYearBeforeMS_MP = 0, "0",  (Fields.TotalTransadoMS_MP - Fields.MontoTotalTransadoYearBeforeMS_MP)/ IIf(Fields.MontoTotalTransadoYearBeforeMS_MP = 0, 1, Fields.MontoTotalTransadoYearBeforeMS_MP))</value>
+    <value>= IIf(Fields.MontoTotalTransadoYearBeforeMS_MP = "0", "0",  (Fields.TotalTransadoMS_MP - Fields.MontoTotalTransadoYearBeforeMS_MP)/ IIf(Fields.MontoTotalTransadoYearBeforeMS_MP = 0, 1, Fields.MontoTotalTransadoYearBeforeMS_MP))</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox2.Value" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -160,7 +160,7 @@
 </value>
   </data>
   <metadata name="SqlDataSource1.ParameterValues" xml:space="preserve">
-    <value>{"@Fecha":"2013-11-08"}</value>
+    <value>{"@Fecha":"2022-01-03"}</value>
   </metadata>
   <metadata name="$this.SnapGridSize" type="Telerik.Reporting.Drawing.Unit, Telerik.Reporting, Version=10.1.16.615, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
     <value>0.1in</value>

@@ -55,17 +55,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XmlWeb.exe" size="71680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WinSCPnet.dll" size="162072">
+      <assemblyIdentity name="WinSCPnet" version="1.8.3.11614" publicKeyToken="2271EC4A3C56D0BF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Fyv6c34gwkAVW1dwEIPabTwRK/jLzzVoH0t/9B/mfmI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XmlWeb.exe" size="72704">
       <assemblyIdentity name="XmlWeb" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xcw2fz6EbHuRE/2/gYxvDvZfzxrXH59cthOlY9KT5PQ=</dsig:DigestValue>
+        <dsig:DigestValue>4mYkN3c/TCzZ5mgXzf/8jI6T2N1kjXK1vUFakv29uWQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="WinSCP.exe" size="27023936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XktEvmnQOs/pca+Xzt/E7opxuoxRJwjSS2q+BaqSHNc=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="xmlLogo.ico" size="4286">
     <hash>
       <dsig:Transforms>
@@ -75,13 +96,13 @@
       <dsig:DigestValue>8wAZ4IqdA0At0Ny4Tdxp7J4z8hh12DIk/nDc+q3OGt8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="XmlWeb.exe.config" size="1401">
+  <file name="XmlWeb.exe.config" size="1388">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8Qz5jAOWFgZnxyviKrMuIlaFg2lb/nLIN5ZjYezT18c=</dsig:DigestValue>
+      <dsig:DigestValue>rrSBub7vbF+MbfAQN9vhVMahsyWusDrX6Ww2bABkTQA=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

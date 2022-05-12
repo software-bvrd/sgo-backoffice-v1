@@ -40,13 +40,15 @@ Partial Class Account_Login
 
         aAuthent.SetAuthenticationType(False)
 
-        ' Dim users As List(Of BVRD.Security.Utils.Users)
-        ' users = aAuthent.GetADUsers()
-        ' For Each item In users
-        ' Dim DisplayName As String = item.DisplayName
-        '  Dim UserName As String = item.UserName
-        '    ' txtUserName.Text = txtUserName.Text + " ; " + item.DisplayName + "-" + item.UserName + "-" + item.Email
-        ' Next
+        'Dim users As List(Of BVRD.Security.Utils.Users)
+        'users = aAuthent.GetADUsers()
+        'For Each item In users
+        '    Dim DisplayName As String = item.DisplayName
+        '    Dim UserName As String = item.UserName
+        '    Dim Mapped As String = item.isMapped
+
+        '    txtUserName.Text = txtUserName.Text + " ; " + item.DisplayName + "-" + item.UserName + "-" + item.Email + "-" + item.isMapped.ToString()
+        'Next
 
         aAuthent.GetADUsers()
 

@@ -651,11 +651,17 @@
                             <td class="style3">&nbsp;</td>
                         </tr>
                         <tr>
-                            <td class="style29">&nbsp;</td>
-                            <td class="auto-style6" colspan="3">&nbsp;</td>
+                            <td class="style29">Código SIMV Entidad :</td>
+                            <td class="auto-style6" colspan="3">
+                                <telerik:RadTextBox ID="txtCodigoSIMVEntidad" runat="server" Height="24px" LabelWidth="64px" MaxLength="20" Style="margin-left: 0px" TabIndex="24" Width="289px">
+                                </telerik:RadTextBox>
+                            </td>
                             <td class="style38">&nbsp;</td>
-                            <td class="style4">&nbsp;</td>
-                            <td class="style3">&nbsp;</td>
+                            <td class="style4">Código SIMV Fondo</td>
+                            <td class="style3">
+                                <telerik:RadTextBox ID="txtCodigoSIMVFondo" runat="server" Height="24px" LabelWidth="64px" MaxLength="20" Style="margin-left: 0px" TabIndex="25" Width="289px">
+                                </telerik:RadTextBox>
+                            </td>
                             <td class="style3">&nbsp;</td>
                         </tr>
                         <tr>

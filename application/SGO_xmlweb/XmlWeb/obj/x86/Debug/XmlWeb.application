@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="XmlWeb.exe.manifest" size="5588">
+    <dependentAssembly dependencyType="install" codebase="XmlWeb.exe.manifest" size="6655">
       <assemblyIdentity name="XmlWeb.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>32RKay6kgsxAfMzPrwoY9teBVwfzZxCj2aYPn+s0NXU=</dsig:DigestValue>
+        <dsig:DigestValue>+3Glp1lyiH80/pRmCvJbrGH48rJ8PcSlrHAHC6ekeVw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

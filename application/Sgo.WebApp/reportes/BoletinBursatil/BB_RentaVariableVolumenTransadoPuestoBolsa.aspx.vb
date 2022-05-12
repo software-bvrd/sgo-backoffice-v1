@@ -5,7 +5,7 @@ Imports Telerik.Reporting
 Imports MyReportLib
 Imports System.Globalization
 
-Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
+Public Class BB_RentaVariableVolumenTransadoPuestoBolsaMS
     Inherits System.Web.UI.Page
 
     Dim oper As New operation
@@ -15,7 +15,7 @@ Public Class BB_RentaVariableVolumenTransadoPuestoBolsa
         If Not IsPostBack Then
             Dim InstaciaReportSource As New InstanceReportSource
             Dim ReportBookDiario As New ReportBook
-            ReportBookDiario.Reports.Add(New MyReportLib.BB_RVVTransPuestoBolsa)
+            ReportBookDiario.Reports.Add(New MyReportLib.BB_RVVTransPBolsa)
 
             ReportBookDiario.DocumentName = "BB_RentaVariableVolumenTransadoPuestoBolsa" & Format(Now(), "dd-MM-yy")
             InstaciaReportSource.ReportDocument = ReportBookDiario

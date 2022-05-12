@@ -36,7 +36,6 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebA
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Microsoft.Web.Infrastructure.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
@@ -63,3 +62,4 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebA
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Microsoft.Web.Infrastructure.dll

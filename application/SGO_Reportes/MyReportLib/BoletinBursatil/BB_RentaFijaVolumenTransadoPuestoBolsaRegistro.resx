@@ -119,7 +119,7 @@
   </resheader>
   <data name="TextBox31.Value" xml:space="preserve">
     <value>Nota: 1. Los valores presentados aquí son exclusivamente de registro en Bolsa y del programa Creadores de Mercado del MH que administra la BVRD.
-           2. El cálculo del volumen de las operaciones se determina como la sumatoria de los valores transados por participante en los que participe en la punta compradora más los montos transados en los que participe como punta vendedora. En las operaciones que son cruzadas se tendrá en cuenta solo la punta compradora.</value>
+           2. Los montos presentados en esos campos representan la punta compradora</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox2.Value" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

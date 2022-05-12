@@ -468,7 +468,7 @@
 </value>
   </data>
   <metadata name="SqlSP_BB_RentaVariableVolumenTransadoPuestoBolsaMS.ParameterValues" xml:space="preserve">
-    <value>{"@pFecha":"2017-07-21","@UltimoDiaMes":"1"}</value>
+    <value>{"@pFecha":"2021-03-18","@UltimoDiaMes":"True"}</value>
   </metadata>
   <data name="TextBox31.Value" xml:space="preserve">
     <value>Nota: El cálculo del volumen de las operaciones se determina como la sumatoria de los valores transados por participante en los que participe en la punta compradora más los montos transados en los que participe como punta vendedora. En las operaciones que son cruzadas se tendrá en cuenta solo la punta compradora.</value>

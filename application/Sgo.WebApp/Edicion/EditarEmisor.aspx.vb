@@ -281,7 +281,8 @@ Partial Class Edicion_EditarEmisor
 
             If Not IsDBNull(MyRow.Item("SectorID")) Then Me.RadComboBoxActividadEconomica.SelectedValue = Trim(MyRow.Item("SectorID"))
             If Not IsDBNull(MyRow.Item("ActividadEconomicaID")) Then Me.RadComboBoxSector.SelectedValue = Trim(MyRow.Item("ActividadEconomicaID"))
-
+            If Not IsDBNull(MyRow.Item("CodigoSIMVEntidad")) Then Me.txtCodigoSIMVEntidad.Text = Trim(MyRow.Item("CodigoSIMVEntidad"))
+            If Not IsDBNull(MyRow.Item("CodigoSIMVFondo")) Then Me.txtCodigoSIMVFondo.Text = Trim(MyRow.Item("CodigoSIMVFondo"))
 
 
         Next
@@ -295,7 +296,7 @@ Partial Class Edicion_EditarEmisor
         Dim DirectorioTemporal As String = Path.GetTempPath() 'Temporal de Windows es seguro 
 
         Try
-            Dim Sql As String = "INSERT INTO [Emisor] ([CodEmisorBVRD] ,[NombreEmisor] ,[CodEnSistema],[CodigoCorto] ,[RNC] ,[Direccion] ,[NombreEdificio],[CasaAptoNo],[Piso],[PaisID],[CiudadID],[Telefono],[RegistroSIV] ,[PaginaWeb],[FechaConstitucion] ,[PresidentedelaEmpresa],[CapitalSuscritoPagado],[FechaIngresoComoEmisor] ,[SubirLogo],[Estatus],[TipoEmisorID],[TipoEntidadID],[Descripcion],[SectorID],[ActividadEconomicaID]) VALUES (@CodEmisorBVRD ,@NombreEmisor ,@CodEnSistema, @CodigoCorto ,@RNC ,@Direccion ,@NombreEdificio,@CasaAptoNo,@Piso,@PaisID,@CiudadID,@Telefono,@RegistroSIV,@PaginaWeb,@FechaConstitucion ,@PresidentedelaEmpresa,@CapitalSuscritoPagado,@FechaIngresoComoEmisor ,@SubirLogo,@Estatus,@TipoEmisorID, @TipoEntidadID, @Descripcion,@SectorID,@ActividadEconomicaID)"
+            Dim Sql As String = "INSERT INTO [Emisor] ([CodEmisorBVRD] ,[NombreEmisor] ,[CodEnSistema],[CodigoCorto] ,[RNC] ,[Direccion] ,[NombreEdificio],[CasaAptoNo],[Piso],[PaisID],[CiudadID],[Telefono],[RegistroSIV] ,[PaginaWeb],[FechaConstitucion] ,[PresidentedelaEmpresa],[CapitalSuscritoPagado],[FechaIngresoComoEmisor] ,[SubirLogo],[Estatus],[TipoEmisorID],[TipoEntidadID],[Descripcion],[SectorID],[ActividadEconomicaID],[CodigoSIMVEntidad],[CodigoSIMVFondo]) VALUES (@CodEmisorBVRD ,@NombreEmisor ,@CodEnSistema, @CodigoCorto ,@RNC ,@Direccion ,@NombreEdificio,@CasaAptoNo,@Piso,@PaisID,@CiudadID,@Telefono,@RegistroSIV,@PaginaWeb,@FechaConstitucion ,@PresidentedelaEmpresa,@CapitalSuscritoPagado,@FechaIngresoComoEmisor ,@SubirLogo,@Estatus,@TipoEmisorID, @TipoEntidadID, @Descripcion,@SectorID,@ActividadEconomicaID,@CodigoSIMVEntidad,@CodigoSIMVFondo)"
 
             Cnx.Open()
             Dim cmd As New SqlCommand(Sql, Cnx)
@@ -365,6 +366,8 @@ Partial Class Edicion_EditarEmisor
 
             cmd.Parameters.Add(New SqlParameter("@SectorID", SqlDbType.BigInt)).Value = IIf(Me.RadComboBoxActividadEconomica.Text.Length > 0, Me.RadComboBoxActividadEconomica.SelectedValue, DBNull.Value)
             cmd.Parameters.Add(New SqlParameter("@ActividadEconomicaID", SqlDbType.BigInt)).Value = IIf(Me.RadComboBoxSector.Text.Length > 0, Me.RadComboBoxSector.SelectedValue, DBNull.Value)
+            cmd.Parameters.Add(New SqlParameter("@CodigoSIMVEntidad", SqlDbType.VarChar)).Value = IIf(Me.txtCodigoSIMVEntidad.Text.Length > 0, Me.txtCodigoSIMVEntidad.Text, DBNull.Value)
+            cmd.Parameters.Add(New SqlParameter("@CodigoSIMVFondo", SqlDbType.VarChar)).Value = IIf(Me.txtCodigoSIMVFondo.Text.Length > 0, Me.txtCodigoSIMVFondo.Text, DBNull.Value)
 
 
             cmd.ExecuteNonQuery()
@@ -438,6 +441,8 @@ Partial Class Edicion_EditarEmisor
                                 ",[Descripcion] = @Descripcion" &
                                 ",[SectorID] = @SectorID" &
                                 ",[ActividadEconomicaID] = @ActividadEconomicaID" &
+                                ",[CodigoSIMVEntidad] = @CodigoSIMVEntidad" &
+                                ",[CodigoSIMVFondo] = @CodigoSIMVFondo" &
                                 " WHERE EmisorID = @EmisorID"
             Else
                 Sql = "UPDATE  [Emisor] SET " &
@@ -466,6 +471,8 @@ Partial Class Edicion_EditarEmisor
                                 ",[Descripcion] = @Descripcion" &
                                 ",[SectorID] = @SectorID" &
                                 ",[ActividadEconomicaID] = @ActividadEconomicaID" &
+                                ",[CodigoSIMVEntidad] = @CodigoSIMVEntidad" &
+                                ",[CodigoSIMVFondo] = @CodigoSIMVFondo" &
                                 " WHERE EmisorID = @EmisorID"
             End If
 
@@ -527,9 +534,8 @@ Partial Class Edicion_EditarEmisor
 
             cmd.Parameters.Add(New SqlParameter("@SectorID", SqlDbType.BigInt)).Value = IIf(Me.RadComboBoxActividadEconomica.Text.Length > 0, Me.RadComboBoxActividadEconomica.SelectedValue, DBNull.Value)
             cmd.Parameters.Add(New SqlParameter("@ActividadEconomicaID", SqlDbType.BigInt)).Value = IIf(Me.RadComboBoxSector.Text.Length > 0, Me.RadComboBoxSector.SelectedValue, DBNull.Value)
-
-
-
+            cmd.Parameters.Add(New SqlParameter("@CodigoSIMVEntidad", SqlDbType.VarChar)).Value = IIf(Me.txtCodigoSIMVEntidad.Text.Length > 0, Me.txtCodigoSIMVEntidad.Text, DBNull.Value)
+            cmd.Parameters.Add(New SqlParameter("@CodigoSIMVFondo", SqlDbType.VarChar)).Value = IIf(Me.txtCodigoSIMVFondo.Text.Length > 0, Me.txtCodigoSIMVFondo.Text, DBNull.Value)
             cmd.ExecuteNonQuery()
 
             csql = oper.CovertirComandoATexto(cmd)

@@ -38,8 +38,7 @@
 
                     <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/ActivarEmision.png"
                         Text="Activar" ToolTip="Activar Emisión" Value="8" Visible="False">
-                    </telerik:RadToolBarButton>
-
+                    </telerik:RadToolBarButton> 
 
                     <telerik:RadToolBarButton runat="server" IsSeparator="True"
                         Text="Button 3" Visible="False">
@@ -54,8 +53,7 @@
 
                     <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/clear.gif"
                         Text="Cancelar" ToolTip="Cancelar Edición" Value="2">
-                    </telerik:RadToolBarButton>
-
+                    </telerik:RadToolBarButton> 
 
                 </Items>
             </telerik:RadToolBar>
