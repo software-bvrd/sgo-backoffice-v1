@@ -408,8 +408,23 @@ Partial Class CargaOperaciones
                     strindatetime = UCase(dRow.Item(2))
                     strindatetime = strindatetime.Replace(".", "")
                     cmd.Parameters.Add(New SqlParameter("@hora_oper", SqlDbType.DateTime)).Value = strindatetime
-                    cmd.Parameters.Add(New SqlParameter("@nemo_ins", SqlDbType.VarChar)).Value = dRow.Item(3)
-                    cmd.Parameters.Add(New SqlParameter("@cod_isin", SqlDbType.VarChar)).Value = dRow.Item(4)
+                    If dRow.Item(3).ToString.Trim() = "" Then
+                        Dim Ds As DataSet = oper.ExDataSet("SELECT dbo.GetNemotecnico('" + dRow.Item(4).ToString() + "') as Nemotecnico")
+                        If Ds.Tables(0).Rows.Count > 0 Then
+                            cmd.Parameters.Add(New SqlParameter("@nemo_ins", SqlDbType.VarChar)).Value = Ds.Tables(0).Rows(0)("Nemotecnico")
+                        End If
+                    Else
+                        cmd.Parameters.Add(New SqlParameter("@nemo_ins", SqlDbType.VarChar)).Value = dRow.Item(3)
+                    End If
+
+                    If dRow.Item(4).ToString.Trim() = "" Then
+                        Dim Ds As DataSet = oper.ExDataSet("SELECT dbo.GetCodigoISIN('" + dRow.Item(3).ToString() + "') as CodigoISIN")
+                        If Ds.Tables(0).Rows.Count > 0 Then
+                            cmd.Parameters.Add(New SqlParameter("@cod_isin", SqlDbType.VarChar)).Value = Ds.Tables(0).Rows(0)("CodigoISIN")
+                        End If
+                    Else
+                        cmd.Parameters.Add(New SqlParameter("@cod_isin", SqlDbType.VarChar)).Value = dRow.Item(4)
+                    End If
 
                     cmd.Parameters.Add(New SqlParameter("@usuario", SqlDbType.VarChar)).Value = dRow.Item(5)
 
@@ -444,7 +459,17 @@ Partial Class CargaOperaciones
 
                     cmd.Parameters.Add(New SqlParameter("@mone_trans", SqlDbType.VarChar)).Value = dRow.Item(18)
                     cmd.Parameters.Add(New SqlParameter("@pues_comp", SqlDbType.VarChar)).Value = dRow.Item(19)
+                    If dRow.Item(19).ToString.Trim() = "" Then
+                        LineasConError += 1
+                        lstErrores.Visible = True
+                        lstErrores.Items.Add("(" + LineasConError.ToString() + ") - " + "Error: Puesto Comprador Vacio")
+                    End If
                     cmd.Parameters.Add(New SqlParameter("@pues_vend", SqlDbType.VarChar)).Value = dRow.Item(20)
+                    If dRow.Item(20).ToString.Trim() = "" Then
+                        LineasConError += 1
+                        lstErrores.Visible = True
+                        lstErrores.Items.Add("(" + LineasConError.ToString() + ") - " + "Error: Puesto Vendedor Vacio")
+                    End If
                     cmd.Parameters.Add(New SqlParameter("@descrip_instru", SqlDbType.VarChar)).Value = dRow.Item(21)
                     cmd.Parameters.Add(New SqlParameter("@mercado", SqlDbType.VarChar)).Value = dRow.Item(22)
 
@@ -459,8 +484,6 @@ Partial Class CargaOperaciones
                     cmd.Parameters.Add(New SqlParameter("@descrip_emisor", SqlDbType.VarChar)).Value = dRow.Item(29)
 
                     cmd.Parameters.Add(New SqlParameter("@AplicaParaPrecio", SqlDbType.Bit)).Value = 1
-
-
                     If vValorDividirVTTasa > 0 Then
                         cmd.Parameters.Add(New SqlParameter("@VTTasa", SqlDbType.Decimal)).Value = Convert.ToDecimal(dRow.Item(15)) / vValorDividirVTTasa
                     Else
@@ -470,12 +493,21 @@ Partial Class CargaOperaciones
 
 
                     cmd.ExecuteNonQuery()
-                    LineasSinError += 1
+                    If dRow.Item(19).ToString.Trim() <> "" Then
+                        If dRow.Item(20).ToString.Trim() <> "" Then
+                            LineasSinError += 1
+                        End If
+                    End If
+
 
                 Catch sql_ex As SqlClient.SqlException
                     LineasConError += 1
                     lblMensaje.Text = sql_ex.ToString()
                     lblMensaje.ForeColor = Color.Red
+
+                    'Dim ListItems As New RadListBoxItem(cStringSQL)
+                    lstErrores.Visible = True
+                    lstErrores.Items.Add("(" + LineasConError.ToString() + ") - " + lblMensaje.Text)
                 Catch ex As Exception
 
                     'add code for debug upload operation daily
@@ -483,7 +515,7 @@ Partial Class CargaOperaciones
                     lblMensaje.ForeColor = Color.Red
 
 
-                    Dim ListItems As New RadListBoxItem(cStringSQL)
+                    Dim ListItems As New RadListBoxItem("(" + LineasConError.ToString() + ") - " + cStringSQL)
                     lstErrores.Visible = True
                     lstErrores.Items.Add(ListItems)
                     LineasConError += 1

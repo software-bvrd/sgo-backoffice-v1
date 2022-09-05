@@ -414,12 +414,12 @@ Partial Class FormatoBoleta
         '
         'Table2
         '
-        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(2.8081429004669189R)))
-        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(2.0833218097686768R)))
-        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.54166162014007568R)))
-        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.7708283662796021R)))
-        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.99999117851257324R)))
-        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.447910875082016R)))
+        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(2.8081445693969727R)))
+        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(2.0833191871643066R)))
+        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.37499484419822693R)))
+        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.770825982093811R)))
+        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.99999064207077026R)))
+        Me.Table2.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.60763269662857056R)))
         Me.Table2.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R)))
         Me.Table2.Body.SetCellContent(0, 2, Me.TextBox15)
         Me.Table2.Body.SetCellContent(0, 0, Me.TextBox10, 1, 2)
@@ -442,13 +442,13 @@ Partial Class FormatoBoleta
         TableGroup17.Groupings.Add(New Telerik.Reporting.Grouping(Nothing))
         TableGroup17.Name = "detailTableGroup"
         Me.Table2.RowGroups.Add(TableGroup17)
-        Me.Table2.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(17.651176452636719R), Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R))
+        Me.Table2.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(17.633523941040039R), Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R))
         Me.Table2.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(7.0R)
         '
         'TextBox15
         '
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.54166328907012939R), Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R))
+        Me.TextBox15.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.37499484419822693R), Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R))
         Me.TextBox15.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox15.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox15.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
@@ -473,7 +473,7 @@ Partial Class FormatoBoleta
         'TextBox11
         '
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.2187304496765137R), Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R))
+        Me.TextBox11.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.3784494400024414R), Telerik.Reporting.Drawing.Unit.Cm(0.43840351700782776R))
         Me.TextBox11.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(226, Byte), Integer))
         Me.TextBox11.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox11.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
@@ -516,7 +516,7 @@ Partial Class FormatoBoleta
         '
         'TextBox17
         '
-        Me.TextBox17.Format = "{0:N2}"
+        Me.TextBox17.Format = "{0:N6}"
         Me.TextBox17.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(1.7688394784927368R), Telerik.Reporting.Drawing.Unit.Inch(1.2630772590637207R))
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4200553894042969R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
@@ -539,82 +539,82 @@ Partial Class FormatoBoleta
         '
         'TextBox94
         '
-        Me.TextBox94.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(0.17267854511737824R))
+        Me.TextBox94.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(0.17267854511737824R))
         Me.TextBox94.Name = "TextBox94"
-        Me.TextBox94.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox94.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox94.Value = "= Fields.CodRueda"
         '
         'TextBox87
         '
         Me.TextBox87.Format = "{0:N2}"
-        Me.TextBox87.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(1.4643453359603882R))
+        Me.TextBox87.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(1.4643453359603882R))
         Me.TextBox87.Name = "TextBox87"
-        Me.TextBox87.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox87.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox87.Value = "= Fields.valor_tran"
         '
         'TextBox88
         '
         Me.TextBox88.Format = "{0:N6}"
-        Me.TextBox88.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(1.2664285898208618R))
+        Me.TextBox88.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(1.2664285898208618R))
         Me.TextBox88.Name = "TextBox88"
-        Me.TextBox88.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox88.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox88.Value = "= Fields.precio_limp"
         '
         'TextBox89
         '
         Me.TextBox89.Format = "{0:N2}"
-        Me.TextBox89.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(1.0685118436813355R))
+        Me.TextBox89.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(1.0685118436813355R))
         Me.TextBox89.Name = "TextBox89"
-        Me.TextBox89.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox89.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox89.Value = "= Fields.valor_nom_tot"
         '
         'TextBox90
         '
         Me.TextBox90.Format = "{0:dd-MM-yyyy}"
-        Me.TextBox90.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(0.86619067192077637R))
+        Me.TextBox90.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(0.86619067192077637R))
         Me.TextBox90.Name = "TextBox90"
-        Me.TextBox90.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox90.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox90.Value = "= Fields.fecha_liquid.Date.Date"
         '
         'TextBox91
         '
         Me.TextBox91.Format = "{0:#.}"
-        Me.TextBox91.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(0.69351190328598022R))
+        Me.TextBox91.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(0.69351190328598022R))
         Me.TextBox91.Name = "TextBox91"
-        Me.TextBox91.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox91.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox91.Value = "= Fields.num_oper"
         '
         'TextBox92
         '
         Me.TextBox92.Format = "{0:HH:mm:ss}"
-        Me.TextBox92.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(0.52083307504653931R))
+        Me.TextBox92.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(0.52083307504653931R))
         Me.TextBox92.Name = "TextBox92"
-        Me.TextBox92.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox92.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox92.Value = "= Fields.hora_oper.ToString(""HH:mm:ss tt"")"
         '
         'TextBox93
         '
         Me.TextBox93.Format = "{0:dd-MM-yyyy}"
-        Me.TextBox93.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(0.34535732865333557R))
+        Me.TextBox93.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347091674804688R), Telerik.Reporting.Drawing.Unit.Inch(0.34535732865333557R))
         Me.TextBox93.Name = "TextBox93"
-        Me.TextBox93.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox93.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5944247245788574R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox93.Value = "= Fields.fecha_oper.Date.Date"
         '
         'TextBox96
         '
-        Me.TextBox96.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(2.063037633895874R))
+        Me.TextBox96.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347878456115723R), Telerik.Reporting.Drawing.Unit.Inch(2.063037633895874R))
         Me.TextBox96.Name = "TextBox96"
-        Me.TextBox96.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.19999980926513672R))
+        Me.TextBox96.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5943459272384644R), Telerik.Reporting.Drawing.Unit.Inch(0.19999980926513672R))
         Me.TextBox96.Value = "= Fields.PuestoBolsa"
         '
         'Table1
         '
         Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(4.49265193939209R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840348720550537R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840357661247253R)))
         Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840309977531433R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840348720550537R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840348720550537R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840348720550537R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840357661247253R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840357661247253R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840357661247253R)))
         Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.19999983906745911R)))
         Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.19999983906745911R)))
         Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.19999983906745911R)))
@@ -633,7 +633,7 @@ Partial Class FormatoBoleta
         TableGroup18.Name = "group"
         Me.Table1.ColumnGroups.Add(TableGroup18)
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox20, Me.TextBox21, Me.TextBox22, Me.TextBox23, Me.TextBox24, Me.TextBox25, Me.TextBox26, Me.TextBox27, Me.TextBox34, Me.TextBox35})
-        Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(9.4756011962890625R), Telerik.Reporting.Drawing.Unit.Cm(0.43860289454460144R))
+        Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(9.05750846862793R), Telerik.Reporting.Drawing.Unit.Cm(0.43860289454460144R))
         Me.Table1.Name = "Table1"
         TableGroup19.Groupings.Add(New Telerik.Reporting.Grouping(Nothing))
         TableGroup19.Name = "detailTableGroup"
@@ -771,24 +771,24 @@ Partial Class FormatoBoleta
         'TextBox29
         '
         Me.TextBox29.Format = "{0:N2}"
-        Me.TextBox29.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(1.6630769968032837R))
+        Me.TextBox29.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347878456115723R), Telerik.Reporting.Drawing.Unit.Inch(1.6630769968032837R))
         Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox29.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5943459272384644R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
         Me.TextBox29.Value = "= IIf( Fields.VTTasa > 0, Fields.VTTasa, Fields.ValorTransadoEquivalenteUSD )" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox86
         '
         Me.TextBox86.Format = "{0:N2}"
-        Me.TextBox86.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5013790130615234R), Telerik.Reporting.Drawing.Unit.Inch(1.8630765676498413R))
+        Me.TextBox86.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.3347878456115723R), Telerik.Reporting.Drawing.Unit.Inch(1.8356767892837524R))
         Me.TextBox86.Name = "TextBox86"
-        Me.TextBox86.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4355901479721069R), Telerik.Reporting.Drawing.Unit.Inch(0.17259989678859711R))
+        Me.TextBox86.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5943459272384644R), Telerik.Reporting.Drawing.Unit.Inch(0.19999960064888R))
         Me.TextBox86.Value = "= Fields.yield"
         '
         'TextBox28
         '
-        Me.TextBox28.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.73055100440979R), Telerik.Reporting.Drawing.Unit.Inch(2.063037633895874R))
+        Me.TextBox28.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.565948486328125R), Telerik.Reporting.Drawing.Unit.Inch(2.0539290904998779R))
         Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(4.49265193939209R), Telerik.Reporting.Drawing.Unit.Inch(0.19999998807907105R))
+        Me.TextBox28.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(4.52440071105957R), Telerik.Reporting.Drawing.Unit.Inch(0.19999998807907105R))
         Me.TextBox28.Style.Font.Bold = True
         Me.TextBox28.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(10.0R)
         Me.TextBox28.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
@@ -852,7 +852,7 @@ Partial Class FormatoBoleta
         StyleRule1.Style.Padding.Left = Telerik.Reporting.Drawing.Unit.Point(2.0R)
         StyleRule1.Style.Padding.Right = Telerik.Reporting.Drawing.Unit.Point(2.0R)
         Me.StyleSheet.AddRange(New Telerik.Reporting.Drawing.StyleRule() {StyleRule1})
-        Me.Width = Telerik.Reporting.Drawing.Unit.Inch(7.0200552940368652R)
+        Me.Width = Telerik.Reporting.Drawing.Unit.Inch(7.0472445487976074R)
         CType(Me,System.ComponentModel.ISupportInitialize).EndInit
 
 End Sub

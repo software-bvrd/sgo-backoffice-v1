@@ -25,12 +25,16 @@
 
 <body style="background-color: #F1F5FB">
     <form id="form1" runat="server">
+        <input type="hidden" id="txtfecha" name="txtfecha" value="0" runat="server"/>
 
         <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 
             <script type="text/javascript">
 
+                function ActualizarFiltrosConsultas(sender, args) {
 
+                    __doPostBack("ActualizarFiltros");
+                }
                 function RefreshGrid() {
                     var masterTable = $find("<%= RadGrid1.ClientID %>").get_masterTableView();
                     masterTable.rebind();
@@ -468,7 +472,12 @@
 
         <div>
             <asp:SqlDataSource ID="SqlvOperacionesCSV" runat="server" ConnectionString="<%$ ConnectionStrings:CN %>"
-                SelectCommand="SELECT  * FROM [vConsultaOperacionesCSV]   ORDER BY [fecha_oper] DESC" DataSourceMode="DataReader"></asp:SqlDataSource>
+                SelectCommand="SELECT  * FROM [vConsultaOperacionesCSV]   ORDER BY [fecha_oper] DESC" DataSourceMode="DataReader">
+                <SelectParameters>
+                    <asp:Parameter Name="SqlWhere" Type="String" />
+                </SelectParameters>
+
+            </asp:SqlDataSource>
         </div>
 
         <telerik:RadWindowManager ID="RadWindowManager1" runat="server" Behaviors="Move" InitialBehaviors="Close" VisibleStatusbar="False" Width="300px" OnClientClose="RefreshGrid">

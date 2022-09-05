@@ -6,6 +6,7 @@ Public Class ListaOperacionesCancelarBO
     Private oper As New operation
     Private cStringWhere As String = ""
     Dim ciNewFormat As New CultureInfo(CultureInfo.CurrentCulture.ToString())
+    Dim FechaFiltrada
 
     Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
         ciNewFormat.DateTimeFormat.ShortDatePattern = "dd/MM/yyyy"
@@ -19,7 +20,7 @@ Public Class ListaOperacionesCancelarBO
         Dim ciNewFormat As New CultureInfo(CultureInfo.CurrentCulture.ToString())
 
         If Not IsPostBack Then
-            oper.GenerarSeguimientoActividadUsuario(Session("IdUsuario"), "Ingreso a Consulta: Operaciones", "Consulta de Operaciones", "")
+            oper.GenerarSeguimientoActividadUsuario(Session("IdUsuario"), "Ingreso a Consulta: Operaciones Canceladas", "Consulta de Operaciones Canceladas", "")
             txtIdUsuario.Text = Session("IdUsuario")
             With RadGrid1
                 .Culture = New CultureInfo("es-DO")
@@ -50,6 +51,9 @@ Public Class ListaOperacionesCancelarBO
                 RadFilter1.RootGroup.Expressions.Add(expr)
             End If
             txtIdConsulta.Text = 0
+            RadFilter1.ApplyButtonText = "Aplicar Filtro"
+            'LlenarInformacionListaFiltros()
+            DataRefresh()
 
             'With RadFilter1
             '    .FireApplyCommand()
@@ -155,6 +159,64 @@ Public Class ListaOperacionesCancelarBO
         End With
     End Sub
 
+    Protected Sub RadFilter1_ApplyExpressions(sender As Object, e As RadFilterApplyExpressionsEventArgs) Handles RadFilter1.ApplyExpressions
+
+        Try
+            ciNewFormat.DateTimeFormat.ShortDatePattern = "MM/dd/yyyy"
+            Threading.Thread.CurrentThread.CurrentCulture = ciNewFormat
+
+            Dim provider As New RadFilterSqlQueryProvider()
+            provider.ProcessGroup(e.ExpressionRoot)
+            cStringWhere = provider.Result.Trim
+            FechaFiltrada = cStringWhere
+
+            ciNewFormat.DateTimeFormat.ShortDatePattern = "dd/MM/yyyy"
+            Threading.Thread.CurrentThread.CurrentCulture = ciNewFormat
+            DataRefresh()
+
+        Catch ex As Exception
+            Dim error1 As String = ex.InnerException.ToString()
+        End Try
+    End Sub
+
+    Sub DataRefresh()
+
+        'SqlvOperacionesCSV.SelectCommandType = SqlDataSourceCommandType.StoredProcedure
+
+        'If cStringWhere.IndexOf("01/01/0001") > 0 Then
+        '    cStringWhere = cStringWhere.Replace("01/01/0001", oper.ConvertirFechaEnAmerican(Today.Date))
+        'End If
+        ''Dim format() = {"dd/MM/yyyy", "d/M/yyyy", "dd-MM-yyyy"}
+        ''Dim Fecha As Date = Date.ParseExact(provider.Result.Trim.Substring(17, 10), format, System.Globalization.DateTimeFormatInfo.InvariantInfo, Globalization.DateTimeStyles.None)
+        'If cStringWhere.Substring(0, 13) = "[fecha_oper]=" Then
+        '    ' Dim Fecha1 As String = Provider.Result.Trim.Substring(17, 10)
+        '    Dim Fecha1 As String = cStringWhere.Trim.Substring(14, 10)
+        '    Dim FechaOperacion As String = Fecha1.Trim.Substring(6, 4) & Fecha1.Trim.Substring(0, 2) & Fecha1.Trim.Substring(3, 2)
+        '    txtfecha.Value = FechaOperacion & DateTime.Now.ToString("HHmmss")
+        'End If
+        'cStringWhere = cStringWhere.Replace(" 12:00:00 a.m.", "")
+        'SqlvOperacionesCSV.SelectParameters("SqlWhere").DefaultValue = cStringWhere
+        'SqlvOperacionesCSV.SelectCommand = "SP_ConsultadeOperaciones"
+
+        SqlvOperacionesCSV.SelectCommandType = SqlDataSourceCommandType.StoredProcedure
+
+        If cStringWhere.IndexOf("01/01/0001") > 0 Then
+            cStringWhere = cStringWhere.Replace("01/01/0001", oper.ConvertirFechaEnAmerican(Today.Date))
+        End If
+        'Dim format() = {"dd/MM/yyyy", "d/M/yyyy", "dd-MM-yyyy"}
+        'Dim Fecha As Date = Date.ParseExact(provider.Result.Trim.Substring(17, 10), format, System.Globalization.DateTimeFormatInfo.InvariantInfo, Globalization.DateTimeStyles.None)
+        If cStringWhere.Substring(0, 13) = "[fecha_oper]=" Then
+            ' Dim Fecha1 As String = Provider.Result.Trim.Substring(17, 10)
+            Dim Fecha1 As String = cStringWhere.Trim.Substring(14, 10)
+            Dim FechaOperacion As String = Fecha1.Trim.Substring(6, 4) & Fecha1.Trim.Substring(0, 2) & Fecha1.Trim.Substring(3, 2)
+            txtfecha.Value = FechaOperacion & DateTime.Now.ToString("HHmmss")
+        End If
+        cStringWhere = cStringWhere.Replace(" 12:00:00 a.m.", "")
+        SqlvOperacionesCSV.SelectParameters("SqlWhere").DefaultValue = cStringWhere
+        SqlvOperacionesCSV.SelectCommand = "SP_ConsultadeOperaciones"
+
+
+    End Sub
 
 
 End Class
