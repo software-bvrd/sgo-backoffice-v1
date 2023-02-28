@@ -151,10 +151,9 @@
 
             <%-- Grid --%>
             <telerik:RadGrid ID="RadGrid" runat="server" AllowAutomaticDeletes="True"
-                AllowAutomaticInserts="True" AllowAutomaticUpdates="True" AutoGenerateColumns="False"
-                CellSpacing="0" Culture="es-DO" DataSourceID="SqlVNav" GridLines="None"
+                AllowAutomaticInserts="True" AllowAutomaticUpdates="True" AutoGenerateColumns="False" Culture="es-DO" DataSourceID="SqlVNav"
                 AllowFilteringByColumn="True" PageSize="12" AllowSorting="True" EnableHeaderContextMenu="True"
-                AllowPaging="True">
+                AllowPaging="True" GroupPanelPosition="Top">
 
                 <GroupingSettings CaseSensitive="False" />
 
@@ -213,7 +212,7 @@
                             AndCurrentFilterFunction="Contains" AutoPostBackOnFilter="True">
                         </telerik:GridBoundColumn>
                         
-                        <telerik:GridBoundColumn DataField="NAV" FilterControlAltText="Filter NAV column" HeaderText="NAV" SortExpression="NAV" UniqueName="NAV" DataType="System.Decimal" DataFormatString="{0:###,##0.000000}" ItemStyle-HorizontalAlign="Right"
+                        <telerik:GridBoundColumn DataField="NAV" FilterControlAltText="Filter NAV column" HeaderText="NAV" SortExpression="NAV" UniqueName="NAV" DataType="System.Decimal" DataFormatString="{0:###,##0.00000000000000}" ItemStyle-HorizontalAlign="Right"
                             AndCurrentFilterFunction="Contains" AutoPostBackOnFilter="True">
                             <ItemStyle HorizontalAlign="Right" />
                         </telerik:GridBoundColumn>
@@ -227,9 +226,7 @@
                     </Columns>
 
                     <PagerStyle PageSizeControlType="RadComboBox" Mode="NextPrevNumericAndAdvanced"></PagerStyle>
-
                 </MasterTableView>
-
 
                 <FilterMenu EnableImageSprites="False"></FilterMenu>
 

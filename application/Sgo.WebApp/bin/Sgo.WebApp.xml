@@ -22263,6 +22263,168 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._txtfecha">
+<summary>
+txtfecha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadCodeBlock1">
+<summary>
+RadCodeBlock1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadAjaxManager1">
+<summary>
+RadAjaxManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadAjaxLoadingPanel1">
+<summary>
+RadAjaxLoadingPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadFilter1">
+<summary>
+RadFilter1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadGrid1">
+<summary>
+RadGrid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadToolBar2">
+<summary>
+RadToolBar2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._SqlvOperacionesCSV">
+<summary>
+SqlvOperacionesCSV control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadWindowManager1">
+<summary>
+RadWindowManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._txtNombreConsultaUsuario">
+<summary>
+txtNombreConsultaUsuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._txtIdUsuario">
+<summary>
+txtIdUsuario control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._txtIdConsulta">
+<summary>
+txtIdConsulta control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Sgo.WebApp.GenerarArchivoGP._Head1">
 <summary>
 Head1 control.

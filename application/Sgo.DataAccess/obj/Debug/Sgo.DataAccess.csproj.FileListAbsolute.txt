@@ -38,8 +38,8 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Data
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.DataAccess.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Debug\Sgo.Model.pdb
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojAssemblyReference.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csproj.CoreCompileInputs.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csproj.CopyComplete
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Debug\Sgo.DataAccess.csprojAssemblyReference.cache

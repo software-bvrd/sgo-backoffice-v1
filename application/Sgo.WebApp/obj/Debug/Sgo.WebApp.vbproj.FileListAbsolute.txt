@@ -53,7 +53,6 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebA
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojAssemblyReference.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.cache
@@ -63,3 +62,4 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebA
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojAssemblyReference.cache

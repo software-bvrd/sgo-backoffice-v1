@@ -397,6 +397,7 @@
     <Content Include="Herramientas\EditPermisoPerfil.aspx" />
     <Content Include="Herramientas\EditUsuario.aspx" />
     <Content Include="Herramientas\EliminarProcesosLibroOrdenes.aspx" />
+    <Content Include="Herramientas\EnvioOperacionesCevaldom.aspx" />
     <Content Include="Herramientas\GenerarArchivoGP.aspx" />
     <Content Include="Herramientas\GenerarArchivoSIV.aspx" />
     <Content Include="Herramientas\ListaComisiones.aspx" />
@@ -1702,6 +1703,13 @@
     <Compile Include="Herramientas\EliminarProcesosLibroOrdenes.aspx.vb">
       <DependentUpon>EliminarProcesosLibroOrdenes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Herramientas\EnvioOperacionesCevaldom.aspx.designer.vb">
+      <DependentUpon>EnvioOperacionesCevaldom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\EnvioOperacionesCevaldom.aspx.vb">
+      <DependentUpon>EnvioOperacionesCevaldom.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Herramientas\GenerarArchivoGP.aspx.designer.vb">
       <DependentUpon>GenerarArchivoGP.aspx</DependentUpon>

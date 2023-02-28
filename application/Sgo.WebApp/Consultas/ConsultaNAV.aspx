@@ -156,7 +156,7 @@
                         </telerik:GridBoundColumn>
                         <telerik:GridBoundColumn DataField="CodigoSerie" FilterControlAltText="Filter CodigoSerie column" HeaderText="Serie" SortExpression="CodigoSerie" UniqueName="CodigoSerie">
                         </telerik:GridBoundColumn>
-                        <telerik:GridBoundColumn DataField="NAV" DataFormatString="{0:###,##0.############}" FilterControlAltText="Filter NAV column" HeaderText="NAV" SortExpression="NAV" UniqueName="NAV" DataType="System.Decimal">
+                        <telerik:GridBoundColumn DataField="NAV" DataFormatString="{0:###,##0.##############}" FilterControlAltText="Filter NAV column" HeaderText="NAV" SortExpression="NAV" UniqueName="NAV" DataType="System.Decimal">
                         </telerik:GridBoundColumn>
                         <telerik:GridBoundColumn DataField="CodigoISIN" FilterControlAltText="Filter CodigoISIN column" HeaderText="ISIN" SortExpression="CodigoISIN" UniqueName="CodigoISIN">
                         </telerik:GridBoundColumn>
@@ -164,7 +164,7 @@
                         </telerik:GridBoundColumn>
                         <%-- 2016.07.04 --%>
                          <%--"{0:###,##0.000000}"--%> 
-                        <telerik:GridBoundColumn DataField="NavAnterior" DataFormatString="{0:###,##0.000000}" FilterControlAltText="Filter NavAnterior column" HeaderText="NAV Anterior" SortExpression="NavAnterior" UniqueName="NavAnterior" DataType="System.Decimal">
+                        <telerik:GridBoundColumn DataField="NavAnterior" DataFormatString="{0:###,##0.00000000000000}" FilterControlAltText="Filter NavAnterior column" HeaderText="NAV Anterior" SortExpression="NavAnterior" UniqueName="NavAnterior" DataType="System.Decimal">
                         </telerik:GridBoundColumn>
                         <telerik:GridNumericColumn DataField="VariacionPorcentual"
                             DataFormatString="{0:###,##0.000000}%"

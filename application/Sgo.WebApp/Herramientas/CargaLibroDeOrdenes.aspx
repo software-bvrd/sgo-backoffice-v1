@@ -250,8 +250,8 @@
                     </div>
 
                 </div>
-                <div id="Columna2" style="float: right; width: 30%">
-                    <table width="300px">
+                <div id="Columna2" style="float: right; width: 100%">
+                    <table width="800px">
                         <tr>
                             <td>
                                 <asp:Label ID="lblFormatofecha0" runat="server" Text="Historial de archivos  cargados en el día :"></asp:Label>

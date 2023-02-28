@@ -25,7 +25,7 @@
 
 <body style="background-color: #F1F5FB">
     <form id="form1" runat="server">
-        <input type="hidden" id="txtfecha" name="txtfecha" value="0" runat="server"/>
+        <input hidden id="txtfecha" name="txtfecha" value="0" runat="server"/>
         <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 
             <script type="text/javascript">

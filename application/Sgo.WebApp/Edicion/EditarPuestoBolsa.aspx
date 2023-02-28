@@ -267,12 +267,12 @@
 
             <%-- Definición Opciones TABS --%>
             <telerik:RadTabStrip ID="RadTabStrip1" runat="server"
-                SelectedIndex="0" MultiPageID="RadMultiPage1" CausesValidation="False"
+                SelectedIndex="4" MultiPageID="RadMultiPage1" CausesValidation="False"
                 Width="100%">
                 <Tabs>
 
                     <telerik:RadTab runat="server" Text="Puesto Bolsa" PageViewID="RadPageView1"
-                        SelectedIndex="1" Selected="True">
+                        SelectedIndex="1">
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" Text="Directivos" PageViewID="RadPageView2"
@@ -288,7 +288,7 @@
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" PageViewID="RadPageView5"
-                        Text="Cod. Part. BL." SelectedIndex="5" ToolTip ="Código Participante Bloomberg">
+                        Text="Cod. Part. BL." SelectedIndex="5" ToolTip ="Código Participante Bloomberg" Selected="True">
                     </telerik:RadTab>
 
                     <telerik:RadTab runat="server" PageViewID="RadPageView6"
@@ -335,7 +335,7 @@
 
             <%-- TABS --%>
             <telerik:RadMultiPage ID="RadMultiPage1" runat="server" Height="16px"
-                SelectedIndex="0" Width="165px">
+                SelectedIndex="4" Width="165px">
 
                 <%-- Datos Generales --%>
                 <telerik:RadPageView ID="RadPageView1" runat="server" Width="922px" TabIndex="1">

@@ -180,7 +180,23 @@
                     </td>
                     <td class="auto-style1">
                         <telerik:RadNumericTextBox ID="txtNav" runat="server" Style="margin-left: 0px" TabIndex="4" DataType="System.Decimal">
-                            <NumberFormat ZeroPattern="n" DecimalDigits="6"></NumberFormat>
+<NegativeStyle Resize="None"></NegativeStyle>
+
+                            <NumberFormat ZeroPattern="n" DecimalDigits="14" AllowRounding="False"></NumberFormat>
+
+<EmptyMessageStyle Resize="None"></EmptyMessageStyle>
+
+<ReadOnlyStyle Resize="None"></ReadOnlyStyle>
+
+<FocusedStyle Resize="None"></FocusedStyle>
+
+<DisabledStyle Resize="None"></DisabledStyle>
+
+<InvalidStyle Resize="None"></InvalidStyle>
+
+<HoveredStyle Resize="None"></HoveredStyle>
+
+<EnabledStyle Resize="None"></EnabledStyle>
                         </telerik:RadNumericTextBox>
                     </td>
                     <td class="auto-style5">
