@@ -44,12 +44,12 @@ Namespace Sgo.WebApp.App_Start
         ''' <param name="kernel">The kernel.</param>
         Private Sub RegisterServices(ByVal kernel As IKernel)
 
-            ' Dim boConn As Connection.Connection.DBConnection = New Connection.Connection.DBConnection()
-            'Dim helper As NHibernateHelper = New NHibernateHelper(boConn.getConnectionString)
-            'kernel.Bind(Of ISessionFactory)().ToConstant(helper.SessionFactory).InSingletonScope()
-            ' kernel.Bind(Of IUnitOfWork)().[To](Of UnitOfWork)().InRequestScope()
-            ' kernel.Bind(Of ISession)().ToProvider(New SessionProvider()).InRequestScope()
-            ' kernel.Bind(GetType(IRepository(Of ))).[To](GetType(RepositoryBase(Of )))
+            Dim boConn As Connection.Connection.DBConnection = New Connection.Connection.DBConnection()
+            Dim helper As NHibernateHelper = New NHibernateHelper(boConn.getConnectionString)
+            kernel.Bind(Of ISessionFactory)().ToConstant(helper.SessionFactory).InSingletonScope()
+            kernel.Bind(Of IUnitOfWork)().[To](Of UnitOfWork)().InRequestScope()
+            kernel.Bind(Of ISession)().ToProvider(New SessionProvider()).InRequestScope()
+            kernel.Bind(GetType(IRepository(Of ))).[To](GetType(RepositoryBase(Of )))
 
         End Sub
 

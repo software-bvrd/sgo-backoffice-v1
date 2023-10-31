@@ -518,6 +518,11 @@ To modify move field declaration from designer file to code-behind file.
   Looks up a localized string similar to First.
 </summary>
 </member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.HeaderContextMenuFreeze">
+<summary>
+  Looks up a localized string similar to Freeze.
+</summary>
+</member>
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.HeaderContextMenuGroupBy">
 <summary>
   Looks up a localized string similar to Group By.
@@ -566,6 +571,11 @@ To modify move field declaration from designer file to code-behind file.
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.HeaderContextMenuSumAggregateText">
 <summary>
   Looks up a localized string similar to Sum.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.HeaderContextMenuUnfreeze">
+<summary>
+  Looks up a localized string similar to Unfreeze.
 </summary>
 </member>
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.HeaderContextMenuUnGroupBy">
@@ -631,6 +641,66 @@ To modify move field declaration from designer file to code-behind file.
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.LoadingText">
 <summary>
   Looks up a localized string similar to Loading....
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileColumnsViewDescription">
+<summary>
+  Looks up a localized string similar to Show/Hide Columns and Drag the Icon to Reorder.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileColumnsViewTitle">
+<summary>
+  Looks up a localized string similar to Columns Display.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileEditViewTitle">
+<summary>
+  Looks up a localized string similar to Edit.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileFilterViewOptionsText">
+<summary>
+  Looks up a localized string similar to Options.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileFilterViewTitleFormat">
+<summary>
+  Looks up a localized string similar to Filter by {0}.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileFilterViewValueText">
+<summary>
+  Looks up a localized string similar to Value.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileInsertViewTitle">
+<summary>
+  Looks up a localized string similar to Insert.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileViewBackButtonText">
+<summary>
+  Looks up a localized string similar to Back.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileViewCancelButtonText">
+<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileViewDoneButtonText">
+<summary>
+  Looks up a localized string similar to Done.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.MobileViewGroupsText">
+<summary>
+  Looks up a localized string similar to View Groups.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.NextFrozenColumnText">
+<summary>
+  Looks up a localized string similar to Next.
 </summary>
 </member>
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.NextPagesToolTip">
@@ -703,6 +773,11 @@ To modify move field declaration from designer file to code-behind file.
   Looks up a localized string similar to Page size:.
 </summary>
 </member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.PrevFrozenColumnText">
+<summary>
+  Looks up a localized string similar to Prev.
+</summary>
+</member>
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.PrevPagesToolTip">
 <summary>
   Looks up a localized string similar to Previous Pages.
@@ -716,6 +791,16 @@ To modify move field declaration from designer file to code-behind file.
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.PrevPageToolTip">
 <summary>
   Looks up a localized string similar to Previous Page.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.RangeFilteringFromText">
+<summary>
+  Looks up a localized string similar to From: .
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.RangeFilteringToText">
+<summary>
+  Looks up a localized string similar to To: .
 </summary>
 </member>
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.Refresh">
@@ -736,6 +821,21 @@ To modify move field declaration from designer file to code-behind file.
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.SaveChangesText">
 <summary>
   Looks up a localized string similar to Save changes.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.SliderDecreaseText">
+<summary>
+  Looks up a localized string similar to Decrease.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.SliderDragText">
+<summary>
+  Looks up a localized string similar to Drag.
+</summary>
+</member>
+<member name="P:Sgo.WebApp.Resources.RadGrid.Main.SliderIncreaseText">
+<summary>
+  Looks up a localized string similar to Increase.
 </summary>
 </member>
 <member name="P:Sgo.WebApp.Resources.RadGrid.Main.SortedAscToolTip">
@@ -4767,6 +4867,33 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Sgo.WebApp.VectorPrecios._txtIdConsulta">
 <summary>
 txtIdConsulta control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.WebForm1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.WebForm1._BtnConsultaOperacionesCevaldom">
+<summary>
+BtnConsultaOperacionesCevaldom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.WebForm1._TextArea1">
+<summary>
+TextArea1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -22371,9 +22498,45 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadToolBar2">
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._lblMensaje">
 <summary>
-RadToolBar2 control.
+lblMensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._dgVistaPrevia">
+<summary>
+dgVistaPrevia control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadProgressManager1">
+<summary>
+RadProgressManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadProgressArea1">
+<summary>
+RadProgressArea1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._lstErrores">
+<summary>
+lstErrores control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -22419,6 +22582,87 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._txtIdConsulta">
 <summary>
 txtIdConsulta control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadWindowManager2">
+<summary>
+RadWindowManager2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._lblNoOperacion">
+<summary>
+lblNoOperacion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._BtnEnviarOperaciones">
+<summary>
+BtnEnviarOperaciones control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._lblMensaje">
+<summary>
+lblMensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._txtxmloperacion">
+<summary>
+txtxmloperacion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._txtxmlMensaje">
+<summary>
+txtxmlMensaje control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -23848,6 +24092,105 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Sgo.WebApp.Transacciones_ProrrateoLibrodeOrdenes._SqlTipoLibroOrdenes">
 <summary>
 SqlTipoLibroOrdenes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadCodeBlock1">
+<summary>
+RadCodeBlock1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadAjaxPanel1">
+<summary>
+RadAjaxPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadGrid1">
+<summary>
+RadGrid1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadWindowManager1">
+<summary>
+RadWindowManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadAjaxManager1">
+<summary>
+RadAjaxManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._RadAjaxLoadingPanel1">
+<summary>
+RadAjaxLoadingPanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.UsuariosAuditoria._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
 </summary>
 <remarks>
 Auto-generated field.

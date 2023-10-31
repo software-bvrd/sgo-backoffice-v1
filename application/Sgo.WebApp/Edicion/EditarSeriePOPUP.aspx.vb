@@ -484,7 +484,8 @@ Partial Class Edicion_EditarSeriePOPUP
 
             cmd.Parameters.Add(New SqlParameter("@Tasa", SqlDbType.Decimal)).Value = IIf(Me.txtTasa.Text.ToString.Length > 0, Me.txtTasa.Text, 0)
 
-            cmd.Parameters.Add(New SqlParameter("@ValorRedencion", SqlDbType.Money)).Value = IIf(Me.ValorRedencion.Text.ToString.Length > 0, Me.ValorRedencion.Text, 0)
+            ' cmd.Parameters.Add(New SqlParameter("@ValorRedencion", SqlDbType.Money)).Value = IIf(Me.ValorRedencion.Text.ToString.Length > 0, Me.ValorRedencion.Text, 0)
+            cmd.Parameters.Add(New SqlParameter("@ValorRedencion", SqlDbType.Money)).Value = IIf(Me.ValorRedencion.Text.ToString.Length > 0, Me.ValorRedencion.Text, DBNull.Value)
 
 
             cmd.Parameters.Add(New SqlParameter("@NotaRedencion", SqlDbType.VarChar)).Value = IIf(Me.txtNotaRedencion.Text.ToString.Length > 0, Me.txtNotaRedencion.Text, DBNull.Value)

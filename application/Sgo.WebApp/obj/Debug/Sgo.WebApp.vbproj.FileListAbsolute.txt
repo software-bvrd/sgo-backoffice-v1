@@ -63,3 +63,158 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebA
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbprojAssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll.config
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CoreCompileInputs.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CopyComplete
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll.config
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CopyComplete
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll.config
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CopyComplete
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll.config
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.xml
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.AssemblyReference.cache
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.cache
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CoreCompileInputs.cache
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CopyComplete
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll.config
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.WebApp.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\BVRD.Security.Utils.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Connection.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.DataAccess.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Sgo.Model.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\MyReportLib.dll.config
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\es-DO\MyReportLib.resources.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.es.Resources.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.Resources.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.GenerateResource.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll.licenses
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.vbproj.CopyComplete
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Namotion.Reflection.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Newtonsoft.Json.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\NJsonSchema.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\NJsonSchema.Extensions.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Namotion.Reflection.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Newtonsoft.Json.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\NJsonSchema.xml

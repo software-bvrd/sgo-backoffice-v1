@@ -207,7 +207,6 @@
                                     <telerik:RadListBox ID="lstErrores" runat="server" Visible="False"
                                         Width="900px">
                                     </telerik:RadListBox>
-
                                 </td>
                             </tr>
                         </table>

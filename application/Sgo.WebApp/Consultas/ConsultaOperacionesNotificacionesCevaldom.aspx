@@ -224,7 +224,8 @@
                             SortExpression="fecha" UniqueName="fecha"
                             DataFormatString="{0:dd/MM/yyyy}">
                         </telerik:GridBoundColumn>
-
+                         <telerik:GridBoundColumn DataField="nemo_ins" FilterControlAltText="NemoTecnico" HeaderText="NemoTecnico" SortExpression="nemo_ins" UniqueName="nemo_ins">
+                        </telerik:GridBoundColumn>
                         <telerik:GridBoundColumn DataField="Referencia"
                             FilterControlAltText="Filter Referencia column" HeaderText="Referencia" SortExpression="Referencia" UniqueName="Referencia">
                         </telerik:GridBoundColumn>
@@ -279,11 +280,13 @@
                             <FooterStyle HorizontalAlign="Center" />
                             <ItemStyle HorizontalAlign="Center" />
                         </telerik:GridBoundColumn>
-
+                        <telerik:GridBoundColumn DataField="Campo" FilterControlAltText="Campo" HeaderText="Campo" SortExpression="nemo_ins" UniqueName="Campo">
+                        </telerik:GridBoundColumn>
                         <telerik:GridBoundColumn DataField="Archivo"
                             FilterControlAltText="Filter Archivo column" HeaderText="Archivo"
                             SortExpression="Archivo" UniqueName="Archivo">
                         </telerik:GridBoundColumn>
+
 
 
                     </Columns>

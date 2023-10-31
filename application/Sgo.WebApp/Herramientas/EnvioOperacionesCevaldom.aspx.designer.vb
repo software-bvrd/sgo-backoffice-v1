@@ -122,13 +122,49 @@ Partial Public Class EnvioOperacionesCevaldom
     Protected WithEvents RadGrid1 As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
-    '''RadToolBar2 control.
+    '''lblMensaje control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadToolBar2 As Global.Telerik.Web.UI.RadToolBar
+    Protected WithEvents lblMensaje As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''dgVistaPrevia control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dgVistaPrevia As Global.Telerik.Web.UI.RadGrid
+
+    '''<summary>
+    '''RadProgressManager1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadProgressManager1 As Global.Telerik.Web.UI.RadProgressManager
+
+    '''<summary>
+    '''RadProgressArea1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadProgressArea1 As Global.Telerik.Web.UI.RadProgressArea
+
+    '''<summary>
+    '''lstErrores control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lstErrores As Global.Telerik.Web.UI.RadListBox
 
     '''<summary>
     '''SqlvOperacionesCSV control.
@@ -174,4 +210,13 @@ Partial Public Class EnvioOperacionesCevaldom
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtIdConsulta As Global.Telerik.Web.UI.RadTextBox
+
+    '''<summary>
+    '''RadWindowManager2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadWindowManager2 As Global.Telerik.Web.UI.RadWindowManager
 End Class

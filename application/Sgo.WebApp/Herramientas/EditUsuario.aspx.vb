@@ -25,10 +25,20 @@ Partial Class EditUsuario
         End If
     End Sub
     Function Actualizar(Id As String) As String
+        Dim _strFecha As String
+        If (RadComboBox3.SelectedValue = "I") Then
+            _strFecha = "getdate()"
+
+        Else
+            _strFecha = "FechaInactivo"
+        End If
+
+
+
         Dim Cnx As SqlConnection = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("CN").ConnectionString)
         Dim Sql As String
 
-        Sql = "UPDATE  TBL_Usuarios  SET  Nombre=@Nombre,CorreoElectronico=@CorreoElectronico,NombreUsuario =@NombreUsuario,IdPerfil=@IdPerfil,IdEstatus=@IdEstatus where  IdUsuario ='" & Id & "'"
+        Sql = "UPDATE  TBL_Usuarios  SET  Nombre=@Nombre,CorreoElectronico=@CorreoElectronico,NombreUsuario =@NombreUsuario,IdPerfil=@IdPerfil,IdEstatus=@IdEstatus,FechaInactivo= " & _strFecha & ",IdUsuarioModifica = " & Session("IdUsuario") & "  where  IdUsuario ='" & Id & "'"
 
         Try
             Cnx.Open()
@@ -51,7 +61,7 @@ Partial Class EditUsuario
         End Try
     End Function
     Function Insertar() As String
-        Dim Sql As String = "INSERT INTO   TBL_Usuarios  (Nombre,CorreoElectronico,NombreUsuario,IdPerfil,IdEstatus)VALUES (@Nombre,@CorreoElectronico,@NombreUsuario,@IdPerfil,@IdEstatus)"
+        Dim Sql As String = "INSERT INTO   TBL_Usuarios  (Nombre,CorreoElectronico,NombreUsuario,IdPerfil,IdEstatus,IdUsuarioCreacion) VALUES (@Nombre,@CorreoElectronico,@NombreUsuario,@IdPerfil,@IdEstatus,@IdUsuarioCreacion)"
         Dim Cnx As SqlConnection = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("CN").ConnectionString)
         Try
             Cnx.Open()
@@ -61,6 +71,7 @@ Partial Class EditUsuario
             Cmd.Parameters.Add("@NombreUsuario", SqlDbType.VarChar).Value = IIf(Me.txtNombreUsuario.Text.Length > 0, Me.txtNombreUsuario.Text, DBNull.Value)
             Cmd.Parameters.Add("@IdPerfil", SqlDbType.VarChar).Value = IIf(RadComboBox1.SelectedValue <> Nothing, RadComboBox1.SelectedValue, DBNull.Value)
             Cmd.Parameters.Add("@IdEstatus", SqlDbType.VarChar).Value = IIf(RadComboBox3.SelectedValue <> Nothing, RadComboBox3.SelectedValue, DBNull.Value)
+            Cmd.Parameters.Add("@IdUsuarioCreacion", SqlDbType.Int).Value = IIf(Session("IdUsuario") <> Nothing, Session("IdUsuario"), DBNull.Value)
             Cmd.ExecuteNonQuery()
             Return ""
         Catch ex As Exception

@@ -609,6 +609,8 @@
                                             </telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Carga Manual de Ordenes en Firme" Value="herramientas/CargaOrdenesEnFirme.aspx">
                                             </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Envio de Operaciones via webservice" Value="herramientas/EnvioOperacionesCevaldom.aspx">
+                                            </telerik:RadMenuItem>
                                         </Items>
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Registrar Ordenes rechazadas" Value="herramientas/SubastaOrdenesRechazadas.aspx">
@@ -632,6 +634,8 @@
                                     <telerik:RadMenuItem runat="server" Text="Opciones de Perfil" Value="herramientas/PermisosPorPerfil.aspx">
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Usuarios" Value="herramientas/Usuarios.aspx">
+                                    </telerik:RadMenuItem> 
+                                    <telerik:RadMenuItem runat="server" Text="Auditoria de Usuarios" Value="herramientas/UsuariosAuditoria.aspx">
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Opciones de Menu" Value="herramientas/OpcionesMenu.aspx">
                                     </telerik:RadMenuItem>

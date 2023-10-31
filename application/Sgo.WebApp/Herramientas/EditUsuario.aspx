@@ -105,38 +105,26 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style5">
-                    &nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtFind" runat="server" MaxLength="50" Width="187px"></asp:TextBox>                                   
-                </td>
-                <td class="auto-style2">
+                    <asp:TextBox ID="txtFind" runat="server" MaxLength="50" Width="187px"></asp:TextBox>     
                     <asp:Button ID="btnFind"  Text="..."  runat="server"/>
-
-                    </td>
-                <td>
-                    &nbsp;</td>
+                </td>
+                <td class="auto-style2"></td>
+                <td>&nbsp;</td>
             </tr>
-
-                        <tr>
-                <td class="auto-style5">
-                    &nbsp;</td>
-                <td class="auto-style4">
-                    &nbsp;</td>
-                <td class="auto-style2">
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
-
             <tr>
                 <td class="auto-style5">
                     <asp:Label ID="Label14" runat="server" Text="Nombre:"></asp:Label>                                   
                 </td>
                 <td class="auto-style4">
                     <asp:TextBox ID="txtNombre" runat="server" MaxLength="50" Width="188px" Enabled="False"></asp:TextBox>
-                    
-               
                 </td>
                 <td class="auto-style2">
                     &nbsp;</td>

@@ -63,7 +63,7 @@ Partial Class Site
         ' Evaluar menu para determinar si las opciones de su perfil estan disponibles.
         ' -----------------------------------------------------------------------------
         If IsPostBack = False Then
-            CantidadRegistrosMenuOpciones()
+            ' CantidadRegistrosMenuOpciones()
             If oper.ExecuteScalar("Select count(*) from OpcionesMenu") = 0 Then
                 With RadMenu1
                     For Each item As RadMenuItem In .GetAllItems()

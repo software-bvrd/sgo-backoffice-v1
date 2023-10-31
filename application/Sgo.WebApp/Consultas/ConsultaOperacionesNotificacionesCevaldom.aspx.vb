@@ -315,12 +315,24 @@ Partial Class ConsultaOperacionesNotificacionesCevaldom
         End If
         'Dim format() = {"dd/MM/yyyy", "d/M/yyyy", "dd-MM-yyyy"}
         'Dim Fecha As Date = Date.ParseExact(provider.Result.Trim.Substring(17, 10), format, System.Globalization.DateTimeFormatInfo.InvariantInfo, Globalization.DateTimeStyles.None)
-        If cStringWhere.Substring(0, 13) = "fecha=" Then
+
+        'If cStringWhere.Substring(0, 13) = "fecha=" Then
+        '    ' Dim Fecha1 As String = Provider.Result.Trim.Substring(17, 10)
+        '    Dim Fecha1 As String = cStringWhere.Trim.Substring(14, 10)
+        '    Dim FechaOperacion As String = Fecha1.Trim.Substring(6, 4) & Fecha1.Trim.Substring(0, 2) & Fecha1.Trim.Substring(3, 2)
+        '    txtfecha.Value = FechaOperacion & DateTime.Now.ToString("HHmmss")
+        'End If
+        If cStringWhere.Substring(0, 13) = "[fecha_oper]=" Then
             ' Dim Fecha1 As String = Provider.Result.Trim.Substring(17, 10)
             Dim Fecha1 As String = cStringWhere.Trim.Substring(14, 10)
             Dim FechaOperacion As String = Fecha1.Trim.Substring(6, 4) & Fecha1.Trim.Substring(0, 2) & Fecha1.Trim.Substring(3, 2)
             txtfecha.Value = FechaOperacion & DateTime.Now.ToString("HHmmss")
+            'txtfecha.Value = FechaOperacion & DateTime.Now.ToString("HHmmss")
+
+        Else
+            txtfecha.Value = txtfecha.Value & DateTime.Now.ToString("HHmmss")
         End If
+        cStringWhere = cStringWhere.Replace(" 12:00:00 a. m.", "")
         cStringWhere = cStringWhere.Replace(" 12:00:00 a.m.", "")
         SqlvOperacionesCSV.SelectParameters("SqlWhere").DefaultValue = cStringWhere
         SqlvOperacionesCSV.SelectCommand = "SIOPEL_INTERFACE_DB.dbo.SP_ConsultadeEstadoOperaciones"
