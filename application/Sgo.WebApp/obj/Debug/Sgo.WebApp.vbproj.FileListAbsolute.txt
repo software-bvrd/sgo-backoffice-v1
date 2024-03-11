@@ -218,3 +218,8 @@ C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\NJsonSchem
 C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Namotion.Reflection.xml
 C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Newtonsoft.Json.xml
 C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\NJsonSchema.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.ReporteSIV_Detalle_RFMSMES.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.ReporteSIV_Detalle_RFMSRSMES.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.ReporteSIV_Detalle_RFMSRSTrimestre.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.ReporteSIV_Detalle_RVMSRSMES.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Debug\Sgo.WebApp.ReporteSIV_Parametros.resources

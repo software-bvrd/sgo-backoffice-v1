@@ -468,7 +468,7 @@
 </value>
   </data>
   <metadata name="SP_FormatoBoleta.ParameterValues" xml:space="preserve">
-    <value>{"@FechaInicial":"2016-07-21","@FechaFinal":"2016-07-21","@CodRueda":"LICI","@pues_comp":"INRES"}</value>
+    <value>{"@FechaInicial":"2023-12-12","@FechaFinal":"2023-12-12","@CodRueda":"MSRF","@pues_comp":"TIVALSA"}</value>
   </metadata>
   <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>1.5</value>

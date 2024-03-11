@@ -23,6 +23,8 @@ Partial Class ReporteSIV_Parametros
         Dim TableGroup17 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
         Dim TableGroup18 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
         Dim TableGroup19 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
+        Dim TableGroup20 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
+        Dim TableGroup21 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
         Dim NavigateToBookmarkAction1 As Telerik.Reporting.NavigateToBookmarkAction = New Telerik.Reporting.NavigateToBookmarkAction()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReporteSIV_Parametros))
         Dim ReportParameter1 As Telerik.Reporting.ReportParameter = New Telerik.Reporting.ReportParameter()
@@ -69,6 +71,12 @@ Partial Class ReporteSIV_Parametros
         Me.TextBox20 = New Telerik.Reporting.TextBox()
         Me.TextBox21 = New Telerik.Reporting.TextBox()
         Me.TextBox22 = New Telerik.Reporting.TextBox()
+        Me.TextBox14 = New Telerik.Reporting.TextBox()
+        Me.TextBox15 = New Telerik.Reporting.TextBox()
+        Me.TextBox23 = New Telerik.Reporting.TextBox()
+        Me.TextBox26 = New Telerik.Reporting.TextBox()
+        Me.TextBox28 = New Telerik.Reporting.TextBox()
+        Me.TextBox29 = New Telerik.Reporting.TextBox()
         Me.pageFooterSection1 = New Telerik.Reporting.PageFooterSection()
         Me.TextBox81 = New Telerik.Reporting.TextBox()
         Me.pageInfoTextBox = New Telerik.Reporting.TextBox()
@@ -148,7 +156,7 @@ Partial Class ReporteSIV_Parametros
         'Table3
         '
         Me.Table3.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(9.573267936706543R)))
-        Me.Table3.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(2.6132752895355225R)))
+        Me.Table3.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(2.6132750511169434R)))
         Me.Table3.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(3.2719297409057617R)))
         Me.Table3.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840354681015015R)))
         Me.Table3.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.4384034276008606R)))
@@ -264,14 +272,16 @@ Partial Class ReporteSIV_Parametros
         '
         'Table1
         '
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(9.5379924774169922R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(2.6661932468414307R)))
-        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(3.236649751663208R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.438403457403183R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840330839157104R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.438403457403183R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.438403457403183R)))
-        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.438403457403183R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(9.5379953384399414R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(2.6661927700042725R)))
+        Me.Table1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Cm(3.2366499900817871R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.4384034276008606R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.43840339779853821R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.4384034276008606R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.4384034276008606R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Cm(0.4384034276008606R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.19999998807907105R)))
+        Me.Table1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.19999998807907105R)))
         Me.Table1.Body.SetCellContent(0, 0, Me.TextBox3)
         Me.Table1.Body.SetCellContent(1, 0, Me.TextBox5)
         Me.Table1.Body.SetCellContent(2, 1, Me.TextBox6)
@@ -287,6 +297,12 @@ Partial Class ReporteSIV_Parametros
         Me.Table1.Body.SetCellContent(4, 0, Me.TextBox20)
         Me.Table1.Body.SetCellContent(0, 2, Me.TextBox21)
         Me.Table1.Body.SetCellContent(1, 2, Me.TextBox22)
+        Me.Table1.Body.SetCellContent(5, 0, Me.TextBox14)
+        Me.Table1.Body.SetCellContent(5, 1, Me.TextBox15)
+        Me.Table1.Body.SetCellContent(5, 2, Me.TextBox23)
+        Me.Table1.Body.SetCellContent(6, 0, Me.TextBox26)
+        Me.Table1.Body.SetCellContent(6, 1, Me.TextBox28)
+        Me.Table1.Body.SetCellContent(6, 2, Me.TextBox29)
         TableGroup10.Name = "tableGroup1"
         TableGroup9.ChildGroups.Add(TableGroup10)
         TableGroup9.Name = "group2"
@@ -302,7 +318,7 @@ Partial Class ReporteSIV_Parametros
         Me.Table1.ColumnGroups.Add(TableGroup9)
         Me.Table1.ColumnGroups.Add(TableGroup11)
         Me.Table1.ColumnGroups.Add(TableGroup13)
-        Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox3, Me.TextBox16, Me.TextBox21, Me.TextBox5, Me.TextBox17, Me.TextBox22, Me.TextBox18, Me.TextBox6, Me.TextBox10, Me.TextBox19, Me.TextBox7, Me.TextBox11, Me.TextBox20, Me.TextBox8, Me.TextBox12, Me.TextBox27, Me.TextBox24, Me.TextBox25})
+        Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox3, Me.TextBox16, Me.TextBox21, Me.TextBox5, Me.TextBox17, Me.TextBox22, Me.TextBox18, Me.TextBox6, Me.TextBox10, Me.TextBox19, Me.TextBox7, Me.TextBox11, Me.TextBox20, Me.TextBox8, Me.TextBox12, Me.TextBox14, Me.TextBox15, Me.TextBox23, Me.TextBox26, Me.TextBox28, Me.TextBox29, Me.TextBox27, Me.TextBox24, Me.TextBox25})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(0.035373594611883163R), Telerik.Reporting.Drawing.Unit.Cm(3.6828994750976562R))
         Me.Table1.Name = "Table1"
         TableGroup15.Groupings.Add(New Telerik.Reporting.Grouping(Nothing))
@@ -311,12 +327,16 @@ Partial Class ReporteSIV_Parametros
         TableGroup17.Name = "group25"
         TableGroup18.Name = "group26"
         TableGroup19.Name = "group27"
+        TableGroup20.Name = "group"
+        TableGroup21.Name = "group4"
         Me.Table1.RowGroups.Add(TableGroup15)
         Me.Table1.RowGroups.Add(TableGroup16)
         Me.Table1.RowGroups.Add(TableGroup17)
         Me.Table1.RowGroups.Add(TableGroup18)
         Me.Table1.RowGroups.Add(TableGroup19)
-        Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(15.440835952758789R), Telerik.Reporting.Drawing.Unit.Cm(2.5399999618530273R))
+        Me.Table1.RowGroups.Add(TableGroup20)
+        Me.Table1.RowGroups.Add(TableGroup21)
+        Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(15.440836906433106R), Telerik.Reporting.Drawing.Unit.Cm(3.5559999942779541R))
         Me.Table1.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(7.0R)
         '
         'TextBox3
@@ -353,7 +373,7 @@ Partial Class ReporteSIV_Parametros
         Me.TextBox6.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox6.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox6.StyleName = ""
-        Me.TextBox6.Value = "MM"
+        Me.TextBox6.Value = "MM MH"
         '
         'TextBox7
         '
@@ -517,6 +537,90 @@ Partial Class ReporteSIV_Parametros
         Me.TextBox22.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox22.StyleName = ""
         Me.TextBox22.Value = "15"
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(9.5379924774169922R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
+        Me.TextBox14.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox14.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox14.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox14.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox14.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
+        Me.TextBox14.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox14.StyleName = ""
+        Me.TextBox14.Value = "Renta Variable Simultáneas Mercado Secundario "
+        '
+        'TextBox15
+        '
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(2.6661934852600098R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
+        Me.TextBox15.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox15.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox15.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox15.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox15.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
+        Me.TextBox15.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox15.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox15.StyleName = ""
+        Me.TextBox15.Value = "RV MS-RS"
+        '
+        'TextBox23
+        '
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(3.236649751663208R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
+        Me.TextBox23.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox23.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox23.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox23.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox23.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox23.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
+        Me.TextBox23.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox23.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox23.StyleName = ""
+        Me.TextBox23.Value = "38"
+        '
+        'TextBox26
+        '
+        Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(9.5379934310913086R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
+        Me.TextBox26.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox26.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox26.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox26.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox26.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
+        Me.TextBox26.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox26.StyleName = ""
+        Me.TextBox26.Value = "Renta Fija Simultáneas Mercado Secundario "
+        '
+        'TextBox28
+        '
+        Me.TextBox28.Name = "TextBox28"
+        Me.TextBox28.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(2.6661932468414307R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
+        Me.TextBox28.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox28.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox28.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox28.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox28.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
+        Me.TextBox28.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox28.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox28.StyleName = ""
+        Me.TextBox28.Value = "RF MS-RS"
+        '
+        'TextBox29
+        '
+        Me.TextBox29.Name = "TextBox29"
+        Me.TextBox29.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Cm(3.236649751663208R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
+        Me.TextBox29.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox29.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox29.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox29.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox29.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox29.Style.BorderWidth.Default = Telerik.Reporting.Drawing.Unit.Point(0.30000001192092896R)
+        Me.TextBox29.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox29.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox29.StyleName = ""
+        Me.TextBox29.Value = "39"
         '
         'pageFooterSection1
         '
@@ -710,4 +814,10 @@ End Sub
     Friend WithEvents TextBox2 As Telerik.Reporting.TextBox
     Friend WithEvents TextBox13 As Telerik.Reporting.TextBox
     Friend WithEvents PictureBox2 As Telerik.Reporting.PictureBox
+    Friend WithEvents TextBox14 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox15 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox23 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox26 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox28 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox29 As Telerik.Reporting.TextBox
 End Class

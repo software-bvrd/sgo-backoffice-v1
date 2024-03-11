@@ -89,6 +89,9 @@ Partial Class BoletinBursatil
             'Renta Fija | Reporte de Operaciones por Plazo (Op X Plazo)
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RFMSOperPlazos)
 
+            'Renta Fija | Reporte de Posiciones Abiertas de Operaciones Simultaneas por Especie'
+            ReportBookDiario.Reports.Add(New MyReportLib.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo)
+
             'Renta Fija | Volúmenes Transados por Emisores Equivalentes en DOP
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RFVolTransEmisoresDOP)
 
@@ -131,6 +134,9 @@ Partial Class BoletinBursatil
 
             'Renta Variable | Mercado Secundario Operaciones del día 
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RVMSOperDia)
+
+            'Renta Variable | Reporte de Posiciones Abiertas de Operaciones Simultaneas por Especie'
+            ReportBookDiario.Reports.Add(New MyReportLib.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo)
 
             'Renta Variable | Mercado Secundario Top N Títulos Transados al Mes 
             ReportBookDiario.Reports.Add(New MyReportLib.BB_RVMSTopTitTransMes)

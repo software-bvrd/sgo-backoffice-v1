@@ -84,4 +84,40 @@ Partial Public Class EnvioOperacionesCevaldomManual
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtxmlMensaje As Global.System.Web.UI.HtmlControls.HtmlTextArea
+
+    '''<summary>
+    '''pnmodal control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnmodal As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''pnmodaldialog control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnmodaldialog As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lblmensajeenvio control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblmensajeenvio As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''btnenviar control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnenviar As Global.System.Web.UI.WebControls.Button
 End Class

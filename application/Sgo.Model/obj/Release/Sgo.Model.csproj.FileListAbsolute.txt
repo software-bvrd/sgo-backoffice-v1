@@ -38,3 +38,20 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Mode
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csprojAssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Model\bin\Release\Sgo.Model.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.csproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Model\obj\Release\Sgo.Model.pdb

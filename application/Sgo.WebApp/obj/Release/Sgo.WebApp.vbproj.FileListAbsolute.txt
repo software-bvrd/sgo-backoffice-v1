@@ -185,3 +185,8 @@ C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Newtonsoft
 C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\NJsonSchema.xml
 C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.Reporting.dll
 C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\bin\Telerik.ReportViewer.WebForms.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.ReporteSIV_Detalle_RFMSMES.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.ReporteSIV_Detalle_RFMSRSMES.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.ReporteSIV_Detalle_RFMSRSTrimestre.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.ReporteSIV_Detalle_RVMSRSMES.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.WebApp\obj\Release\Sgo.WebApp.ReporteSIV_Parametros.resources

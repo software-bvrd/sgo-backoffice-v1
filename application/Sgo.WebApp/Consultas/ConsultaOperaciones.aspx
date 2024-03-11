@@ -555,8 +555,7 @@
 
             </telerik:RadGrid>
 
-            <telerik:RadToolBar ID="RadToolBar2" runat="server" Width="100%">
-
+            <telerik:RadToolBar ID="RadToolBar2" runat="server" Width="100%"> 
                 <Items>
                     <telerik:RadToolBarButton runat="server" ImageUrl="~/Images/edit.png"
                         Text="Acción" ToolTip="Nuevo,Guardar y Borrar consulta" Value="2">
@@ -587,8 +586,7 @@
                     </telerik:RadToolBarButton>
                     <telerik:RadToolBarButton runat="server" IsSeparator="True" Text="Sep 2">
                     </telerik:RadToolBarButton>
-                </Items>
-
+                </Items> 
             </telerik:RadToolBar>
 
         </div>

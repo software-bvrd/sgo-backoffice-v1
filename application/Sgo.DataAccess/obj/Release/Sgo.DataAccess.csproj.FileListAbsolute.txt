@@ -95,3 +95,39 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Data
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csprojAssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.AssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CopyComplete
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CopyComplete
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CopyComplete
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.DataAccess.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\bin\Release\Sgo.Model.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.csproj.CopyComplete
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.DataAccess\obj\Release\Sgo.DataAccess.pdb

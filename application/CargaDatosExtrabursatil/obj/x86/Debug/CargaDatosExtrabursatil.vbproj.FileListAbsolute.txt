@@ -94,3 +94,27 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDat
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbprojAssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.exe.config
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.exe
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.CargadorBursatil.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.Resources.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.GenerateResource.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.CoreCompileInputs.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.exe
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.exe.config
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.exe
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.pdb
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Debug\CargaDatosExtrabursatil.xml
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.CargadorBursatil.resources
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.Resources.resources
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.GenerateResource.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.vbproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.exe
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.xml
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Debug\CargaDatosExtrabursatil.pdb

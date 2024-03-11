@@ -51,4 +51,29 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDat
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.exe
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.xml
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.pdb
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.exe.config
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.exe
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.pdb
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.xml
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.SuggestedBindingRedirects.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.CargadorBursatil.resources
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.Resources.resources
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.GenerateResource.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.exe
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.xml
+C:\Sistemas\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.exe.config
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.exe
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\bin\Release\CargaDatosExtrabursatil.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.CargadorBursatil.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.Resources.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.GenerateResource.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.vbproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.exe
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\CargaDatosExtrabursatil\obj\x86\Release\CargaDatosExtrabursatil.pdb

@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Account_Login
-    
+
     '''<summary>
     '''FailureText control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents FailureText As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''LoginUserValidationSummary control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents LoginUserValidationSummary As Global.System.Web.UI.WebControls.ValidationSummary
-    
+
     '''<summary>
     '''UserNameLabel control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents UserNameLabel As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''txtUserName control.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtUserName As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''UserNameRequired control.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents UserNameRequired As Global.System.Web.UI.WebControls.RequiredFieldValidator
-    
+
     '''<summary>
     '''PasswordLabel control.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents PasswordLabel As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''txtPassword control.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtPassword As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''PasswordRequired control.
     '''</summary>
@@ -84,7 +84,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents PasswordRequired As Global.System.Web.UI.WebControls.RequiredFieldValidator
-    
+
     '''<summary>
     '''LoginButton control.
     '''</summary>
@@ -93,7 +93,7 @@ Partial Public Class Account_Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents LoginButton As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''CurrentLoginCount control.
     '''</summary>

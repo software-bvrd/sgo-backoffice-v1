@@ -508,6 +508,7 @@
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoPrimarioOperacionesDiaFirme.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisoras.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.aspx" />
@@ -520,6 +521,7 @@
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioOperacionesDia.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx" />
+    <Content Include="reportes\BoletinBursatil\BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisoras.aspx" />
     <Content Include="reportes\BoletinBursatil\BB_RentaVariableVolumenTransadoInstrumentosEntidadesEmisorasMS.aspx" />
@@ -543,6 +545,10 @@
     <Content Include="reportes\PuestoBolsa\FormatoCertificacionCorredor.aspx" />
     <Content Include="reportes\PuestoBolsa\PlanillaPuestoBolsa.aspx" />
     <Content Include="reportes\PuestoBolsa\ReporteCorredoresAplicanProgramaARM.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRFMSRSMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRFMSRSTrimestre.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRVMSRSMes.aspx" />
+    <Content Include="reportes\ReportesSIV\ReportedeOperacionesRVMSRSTrimestre.aspx" />
     <Content Include="reportes\ReporteUltimas10TasasCambio.aspx" />
     <Content Include="reportes\ReportePreciosProyectos.aspx" />
     <Content Include="reportes\ReportesSIV\ReportedeOperacionesMMTrimestre.aspx" />
@@ -574,6 +580,7 @@
     <Content Include="reportes\ReportONE\RO_PuestoBolsa.aspx" />
     <Content Include="reportes\ReportONE\RO_ResumenMensualporTipodeMonedas.aspx" />
     <Content Include="Scripts\autocomplete.js" />
+    <Content Include="Styles\bootstrap.min.css" />
     <Content Include="temp\rs_img_1\3_21_0_0\AjaxLoader.gif" />
     <Content Include="temp\rs_img_1\3_21_0_0\AllAreasPressed.gif" />
     <Content Include="temp\rs_img_1\3_21_0_0\Calculated_add.gif" />
@@ -1895,6 +1902,13 @@
       <DependentUpon>BB_RentaFijaMercadoSecundarioTopTitulosTransadosMes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.aspx.designer.vb">
+      <DependentUpon>BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.aspx.vb">
+      <DependentUpon>BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="reportes\BoletinBursatil\BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx.designer.vb">
       <DependentUpon>BB_RentaFijaPreciosdeCierredeldiaporRueda.aspx</DependentUpon>
     </Compile>
@@ -1977,6 +1991,13 @@
     </Compile>
     <Compile Include="reportes\BoletinBursatil\BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx.vb">
       <DependentUpon>BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.aspx.designer.vb">
+      <DependentUpon>BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\BoletinBursatil\BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.aspx.vb">
+      <DependentUpon>BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="reportes\BoletinBursatil\BB_RentaVariablePreciosdeCierredeldiaporInstrumento.aspx.designer.vb">
@@ -2139,6 +2160,64 @@
     <Compile Include="reportes\PuestoBolsa\ReporteCorredoresAplicanProgramaARM.aspx.vb">
       <DependentUpon>ReporteCorredoresAplicanProgramaARM.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSRSMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRFMSRSMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSRSMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRFMSRSMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSRSTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRFMSRSTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRFMSRSTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRFMSRSTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSRSMes.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRVMSRSMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSRSMes.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRVMSRSMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSRSTrimestre.aspx.designer.vb">
+      <DependentUpon>ReportedeOperacionesRVMSRSTrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReportedeOperacionesRVMSRSTrimestre.aspx.vb">
+      <DependentUpon>ReportedeOperacionesRVMSRSTrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSRSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSRSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSRSTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSRSTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RVMSRSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMSRSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Detalle_RVMSRSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Parametros.Designer.vb">
+      <DependentUpon>ReporteSIV_Parametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\ReportesSIV\ReporteSIV_Parametros.vb">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="reportes\ReporteUltimas10TasasCambio.aspx.designer.vb">
       <DependentUpon>ReporteUltimas10TasasCambio.aspx</DependentUpon>
@@ -2914,6 +2993,21 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSRSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\ReportesSIV\ReporteSIV_Detalle_RFMSRSTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\ReportesSIV\ReporteSIV_Detalle_RVMSRSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMSRSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\ReportesSIV\ReporteSIV_Parametros.resx">
+      <DependentUpon>ReporteSIV_Parametros.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -25,3 +25,26 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connecti
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\Sistemas\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Connection\bin\Debug\Connection.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.csproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Connection\obj\Debug\Connection.pdb

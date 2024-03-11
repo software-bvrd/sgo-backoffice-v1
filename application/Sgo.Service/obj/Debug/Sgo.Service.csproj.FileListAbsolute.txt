@@ -15,3 +15,26 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Serv
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csprojAssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+C:\dev\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Service\bin\Debug\Sgo.Service.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.csproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Sgo.Service\obj\Debug\Sgo.Service.pdb

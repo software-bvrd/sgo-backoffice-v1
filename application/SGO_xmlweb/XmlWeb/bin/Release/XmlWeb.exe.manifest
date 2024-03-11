@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AxkMjZA6U9+IWjw4RgQ1LoJekHQ1LfEuwNG3Ozs9Io0=</dsig:DigestValue>
+        <dsig:DigestValue>Tys8ndxHX4FE1nUfWaeSUFyOIUXaECZqWcIj2CSANDY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -96,13 +96,13 @@
       <dsig:DigestValue>8wAZ4IqdA0At0Ny4Tdxp7J4z8hh12DIk/nDc+q3OGt8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="XmlWeb.exe.config" size="1388">
+  <file name="XmlWeb.exe.config" size="1387">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rrSBub7vbF+MbfAQN9vhVMahsyWusDrX6Ww2bABkTQA=</dsig:DigestValue>
+      <dsig:DigestValue>TNJAA4rzRDHs3Zz5CuLXTOyLfs4h6bN3ahw3WXTGeFs=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

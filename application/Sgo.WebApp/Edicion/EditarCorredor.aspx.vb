@@ -60,24 +60,26 @@ Partial Class EditarCorredor
                 RadPageView4.Enabled = False
 
             Else
-                txtNombreCorredor.Enabled = False
+                If Session("IdPerfil") <> "1" Then
+                    txtNombreCorredor.Enabled = False
+                End If
                 txtCedula.Enabled = False
                 txtCodBVRD.Enabled = False
 
-                RadPageView2.Visible = True
-                RadPageView3.Visible = True
-                RadPageView4.Visible = True
+                    RadPageView2.Visible = True
+                    RadPageView3.Visible = True
+                    RadPageView4.Visible = True
 
-                RadPageView2.Enabled = True
-                RadPageView3.Enabled = True
-                RadPageView4.Enabled = True
+                    RadPageView2.Enabled = True
+                    RadPageView3.Enabled = True
+                    RadPageView4.Enabled = True
 
-                ViewState("CodigoPustoBolsa") = "0"
+                    ViewState("CodigoPustoBolsa") = "0"
 
-            End If
+                End If
 
-            'Doble click radgrid
-            If Session("Ajax") = True And Not ViewState("EsNuevo") = True Then
+                'Doble click radgrid
+                If Session("Ajax") = True And Not ViewState("EsNuevo") = True Then
                 txtCodigoPuestoBolsaCorredorID.Text = Session("Code") 'PuestoBolsaCorredorID
                 ViewState("Consulta") = Session("Consulta")
                 'txtCodigoPuestoBolsaCorredorID.Text = Session("Code") 'PuestoBolsaCorredorID

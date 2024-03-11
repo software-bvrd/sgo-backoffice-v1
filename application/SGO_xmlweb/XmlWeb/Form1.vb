@@ -259,10 +259,12 @@ Public Class Form1
 
                     ftp.Hostname = Trim(reader.GetValue(2))   '"ftp.bvrd.com.do"
                     ftp.Username = Trim(reader.GetValue(3))   '"usuarioxml@bvrd.com.do"
-                    ftp.Password = Trim(reader.GetValue(4))   '"Entrar_XML_034"
+                    ftp.Password = Trim(reader.GetValue(4))   ' "Entrar_XML_034"
 
                     'Conectar al Servidor Remoto FTP
                     If Trim(reader.GetValue(11)) = "FTP" Then
+                        'ftp.Passive = False 
+
                         success = ftp.Connect()
                         If (success <> True) Then
                             Exit Sub

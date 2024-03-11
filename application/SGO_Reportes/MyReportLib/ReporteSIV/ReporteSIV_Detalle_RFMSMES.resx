@@ -471,6 +471,6 @@
     <value>{"@FechaInicial":"2016-09-01","@FechaFinal":"2016-09-30","@Periodo":"'T'","@Mercado":"|23|"}</value>
   </metadata>
   <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>0.6666667</value>
+    <value>1.5</value>
   </metadata>
 </root>

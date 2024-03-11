@@ -297,7 +297,7 @@ Partial Class ConsultaOperaciones
         End Try
     End Sub
 
-    Public Function DsObtieneCodigo() As DataSet
+    Public Function DsObtieneCodigo(ByVal Mecanismo As String) As DataSet
         Dim ds As DataSet = New DataSet()
 
         Try
@@ -307,6 +307,7 @@ Partial Class ConsultaOperaciones
 
                 Using cmd As SqlCommand = New SqlCommand("P_GEN_CEVALDOM_OPER_CODIGO", con)
                     cmd.CommandType = CommandType.StoredProcedure
+                    cmd.Parameters.Add("@Mecanismo", SqlDbType.VarChar).Value = Mecanismo
                     con.Open()
                     Dim adp As SqlDataAdapter = New SqlDataAdapter(cmd)
                     adp.Fill(ds)
@@ -322,17 +323,17 @@ Partial Class ConsultaOperaciones
         End Try
     End Function
 
-    Public Function RandomNumber() As Integer
+    Public Function RandomNumber(ByVal Mecanismo As String) As Integer
         Dim rownumber As Integer = 0
-        Dim ds As DataSet = DsObtieneCodigo()
+        Dim ds As DataSet = DsObtieneCodigo(Mecanismo)
         rownumber = Int32.Parse(ds.Tables(0).Rows(0)("codigo").ToString())
 
         If Lista.Contains(rownumber) Then
-            ds = DsObtieneCodigo()
+            ds = DsObtieneCodigo(Mecanismo)
             rownumber = Int32.Parse(ds.Tables(0).Rows(0)("codigo").ToString())
 
             If rownumber2 = rownumber Then
-                ds = DsObtieneCodigo()
+                ds = DsObtieneCodigo(Mecanismo)
                 rownumber = Int32.Parse(ds.Tables(0).Rows(0)("codigo").ToString())
             End If
         End If
@@ -342,7 +343,7 @@ Partial Class ConsultaOperaciones
         If Lista.Count = 10 Then
             Lista.Clear()
             rownumber2 = 0
-            ds = DsObtieneCodigo()
+            ds = DsObtieneCodigo(Mecanismo)
             rownumber = Int32.Parse(ds.Tables(0).Rows(0)("codigo").ToString())
         End If
 
@@ -352,7 +353,7 @@ Partial Class ConsultaOperaciones
             rownumber = rownumber + 1
 
             If rownumber > 9 Then
-                ds = DsObtieneCodigo()
+                ds = DsObtieneCodigo(Mecanismo)
                 rownumber = Int32.Parse(ds.Tables(0).Rows(0)("codigo").ToString())
             End If
 
@@ -364,7 +365,7 @@ Partial Class ConsultaOperaciones
     End Function
 
     'Method para Actualizar estado operaciones
-    Public Sub EstadosOperacionesWS()
+    Public Sub EstadosOperacionesWS(ByVal Mecanismo As String)
 
         If Fecha.ToString() <> "" Then
             Dim horaMercado As Integer = -1
@@ -381,49 +382,98 @@ Partial Class ConsultaOperaciones
                     Dim i As Integer = 0
                     Dim dt As DataTable = New DataTable()
                     dt.Columns.AddRange(New DataColumn(2) {New DataColumn("CODIGO", GetType(String)), New DataColumn("NUMERO", GetType(String)), New DataColumn("GUID", GetType(Int64))})
-                    dt.Rows.Add()
-                    dt.Rows(0)("CODIGO") = "0"
-                    dt.Rows(0)("NUMERO") = "9936"
-                    dt.Rows(0)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(1)("CODIGO") = "1"
-                    dt.Rows(1)("NUMERO") = "8576"
-                    dt.Rows(1)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(2)("CODIGO") = "2"
-                    dt.Rows(2)("NUMERO") = "9350"
-                    dt.Rows(2)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(3)("CODIGO") = "3"
-                    dt.Rows(3)("NUMERO") = "8116"
-                    dt.Rows(3)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(4)("CODIGO") = "4"
-                    dt.Rows(4)("NUMERO") = "9825"
-                    dt.Rows(4)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(5)("CODIGO") = "5"
-                    dt.Rows(5)("NUMERO") = "2819"
-                    dt.Rows(5)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(6)("CODIGO") = "6"
-                    dt.Rows(6)("NUMERO") = "7789"
-                    dt.Rows(6)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(7)("CODIGO") = "7"
-                    dt.Rows(7)("NUMERO") = "9277"
-                    dt.Rows(7)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(8)("CODIGO") = "8"
-                    dt.Rows(8)("NUMERO") = "8652"
-                    dt.Rows(8)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
-                    dt.Rows.Add()
-                    dt.Rows(9)("CODIGO") = "9"
-                    dt.Rows(9)("NUMERO") = "2391"
-                    dt.Rows(9)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+
+                    If (Mecanismo = "BVRD") Then
+                        struser = "BVRDADM"
+                        dt.Rows.Add()
+                        dt.Rows(0)("CODIGO") = "0"
+                        dt.Rows(0)("NUMERO") = "9936"
+                        dt.Rows(0)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(1)("CODIGO") = "1"
+                        dt.Rows(1)("NUMERO") = "8576"
+                        dt.Rows(1)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(2)("CODIGO") = "2"
+                        dt.Rows(2)("NUMERO") = "9350"
+                        dt.Rows(2)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(3)("CODIGO") = "3"
+                        dt.Rows(3)("NUMERO") = "8116"
+                        dt.Rows(3)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(4)("CODIGO") = "4"
+                        dt.Rows(4)("NUMERO") = "9825"
+                        dt.Rows(4)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(5)("CODIGO") = "5"
+                        dt.Rows(5)("NUMERO") = "2819"
+                        dt.Rows(5)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(6)("CODIGO") = "6"
+                        dt.Rows(6)("NUMERO") = "7789"
+                        dt.Rows(6)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(7)("CODIGO") = "7"
+                        dt.Rows(7)("NUMERO") = "9277"
+                        dt.Rows(7)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(8)("CODIGO") = "8"
+                        dt.Rows(8)("NUMERO") = "8652"
+                        dt.Rows(8)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(9)("CODIGO") = "9"
+                        dt.Rows(9)("NUMERO") = "2391"
+                        dt.Rows(9)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                    End If
+
+                    If (Mecanismo = "MHRD") Then
+                        struser = "SEHADM"
+                        dt.Rows.Add()
+                        dt.Rows(0)("CODIGO") = "0"
+                        dt.Rows(0)("NUMERO") = "6745"
+                        dt.Rows(0)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(1)("CODIGO") = "1"
+                        dt.Rows(1)("NUMERO") = "9861"
+                        dt.Rows(1)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(2)("CODIGO") = "2"
+                        dt.Rows(2)("NUMERO") = "4724"
+                        dt.Rows(2)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(3)("CODIGO") = "3"
+                        dt.Rows(3)("NUMERO") = "3367"
+                        dt.Rows(3)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(4)("CODIGO") = "4"
+                        dt.Rows(4)("NUMERO") = "6913"
+                        dt.Rows(4)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(5)("CODIGO") = "5"
+                        dt.Rows(5)("NUMERO") = "2001"
+                        dt.Rows(5)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(6)("CODIGO") = "6"
+                        dt.Rows(6)("NUMERO") = "4594"
+                        dt.Rows(6)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(7)("CODIGO") = "7"
+                        dt.Rows(7)("NUMERO") = "7344"
+                        dt.Rows(7)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(8)("CODIGO") = "8"
+                        dt.Rows(8)("NUMERO") = "7133"
+                        dt.Rows(8)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                        dt.Rows.Add()
+                        dt.Rows(9)("CODIGO") = "9"
+                        dt.Rows(9)("NUMERO") = "9565"
+                        dt.Rows(9)("GUID") = System.Math.Abs(Guid.NewGuid().GetHashCode()).ToString()
+                    End If
+
 
                     Try
-                        Dim rownumber As Integer = RandomNumber()
+                        Dim rownumber As Integer = RandomNumber(Mecanismo)
                         strdate = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss")
                         strcode = dt.Rows(rownumber)("CODIGO").ToString()
                         strnumero = dt.Rows(rownumber)("NUMERO").ToString()
@@ -454,7 +504,7 @@ Partial Class ConsultaOperaciones
                         'Dim url As String = "https://cvdpserver.local/cevaldom-webservices/negotiation/v1/getOperationRequest?FechaInicial=" & FechaInicial.ToString() & "&FechaFinal=" & FechaFinal.ToString()
                         'Desarrollo
                         'Dim url As String = ConfigurationManager.AppSettings("CevaldomURLEstado").ToString() & FechaInicial.ToString() & "&FechaFinal=" & FechaFinal.ToString()
-                        Dim url As String = ConfigurationManager.AppSettings("CevaldomURLEstado").ToString() & FechaInicial.ToString() & "&FechaFinal=" & FechaFinal.ToString() & "&MECANISMO=BVRD" & "&TipoFecha=" & TipoFecha
+                        Dim url As String = ConfigurationManager.AppSettings("CevaldomURLEstado").ToString() & FechaInicial.ToString() & "&FechaFinal=" & FechaFinal.ToString() & "&MECANISMO=" & Mecanismo & "&TipoFecha=" & TipoFecha
                         ' Dim url As String = ConfigurationManager.AppSettings("CevaldomURLEstado").ToString() & FechaInicial.ToString() & "&FechaFinal=" & FechaFinal.ToString() & "&MECANISMO=BVRD" & "&TipoFecha=REGISTRO"
 
                         'Dim url As String = "http://api.cevaldom.com/cevaldom-webservices/negotiation/v1/getOperationRequest?FechaInicial=" & FechaInicial.ToString() & "&FechaFinal=" & FechaFinal.ToString()
@@ -463,7 +513,7 @@ Partial Class ConsultaOperaciones
                         ' ServicePointManager.SecurityProtocol = CType(3072, SecurityProtocolType)
 
                         'ByPass SSL Certificate Validation Checking
-                        '                  System.Net.ServicePointManager.ServerCertificateValidationCallback =
+                        'System.Net.ServicePointManager.ServerCertificateValidationCallback =
                         'Function(se As Object,
                         'cert As System.Security.Cryptography.X509Certificates.X509Certificate,
                         'chain As System.Security.Cryptography.X509Certificates.X509Chain,
@@ -533,6 +583,7 @@ Partial Class ConsultaOperaciones
 
                                         'INICIO
                                         'Datos del Estatus
+                                        dtRespuestaCevaldom.Columns.Clear()
                                         dtRespuestaCevaldom.Columns.Add("Estatus", GetType(String))
                                         'Datos de la Negociación
                                         dtRespuestaCevaldom.Columns.Add("NegociacionORIGEN", GetType(String))
@@ -559,12 +610,12 @@ Partial Class ConsultaOperaciones
                                         dtRespuestaCevaldom.Columns.Add("ContadoISIN", GetType(String))
                                         dtRespuestaCevaldom.Columns.Add("ContadoMONEDA", GetType(String))
                                         dtRespuestaCevaldom.Columns.Add("ContadoESTADO", GetType(String))
-                                        dtRespuestaCevaldom.Columns.Add("ContadoFACIAL", GetType(Integer))
+                                        dtRespuestaCevaldom.Columns.Add("ContadoFACIAL", GetType(Decimal))
                                         dtRespuestaCevaldom.Columns.Add("ContadoCANTIDAD", GetType(Integer))
                                         dtRespuestaCevaldom.Columns.Add("ContadoLIMPIO", GetType(Decimal))
                                         dtRespuestaCevaldom.Columns.Add("ContadoSUCIO", GetType(Decimal))
                                         dtRespuestaCevaldom.Columns.Add("ContadoRENDIMIENTO", GetType(Decimal))
-                                        dtRespuestaCevaldom.Columns.Add("ContadoIMPORTE", GetType(Integer))
+                                        dtRespuestaCevaldom.Columns.Add("ContadoIMPORTE", GetType(Decimal))
 
                                         'Datos del Plazo
                                         dtRespuestaCevaldom.Columns.Add("PlazoDIAS", GetType(Integer))
@@ -687,9 +738,6 @@ Partial Class ConsultaOperaciones
             End If
         End If
     End Sub
-
-
-
 
     ' Method para generar XML Liquidaciones CEVALDOM
     Protected Sub GenXMLforOperationCEVALDOM()
@@ -897,8 +945,12 @@ Partial Class ConsultaOperaciones
         SqlvOperacionesCSV.SelectParameters("SqlWhere").DefaultValue = cStringWhere
         SqlvOperacionesCSV.SelectCommand = "SP_ConsultadeOperaciones"
 
-        EstadosOperacionesWS()
-        ' Comentareado el 15/09/2023 a solicitud de Juan Saboya hasta que se implemente  
+        ' Consulta estado de operaciones Bursatiles
+        EstadosOperacionesWS("BVRD")
+
+        ' Consulta estado de operaciones Bloomberg
+        EstadosOperacionesWS("MHRD")
+
     End Sub
 
     Protected Sub RadGrid1_GroupsChanging(sender As Object, e As GridGroupsChangingEventArgs) Handles RadGrid1.GroupsChanging

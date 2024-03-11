@@ -146,3 +146,90 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlw
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCP.exe
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCPnet.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbprojAssemblyReference.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CoreCompileInputs.cache
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.TrustInfo.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CopyComplete
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCP.exe
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.config
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.manifest
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.application
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.pdb
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.xml
+C:\dev\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCPnet.dll
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.cache
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.TrustInfo.xml
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CopyComplete
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCP.exe
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.config
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.manifest
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.application
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.pdb
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.xml
+C:\Sistemas\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCPnet.dll
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.AssemblyReference.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CoreCompileInputs.cache
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.TrustInfo.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CopyComplete
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCP.exe
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.config
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.manifest
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.application
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.pdb
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.xml
+C:\Users\melvin.castillo\OneDrive - BOLSA Y MERCADOS DE VALORES DE LA REPUBLICA DOMINICANA\Documents\Melvin Castillo\Laborales\Sistemas\BVRD\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCPnet.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Form1.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.Resources.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.VisorReportes.resources
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.GenerateResource.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.licenses
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.TrustInfo.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe.manifest
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.application
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.vbproj.CopyComplete
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCP.exe
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.config
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe.manifest
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.application
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.exe
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\obj\x86\Debug\XmlWeb.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.exe
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\XmlWeb.xml
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\SGO_xmlweb\XmlWeb\WinSCPnet.dll

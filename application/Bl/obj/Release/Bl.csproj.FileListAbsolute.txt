@@ -14,4 +14,16 @@ C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Bl\bin\R
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csproj.CoreCompileInputs.cache
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Bl\obj\Release\Bl.dll
 C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Bl\obj\Release\Bl.pdb
-C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csprojAssemblyReference.cache
+C:\Melvin Castillo\Sistemas\Sistemas\BVRD\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\Bl\bin\Release\Bl.dll
+C:\Sistemas\sgo-backoffice-v1\application\Bl\bin\Release\Bl.pdb
+C:\Sistemas\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csproj.AssemblyReference.cache
+C:\Sistemas\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csproj.CoreCompileInputs.cache
+C:\Sistemas\sgo-backoffice-v1\application\Bl\obj\Release\Bl.dll
+C:\Sistemas\sgo-backoffice-v1\application\Bl\obj\Release\Bl.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Bl\bin\Release\Bl.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Bl\bin\Release\Bl.pdb
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csproj.AssemblyReference.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Bl\obj\Release\Bl.csproj.CoreCompileInputs.cache
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Bl\obj\Release\Bl.dll
+C:\Software\Laborales\BO\sgo-backoffice-v1\application\Bl\obj\Release\Bl.pdb

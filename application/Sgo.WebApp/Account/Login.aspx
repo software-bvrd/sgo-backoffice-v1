@@ -3,10 +3,8 @@
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-    <div class="accountInfo" style="margin: auto">
-
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent"> 
+    <div class="accountInfo" style="margin: auto"> 
         <h2>
             <b>Ingresar </b>
         </h2>

@@ -184,8 +184,7 @@
                     <telerik:RadComboBox ID="RadComboBox3" Runat="server" 
                         DataSourceID="SqlDataSource3" DataTextField="Nombre" 
                         DataValueField="IdPerfil" Width="189px" style="margin-left: 0px">
-                    </telerik:RadComboBox>
-                    
+                    </telerik:RadComboBox>                    
                
                 </td>
                 <td class="auto-style6" style="vertical-align: top">
@@ -194,7 +193,7 @@
                
                 </td>
                 <td style="vertical-align: top" class="auto-style7">
-                    <telerik:RadTreeView ID="rtvOpcionesMenu" Runat="server" DataFieldID="IdOpcion" DataFieldParentID="IdPadre" DataSourceID="SqlOpcionesMenu" DataTextField="Nombre" CheckBoxes="True" TriStateCheckBoxes="True" DataValueField="IdOpcion" CheckChildNodes="True">
+                    <telerik:RadTreeView ID="rtvOpcionesMenu" Runat="server" DataFieldID="IdOpcion" DataFieldParentID="IdPadre" DataSourceID="SqlOpcionesMenu" DataTextField="Nombre" CheckBoxes="True" TriStateCheckBoxes="True" DataValueField="IdOpcion" CheckChildNodes="False">
                     </telerik:RadTreeView>
                 </td>
             </tr>

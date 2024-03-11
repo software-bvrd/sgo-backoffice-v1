@@ -25,9 +25,12 @@ font-size:12px!important;
 
 }
 #RadGrid1_GridData .rgDataDiv {
-font-family:Arial!important;
-font-size:12px!important;
-
+    font-family: Arial !important;
+    font-size: 12px !important; 
+}
+ 
+.rgDataDiv1 {
+    height: 100% !important;
 }
 .rgGroupHeader {
 font-family:Arial!important;

@@ -63,13 +63,22 @@ Partial Class Account_Login
 
                 If Not IsDBNull(ds.Tables(0).Rows(0)("NombreUsuario")) Then Session("MyUserName") = CStr(ds.Tables(0).Rows(0)("NombreUsuario"))
                 If Not IsDBNull(ds.Tables(0).Rows(0)("IdPerfil")) Then Session("IdPerfil") = CStr(ds.Tables(0).Rows(0)("IdPerfil"))
+                'valido el perfil si se encuentra habilitado
+
+                Dim ds1 As DataSet = oper.ExDataSet(String.Format("select Estatus from Perfiles where IdPerfil ='{0}'", Trim(Session("IdPerfil"))))
+
+                If (CStr(ds1.Tables(0).Rows(0)("Estatus"))) <> "True" Then
+                    FailureText.Text = "Favor revisar su perfil no se encuentra habilitado. Consulte el administrador."
+                    Return
+                End If
+
 
                 oper.GenerarSeguimientoActividadUsuario(Session("IdUsuario"), "Ingreso al Sistema", "Inicio", "")
 
-                FormsAuthentication.RedirectFromLoginPage(Me.txtUserName.Text, False)
-                Response.Redirect("~/default.aspx")
-            Else
-                FailureText.Text = String.Format("Usuario {0} No tiene permiso en la aplicacion, Verifique!", txtUserName.Text)
+                    FormsAuthentication.RedirectFromLoginPage(Me.txtUserName.Text, False)
+                    Response.Redirect("~/default.aspx")
+                Else
+                    FailureText.Text = String.Format("Usuario {0} No tiene permiso en la aplicacion, Verifique!", txtUserName.Text)
                 CurrentLoginCount.Value = CurrentLoginCount.Value + 1
             End If
         Else

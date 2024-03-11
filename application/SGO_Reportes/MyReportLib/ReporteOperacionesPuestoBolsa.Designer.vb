@@ -596,23 +596,23 @@ Partial Class ReporteOperacionesPuestoBolsa
         '
         Me.SqlTipo.ConnectionString = "CN"
         Me.SqlTipo.Name = "SqlTipo"
-        Me.SqlTipo.SelectCommand = "SELECT        ' Todos' AS Nombre, 'T' AS Codigo"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"UNION"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT        'Vendedor' "& _ 
-    "AS Nombre, 'V' AS Codigo"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"UNION"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT        'Comprador' AS Nombre, 'C' AS Cod"& _ 
+        Me.SqlTipo.SelectCommand = "SELECT        ' Todos' AS Nombre, 'T' AS Codigo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "UNION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SELECT        'Vendedor' " &
+    "AS Nombre, 'V' AS Codigo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "UNION" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SELECT        'Comprador' AS Nombre, 'C' AS Cod" &
     "igo"
         '
         'SqlMercado
         '
         Me.SqlMercado.ConnectionString = "CN"
         Me.SqlMercado.Name = "SqlMercado"
-        Me.SqlMercado.SelectCommand = "SELECT        Alias, CodigoMercado"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM            vMercado"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE        (Codig"& _ 
-    "oMercado <> '')"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"ORDER BY Alias"
+        Me.SqlMercado.SelectCommand = "SELECT        Alias, CodigoMercado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM            vMercado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE        (Codig" &
+    "oMercado <> '')" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY Alias"
         '
         'SqlPuestoBolsa
         '
         Me.SqlPuestoBolsa.ConnectionString = "CN"
         Me.SqlPuestoBolsa.Name = "SqlPuestoBolsa"
-        Me.SqlPuestoBolsa.SelectCommand = "SELECT        ' Todos' AS PuestoBolsaCodigo"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"UNION "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT        PuestoBolsaCod"& _ 
-    "igo"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM            vPuestoBolsa"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"ORDER BY PuestoBolsaCodigo"
+        Me.SqlPuestoBolsa.SelectCommand = "SELECT        ' Todos' AS PuestoBolsaCodigo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "UNION " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SELECT        PuestoBolsaCod" &
+    "igo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM            vPuestoBolsa" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY PuestoBolsaCodigo"
         '
         'pageHeader
         '
@@ -627,9 +627,9 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.6772534847259521R), Telerik.Reporting.Drawing.Unit.Inch(0.20000003278255463R))
         Me.TextBox1.Style.BackgroundColor = System.Drawing.Color.White
         Me.TextBox1.Style.Color = System.Drawing.Color.Black
-        Me.TextBox1.Style.Font.Bold = true
+        Me.TextBox1.Style.Font.Bold = True
         Me.TextBox1.Style.Font.Name = "Arial Narrow"
-        Me.TextBox1.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(11R)
+        Me.TextBox1.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(11.0R)
         Me.TextBox1.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox1.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox1.StyleName = "Title"
@@ -642,9 +642,9 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox2.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.2999606132507324R), Telerik.Reporting.Drawing.Unit.Inch(0.19992130994796753R))
         Me.TextBox2.Style.BackgroundColor = System.Drawing.Color.White
         Me.TextBox2.Style.Color = System.Drawing.Color.Black
-        Me.TextBox2.Style.Font.Bold = false
+        Me.TextBox2.Style.Font.Bold = False
         Me.TextBox2.Style.Font.Name = "Arial Narrow"
-        Me.TextBox2.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(10R)
+        Me.TextBox2.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(10.0R)
         Me.TextBox2.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox2.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox2.StyleName = "Title"
@@ -657,7 +657,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.0957943201065064R), Telerik.Reporting.Drawing.Unit.Inch(0.547916829586029R))
         Me.PictureBox1.Sizing = Telerik.Reporting.Drawing.ImageSizeMode.ScaleProportional
-        Me.PictureBox1.Value = CType(resources.GetObject("PictureBox1.Value"),Object)
+        Me.PictureBox1.Value = CType(resources.GetObject("PictureBox1.Value"), Object)
         '
         'pageFooter
         '
@@ -667,18 +667,18 @@ Partial Class ReporteOperacionesPuestoBolsa
         '
         'TextBox81
         '
-        Me.TextBox81.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.9418537198798731E-05R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox81.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.000039418537198798731R), Telerik.Reporting.Drawing.Unit.Inch(0R))
         Me.TextBox81.Name = "TextBox81"
         Me.TextBox81.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9937566518783569R), Telerik.Reporting.Drawing.Unit.Inch(0.14787696301937103R))
         Me.TextBox81.Style.Font.Name = "Arial Narrow"
-        Me.TextBox81.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(6R)
+        Me.TextBox81.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(6.0R)
         Me.TextBox81.Value = "Departamento de Operaciones  BVRD"
         '
         'reportHeader
         '
         Me.reportHeader.Height = Telerik.Reporting.Drawing.Unit.Cm(0.13229165971279144R)
         Me.reportHeader.Name = "reportHeader"
-        Me.reportHeader.Style.Visible = false
+        Me.reportHeader.Style.Visible = False
         '
         'reportData
         '
@@ -693,7 +693,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.reportFooter.Height = Telerik.Reporting.Drawing.Unit.Cm(0.13229165971279144R)
         Me.reportFooter.Name = "reportFooter"
         Me.reportFooter.PageBreak = Telerik.Reporting.PageBreak.None
-        Me.reportFooter.Style.Visible = false
+        Me.reportFooter.Style.Visible = False
         '
         'detail
         '
@@ -714,7 +714,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox13.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox13.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox13.Style.Font.Name = "Arial Narrow"
-        Me.TextBox13.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox13.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox13.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox13.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox13.StyleName = "Normal.TableBody"
@@ -732,7 +732,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox14.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox14.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox14.Style.Font.Name = "Arial Narrow"
-        Me.TextBox14.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox14.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox14.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox14.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox14.StyleName = "Normal.TableBody"
@@ -749,7 +749,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox23.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox23.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox23.Style.Font.Name = "Arial Narrow"
-        Me.TextBox23.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox23.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox23.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox23.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox23.StyleName = "Normal.TableBody"
@@ -766,7 +766,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox25.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox25.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox25.Style.Font.Name = "Arial Narrow"
-        Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox25.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox25.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox25.StyleName = "Normal.TableBody"
@@ -784,7 +784,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox56.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox56.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox56.Style.Font.Name = "Arial Narrow"
-        Me.TextBox56.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox56.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox56.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox56.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox56.StyleName = "Normal.TableBody"
@@ -802,7 +802,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox58.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox58.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox58.Style.Font.Name = "Arial Narrow"
-        Me.TextBox58.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox58.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox58.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox58.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox58.StyleName = "Normal.TableBody"
@@ -820,7 +820,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox60.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox60.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox60.Style.Font.Name = "Arial Narrow"
-        Me.TextBox60.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox60.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox60.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox60.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox60.StyleName = "Normal.TableBody"
@@ -838,7 +838,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox61.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox61.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox61.Style.Font.Name = "Arial Narrow"
-        Me.TextBox61.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox61.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox61.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox61.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox61.StyleName = "Normal.TableBody"
@@ -856,7 +856,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox62.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox62.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox62.Style.Font.Name = "Arial Narrow"
-        Me.TextBox62.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox62.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox62.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox62.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox62.StyleName = "Normal.TableBody"
@@ -873,7 +873,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox63.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox63.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox63.Style.Font.Name = "Arial Narrow"
-        Me.TextBox63.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox63.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox63.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox63.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox63.StyleName = "Normal.TableBody"
@@ -890,7 +890,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox64.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox64.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox64.Style.Font.Name = "Arial Narrow"
-        Me.TextBox64.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox64.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox64.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox64.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox64.StyleName = "Normal.TableBody"
@@ -907,7 +907,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox65.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox65.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox65.Style.Font.Name = "Arial Narrow"
-        Me.TextBox65.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox65.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox65.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox65.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox65.StyleName = "Normal.TableBody"
@@ -925,7 +925,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox66.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox66.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox66.Style.Font.Name = "Arial Narrow"
-        Me.TextBox66.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox66.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox66.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox66.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox66.StyleName = "Normal.TableBody"
@@ -942,7 +942,7 @@ Partial Class ReporteOperacionesPuestoBolsa
         Me.TextBox18.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox18.Style.BorderStyle.Top = Telerik.Reporting.Drawing.BorderType.None
         Me.TextBox18.Style.Font.Name = "Arial Narrow"
-        Me.TextBox18.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8R)
+        Me.TextBox18.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(8.0R)
         Me.TextBox18.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox18.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox18.StyleName = "Normal.TableBody"

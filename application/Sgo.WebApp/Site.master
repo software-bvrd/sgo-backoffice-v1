@@ -30,11 +30,11 @@
     <form runat="server" style="background-color: #006DA8;">
         <div class="page">
 
-            <div class="header"> 
+            <div class="header">
                 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-                </telerik:RadScriptManager> 
+                </telerik:RadScriptManager>
                 <div class="title">
-                </div> 
+                </div>
                 <div class="loginDisplay">
                     <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                         <AnonymousTemplate>
@@ -280,7 +280,8 @@
 
                                             <telerik:RadMenuItem runat="server" Text="Volúmenes Transados por Emisores Equivalentes en DOP RF" Value="reportes/BoletinBursatil/BB_RentaFijaVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx">
                                             </telerik:RadMenuItem>
-
+                                            <telerik:RadMenuItem runat="server" Text="Posiciones Abiertas de Operaciones simultaneas por especie RF" Value="reportes/BoletinBursatil/BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.aspx">
+                                            </telerik:RadMenuItem>
                                             <%-- -------------- --%>
                                             <%-- Renta Variable --%>
                                             <%-- -------------- --%>
@@ -317,6 +318,8 @@
 
                                             <telerik:RadMenuItem runat="server" Text="Volúmenes Transados por Emisores Equivalentes en DOP RV" Value="reportes/BoletinBursatil/BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.aspx">
                                             </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Posiciones Abiertas de Operaciones simultaneas por especie RV" Value="reportes/BoletinBursatil/BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.aspx">
+                                            </telerik:RadMenuItem>
 
                                         </Items>
                                     </telerik:RadMenuItem>
@@ -324,7 +327,6 @@
                                     <%-- ------------- --%>
                                     <%-- Reportes SIV  --%>
                                     <%-- ------------- --%>
-
                                     <telerik:RadMenuItem runat="server" Text="Reportes SIV" Font-Bold="true" Value="reportes/ReportesSIV/ReporteSIV.aspx" ImageUrl="images/boletin.png">
                                         <Items>
 
@@ -335,21 +337,27 @@
 
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RF MP Mes" Value="reportes/ReportesSIV/ReportedeOperacionesRFMPMes.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RF MS Mes" Value="reportes/ReportesSIV/ReportedeOperacionesRFMSMes.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RF MS-RS Mes" Value="reportes/ReportesSIV/ReportedeOperacionesRFMSRSMes.aspx"></telerik:RadMenuItem>
 
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones MM Mes" Value="reportes/ReportesSIV/ReportedeOperacionesMMMes.aspx"></telerik:RadMenuItem>
 
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RV MP Mes" Value="reportes/ReportesSIV/ReportedeOperacionesRVMPMes.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RV MS Mes" Value="reportes/ReportesSIV/ReportedeOperacionesRVMSMes.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RV MS-RS Mes" Value="reportes/ReportesSIV/ReportedeOperacionesRVMSRSMes.aspx"></telerik:RadMenuItem>
+
 
                                             <telerik:RadMenuItem IsSeparator="true" />
 
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RF MP Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesRFMPTrimestre.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RF MS Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesRFMSTrimestre.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RF MS-RS Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesRFMSRSTrimestre.aspx"></telerik:RadMenuItem>
+
 
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones MM Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesMMTrimestre.aspx"></telerik:RadMenuItem>
 
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RV MP Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesRVMPTrimestre.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RV MS Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesRVMSTrimestre.aspx"></telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Reporte de Operaciones RV MS-RS Trimestre" Value="reportes/ReportesSIV/ReportedeOperacionesRVMSRSTrimestre.aspx"></telerik:RadMenuItem>
 
                                             <telerik:RadMenuItem IsSeparator="true" />
 
@@ -469,7 +477,7 @@
                                             <telerik:RadMenuItem runat="server" Text="Resumen Comisiones MS por Participante" Value="reportes/Comisiones/RptResumenComisionesMSporParticipante.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Detalles Comisión Operaciones por Punta MS Participante" Value="reportes/Comisiones/RptOperacionesPorPuntaMSParticipante.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem runat="server" Text="Detalles Comisión Ops por Punta MS Participante SIMV" Value="reportes/Comisiones/RptOperacionesPorPuntaMSParticipanteSIMV.aspx"></telerik:RadMenuItem>
-                                        
+
                                             <telerik:RadMenuItem IsSeparator="true" />
                                             <telerik:RadMenuItem runat="server" Text="Comisión Registro Corredor" Value="reportes/Comisiones/ReporteComisionesRegistroDeCorredor.aspx"></telerik:RadMenuItem>
                                             <telerik:RadMenuItem IsSeparator="true" />
@@ -543,11 +551,11 @@
                                     <telerik:RadMenuItem runat="server" Text="Consulta Corredores" Value="Consultas/ListaCorredores.aspx">
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Consulta de Operaciones" Value="Consultas/ConsultaOperaciones.aspx">
-                                    </telerik:RadMenuItem> 
+                                    </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Consulta de Operaciones ALIQ" Value="Consultas/ConsultaOperaciones2.aspx">
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Consulta de Notificaciones Operaciones Cevaldom" Value="Consultas/ConsultaOperacionesNotificacionesCevaldom.aspx">
-                                    </telerik:RadMenuItem> 
+                                    </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Operaciones Canceladas y No Liquidadas" Value="Consultas/ConsultaOperacionesCanceladasyNoLiquidadas.aspx">
                                     </telerik:RadMenuItem>
 
@@ -634,7 +642,7 @@
                                     <telerik:RadMenuItem runat="server" Text="Opciones de Perfil" Value="herramientas/PermisosPorPerfil.aspx">
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Usuarios" Value="herramientas/Usuarios.aspx">
-                                    </telerik:RadMenuItem> 
+                                    </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Auditoria de Usuarios" Value="herramientas/UsuariosAuditoria.aspx">
                                     </telerik:RadMenuItem>
                                     <telerik:RadMenuItem runat="server" Text="Opciones de Menu" Value="herramientas/OpcionesMenu.aspx">

@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\application",
     "\\application\\Sgo.WebApp",
     "\\application\\Sgo.WebApp\\Consultas"
   ],
-  "SelectedNode": "\\application\\Sgo.WebApp\\Consultas\\ConsultaOperaciones.aspx.vb",
+  "SelectedNode": "\\application",
   "PreviewInSolutionExplorer": false
 }

@@ -32,6 +32,33 @@ Partial Public Class EnvioOperacionesCevaldom
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''RadTabStrip1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadTabStrip1 As Global.Telerik.Web.UI.RadTabStrip
+
+    '''<summary>
+    '''RadMultiPage1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadMultiPage1 As Global.Telerik.Web.UI.RadMultiPage
+
+    '''<summary>
+    '''RPOperaciones control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RPOperaciones As Global.Telerik.Web.UI.RadPageView
+
+    '''<summary>
     '''txtfecha control.
     '''</summary>
     '''<remarks>
@@ -122,22 +149,40 @@ Partial Public Class EnvioOperacionesCevaldom
     Protected WithEvents RadGrid1 As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
-    '''lblMensaje control.
+    '''pnmodal control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblMensaje As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents pnmodal As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
-    '''dgVistaPrevia control.
+    '''pnmodaldialog control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents dgVistaPrevia As Global.Telerik.Web.UI.RadGrid
+    Protected WithEvents pnmodaldialog As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lblmensajeenvio control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblmensajeenvio As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''btnenviar control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnenviar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''RadProgressManager1 control.
@@ -219,4 +264,40 @@ Partial Public Class EnvioOperacionesCevaldom
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RadWindowManager2 As Global.Telerik.Web.UI.RadWindowManager
+
+    '''<summary>
+    '''RPNotificaciones control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RPNotificaciones As Global.Telerik.Web.UI.RadPageView
+
+    '''<summary>
+    '''lblMensaje control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblMensaje As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''RadToolBar2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadToolBar2 As Global.Telerik.Web.UI.RadToolBar
+
+    '''<summary>
+    '''dgVistaPrevia control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dgVistaPrevia As Global.Telerik.Web.UI.RadGrid
 End Class

@@ -178,14 +178,14 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         '
         Me.SqlTipoMercado.ConnectionString = "CN"
         Me.SqlTipoMercado.Name = "SqlTipoMercado"
-        Me.SqlTipoMercado.SelectCommand = "select distinct TipoMercadoID, TipoMercado "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM vMercados"
+        Me.SqlTipoMercado.SelectCommand = "select distinct TipoMercadoID, TipoMercado " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM vMercados"
         '
         'SqlMercado
         '
         Me.SqlMercado.ConnectionString = "CN"
         Me.SqlMercado.Name = "SqlMercado"
-        Me.SqlMercado.SelectCommand = "SELECT        TipoMercadoID,Nombre, CodigoMercado"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM            vMercados"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHE"& _ 
-    "RE        (CodigoMercado <> '')"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"ORDER BY Nombre"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)
+        Me.SqlMercado.SelectCommand = "SELECT        TipoMercadoID,Nombre, CodigoMercado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM            vMercados" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WHE" &
+    "RE        (CodigoMercado <> '')" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY Nombre"
         '
         'detail
         '
@@ -204,7 +204,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox81.Name = "TextBox81"
         Me.TextBox81.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9937566518783569R), Telerik.Reporting.Drawing.Unit.Inch(0.19999949634075165R))
         Me.TextBox81.Style.Font.Name = "Arial Narrow"
-        Me.TextBox81.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(6R)
+        Me.TextBox81.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(6.0R)
         Me.TextBox81.Value = "Departamento de Operaciones  BVRD"
         '
         'SqlComisionesMercadoSecundarioPuestoBolsa
@@ -235,7 +235,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         '
         Me.SqlConfiguracion.ConnectionString = "CN"
         Me.SqlConfiguracion.Name = "SqlConfiguracion"
-        Me.SqlConfiguracion.SelectCommand = "SELECT        ComisionEmisiones"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM            Configuracion"
+        Me.SqlConfiguracion.SelectCommand = "SELECT        ComisionEmisiones" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FROM            Configuracion"
         '
         'pageHeaderSection1
         '
@@ -250,9 +250,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox26.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(5.3999214172363281R), Telerik.Reporting.Drawing.Unit.Inch(0.29988199472427368R))
         Me.TextBox26.Style.BackgroundColor = System.Drawing.Color.White
         Me.TextBox26.Style.Color = System.Drawing.Color.Black
-        Me.TextBox26.Style.Font.Bold = true
+        Me.TextBox26.Style.Font.Bold = True
         Me.TextBox26.Style.Font.Name = "Arial Narrow"
-        Me.TextBox26.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(13R)
+        Me.TextBox26.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(13.0R)
         Me.TextBox26.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox26.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox26.StyleName = "Title"
@@ -350,9 +350,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.55461621284484863R), Telerik.Reporting.Drawing.Unit.Inch(0.17000003159046173R))
         Me.TextBox40.Style.Color = System.Drawing.Color.Black
-        Me.TextBox40.Style.Font.Bold = true
+        Me.TextBox40.Style.Font.Bold = True
         Me.TextBox40.Style.Font.Name = "Arial Narrow"
-        Me.TextBox40.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10R)
+        Me.TextBox40.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox40.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox40.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Top
         Me.TextBox40.StyleName = ""
@@ -363,9 +363,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.401836633682251R), Telerik.Reporting.Drawing.Unit.Inch(0.17000004649162293R))
         Me.TextBox42.Style.Color = System.Drawing.Color.Black
-        Me.TextBox42.Style.Font.Bold = false
+        Me.TextBox42.Style.Font.Bold = False
         Me.TextBox42.Style.Font.Name = "Arial Narrow"
-        Me.TextBox42.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox42.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox42.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox42.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox42.StyleName = ""
@@ -376,7 +376,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox59.Name = "TextBox59"
         Me.TextBox59.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.10416703671216965R), Telerik.Reporting.Drawing.Unit.Inch(0.17000000178813934R))
         Me.TextBox59.Style.Font.Name = "Arial Narrow"
-        Me.TextBox59.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox59.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox59.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox59.StyleName = ""
         '
@@ -385,9 +385,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.55461621284484863R), Telerik.Reporting.Drawing.Unit.Inch(0.17000000178813934R))
         Me.TextBox9.Style.Color = System.Drawing.Color.Black
-        Me.TextBox9.Style.Font.Bold = true
+        Me.TextBox9.Style.Font.Bold = True
         Me.TextBox9.Style.Font.Name = "Arial Narrow"
-        Me.TextBox9.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10R)
+        Me.TextBox9.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox9.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox9.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Top
         Me.TextBox9.StyleName = ""
@@ -398,7 +398,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.10416703671216965R), Telerik.Reporting.Drawing.Unit.Inch(0.16999998688697815R))
         Me.TextBox10.Style.Font.Name = "Arial Narrow"
-        Me.TextBox10.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox10.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox10.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox10.StyleName = ""
         '
@@ -407,9 +407,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.401836633682251R), Telerik.Reporting.Drawing.Unit.Inch(0.16999997198581696R))
         Me.TextBox11.Style.Color = System.Drawing.Color.Black
-        Me.TextBox11.Style.Font.Bold = false
+        Me.TextBox11.Style.Font.Bold = False
         Me.TextBox11.Style.Font.Name = "Arial Narrow"
-        Me.TextBox11.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox11.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox11.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox11.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox11.StyleName = ""
@@ -420,9 +420,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.55461621284484863R), Telerik.Reporting.Drawing.Unit.Inch(0.17000000178813934R))
         Me.TextBox23.Style.Color = System.Drawing.Color.Black
-        Me.TextBox23.Style.Font.Bold = true
+        Me.TextBox23.Style.Font.Bold = True
         Me.TextBox23.Style.Font.Name = "Arial Narrow"
-        Me.TextBox23.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10R)
+        Me.TextBox23.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox23.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox23.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Top
         Me.TextBox23.StyleName = ""
@@ -433,7 +433,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.10416703671216965R), Telerik.Reporting.Drawing.Unit.Inch(0.16999998688697815R))
         Me.TextBox24.Style.Font.Name = "Arial Narrow"
-        Me.TextBox24.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox24.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox24.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox24.StyleName = ""
         '
@@ -442,9 +442,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.401836633682251R), Telerik.Reporting.Drawing.Unit.Inch(0.16999997198581696R))
         Me.TextBox25.Style.Color = System.Drawing.Color.Black
-        Me.TextBox25.Style.Font.Bold = false
+        Me.TextBox25.Style.Font.Bold = False
         Me.TextBox25.Style.Font.Name = "Arial Narrow"
-        Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox25.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox25.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox25.StyleName = ""
@@ -503,7 +503,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3208334445953369R), Telerik.Reporting.Drawing.Unit.Inch(0.20000000298023224R))
         Me.TextBox6.Style.Font.Name = "Arial Narrow"
-        Me.TextBox6.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox6.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox6.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox6.StyleName = "Normal.TableBody"
         Me.TextBox6.Value = "=Fields.Puesto"
@@ -514,7 +514,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3868067264556885R), Telerik.Reporting.Drawing.Unit.Cm(0.50800025463104248R))
         Me.TextBox7.Style.Font.Name = "Arial Narrow"
-        Me.TextBox7.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox7.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox7.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox7.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox7.StyleName = "Normal.TableBody"
@@ -526,7 +526,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4631530046463013R), Telerik.Reporting.Drawing.Unit.Cm(0.50800019502639771R))
         Me.TextBox8.Style.Font.Name = "Arial Narrow"
-        Me.TextBox8.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox8.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox8.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox8.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox8.StyleName = "Normal.TableBody"
@@ -538,7 +538,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4579875469207764R), Telerik.Reporting.Drawing.Unit.Cm(0.50800031423568726R))
         Me.TextBox12.Style.Font.Name = "Arial Narrow"
-        Me.TextBox12.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox12.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox12.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox12.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox12.StyleName = "Normal.TableBody"
@@ -550,7 +550,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4302085638046265R), Telerik.Reporting.Drawing.Unit.Cm(0.50800043344497681R))
         Me.TextBox13.Style.Font.Name = "Arial Narrow"
-        Me.TextBox13.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox13.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox13.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox13.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox13.StyleName = "Normal.TableBody"
@@ -560,10 +560,10 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         '
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3208343982696533R), Telerik.Reporting.Drawing.Unit.Inch(0.20138891041278839R))
-        Me.TextBox16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149,Byte),Integer), CType(CType(179,Byte),Integer), CType(CType(215,Byte),Integer))
-        Me.TextBox16.Style.Font.Bold = true
+        Me.TextBox16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.TextBox16.Style.Font.Bold = True
         Me.TextBox16.Style.Font.Name = "Arial Narrow"
-        Me.TextBox16.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox16.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox16.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox16.StyleName = "Normal.TableBody"
         Me.TextBox16.Value = "Total"
@@ -573,10 +573,10 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox17.Format = "{0:N2}"
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3868067264556885R), Telerik.Reporting.Drawing.Unit.Cm(0.51152807474136353R))
-        Me.TextBox17.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149,Byte),Integer), CType(CType(179,Byte),Integer), CType(CType(215,Byte),Integer))
-        Me.TextBox17.Style.Font.Bold = true
+        Me.TextBox17.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.TextBox17.Style.Font.Bold = True
         Me.TextBox17.Style.Font.Name = "Arial Narrow"
-        Me.TextBox17.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox17.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox17.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox17.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox17.StyleName = "Normal.TableBody"
@@ -587,10 +587,10 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox18.Format = "{0:N2}"
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4631530046463013R), Telerik.Reporting.Drawing.Unit.Cm(0.51152807474136353R))
-        Me.TextBox18.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149,Byte),Integer), CType(CType(179,Byte),Integer), CType(CType(215,Byte),Integer))
-        Me.TextBox18.Style.Font.Bold = true
+        Me.TextBox18.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.TextBox18.Style.Font.Bold = True
         Me.TextBox18.Style.Font.Name = "Arial Narrow"
-        Me.TextBox18.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox18.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox18.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox18.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox18.StyleName = "Normal.TableBody"
@@ -601,10 +601,10 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox19.Format = "{0:N2}"
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4579875469207764R), Telerik.Reporting.Drawing.Unit.Cm(0.51152819395065308R))
-        Me.TextBox19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149,Byte),Integer), CType(CType(179,Byte),Integer), CType(CType(215,Byte),Integer))
-        Me.TextBox19.Style.Font.Bold = true
+        Me.TextBox19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.TextBox19.Style.Font.Bold = True
         Me.TextBox19.Style.Font.Name = "Arial Narrow"
-        Me.TextBox19.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox19.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox19.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox19.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox19.StyleName = "Normal.TableBody"
@@ -615,10 +615,10 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox20.Format = "{0:N2}"
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4302085638046265R), Telerik.Reporting.Drawing.Unit.Cm(0.51152831315994263R))
-        Me.TextBox20.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149,Byte),Integer), CType(CType(179,Byte),Integer), CType(CType(215,Byte),Integer))
-        Me.TextBox20.Style.Font.Bold = true
+        Me.TextBox20.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.TextBox20.Style.Font.Bold = True
         Me.TextBox20.Style.Font.Name = "Arial Narrow"
-        Me.TextBox20.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox20.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox20.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox20.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox20.StyleName = "Normal.TableBody"
@@ -628,10 +628,10 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         '
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.409722238779068R), Telerik.Reporting.Drawing.Unit.Cm(0.51152807474136353R))
-        Me.TextBox31.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149,Byte),Integer), CType(CType(179,Byte),Integer), CType(CType(215,Byte),Integer))
-        Me.TextBox31.Style.Font.Bold = true
+        Me.TextBox31.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(149, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.TextBox31.Style.Font.Bold = True
         Me.TextBox31.Style.Font.Name = "Arial Narrow"
-        Me.TextBox31.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox31.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox31.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox31.StyleName = "Normal.TableBody"
         '
@@ -640,7 +640,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.409722238779068R), Telerik.Reporting.Drawing.Unit.Cm(0.50800019502639771R))
         Me.TextBox29.Style.Font.Name = "Arial Narrow"
-        Me.TextBox29.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox29.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox29.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox29.StyleName = "Normal.TableBody"
         Me.TextBox29.Value = "=Fields.Secuencia"
@@ -670,9 +670,9 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox14.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(4.5962820053100586R), Telerik.Reporting.Drawing.Unit.Inch(0.20138895511627197R))
         Me.TextBox14.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox14.Style.Color = System.Drawing.Color.Black
-        Me.TextBox14.Style.Font.Bold = true
+        Me.TextBox14.Style.Font.Bold = True
         Me.TextBox14.Style.Font.Name = "Arial Narrow"
-        Me.TextBox14.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox14.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox14.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox14.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox14.StyleName = ""
@@ -685,7 +685,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox15.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox15.Style.Color = System.Drawing.Color.Black
         Me.TextBox15.Style.Font.Name = "Arial Narrow"
-        Me.TextBox15.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8R)
+        Me.TextBox15.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         Me.TextBox15.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox15.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox15.StyleName = ""
@@ -758,7 +758,7 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.TextBox22.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.129514217376709R), Telerik.Reporting.Drawing.Unit.Inch(0.1041666641831398R))
         Me.TextBox22.Style.Color = System.Drawing.Color.Black
         Me.TextBox22.Style.Font.Name = "Arial Narrow"
-        Me.TextBox22.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9R)
+        Me.TextBox22.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(9.0R)
         Me.TextBox22.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox22.StyleName = ""
         Me.TextBox22.Value = "*Comisión de un {Fields.PorcentajeComision}"
@@ -771,29 +771,30 @@ Partial Class ComisionesMercadoSecundarioPuestoBolsa
         Me.Groups.AddRange(New Telerik.Reporting.Group() {Group1})
         Me.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.GroupHeaderSection1, Me.GroupFooterSection1, Me.pageHeaderSection1, Me.detail, Me.pageFooterSection1, Me.ReportHeaderSection1})
         Me.Name = "ComisionesMercadoSecundarioPuestoBolsa"
-        Me.PageSettings.Landscape = false
+        Me.PageSettings.Landscape = False
         Me.PageSettings.Margins = New Telerik.Reporting.Drawing.MarginsU(Telerik.Reporting.Drawing.Unit.Inch(0.25R), Telerik.Reporting.Drawing.Unit.Inch(0.25R), Telerik.Reporting.Drawing.Unit.Inch(0.25R), Telerik.Reporting.Drawing.Unit.Inch(0.25R))
         Me.PageSettings.PaperKind = System.Drawing.Printing.PaperKind.Letter
         ReportParameter1.Name = "FechaInicial"
         ReportParameter1.Text = "Fecha Inicial"
         ReportParameter1.Type = Telerik.Reporting.ReportParameterType.DateTime
         ReportParameter1.Value = "=Today()"
-        ReportParameter1.Visible = true
+        ReportParameter1.Visible = True
         ReportParameter2.Name = "FechaFinal"
         ReportParameter2.Text = "Fecha Final"
         ReportParameter2.Type = Telerik.Reporting.ReportParameterType.DateTime
         ReportParameter2.Value = "=Today()"
-        ReportParameter2.Visible = true
+        ReportParameter2.Visible = True
         ReportParameter3.AvailableValues.DataSource = Me.SqlTipoMercado
         ReportParameter3.AvailableValues.DisplayMember = "= Fields.TipoMercado"
         ReportParameter3.AvailableValues.ValueMember = "= Fields.TipoMercadoID"
         ReportParameter3.Name = "TipoMercado"
         ReportParameter3.Text = "Tipo Mercado"
-        ReportParameter3.Visible = true
+        ReportParameter3.Visible = True
         ReportParameter4.AvailableValues.DataSource = Me.SqlMercado
         ReportParameter4.AvailableValues.DisplayMember = "= Fields.Nombre"
         ReportParameter4.AvailableValues.Filters.Add(New Telerik.Reporting.Filter("= Fields.TipoMercadoID", Telerik.Reporting.FilterOperator.Equal, "= Parameters.TipoMercado.Value"))
         ReportParameter4.AvailableValues.ValueMember = "= Fields.CodigoMercado"
+        ReportParameter4.Mergeable = False
         ReportParameter4.Name = "Mercado"
         ReportParameter4.Text = "Mercado"
         ReportParameter4.Visible = true

@@ -22408,6 +22408,33 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadTabStrip1">
+<summary>
+RadTabStrip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadMultiPage1">
+<summary>
+RadMultiPage1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RPOperaciones">
+<summary>
+RPOperaciones control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._txtfecha">
 <summary>
 txtfecha control.
@@ -22498,18 +22525,36 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._lblMensaje">
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._pnmodal">
 <summary>
-lblMensaje control.
+pnmodal control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._dgVistaPrevia">
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._pnmodaldialog">
 <summary>
-dgVistaPrevia control.
+pnmodaldialog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._lblmensajeenvio">
+<summary>
+lblmensajeenvio control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._btnenviar">
+<summary>
+btnenviar control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -22597,6 +22642,42 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RPNotificaciones">
+<summary>
+RPNotificaciones control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._lblMensaje">
+<summary>
+lblMensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._RadToolBar2">
+<summary>
+RadToolBar2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldom._dgVistaPrevia">
+<summary>
+dgVistaPrevia control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._Head1">
 <summary>
 Head1 control.
@@ -22663,6 +22744,42 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._txtxmlMensaje">
 <summary>
 txtxmlMensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._pnmodal">
+<summary>
+pnmodal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._pnmodaldialog">
+<summary>
+pnmodaldialog control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._lblmensajeenvio">
+<summary>
+lblmensajeenvio control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.EnvioOperacionesCevaldomManual._btnenviar">
+<summary>
+btnenviar control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -24683,6 +24800,60 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Sgo.WebApp.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaFijaOperacionesFuturasAbiertasPorPlazo._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Sgo.WebApp.BB_RentaFijaPreciosdeCierredeldiaporRueda._form1">
 <summary>
 form1 control.
@@ -25323,6 +25494,60 @@ To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Sgo.WebApp.BB_RentaVariableMercadoSecundarioTopTitulosTransadosMes._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.BB_RentaVariableOperacionesFuturasAbiertasPorPlazo._ReportViewer1">
 <summary>
 ReportViewer1 control.
 </summary>
@@ -26572,6 +26797,222 @@ To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Sgo.WebApp.ReporteCorredoresAplicanProgramaARM._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSMes._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSMes._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSMes._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSMes._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSMes._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSMes._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSTrimestre._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSTrimestre._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSTrimestre._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSTrimestre._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSTrimestre._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRFMSRSTrimestre._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSMes._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSMes._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSMes._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSMes._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSMes._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSMes._ReportViewer1">
+<summary>
+ReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSTrimestre._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSTrimestre._InjectScriptLabel">
+<summary>
+InjectScriptLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSTrimestre._InjectScriptLabelImprimir">
+<summary>
+InjectScriptLabelImprimir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSTrimestre._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSTrimestre._RadToolBar1">
+<summary>
+RadToolBar1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sgo.WebApp.ReportedeOperacionesRVMSRSTrimestre._ReportViewer1">
 <summary>
 ReportViewer1 control.
 </summary>

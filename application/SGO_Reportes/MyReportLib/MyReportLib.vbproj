@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -13,7 +13,7 @@
     <AssemblyName>MyReportLib</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <SccProjectName>
     </SccProjectName>
     <SccLocalPath>
@@ -57,6 +57,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ChilkatDotNet4">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Chilkat Software Inc\Chilkat.NET-v4.0\ChilkatDotNet4.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -137,6 +140,12 @@
     <Compile Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.Designer.vb">
+      <DependentUpon>BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.Designer.vb">
       <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.vb</DependentUpon>
     </Compile>
@@ -165,6 +174,12 @@
       <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.vb</DependentUpon>
     </Compile>
     <Compile Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.Designer.vb">
+      <DependentUpon>BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoletinBursatil\BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.Designer.vb">
@@ -404,6 +419,30 @@
       <DependentUpon>ReporteOperacionesPuestoBolsaSIMV.vb</DependentUpon>
     </Compile>
     <Compile Include="ReporteOperacionesPuestoBolsaSIMV.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSRSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSRSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSRSTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RFMSRSTrimestre.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSRSMES.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMSRSMES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSRSMES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSRSTrimestre.Designer.vb">
+      <DependentUpon>ReporteSIV_Detalle_RVMSRSTrimestre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSIV\ReporteSIV_Detalle_RVMSRSTrimestre.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ReporteUltimas10TasasCambio.Designer.vb">
@@ -800,6 +839,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -1096,6 +1136,9 @@
     <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.resx">
       <DependentUpon>BB_RentaFijaMercadoSecundarioOperacionesPorPlazos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.resx">
+      <DependentUpon>BB_RentaFijaOperacionesFuturasAbiertasPorPlazo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BoletinBursatil\BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.resx">
       <DependentUpon>BB_RentaFijaVolumenTransadoInstrumentosEntidadesEmisorasMP.vb</DependentUpon>
     </EmbeddedResource>
@@ -1110,6 +1153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.resx">
       <DependentUpon>BB_RentaVariableMercadoPrimarioOperacionesDiaFirme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.resx">
+      <DependentUpon>BB_RentaVariableOperacionesFuturasAbiertasPorPlazo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BoletinBursatil\BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.resx">
       <DependentUpon>BB_RentaVariableVolumenTransadosPorEmisoresEquivalentesEnDOP.vb</DependentUpon>
@@ -1231,6 +1277,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteOperacionesPuestoBolsaSIMV.resx">
       <DependentUpon>ReporteOperacionesPuestoBolsaSIMV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RFMSRSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RFMSRSTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RFMSRSTrimestre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RVMSRSMES.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMSRSMES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSIV\ReporteSIV_Detalle_RVMSRSTrimestre.resx">
+      <DependentUpon>ReporteSIV_Detalle_RVMSRSTrimestre.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteUltimas10TasasCambio.resx">
       <DependentUpon>ReporteUltimas10TasasCambio.vb</DependentUpon>
@@ -1503,6 +1561,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteOperacionesPuestoBolsa.resx">
       <DependentUpon>ReporteOperacionesPuestoBolsa.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportONE\RO_Aviso.resx">
       <DependentUpon>RO_Aviso.vb</DependentUpon>
